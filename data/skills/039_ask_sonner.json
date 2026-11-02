@@ -1,0 +1,26 @@
+{
+  "id": "ask-sonner",
+  "index": "039",
+  "name": "ask-sonner",
+  "repo": "emilkowalski/skills",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Comprehensive guide to Sonner toast library: setup, custom styling, promise toasts, dark mode syncing, positioning, and modal stacking fixes.",
+  "install": "npx skills add emilkowalski/skills --skill ask-sonner",
+  "tags": [
+    "ask-sonner",
+    "sonner",
+    "toasts",
+    "notifications",
+    "react",
+    "ui-component",
+    "styling"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/ask-sonner"
+  }
+}

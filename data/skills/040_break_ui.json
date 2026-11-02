@@ -1,0 +1,26 @@
+{
+  "id": "break-ui",
+  "index": "040",
+  "name": "break-ui",
+  "repo": "emilkowalski/skills",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Stress-test UI components with worst-case edge data: long unbreakable strings, extreme numbers, empty states, emoji, and missing optional fields.",
+  "install": "npx skills add emilkowalski/skills --skill break-ui",
+  "tags": [
+    "break-ui",
+    "qa",
+    "stress-testing",
+    "edge-cases",
+    "overflow",
+    "worst-case",
+    "resilience"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/break-ui"
+  }
+}

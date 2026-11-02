@@ -1,0 +1,25 @@
+{
+  "id": "animation-vocabulary",
+  "index": "037",
+  "name": "animation-vocabulary",
+  "repo": "emilkowalski/skills",
+  "category": "Writing",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Reverse-lookup glossary translating informal motion descriptions into exact design engineering terminology for prompting models or designers.",
+  "install": "npx skills add emilkowalski/skills --skill animation-vocabulary",
+  "tags": [
+    "animation-vocabulary",
+    "glossary",
+    "terminology",
+    "motion-design",
+    "prompting",
+    "writing"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/animation-vocabulary"
+  }
+}

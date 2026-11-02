@@ -1,0 +1,24 @@
+{
+  "id": "improve-animations",
+  "index": "043",
+  "name": "improve-animations",
+  "repo": "emilkowalski/skills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Audit motion code across a codebase as a senior motion advisor and generate prioritized, actionable implementation roadmaps.",
+  "install": "npx skills add emilkowalski/skills --skill improve-animations",
+  "tags": [
+    "improve-animations",
+    "codebase-audit",
+    "motion-review",
+    "action-plans",
+    "design-quality"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/improve-animations"
+  }
+}

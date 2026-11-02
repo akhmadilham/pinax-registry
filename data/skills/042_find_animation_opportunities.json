@@ -1,0 +1,24 @@
+{
+  "id": "find-animation-opportunities",
+  "index": "042",
+  "name": "find-animation-opportunities",
+  "repo": "emilkowalski/skills",
+  "category": "Discovery",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Search codebases for interface elements that genuinely benefit from motion, while rejecting frivolous decoration and high-frequency noise.",
+  "install": "npx skills add emilkowalski/skills --skill find-animation-opportunities",
+  "tags": [
+    "find-animation-opportunities",
+    "motion-audit",
+    "discovery",
+    "ui-animation",
+    "subtle-motion"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/find-animation-opportunities"
+  }
+}

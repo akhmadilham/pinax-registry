@@ -1,0 +1,27 @@
+{
+  "id": "write-swift",
+  "index": "049",
+  "name": "write-swift",
+  "repo": "emilkowalski/skills",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Guide for writing modern Swift 6: value types, data-race safety, actor isolation, modern generics, Swift Testing, and ARC performance.",
+  "install": "npx skills add emilkowalski/skills --skill write-swift",
+  "tags": [
+    "write-swift",
+    "swift",
+    "swift6",
+    "concurrency",
+    "ios",
+    "macos",
+    "actors",
+    "value-types"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/write-swift"
+  }
+}

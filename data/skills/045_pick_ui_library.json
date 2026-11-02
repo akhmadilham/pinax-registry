@@ -1,0 +1,26 @@
+{
+  "id": "pick-ui-library",
+  "index": "045",
+  "name": "pick-ui-library",
+  "repo": "emilkowalski/skills",
+  "category": "Discovery",
+  "type": "Tool",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Select battle-tested frontend libraries for specific jobs: OTP inputs, charts, command palettes, virtualization, drag-and-drop, and toasts.",
+  "install": "npx skills add emilkowalski/skills --skill pick-ui-library",
+  "tags": [
+    "pick-ui-library",
+    "component-libraries",
+    "radix",
+    "shadcn",
+    "charts",
+    "command-menu",
+    "discovery"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/pick-ui-library"
+  }
+}

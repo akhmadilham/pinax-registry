@@ -1,0 +1,26 @@
+{
+  "id": "apple-design",
+  "index": "038",
+  "name": "apple-design",
+  "repo": "emilkowalski/skills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Apple interface design foundations and fluid physical motion translated for the web: spring physics, translucent materials, and tactile feedback.",
+  "install": "npx skills add emilkowalski/skills --skill apple-design",
+  "tags": [
+    "apple-design",
+    "apple",
+    "wwdc",
+    "fluid-motion",
+    "spring-curves",
+    "translucency",
+    "interface-design"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/apple-design"
+  }
+}

@@ -3,7 +3,7 @@
 > Open-source database and verification framework for AI coding agent skills.
 
 [![Live Catalog](https://img.shields.io/badge/Live%20Catalog-pinax--skills.vercel.app-blue.svg)](https://pinax-skills.vercel.app/)
-[![Skills Count](https://img.shields.io/badge/skills-32%20verified-cyan.svg)](data/skills)
+[![Skills Count](https://img.shields.io/badge/skills-49%20verified-cyan.svg)](data/skills)
 [![Categories](https://img.shields.io/badge/categories-7%20domains-blueviolet.svg)](data/categories.json)
 [![Schema](https://img.shields.io/badge/schema-Draft--2020--12-blue.svg)](schema/skill.schema.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -155,7 +155,7 @@ pinax-registry/
 │       ├── validate.yml          # Automated 4-stage quality gate CI
 │       └── build.yml             # Release compiler and checksum validator
 ├── data/
-│   ├── skills/                   # Modular skill definitions (001 to 032+)
+│   ├── skills/                   # Modular skill definitions (001 to 049+)
 │   ├── categories.json           # 7 domain categories and visual tokens
 │   ├── conflicts.json            # Hard and soft conflict matrix rules
 │   └── catalog.json              # Canonical compiled distribution manifest

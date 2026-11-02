@@ -1,0 +1,25 @@
+{
+  "id": "remove-animations",
+  "index": "047",
+  "name": "remove-animations",
+  "repo": "emilkowalski/skills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Prune unnecessary animations: keyboard shortcut motion, high-frequency clutter, and sluggish transitions that slow down user intent.",
+  "install": "npx skills add emilkowalski/skills --skill remove-animations",
+  "tags": [
+    "remove-animations",
+    "subtraction",
+    "speed",
+    "snappy-ui",
+    "reduced-motion",
+    "anti-slop"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/remove-animations"
+  }
+}

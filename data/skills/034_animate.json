@@ -1,0 +1,25 @@
+{
+  "id": "animate",
+  "index": "034",
+  "name": "animate",
+  "repo": "emilkowalski/skills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Build web animations from scratch with principled decisions: necessity check, easing curves, duration, interruption handling, and exit transitions.",
+  "install": "npx skills add emilkowalski/skills --skill animate",
+  "tags": [
+    "animate",
+    "animation",
+    "motion",
+    "framer-motion",
+    "css-transitions",
+    "design-engineering"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/animate"
+  }
+}

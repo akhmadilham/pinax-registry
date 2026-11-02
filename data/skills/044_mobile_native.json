@@ -1,0 +1,26 @@
+{
+  "id": "mobile-native",
+  "index": "044",
+  "name": "mobile-native",
+  "repo": "emilkowalski/skills",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Eliminate web-on-mobile artifacts: sticky hovers, tap highlight flash, viewport 100vh jumping, input zoom, safe areas, and notch padding.",
+  "install": "npx skills add emilkowalski/skills --skill mobile-native",
+  "tags": [
+    "mobile-native",
+    "mobile-web",
+    "pwa",
+    "touch-ui",
+    "viewport-fix",
+    "safe-area",
+    "ios-safari"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/mobile-native"
+  }
+}

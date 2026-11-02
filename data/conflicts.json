@@ -46,6 +46,15 @@
       "rule": "COMPATIBLE_WITH_CAUTION",
       "reason": "Anti-slop includes antislop-copywriting, which overlaps stop-slop's banned list. Load only one writing filter per draft, or use anti-slop's UI and code parts only.",
       "resolution": "Load only one writing filter per draft or use distinct sub-features."
+    },
+    {
+      "skills": [
+        "emilkowalski-skills",
+        "animate"
+      ],
+      "rule": "COMPATIBLE_WITH_CAUTION",
+      "reason": "emilkowalski-skills bundles animate alongside 15 other skills. Selecting both in the same stack creates redundant prompt files.",
+      "resolution": "Install emilkowalski-skills wholesale or install individual sub-skills using the --skill flag."
     }
   ]
 }

@@ -7,6 +7,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.0] - 2026-11-02
+
+### Added
+- **Emil Kowalski Design Engineering Skills Suite (17 verified definitions)**:
+  - Integrated complete suite from `emilkowalski/skills` pinned at commit `a81dbca`:
+    - `033_emilkowalski_skills.json`: `emilkowalski-skills` (Collection, Design) - Wholesale collection covering 16 design engineering skills.
+    - `034_animate.json`: `animate` (Skill, Design) - Principled animation construction from scratch.
+    - `035_animate_expo.json`: `animate-expo` (Skill, Design) - React Native and Expo animations with Reanimated and expo-haptics.
+    - `036_animation_performance.json`: `animation-performance` (Skill, Engineering) - Frame budget, composite-only properties, and GPU offloading.
+    - `037_animation_vocabulary.json`: `animation-vocabulary` (Skill, Writing) - Reverse-lookup glossary translating informal motion ideas to technical terms.
+    - `038_apple_design.json`: `apple-design` (Skill, Design) - Apple WWDC fluid motion and interface design principles translated for web.
+    - `039_ask_sonner.json`: `ask-sonner` (Skill, Engineering) - Complete guide and recipes for Sonner toast library.
+    - `040_break_ui.json`: `break-ui` (Skill, Engineering) - UI stress-testing with worst-case edge data.
+    - `041_emil_design_eng.json`: `emil-design-eng` (Skill, Design) - Core UI polish and design engineering philosophy.
+    - `042_find_animation_opportunities.json`: `find-animation-opportunities` (Skill, Discovery) - Finding purposeful motion spots and rejecting noise.
+    - `043_improve_animations.json`: `improve-animations` (Skill, Design) - Codebase animation audit and prioritized action roadmap.
+    - `044_mobile_native.json`: `mobile-native` (Skill, Engineering) - Eliminating browser artifacts on mobile viewports.
+    - `045_pick_ui_library.json`: `pick-ui-library` (Tool, Discovery) - Curated battle-tested UI library selector.
+    - `046_prototype.json`: `prototype` (Skill, Design) - Multi-variant generation with interactive switcher.
+    - `047_remove_animations.json`: `remove-animations` (Skill, Design) - Pruning redundant animations and over-motion.
+    - `048_review_animations.json`: `review-animations` (Skill, Design) - Strict motion craft audit and easing validation.
+    - `049_write_swift.json`: `write-swift` (Skill, Engineering) - Modern Swift 6 concurrency, value types, and testing.
+  - Added soft conflict resolution matrix in `data/conflicts.json` for `emilkowalski-skills` collection vs individual sub-skills.
+  - Re-compiled canonical manifest `data/catalog.json` with 49 verified skills across all 7 Pantheon domains.
+
 ## [1.0.3] - 2026-11-02
 
 ### Changed

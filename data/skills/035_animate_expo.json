@@ -1,0 +1,26 @@
+{
+  "id": "animate-expo",
+  "index": "035",
+  "name": "animate-expo",
+  "repo": "emilkowalski/skills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Build animations in React Native and Expo using Reanimated, Gesture Handler, and expo-haptics with gesture handoffs and 60fps native thread execution.",
+  "install": "npx skills add emilkowalski/skills --skill animate-expo",
+  "tags": [
+    "animate-expo",
+    "react-native",
+    "expo",
+    "reanimated",
+    "mobile-motion",
+    "gestures",
+    "haptics"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/animate-expo"
+  }
+}

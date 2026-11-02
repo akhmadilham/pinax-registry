@@ -1,0 +1,25 @@
+{
+  "id": "prototype",
+  "index": "046",
+  "name": "prototype",
+  "repo": "emilkowalski/skills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Rapidly generate multiple distinct variants of a UI component behind an interactive switcher to preview and promote the strongest design.",
+  "install": "npx skills add emilkowalski/skills --skill prototype",
+  "tags": [
+    "prototype",
+    "variants",
+    "switcher",
+    "iteration",
+    "ui-exploration",
+    "design-taste"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/prototype"
+  }
+}

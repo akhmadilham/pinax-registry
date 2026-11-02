@@ -1,0 +1,25 @@
+{
+  "id": "emil-design-eng",
+  "index": "041",
+  "name": "emil-design-eng",
+  "repo": "emilkowalski/skills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Core design engineering guidelines encoding Emil Kowalski's philosophy on UI polish, subtle shadows, component hierarchy, and micro-interactions.",
+  "install": "npx skills add emilkowalski/skills --skill emil-design-eng",
+  "tags": [
+    "emil-design-eng",
+    "design-engineering",
+    "ui-polish",
+    "craft",
+    "micro-interactions",
+    "linear-style"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/emil-design-eng"
+  }
+}

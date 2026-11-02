@@ -1,0 +1,25 @@
+{
+  "id": "review-animations",
+  "index": "048",
+  "name": "review-animations",
+  "repo": "emilkowalski/skills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Critique motion code against strict craft standards: easing curve suitability, spring overshoot physics, and duration proportionality.",
+  "install": "npx skills add emilkowalski/skills --skill review-animations",
+  "tags": [
+    "review-animations",
+    "code-review",
+    "motion-qa",
+    "spring-physics",
+    "easing-curves",
+    "craft"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/review-animations"
+  }
+}

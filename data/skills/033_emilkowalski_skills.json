@@ -1,0 +1,26 @@
+{
+  "id": "emilkowalski-skills",
+  "index": "033",
+  "name": "emilkowalski/skills",
+  "repo": "emilkowalski/skills",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "16 curated design engineering skills for web and mobile: animation craftsmanship, UI stress-testing, Apple design foundations, and native feel.",
+  "install": "npx skills@latest add emilkowalski/skills",
+  "tags": [
+    "emilkowalski",
+    "skills",
+    "design-engineering",
+    "animation",
+    "motion",
+    "ui-polish",
+    "apple-design"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills"
+  }
+}

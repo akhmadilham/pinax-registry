@@ -1,0 +1,26 @@
+{
+  "id": "animation-performance",
+  "index": "036",
+  "name": "animation-performance",
+  "repo": "emilkowalski/skills",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a81dbca",
+  "description": "Keep web animations inside the frame budget: animate composite-only properties, off-main-thread motion, CSS vs WAAPI, and will-change optimization.",
+  "install": "npx skills add emilkowalski/skills --skill animation-performance",
+  "tags": [
+    "animation-performance",
+    "performance",
+    "frame-budget",
+    "gpu-acceleration",
+    "60fps",
+    "waapi",
+    "composite"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/emilkowalski/skills/tree/main/skills/animation-performance"
+  }
+}
