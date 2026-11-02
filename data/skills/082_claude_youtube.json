@@ -1,0 +1,26 @@
+{
+  "id": "claude-youtube",
+  "index": "082",
+  "name": "AgriciDaniel/claude-youtube",
+  "repo": "AgriciDaniel/claude-youtube",
+  "category": "SEO",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "84c3fa6",
+  "description": "YouTube creator skill with 14 sub-skills covering channel audits, video SEO packages, retention-engineered scripts, hooks, thumbnail briefs, content strategy, and Shorts optimisation.",
+  "install": "git clone https://github.com/AgriciDaniel/claude-youtube.git",
+  "tags": [
+    "youtube",
+    "creator",
+    "seo",
+    "video-seo",
+    "retention",
+    "hooks",
+    "analytics"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/33"
+  }
+}

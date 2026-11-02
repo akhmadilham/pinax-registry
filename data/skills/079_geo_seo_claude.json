@@ -1,0 +1,26 @@
+{
+  "id": "geo-seo-claude",
+  "index": "079",
+  "name": "zubair-trabzada/geo-seo-claude",
+  "repo": "zubair-trabzada/geo-seo-claude",
+  "category": "SEO",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "989cae0",
+  "description": "GEO-first optimisation collection for AI-answer citability across ChatGPT, Claude, Perplexity, Gemini, and AI Overviews, with brand scanning and llms.txt generation.",
+  "install": "git clone https://github.com/zubair-trabzada/geo-seo-claude.git",
+  "tags": [
+    "geo",
+    "seo",
+    "ai-search",
+    "citability",
+    "llmstxt",
+    "perplexity",
+    "chatgpt"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/30"
+  }
+}

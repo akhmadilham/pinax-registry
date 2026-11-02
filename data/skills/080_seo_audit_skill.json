@@ -1,0 +1,24 @@
+{
+  "id": "seo-audit-skill",
+  "index": "080",
+  "name": "JeffLi1993/seo-audit-skill",
+  "repo": "JeffLi1993/seo-audit-skill",
+  "category": "SEO",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "523bdfb",
+  "description": "Single-page SEO audit skill with quick 10-point check and deep 50-point audit, outputting structured Markdown tables with issue priority, impact, and fix snippets.",
+  "install": "npx skills add JeffLi1993/seo-audit-skill",
+  "tags": [
+    "seo",
+    "audit",
+    "markdown-report",
+    "technical-seo",
+    "on-page"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/31"
+  }
+}

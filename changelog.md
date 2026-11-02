@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.4.0] - 2026-11-02
+
+### Added
+- **Batch SEO Skills Integration (Issues #29 to #34, Index 078 to 083)**:
+  - `078_seo_intelligence_skill.json`: `Trementdv/seo-intelligence-skill` (Issue #29, pinned at `f4b287f`).
+  - `079_geo_seo_claude.json`: `zubair-trabzada/geo-seo-claude` (Issue #30, pinned at `989cae0`).
+  - `080_seo_audit_skill.json`: `JeffLi1993/seo-audit-skill` (Issue #31, pinned at `523bdfb`).
+  - `081_youtube_seo_skills.json`: `deeployCO/youtube-seo-skills` (Issue #32, pinned at `779b0f1`).
+  - `082_claude_youtube.json`: `AgriciDaniel/claude-youtube` (Issue #33, pinned at `84c3fa6`).
+  - `083_sv_seo_aeo.json`: `sva-admin/sv-seo-aeo` (Issue #34, pinned at `ca0ebcc`).
+- **Conflict Matrix Extensions**:
+  - Added soft conflict resolution in `data/conflicts.json` between `youtube-seo-skills` and `claude-youtube`.
+  - Added soft conflict resolution between `seo-intelligence-skill` and `claude-seo`.
+- **Catalog Compilation**:
+  - Re-compiled canonical `data/catalog.json` with 83 verified skills across 8 Pantheon domains (SEO now holding 9 skills).
+
 ## [1.3.0] - 2026-11-02
 
 ### Added

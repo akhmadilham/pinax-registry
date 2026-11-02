@@ -1,14 +1,14 @@
 {
   "$schema": "../schema/skill.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-11-02T11:37:15.411566+00:00",
+  "generated_at": "2026-11-02T11:45:10.295218+00:00",
   "integrity": {
-    "skills_sha256": "52ce7530efc2226665c62aac4262aadff819de6d1cf452004bf41bdab4921b28",
+    "skills_sha256": "0d79112a7cfceaa782ccf34fd2a082e4bcdcb8c2748983c9223068df874ab89d",
     "algorithm": "SHA-256"
   },
   "stats": {
-    "total_skills": 77,
-    "pinned_skills": 40,
+    "total_skills": 83,
+    "pinned_skills": 46,
     "categories": {
       "Engineering": 15,
       "Security": 8,
@@ -17,18 +17,18 @@
       "Video": 6,
       "Business": 15,
       "Writing": 10,
-      "SEO": 3
+      "SEO": 9
     },
     "types": {
-      "Collection": 29,
+      "Collection": 32,
       "Tool": 5,
-      "Skill": 34,
+      "Skill": 37,
       "Index": 1,
       "Vendor": 3,
       "Plugin": 5
     },
     "licenses": {
-      "MIT": 66,
+      "MIT": 72,
       "Apache-2.0": 7,
       "No root licence file": 2,
       "CC-BY-SA-4.0": 1,
@@ -202,6 +202,24 @@
         "rule": "COMPATIBLE_WITH_CAUTION",
         "reason": "Both provide comprehensive multi-category SEO audits. claude-seo is a 19-agent Claude Code plugin; claude-seo-kit runs a standalone lightweight Python audit engine.",
         "resolution": "Use claude-seo for native Claude Code agent teams or claude-seo-kit for lightweight headless Python CLI execution."
+      },
+      {
+        "skills": [
+          "youtube-seo-skills",
+          "claude-youtube"
+        ],
+        "rule": "COMPATIBLE_WITH_CAUTION",
+        "reason": "Both cover YouTube SEO, thumbnail ideation, and competitor strategy. claude-youtube has 14 sub-skills; youtube-seo-skills has 8 focused modular guides.",
+        "resolution": "Select claude-youtube for comprehensive channel operations or youtube-seo-skills for lightweight standalone prompt modules."
+      },
+      {
+        "skills": [
+          "seo-intelligence-skill",
+          "claude-seo"
+        ],
+        "rule": "COMPATIBLE_WITH_CAUTION",
+        "reason": "Both provide in-depth multi-category SEO audits. seo-intelligence-skill has 95 checks across 11 modules with read-only verification; claude-seo runs a 19-agent Claude Code plugin.",
+        "resolution": "Choose seo-intelligence-skill for strict evidence-based audits or claude-seo for interactive multi-agent remediation."
       }
     ]
   },
@@ -2135,6 +2153,161 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/AgriciDaniel/claude-seo"
+      }
+    },
+    {
+      "id": "seo-intelligence-skill",
+      "index": "078",
+      "name": "Trementdv/seo-intelligence-skill",
+      "repo": "Trementdv/seo-intelligence-skill",
+      "category": "SEO",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "f4b287f",
+      "description": "Evidence-disciplined SEO, AEO, and GEO auditor with 95 checks across 11 modules covering technical, on-page, indexing, schema, Core Web Vitals, accessibility, E-E-A-T, and local search.",
+      "install": "git clone https://github.com/Trementdv/seo-intelligence-skill.git .claude/skills/seo-intelligence",
+      "tags": [
+        "seo",
+        "aeo",
+        "geo",
+        "audit",
+        "core-web-vitals",
+        "schema",
+        "accessibility",
+        "e-e-a-t"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/29"
+      }
+    },
+    {
+      "id": "geo-seo-claude",
+      "index": "079",
+      "name": "zubair-trabzada/geo-seo-claude",
+      "repo": "zubair-trabzada/geo-seo-claude",
+      "category": "SEO",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "989cae0",
+      "description": "GEO-first optimisation collection for AI-answer citability across ChatGPT, Claude, Perplexity, Gemini, and AI Overviews, with brand scanning and llms.txt generation.",
+      "install": "git clone https://github.com/zubair-trabzada/geo-seo-claude.git",
+      "tags": [
+        "geo",
+        "seo",
+        "ai-search",
+        "citability",
+        "llmstxt",
+        "perplexity",
+        "chatgpt"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/30"
+      }
+    },
+    {
+      "id": "seo-audit-skill",
+      "index": "080",
+      "name": "JeffLi1993/seo-audit-skill",
+      "repo": "JeffLi1993/seo-audit-skill",
+      "category": "SEO",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "523bdfb",
+      "description": "Single-page SEO audit skill with quick 10-point check and deep 50-point audit, outputting structured Markdown tables with issue priority, impact, and fix snippets.",
+      "install": "npx skills add JeffLi1993/seo-audit-skill",
+      "tags": [
+        "seo",
+        "audit",
+        "markdown-report",
+        "technical-seo",
+        "on-page"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/31"
+      }
+    },
+    {
+      "id": "youtube-seo-skills",
+      "index": "081",
+      "name": "deeployCO/youtube-seo-skills",
+      "repo": "deeployCO/youtube-seo-skills",
+      "category": "SEO",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "779b0f1",
+      "description": "Eight-skill YouTube SEO suite covering keyword research, titles, descriptions, tags, thumbnail briefs, playlists, competitor analysis, and multi-language subtitles without API dependencies.",
+      "install": "git clone https://github.com/deeployCO/youtube-seo-skills.git",
+      "tags": [
+        "youtube",
+        "seo",
+        "video-seo",
+        "keywords",
+        "thumbnails",
+        "subtitles",
+        "competitor-analysis"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/32"
+      }
+    },
+    {
+      "id": "claude-youtube",
+      "index": "082",
+      "name": "AgriciDaniel/claude-youtube",
+      "repo": "AgriciDaniel/claude-youtube",
+      "category": "SEO",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "84c3fa6",
+      "description": "YouTube creator skill with 14 sub-skills covering channel audits, video SEO packages, retention-engineered scripts, hooks, thumbnail briefs, content strategy, and Shorts optimisation.",
+      "install": "git clone https://github.com/AgriciDaniel/claude-youtube.git",
+      "tags": [
+        "youtube",
+        "creator",
+        "seo",
+        "video-seo",
+        "retention",
+        "hooks",
+        "analytics"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/33"
+      }
+    },
+    {
+      "id": "sv-seo-aeo",
+      "index": "083",
+      "name": "sva-admin/sv-seo-aeo",
+      "repo": "sva-admin/sv-seo-aeo",
+      "category": "SEO",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "ca0ebcc",
+      "description": "Guided new-site launch-to-indexing skill that adds metadata, social cards, JSON-LD, AI-crawler-friendly robots.txt, sitemap, and llms.txt, then guides Search Console and IndexNow setup.",
+      "install": "npx skills add sva-admin/sv-seo-aeo",
+      "tags": [
+        "seo",
+        "aeo",
+        "indexing",
+        "sitemap",
+        "robots-txt",
+        "json-ld",
+        "search-console"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/34"
       }
     }
   ]

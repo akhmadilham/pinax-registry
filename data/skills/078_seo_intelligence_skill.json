@@ -1,0 +1,27 @@
+{
+  "id": "seo-intelligence-skill",
+  "index": "078",
+  "name": "Trementdv/seo-intelligence-skill",
+  "repo": "Trementdv/seo-intelligence-skill",
+  "category": "SEO",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "f4b287f",
+  "description": "Evidence-disciplined SEO, AEO, and GEO auditor with 95 checks across 11 modules covering technical, on-page, indexing, schema, Core Web Vitals, accessibility, E-E-A-T, and local search.",
+  "install": "git clone https://github.com/Trementdv/seo-intelligence-skill.git .claude/skills/seo-intelligence",
+  "tags": [
+    "seo",
+    "aeo",
+    "geo",
+    "audit",
+    "core-web-vitals",
+    "schema",
+    "accessibility",
+    "e-e-a-t"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/29"
+  }
+}

@@ -91,6 +91,24 @@
       "rule": "COMPATIBLE_WITH_CAUTION",
       "reason": "Both provide comprehensive multi-category SEO audits. claude-seo is a 19-agent Claude Code plugin; claude-seo-kit runs a standalone lightweight Python audit engine.",
       "resolution": "Use claude-seo for native Claude Code agent teams or claude-seo-kit for lightweight headless Python CLI execution."
+    },
+    {
+      "skills": [
+        "youtube-seo-skills",
+        "claude-youtube"
+      ],
+      "rule": "COMPATIBLE_WITH_CAUTION",
+      "reason": "Both cover YouTube SEO, thumbnail ideation, and competitor strategy. claude-youtube has 14 sub-skills; youtube-seo-skills has 8 focused modular guides.",
+      "resolution": "Select claude-youtube for comprehensive channel operations or youtube-seo-skills for lightweight standalone prompt modules."
+    },
+    {
+      "skills": [
+        "seo-intelligence-skill",
+        "claude-seo"
+      ],
+      "rule": "COMPATIBLE_WITH_CAUTION",
+      "reason": "Both provide in-depth multi-category SEO audits. seo-intelligence-skill has 95 checks across 11 modules with read-only verification; claude-seo runs a 19-agent Claude Code plugin.",
+      "resolution": "Choose seo-intelligence-skill for strict evidence-based audits or claude-seo for interactive multi-agent remediation."
     }
   ]
 }

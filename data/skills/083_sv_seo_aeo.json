@@ -1,0 +1,26 @@
+{
+  "id": "sv-seo-aeo",
+  "index": "083",
+  "name": "sva-admin/sv-seo-aeo",
+  "repo": "sva-admin/sv-seo-aeo",
+  "category": "SEO",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "ca0ebcc",
+  "description": "Guided new-site launch-to-indexing skill that adds metadata, social cards, JSON-LD, AI-crawler-friendly robots.txt, sitemap, and llms.txt, then guides Search Console and IndexNow setup.",
+  "install": "npx skills add sva-admin/sv-seo-aeo",
+  "tags": [
+    "seo",
+    "aeo",
+    "indexing",
+    "sitemap",
+    "robots-txt",
+    "json-ld",
+    "search-console"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/34"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "youtube-seo-skills",
+  "index": "081",
+  "name": "deeployCO/youtube-seo-skills",
+  "repo": "deeployCO/youtube-seo-skills",
+  "category": "SEO",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "779b0f1",
+  "description": "Eight-skill YouTube SEO suite covering keyword research, titles, descriptions, tags, thumbnail briefs, playlists, competitor analysis, and multi-language subtitles without API dependencies.",
+  "install": "git clone https://github.com/deeployCO/youtube-seo-skills.git",
+  "tags": [
+    "youtube",
+    "seo",
+    "video-seo",
+    "keywords",
+    "thumbnails",
+    "subtitles",
+    "competitor-analysis"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/32"
+  }
+}
