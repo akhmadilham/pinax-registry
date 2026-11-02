@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.1] - 2026-11-02
+
+### Changed
+- **Documentation Refinement & Cross-Linking**:
+  - Added direct links and badges to the live web application at https://pinax-skills.vercel.app/ and the frontend repository akhmadilham/pinax-skills.
+  - Documented the automated Vercel Deploy Hook synchronization workflow in README.md.
+
 ## [1.0.0] - 2026-11-02
 
 ### Added

@@ -2,6 +2,8 @@
 
 > Headless open-source database, verification engine, and autonomous scraping pipeline for AI coding agent skills.
 
+[![Live Catalog](https://img.shields.io/badge/Live%20Catalog-pinax--skills.vercel.app-blue.svg)](https://pinax-skills.vercel.app/)
+[![Frontend Web App](https://img.shields.io/badge/Frontend%20Repo-akhmadilham%2Fpinax--skills-orange.svg)](https://github.com/akhmadilham/pinax-skills)
 [![Validate PINAX Skills](https://github.com/akhmadilham/pinax-registry/actions/workflows/validate.yml/badge.svg)](https://github.com/akhmadilham/pinax-registry/actions/workflows/validate.yml)
 [![Skills Count](https://img.shields.io/badge/skills-32%20verified-cyan.svg)](data/skills)
 [![Categories](https://img.shields.io/badge/categories-7%20pantheon-blueviolet.svg)](data/categories.json)
@@ -10,11 +12,17 @@
 
 ---
 
-## Overview
+## Live Web Application
 
-**PINAX Registry** is the canonical, open-source database powering the PINAX ecosystem. It provides structured, peer-reviewed, and cryptographically verified metadata for AI coding skills used across Claude Code, Cursor, Codex, Antigravity, and other agentic environments.
+Looking for the interactive visual catalog, conflict resolution compiler, and single-prompt stack builder?
 
-This repository operates as a **headless data provider**. The user interface lives separately in [pinax-skills](https://github.com/akhmadilham/pinax-skills).
+👉 **[https://pinax-skills.vercel.app/](https://pinax-skills.vercel.app/)**
+
+The user-facing web interface is maintained separately in [akhmadilham/pinax-skills](https://github.com/akhmadilham/pinax-skills) as an Astro 5.x Static Site Generation (SSG) app. This repository (`pinax-registry`) functions strictly as the **headless data provider and automated validation engine**.
+
+---
+
+## System Architecture & Sync Flow
 
 ```
    ┌────────────────────────────────────────────────────────┐
@@ -43,10 +51,32 @@ This repository operates as a **headless data provider**. The user interface liv
    │        data/catalog.json (with SHA-256 Checksum)       │
    └───────────────────────────┬────────────────────────────┘
                                │
+                               │ Push to main triggers Vercel Deploy Hook
                                ▼
-                   CONSUMERS & WEB INTERFACES
-              (PINAX Skills Web UI, CLIs, Agents)
+   ┌────────────────────────────────────────────────────────┐
+   │             PINAX SKILLS WEB APPLICATION               │
+   │            https://pinax-skills.vercel.app/            │
+   │  - Ingests latest catalog.json at build time           │
+   │  - Compiles 37 static pages in sub-second SSG          │
+   │  - Instant automated redeployment on data changes      │
+   └────────────────────────────────────────────────────────┘
 ```
+
+---
+
+## Automated Sync with Vercel
+
+When skill data is updated in this repository (`pinax-registry`), updates reflect automatically on [pinax-skills.vercel.app](https://pinax-skills.vercel.app/) through an event-driven CI/CD hook:
+
+1. **Commit or Pull Request Merged**: A contributor or autonomous review agent submits a new skill definition into `data/skills/*.json`.
+2. **Quality Gate Execution**: GitHub Actions executes `validate.yml` to verify schema compliance, clean prose, active repository URLs, and conflict integrity.
+3. **Catalog Compilation**: `build.yml` compiles all modular skill files into the canonical `data/catalog.json` release manifest and generates SHA-256 checksums.
+4. **Deploy Hook Dispatch**: If compilation succeeds, GitHub Actions dispatches an HTTP POST trigger to the **Vercel Deploy Hook** configured for `pinax-skills`.
+5. **Zero-Downtime Rebuild**: Vercel runs `astro build`, pulls the fresh catalog directly from `pinax-registry`, and serves updated pages in ~20-30 seconds.
+
+> [!NOTE]
+> To enable automated webhook triggers, configure your Vercel Deploy Hook URL in this repository under:  
+> **Settings → Secrets and variables → Actions → `VERCEL_DEPLOY_HOOK`**.
 
 ---
 
@@ -57,7 +87,7 @@ pinax-registry/
 ├── .github/
 │   └── workflows/
 │       ├── validate.yml          # Runs 4-stage quality gate on all PRs & pushes
-│       └── build.yml             # Compiles data/catalog.json and validates checksum
+│       └── build.yml             # Compiles data/catalog.json and triggers Vercel deploy hook
 ├── data/
 │   ├── skills/                   # 32 modular, schema-compliant skill definitions
 │   │   ├── 001_addyosmani_agent_skills.json
@@ -141,6 +171,15 @@ python engine/agents/review_agent.py --candidate staging/candidates/repo.json
 1. **Deterministic Quality**: Every skill must have a verified author, clear license, and concrete install command.
 2. **Antislop Standards**: Prose must be functional, compact, and free of generic AI puffery. Unicode em dashes (`\u2014`) are strictly disallowed.
 3. **Decoupled Autonomy**: Autonomous agents can crawl, review, validate, and propose skills via standard Git pull requests without human bottleneck.
+
+---
+
+## Connected Repositories
+
+| Repository | Role | Technology | Deployment |
+| :--- | :--- | :--- | :--- |
+| **[pinax-registry](https://github.com/akhmadilham/pinax-registry)** | Data & Engine | Python 3.12, JSON Schema | GitHub Actions |
+| **[pinax-skills](https://github.com/akhmadilham/pinax-skills)** | Web Interface | Astro 5.x SSG, TypeScript | [pinax-skills.vercel.app](https://pinax-skills.vercel.app/) |
 
 ---
 
