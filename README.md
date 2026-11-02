@@ -1,82 +1,117 @@
 # PINAX Registry
 
-> Headless open-source database, verification engine, and autonomous scraping pipeline for AI coding agent skills.
+> Open-source database and verification framework for AI coding agent skills.
 
 [![Live Catalog](https://img.shields.io/badge/Live%20Catalog-pinax--skills.vercel.app-blue.svg)](https://pinax-skills.vercel.app/)
-[![Frontend Web App](https://img.shields.io/badge/Frontend%20Repo-akhmadilham%2Fpinax--skills-orange.svg)](https://github.com/akhmadilham/pinax-skills)
-[![Validate PINAX Skills](https://github.com/akhmadilham/pinax-registry/actions/workflows/validate.yml/badge.svg)](https://github.com/akhmadilham/pinax-registry/actions/workflows/validate.yml)
 [![Skills Count](https://img.shields.io/badge/skills-32%20verified-cyan.svg)](data/skills)
-[![Categories](https://img.shields.io/badge/categories-7%20pantheon-blueviolet.svg)](data/categories.json)
+[![Categories](https://img.shields.io/badge/categories-7%20domains-blueviolet.svg)](data/categories.json)
 [![Schema](https://img.shields.io/badge/schema-Draft--2020--12-blue.svg)](schema/skill.schema.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Validation Suite](https://img.shields.io/badge/Quality%20Gate-4--Stage%20Passed-emerald.svg)](tests)
 
 ---
 
-## Live Web Application
+## Overview
 
-Looking for the interactive visual catalog, conflict resolution compiler, and single-prompt stack builder?
+**PINAX Registry** is a community-driven, open-source database of production-tested skills, instruction sets, and tools for AI coding agents (such as Claude Code, Cursor, Codex, and Antigravity).
 
+Every entry in the registry is structured according to a strict JSON Schema, audited for safety, and cross-referenced against existing tools to eliminate dependency conflicts.
+
+Interactive visual browsing, category exploration, and single-prompt installation builders are available on the live web catalog:  
 👉 **[https://pinax-skills.vercel.app/](https://pinax-skills.vercel.app/)**
 
-The user-facing web interface is maintained separately in [akhmadilham/pinax-skills](https://github.com/akhmadilham/pinax-skills) as an Astro 5.x Static Site Generation (SSG) app. This repository (`pinax-registry`) functions strictly as the **headless data provider and automated validation engine**.
+---
+
+## How to Submit a Skill
+
+We welcome submissions from creators, open-source developers, and teams building agent tools. You can submit skills through either of the following methods:
+
+### Option 1: Submit via GitHub Issue (Recommended)
+
+1. Open a new issue in this repository using the [Skill Submission Template](../../issues/new?template=skill_submission.md).
+2. Fill in the key details:
+   - **Skill Name & GitHub Repository URL**
+   - **Domain Category** (`Business`, `Design`, `Discovery`, `Engineering`, `Security`, `Video`, or `Writing`)
+   - **Type** (`Skill`, `Collection`, `Workflow`, `Plugin`, `Tool`, `Vendor`, or `Index`)
+   - **Concise Description** explaining real utility
+   - **Installation Command**
+3. The maintainers will review the submission against the verification criteria below, run automated validation, and merge it into the catalog.
+
+### Option 2: Submit via Pull Request
+
+If you prefer to submit directly:
+
+1. Fork this repository and create a new branch.
+2. Add a new JSON file under `data/skills/` following the schema format:
+   ```json
+   {
+     "id": "example-skill",
+     "index": "033",
+     "name": "example-skill",
+     "repo": "owner/repo",
+     "category": "Engineering",
+     "type": "Skill",
+     "license": "MIT",
+     "status": "INSTALL",
+     "pinned_commit": null,
+     "description": "Functional description of capabilities and agent triggers.",
+     "install": "npx skills add owner/repo",
+     "tags": ["tag1", "tag2"],
+     "provenance": {
+       "verified_at": "2026-11-02",
+       "source": "https://github.com/owner/repo"
+     }
+   }
+   ```
+3. Test your entry locally using the validation suite:
+   ```bash
+   python engine/validator.py --root .
+   ```
+4. Open a Pull Request.
 
 ---
 
-## System Architecture & Sync Flow
+## Verification Methodology & Quality Standards
 
-```
-   ┌────────────────────────────────────────────────────────┐
-   │                    SIGNAL DISCOVERY                    │
-   │   GitHub Search Crawler   │   X (Twitter) Signal Parser │
-   └───────────────────────────┬────────────────────────────┘
-                               │
-                               ▼
-   ┌────────────────────────────────────────────────────────┐
-   │                 AUTONOMOUS REVIEW AGENT                │
-   │   Security Audit  •  Quality Score  •  Taxonomy Match   │
-   └───────────────────────────┬────────────────────────────┘
-                               │
-                               ▼
-   ┌────────────────────────────────────────────────────────┐
-   │                 4-STAGE QUALITY GATE                   │
-   │   Stage 1: Schema Integrity                            │
-   │   Stage 2: Antislop R-02 (Zero Em Dashes, Clean Prose) │
-   │   Stage 3: Repository & Installation Command Integrity │
-   │   Stage 4: Conflict Matrix Referential Consistency     │
-   └───────────────────────────┬────────────────────────────┘
-                               │
-                               ▼
-   ┌────────────────────────────────────────────────────────┐
-   │               CANONICAL CATALOG COMPILATION            │
-   │        data/catalog.json (with SHA-256 Checksum)       │
-   └───────────────────────────┬────────────────────────────┘
-                               │
-                               │ Push to main triggers Vercel Deploy Hook
-                               ▼
-   ┌────────────────────────────────────────────────────────┐
-   │             PINAX SKILLS WEB APPLICATION               │
-   │            https://pinax-skills.vercel.app/            │
-   │  - Ingests latest catalog.json at build time           │
-   │  - Compiles 37 static pages in sub-second SSG          │
-   │  - Instant automated redeployment on data changes      │
-   └────────────────────────────────────────────────────────┘
-```
+Every skill submitted to PINAX Registry passes through a 4-stage verification gate before publication:
+
+### 1. Schema & Structural Integrity
+- **Strict Typing**: All entries conform to `schema/skill.schema.json` (JSON Schema Draft-2020-12).
+- **Mandatory Fields**: Required identifiers, author attribution, public repository URL, license type, and execution tier.
+- **Valid Taxonomy**: Categorized accurately into one of the 7 Pantheon domains without arbitrary categorization drift.
+
+### 2. Security & Safety Screening
+- **Public & Auditable**: Repositories must be public with open-source licenses (MIT, Apache 2.0, BSD, etc.).
+- **No Malicious Patterns**: Submissions are screened against prompt injection exploits, hidden surveillance telemetry, obfuscated network requests, and unvetted root execution scripts.
+- **Reproducible Installation**: Installation instructions must point to legitimate packages or verified repository paths.
+
+### 3. Practical Utility & Clarity Standards
+- **High-Signal Documentation**: Documentation must be functional and focused on concrete developer tasks.
+- **Antislop Policy**: Vague marketing fluff, hyperbolic promises, and generic AI buzzwords are rejected.
+- **Typographic Precision**: In adherence to Antislop R-02 standards, Unicode em dashes (`\u2014`) are disallowed across all descriptions and metadata.
+
+### 4. Conflict & Compatibility Matrix
+- **Mutual Exclusion Check**: Potential conflicts with existing skills (e.g., competing frontend scaffolding tools) are identified and recorded in `data/conflicts.json`.
+- **Resolution Advice**: Soft overlaps receive clear scoping guidance to help developers choose the appropriate tool for their workflow.
 
 ---
 
-## Automated Sync with Vercel
+## Accessing the Data
 
-When skill data is updated in this repository (`pinax-registry`), updates reflect automatically on [pinax-skills.vercel.app](https://pinax-skills.vercel.app/) through an event-driven CI/CD hook:
+### Canonical Catalog Download
+The complete, compiled registry is released as a single verified JSON manifest with a SHA-256 integrity checksum:
 
-1. **Commit or Pull Request Merged**: A contributor or autonomous review agent submits a new skill definition into `data/skills/*.json`.
-2. **Quality Gate Execution**: GitHub Actions executes `validate.yml` to verify schema compliance, clean prose, active repository URLs, and conflict integrity.
-3. **Catalog Compilation**: `build.yml` compiles all modular skill files into the canonical `data/catalog.json` release manifest and generates SHA-256 checksums.
-4. **Deploy Hook Dispatch**: If compilation succeeds, GitHub Actions dispatches an HTTP POST trigger to the **Vercel Deploy Hook** configured for `pinax-skills`.
-5. **Zero-Downtime Rebuild**: Vercel runs `astro build`, pulls the fresh catalog directly from `pinax-registry`, and serves updated pages in ~20-30 seconds.
+```bash
+# Fetch latest compiled catalog
+curl -s https://raw.githubusercontent.com/akhmadilham/pinax-registry/main/data/catalog.json | jq .
+```
 
-> [!NOTE]
-> To enable automated webhook triggers, configure your Vercel Deploy Hook URL in this repository under:  
-> **Settings → Secrets and variables → Actions → `VERCEL_DEPLOY_HOOK`**.
+### JSON Schema
+Validate third-party skill definitions directly against the official schema:
+
+```
+schema/skill.schema.json
+```
 
 ---
 
@@ -85,104 +120,31 @@ When skill data is updated in this repository (`pinax-registry`), updates reflec
 ```
 pinax-registry/
 ├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   └── skill_submission.md   # GitHub Issue template for proposals
 │   └── workflows/
-│       ├── validate.yml          # Runs 4-stage quality gate on all PRs & pushes
-│       └── build.yml             # Compiles data/catalog.json and triggers Vercel deploy hook
+│       ├── validate.yml          # Automated 4-stage quality gate CI
+│       └── build.yml             # Release compiler and checksum validator
 ├── data/
-│   ├── skills/                   # 32 modular, schema-compliant skill definitions
-│   │   ├── 001_addyosmani_agent_skills.json
-│   │   ├── 002_agent_scan.json
-│   │   └── ...
-│   ├── categories.json           # 7 Pantheon domain categories and color tokens
-│   ├── conflicts.json            # Hard exclusive and soft compatibility matrices
-│   └── catalog.json              # Compiled release manifest with SHA-256 checksum
+│   ├── skills/                   # Modular skill definitions (001 to 032+)
+│   ├── categories.json           # 7 domain categories and visual tokens
+│   ├── conflicts.json            # Hard and soft conflict matrix rules
+│   └── catalog.json              # Canonical compiled distribution manifest
 ├── engine/
-│   ├── validator.py              # 4-stage validation engine and CLI
-│   ├── builder.py                # Catalog compiler, statistics generator, and hash verifier
-│   ├── scrapers/
-│   │   ├── github_scraper.py     # GitHub API crawler extracting SKILL.md metadata
-│   │   └── x_scraper.py          # X / Twitter signal scraper for trending skill repos
-│   └── agents/
-│       └── review_agent.py       # Autonomous LLM/agent auditor and scoring engine
+│   ├── validator.py              # CLI validation engine
+│   └── builder.py                # Release manifest compiler and hash verifier
 ├── schema/
-│   └── skill.schema.json         # Formal JSON Schema specification (Draft-2020-12)
+│   └── skill.schema.json         # Formal JSON Schema specification
 ├── tests/
-│   └── test_validator.py         # Unit test suite for validation rules
-├── CONTRIBUTING.md               # Guidelines for human contributors and AI agents
+│   └── test_validator.py         # Unit tests for validation logic
+├── CONTRIBUTING.md               # Guidelines for contributors
 ├── LICENSE                       # MIT License
 ├── README.md                     # Project documentation
-└── changelog.md                  # Release history and updates
+└── changelog.md                  # Version history
 ```
-
----
-
-## Using the Data
-
-### Consuming the Full Catalog
-You can fetch the latest verified catalog directly from GitHub raw content or any CDN:
-
-```bash
-curl -s https://raw.githubusercontent.com/akhmadilham/pinax-registry/main/data/catalog.json | jq .
-```
-
-### JSON Schema
-All skill definitions strictly conform to `schema/skill.schema.json`:
-- **Categories**: `Business`, `Design`, `Discovery`, `Engineering`, `Security`, `Video`, `Writing`
-- **Archetypes**: `Skill`, `Collection`, `Workflow`, `Plugin`, `Tool`, `Vendor`, `Index`
-- **Tiers**: `INSTALL`, `INSTALL-PINNED`, `INSTALL (tool)`, `INDEX ONLY`, `MANUAL`
-
----
-
-## Development & Tooling
-
-### 1. Validate All Skills
-Run the 4-stage quality gate locally:
-```bash
-python engine/validator.py --root .
-```
-
-### 2. Run Test Suite
-```bash
-python -m unittest discover -s tests
-```
-
-### 3. Rebuild Catalog
-Compile modular files into `data/catalog.json`:
-```bash
-python engine/builder.py .
-```
-
-### 4. Crawl GitHub Repositories
-Extract skills from a specific repository:
-```bash
-python engine/scrapers/github_scraper.py --repo owner/repo
-```
-
-### 5. Audit Candidate with Review Agent
-Run autonomous safety and quality scoring on a staged candidate:
-```bash
-python engine/agents/review_agent.py --candidate staging/candidates/repo.json
-```
-
----
-
-## Quality Principles
-
-1. **Deterministic Quality**: Every skill must have a verified author, clear license, and concrete install command.
-2. **Antislop Standards**: Prose must be functional, compact, and free of generic AI puffery. Unicode em dashes (`\u2014`) are strictly disallowed.
-3. **Decoupled Autonomy**: Autonomous agents can crawl, review, validate, and propose skills via standard Git pull requests without human bottleneck.
-
----
-
-## Connected Repositories
-
-| Repository | Role | Technology | Deployment |
-| :--- | :--- | :--- | :--- |
-| **[pinax-registry](https://github.com/akhmadilham/pinax-registry)** | Data & Engine | Python 3.12, JSON Schema | GitHub Actions |
-| **[pinax-skills](https://github.com/akhmadilham/pinax-skills)** | Web Interface | Astro 5.x SSG, TypeScript | [pinax-skills.vercel.app](https://pinax-skills.vercel.app/) |
 
 ---
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
+This registry and all associated schemas are released under the [MIT License](LICENSE).

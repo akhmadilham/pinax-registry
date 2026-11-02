@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.2] - 2026-11-02
+
+### Changed
+- **Community-Focused README Rewrite**:
+  - Restructured README to emphasize open-source community submissions and transparent verification methodology.
+  - Added structured GitHub Issue submission template (.github/ISSUE_TEMPLATE/skill_submission.md).
+  - Removed all frontend codebase references, personal metadata, and internal crawler/scraping mechanisms.
+  - Highlighted 4-stage verification standards: Schema Integrity, Security & Safety Screening, Practical Utility & Antislop, and Conflict Matrix Analysis.
+
 ## [1.0.1] - 2026-11-02
 
 ### Changed
