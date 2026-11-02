@@ -1,0 +1,25 @@
+{
+  "id": "growth-today-claude-skills",
+  "index": "057",
+  "name": "Growth-Today/claude-skills",
+  "repo": "Growth-Today/claude-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL (selective)",
+  "pinned_commit": null,
+  "description": "Go-to-market skill collection for B2B teams covering HubSpot and Salesforce administration, data audits, enrichment, and cold outbound.",
+  "install": "npx skills add Growth-Today/claude-skills",
+  "tags": [
+    "gtm",
+    "business",
+    "salesforce",
+    "hubspot",
+    "b2b",
+    "growth"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/9"
+  }
+}

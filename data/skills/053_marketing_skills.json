@@ -1,0 +1,24 @@
+{
+  "id": "marketing-skills",
+  "index": "053",
+  "name": "kostja94/marketing-skills",
+  "repo": "kostja94/marketing-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL (selective)",
+  "pinned_commit": null,
+  "description": "Marketing and SEO workflow library for agents covering technical and on-page SEO, research, content, channels, paid advertising, and launch strategy.",
+  "install": "npx skills add kostja94/marketing-skills",
+  "tags": [
+    "marketing",
+    "business",
+    "seo-strategy",
+    "keyword-research",
+    "content-strategy"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/5"
+  }
+}

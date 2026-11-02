@@ -1,0 +1,25 @@
+{
+  "id": "hubspot-admin-skills",
+  "index": "056",
+  "name": "TomGranot/hubspot-admin-skills",
+  "repo": "TomGranot/hubspot-admin-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Forty Claude Code skills for auditing, cleaning, enriching, and automating HubSpot CRM for marketing operations and sales workflows.",
+  "install": "/plugin marketplace add tomgranot/hubspot-admin-skills",
+  "tags": [
+    "hubspot",
+    "crm",
+    "business",
+    "admin",
+    "sales-ops",
+    "marketing-ops"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/8"
+  }
+}

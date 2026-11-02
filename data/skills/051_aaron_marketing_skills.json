@@ -1,0 +1,27 @@
+{
+  "id": "aaron-marketing-skills",
+  "index": "051",
+  "name": "aaron-he-zhu/aaron-marketing-skills",
+  "repo": "aaron-he-zhu/aaron-marketing-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Collection of 120 marketing skills across narrative, SEO, GEO, social, email, paid ads, and launch disciplines, with quality and citation auditor gates.",
+  "install": "/plugin marketplace add aaron-he-zhu/aaron-marketing-skills",
+  "tags": [
+    "marketing",
+    "business",
+    "seo",
+    "geo",
+    "social",
+    "email",
+    "ads",
+    "auditor"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/3"
+  }
+}

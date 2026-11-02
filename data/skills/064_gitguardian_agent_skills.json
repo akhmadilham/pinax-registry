@@ -1,0 +1,25 @@
+{
+  "id": "gitguardian-agent-skills",
+  "index": "064",
+  "name": "GitGuardian/agent-skills",
+  "repo": "GitGuardian/agent-skills",
+  "category": "Security",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Official GitGuardian skills for scanning paths, commits, Docker images, and packages for secrets with ggshield, installing hooks, and triaging incidents.",
+  "install": "/plugin marketplace add GitGuardian/agent-skills",
+  "tags": [
+    "gitguardian",
+    "secrets",
+    "security",
+    "ggshield",
+    "honeytokens",
+    "hooks"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/16"
+  }
+}

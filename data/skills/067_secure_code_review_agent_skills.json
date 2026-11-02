@@ -1,0 +1,24 @@
+{
+  "id": "secure-code-review-agent-skills",
+  "index": "067",
+  "name": "ivan-sincek/secure-code-review-agent-skills",
+  "repo": "ivan-sincek/secure-code-review-agent-skills",
+  "category": "Security",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "CWE based secure code review skills in Markdown and JSON output forms, plus security requirements and checklist generation.",
+  "install": "Copy markdown/ into the project .claude/skills/ directory",
+  "tags": [
+    "secure-code-review",
+    "cwe",
+    "security",
+    "audit",
+    "owasp"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/19"
+  }
+}

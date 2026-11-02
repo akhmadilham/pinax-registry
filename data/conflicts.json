@@ -55,6 +55,33 @@
       "rule": "COMPATIBLE_WITH_CAUTION",
       "reason": "emilkowalski-skills bundles animate alongside 15 other skills. Selecting both in the same stack creates redundant prompt files.",
       "resolution": "Install emilkowalski-skills wholesale or install individual sub-skills using the --skill flag."
+    },
+    {
+      "skills": [
+        "seranking-seo-skills",
+        "claude-seo-kit"
+      ],
+      "rule": "COMPATIBLE_WITH_CAUTION",
+      "reason": "Both provide full-suite SEO audits and schema validation. seranking-seo-skills connects to SE Ranking MCP; claude-seo-kit runs locally via Python.",
+      "resolution": "Choose seranking-seo-skills for live platform metrics or claude-seo-kit for keyless local audits."
+    },
+    {
+      "skills": [
+        "docs-writing",
+        "ste-plain-writing"
+      ],
+      "rule": "COMPATIBLE_WITH_CAUTION",
+      "reason": "Both enforce ASD-STE100 Simplified Technical English rules. Loading both creates redundant style prompt instructions.",
+      "resolution": "Select docs-writing for pure manual guidance or ste-plain-writing for Python linter diagnostic enforcement."
+    },
+    {
+      "skills": [
+        "closer-skill",
+        "agentic-sales-skills"
+      ],
+      "rule": "COMPATIBLE_WITH_CAUTION",
+      "reason": "Both cover end-to-end B2B sales pipelines from prospecting to closing. Running both simultaneously creates overlapping workflow guidance.",
+      "resolution": "Pick closer-skill for interactive call coaching or agentic-sales-skills for stage-by-stage Markdown prompts."
     }
   ]
 }

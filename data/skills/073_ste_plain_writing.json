@@ -1,0 +1,24 @@
+{
+  "id": "ste-plain-writing",
+  "index": "073",
+  "name": "Ryuketsukami/ste-plain-writing",
+  "repo": "Ryuketsukami/ste-plain-writing",
+  "category": "Writing",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Plain language rewriting of technical prose using ASD-STE100 inspired rules, with a deterministic Python linter reporting violations.",
+  "install": "git clone https://github.com/Ryuketsukami/ste-plain-writing.git ~/.claude/skills/ste-plain-writing",
+  "tags": [
+    "plain-writing",
+    "ste100",
+    "linter",
+    "writing",
+    "clarity"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/25"
+  }
+}

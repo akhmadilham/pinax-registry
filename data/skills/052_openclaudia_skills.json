@@ -1,0 +1,26 @@
+{
+  "id": "openclaudia-skills",
+  "index": "052",
+  "name": "OpenClaudia/openclaudia-skills",
+  "repo": "OpenClaudia/openclaudia-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL (selective)",
+  "pinned_commit": null,
+  "description": "Modular marketing skill collection covering SEO audit, content writing, email sequences, social publishing, ads, analytics, growth, and CRM outreach.",
+  "install": "npx openclaudia install --all",
+  "tags": [
+    "marketing",
+    "business",
+    "openclaudia",
+    "seo-audit",
+    "content",
+    "crm",
+    "email"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/4"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "docs-writing",
+  "index": "071",
+  "name": "brutasse/docs-writing",
+  "repo": "brutasse/docs-writing",
+  "category": "Writing",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Technical documentation prose in ASD-STE100 Simplified Technical English, with one idea per sentence and strict verb and noun discipline.",
+  "install": "git clone https://github.com/brutasse/docs-writing ~/.agents/skills/docs-writing",
+  "tags": [
+    "docs",
+    "ste100",
+    "technical-writing",
+    "writing",
+    "plain-english"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/23"
+  }
+}

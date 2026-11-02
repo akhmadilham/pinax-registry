@@ -1,35 +1,38 @@
 {
   "$schema": "../schema/skill.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-11-02T09:30:31.913642+00:00",
+  "generated_at": "2026-11-02T11:10:38.479277+00:00",
   "integrity": {
-    "skills_sha256": "c554a1e34ad6c37946e1fad0e5540ae81dfc7038c5a399115f5cb034ad0ec2d8",
+    "skills_sha256": "7ab61789812246a64f2e22c2a3064c1f1f5f72516ab6767fd60668dfa375712c",
     "algorithm": "SHA-256"
   },
   "stats": {
-    "total_skills": 49,
+    "total_skills": 76,
     "pinned_skills": 39,
     "categories": {
-      "Engineering": 11,
-      "Security": 3,
+      "Engineering": 15,
+      "Security": 8,
       "Design": 17,
       "Discovery": 3,
       "Video": 6,
-      "Business": 5,
-      "Writing": 4
+      "Business": 15,
+      "Writing": 10,
+      "SEO": 2
     },
     "types": {
-      "Collection": 13,
-      "Tool": 4,
-      "Skill": 28,
+      "Collection": 29,
+      "Tool": 5,
+      "Skill": 34,
       "Index": 1,
-      "Vendor": 3
+      "Vendor": 3,
+      "Plugin": 4
     },
     "licenses": {
-      "MIT": 41,
-      "Apache-2.0": 5,
+      "MIT": 65,
+      "Apache-2.0": 7,
       "No root licence file": 2,
-      "CC-BY-SA-4.0": 1
+      "CC-BY-SA-4.0": 1,
+      "Mixed (MIT / CC BY 4.0 / Apache 2.0)": 1
     }
   },
   "categories": [
@@ -95,6 +98,15 @@
       "icon": "writing",
       "lead_skill": "no-ai-slop",
       "description": "Turn ideas into writing worth reading. Structure with purpose, eliminate filler, and communicate with clarity and precision."
+    },
+    {
+      "id": "seo",
+      "name": "SEO",
+      "order": 8,
+      "color": "#fb923c",
+      "icon": "search",
+      "lead_skill": "seranking-seo-skills",
+      "description": "Audit, fix, and measure search and AI answer visibility, from technical checks to content and ranking."
     }
   ],
   "conflicts": {
@@ -154,6 +166,33 @@
         "rule": "COMPATIBLE_WITH_CAUTION",
         "reason": "emilkowalski-skills bundles animate alongside 15 other skills. Selecting both in the same stack creates redundant prompt files.",
         "resolution": "Install emilkowalski-skills wholesale or install individual sub-skills using the --skill flag."
+      },
+      {
+        "skills": [
+          "seranking-seo-skills",
+          "claude-seo-kit"
+        ],
+        "rule": "COMPATIBLE_WITH_CAUTION",
+        "reason": "Both provide full-suite SEO audits and schema validation. seranking-seo-skills connects to SE Ranking MCP; claude-seo-kit runs locally via Python.",
+        "resolution": "Choose seranking-seo-skills for live platform metrics or claude-seo-kit for keyless local audits."
+      },
+      {
+        "skills": [
+          "docs-writing",
+          "ste-plain-writing"
+        ],
+        "rule": "COMPATIBLE_WITH_CAUTION",
+        "reason": "Both enforce ASD-STE100 Simplified Technical English rules. Loading both creates redundant style prompt instructions.",
+        "resolution": "Select docs-writing for pure manual guidance or ste-plain-writing for Python linter diagnostic enforcement."
+      },
+      {
+        "skills": [
+          "closer-skill",
+          "agentic-sales-skills"
+        ],
+        "rule": "COMPATIBLE_WITH_CAUTION",
+        "reason": "Both cover end-to-end B2B sales pipelines from prospecting to closing. Running both simultaneously creates overlapping workflow guidance.",
+        "resolution": "Pick closer-skill for interactive call coaching or agentic-sales-skills for stage-by-stage Markdown prompts."
       }
     ]
   },
@@ -1389,6 +1428,677 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/write-swift"
+      }
+    },
+    {
+      "id": "marketingskills",
+      "index": "050",
+      "name": "coreyhaines31/marketingskills",
+      "repo": "coreyhaines31/marketingskills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL (selective)",
+      "pinned_commit": null,
+      "description": "Marketing skill collection covering conversion optimisation, copywriting and copy-editing, SEO audit and schema, analytics, ads, email, pricing, and growth engineering.",
+      "install": "npx skills add coreyhaines31/marketingskills",
+      "tags": [
+        "marketing",
+        "business",
+        "cro",
+        "copywriting",
+        "seo-audit",
+        "analytics",
+        "growth"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/2"
+      }
+    },
+    {
+      "id": "aaron-marketing-skills",
+      "index": "051",
+      "name": "aaron-he-zhu/aaron-marketing-skills",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Collection of 120 marketing skills across narrative, SEO, GEO, social, email, paid ads, and launch disciplines, with quality and citation auditor gates.",
+      "install": "/plugin marketplace add aaron-he-zhu/aaron-marketing-skills",
+      "tags": [
+        "marketing",
+        "business",
+        "seo",
+        "geo",
+        "social",
+        "email",
+        "ads",
+        "auditor"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/3"
+      }
+    },
+    {
+      "id": "openclaudia-skills",
+      "index": "052",
+      "name": "OpenClaudia/openclaudia-skills",
+      "repo": "OpenClaudia/openclaudia-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL (selective)",
+      "pinned_commit": null,
+      "description": "Modular marketing skill collection covering SEO audit, content writing, email sequences, social publishing, ads, analytics, growth, and CRM outreach.",
+      "install": "npx openclaudia install --all",
+      "tags": [
+        "marketing",
+        "business",
+        "openclaudia",
+        "seo-audit",
+        "content",
+        "crm",
+        "email"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/4"
+      }
+    },
+    {
+      "id": "marketing-skills",
+      "index": "053",
+      "name": "kostja94/marketing-skills",
+      "repo": "kostja94/marketing-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL (selective)",
+      "pinned_commit": null,
+      "description": "Marketing and SEO workflow library for agents covering technical and on-page SEO, research, content, channels, paid advertising, and launch strategy.",
+      "install": "npx skills add kostja94/marketing-skills",
+      "tags": [
+        "marketing",
+        "business",
+        "seo-strategy",
+        "keyword-research",
+        "content-strategy"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/5"
+      }
+    },
+    {
+      "id": "closer-skill",
+      "index": "054",
+      "name": "Jakeschincariol/closer-skill",
+      "repo": "Jakeschincariol/closer-skill",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Eleven-skill sales team pack covering lead prospecting, cold outreach, follow-up, live sales-call coaching, proposal writing, and forecasting.",
+      "install": "/plugin marketplace add Jakeschincariol/closer-skill",
+      "tags": [
+        "sales",
+        "business",
+        "closer",
+        "outreach",
+        "prospecting",
+        "pipeline"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/6"
+      }
+    },
+    {
+      "id": "agentic-sales-skills",
+      "index": "055",
+      "name": "Autter-dev/agentic-sales-skills",
+      "repo": "Autter-dev/agentic-sales-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "B2B founder-led sales toolkit covering preparation, prospecting and outreach, meetings and demos, proposals and close, and sales leadership.",
+      "install": "Copy SKILL.md files into project .claude/skills/ directory",
+      "tags": [
+        "sales",
+        "business",
+        "b2b",
+        "prospecting",
+        "outreach",
+        "deals"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/7"
+      }
+    },
+    {
+      "id": "hubspot-admin-skills",
+      "index": "056",
+      "name": "TomGranot/hubspot-admin-skills",
+      "repo": "TomGranot/hubspot-admin-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Forty Claude Code skills for auditing, cleaning, enriching, and automating HubSpot CRM for marketing operations and sales workflows.",
+      "install": "/plugin marketplace add tomgranot/hubspot-admin-skills",
+      "tags": [
+        "hubspot",
+        "crm",
+        "business",
+        "admin",
+        "sales-ops",
+        "marketing-ops"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/8"
+      }
+    },
+    {
+      "id": "growth-today-claude-skills",
+      "index": "057",
+      "name": "Growth-Today/claude-skills",
+      "repo": "Growth-Today/claude-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL (selective)",
+      "pinned_commit": null,
+      "description": "Go-to-market skill collection for B2B teams covering HubSpot and Salesforce administration, data audits, enrichment, and cold outbound.",
+      "install": "npx skills add Growth-Today/claude-skills",
+      "tags": [
+        "gtm",
+        "business",
+        "salesforce",
+        "hubspot",
+        "b2b",
+        "growth"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/9"
+      }
+    },
+    {
+      "id": "openaccountant-skills",
+      "index": "058",
+      "name": "openaccountant/skills",
+      "repo": "openaccountant/skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL (selective)",
+      "pinned_commit": null,
+      "description": "Collection of 44 open-source financial skills for agents covering profit and loss, budgeting, tax preparation, reconciliation, and cash flow.",
+      "install": "npx skills add openaccountant/skills",
+      "tags": [
+        "accounting",
+        "finance",
+        "business",
+        "tax-prep",
+        "budgeting",
+        "reconciliation"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/10"
+      }
+    },
+    {
+      "id": "claude-code-startup-skills",
+      "index": "059",
+      "name": "rameerez/claude-code-startup-skills",
+      "repo": "rameerez/claude-code-startup-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Startup and SaaS operating skill set covering customer empathy, user journey work, image compression, launch checklists, and pitch review.",
+      "install": "/plugin marketplace add rameerez/claude-code-startup-skills",
+      "tags": [
+        "startup",
+        "business",
+        "saas",
+        "launch",
+        "empathy",
+        "growth"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/11"
+      }
+    },
+    {
+      "id": "pulumi-agent-skills",
+      "index": "060",
+      "name": "pulumi/agent-skills",
+      "repo": "pulumi/agent-skills",
+      "category": "Engineering",
+      "type": "Plugin",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Official Pulumi skills for writing, reviewing, and debugging Pulumi infrastructure programs, migrating from Terraform, and querying cloud docs.",
+      "install": "/plugin marketplace add pulumi/agent-skills",
+      "tags": [
+        "pulumi",
+        "iac",
+        "engineering",
+        "devops",
+        "cloud",
+        "terraform"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/12"
+      }
+    },
+    {
+      "id": "cc-skills-golang",
+      "index": "061",
+      "name": "samber/cc-skills-golang",
+      "repo": "samber/cc-skills-golang",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Go-only skill collection for testing, refactoring, performance, concurrency, database use, gRPC, containerization, and observability.",
+      "install": "npx skills add samber/cc-skills-golang",
+      "tags": [
+        "golang",
+        "go",
+        "engineering",
+        "concurrency",
+        "refactoring",
+        "grpc"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/13"
+      }
+    },
+    {
+      "id": "claude-postgres-skills",
+      "index": "062",
+      "name": "pumarogie/claude-postgres-skills",
+      "repo": "pumarogie/claude-postgres-skills",
+      "category": "Engineering",
+      "type": "Plugin",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Six production Postgres skills for schema design, safe migrations, performant queries, connection management, locking, and troubleshooting.",
+      "install": "/plugin marketplace add pumarogie/claude-postgres-skills",
+      "tags": [
+        "postgres",
+        "postgresql",
+        "sql",
+        "engineering",
+        "database",
+        "migrations"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/14"
+      }
+    },
+    {
+      "id": "smell-check",
+      "index": "063",
+      "name": "Zhen-Bo/smell-check",
+      "repo": "Zhen-Bo/smell-check",
+      "category": "Engineering",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Evidence-ranked code smell and test smell audit for a user chosen scope, with every finding carrying line citations, severity, and refactoring.",
+      "install": "npx skills add Zhen-Bo/smell-check",
+      "tags": [
+        "code-quality",
+        "refactoring",
+        "smell-check",
+        "engineering",
+        "test-smell"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/15"
+      }
+    },
+    {
+      "id": "gitguardian-agent-skills",
+      "index": "064",
+      "name": "GitGuardian/agent-skills",
+      "repo": "GitGuardian/agent-skills",
+      "category": "Security",
+      "type": "Plugin",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Official GitGuardian skills for scanning paths, commits, Docker images, and packages for secrets with ggshield, installing hooks, and triaging incidents.",
+      "install": "/plugin marketplace add GitGuardian/agent-skills",
+      "tags": [
+        "gitguardian",
+        "secrets",
+        "security",
+        "ggshield",
+        "honeytokens",
+        "hooks"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/16"
+      }
+    },
+    {
+      "id": "ai-repo-safety-skill",
+      "index": "065",
+      "name": "letya999/ai-repo-safety-skill",
+      "repo": "letya999/ai-repo-safety-skill",
+      "category": "Security",
+      "type": "Tool",
+      "license": "MIT",
+      "status": "INSTALL (tool)",
+      "pinned_commit": null,
+      "description": "Single skill plus Python CLI that adds git hook gates to a repo before commit, push, or publish to catch secrets, private keys, and env files.",
+      "install": "npx skills add letya999/ai-repo-safety-skill",
+      "tags": [
+        "git-hooks",
+        "security",
+        "secrets",
+        "safety-gate",
+        "tool"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/17"
+      }
+    },
+    {
+      "id": "threat-modeling-agent-skills",
+      "index": "066",
+      "name": "ivan-sincek/threat-modeling-agent-skills",
+      "repo": "ivan-sincek/threat-modeling-agent-skills",
+      "category": "Security",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Threat modeling skills in Markdown and JSON output forms for STRIDE, PASTA, and DREAD frameworks, calculating CVSS 4.0 severity scores.",
+      "install": "Copy markdown/ into the project .claude/skills/ directory",
+      "tags": [
+        "threat-modeling",
+        "stride",
+        "dread",
+        "pasta",
+        "security",
+        "cvss"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/18"
+      }
+    },
+    {
+      "id": "secure-code-review-agent-skills",
+      "index": "067",
+      "name": "ivan-sincek/secure-code-review-agent-skills",
+      "repo": "ivan-sincek/secure-code-review-agent-skills",
+      "category": "Security",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "CWE based secure code review skills in Markdown and JSON output forms, plus security requirements and checklist generation.",
+      "install": "Copy markdown/ into the project .claude/skills/ directory",
+      "tags": [
+        "secure-code-review",
+        "cwe",
+        "security",
+        "audit",
+        "owasp"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/19"
+      }
+    },
+    {
+      "id": "vulnerability-management-agent-skills",
+      "index": "068",
+      "name": "ivan-sincek/vulnerability-management-agent-skills",
+      "repo": "ivan-sincek/vulnerability-management-agent-skills",
+      "category": "Security",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Vulnerability management skill for triaging bug bounty reports in Markdown and JSON output forms, identifying duplicates and false positives.",
+      "install": "Copy markdown/ into the project .claude/skills/ directory",
+      "tags": [
+        "vulnerability-management",
+        "bug-bounty",
+        "triage",
+        "security",
+        "cve"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/20"
+      }
+    },
+    {
+      "id": "ux-writing-skill",
+      "index": "069",
+      "name": "content-designer/ux-writing-skill",
+      "repo": "content-designer/ux-writing-skill",
+      "category": "Writing",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Interface copy for buttons, labels, error messages, forms, notifications, onboarding, and empty states with clarity and accessibility checks.",
+      "install": "npx skills add content-designer/ux-writing-skill",
+      "tags": [
+        "ux-writing",
+        "microcopy",
+        "writing",
+        "content-design",
+        "accessibility"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/21"
+      }
+    },
+    {
+      "id": "humanize-text",
+      "index": "070",
+      "name": "gregorymm/humanize-text",
+      "repo": "gregorymm/humanize-text",
+      "category": "Writing",
+      "type": "Plugin",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Scores text across seven AI writing categories from 1 to 10 each and rewrites flagged passages to restore natural human cadence.",
+      "install": "/plugin marketplace add gregorymm/humanize-text",
+      "tags": [
+        "humanize",
+        "writing",
+        "antislop",
+        "copy-editing",
+        "cadence"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/22"
+      }
+    },
+    {
+      "id": "docs-writing",
+      "index": "071",
+      "name": "brutasse/docs-writing",
+      "repo": "brutasse/docs-writing",
+      "category": "Writing",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Technical documentation prose in ASD-STE100 Simplified Technical English, with one idea per sentence and strict verb and noun discipline.",
+      "install": "git clone https://github.com/brutasse/docs-writing ~/.agents/skills/docs-writing",
+      "tags": [
+        "docs",
+        "ste100",
+        "technical-writing",
+        "writing",
+        "plain-english"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/23"
+      }
+    },
+    {
+      "id": "google-developer-docs-style",
+      "index": "072",
+      "name": "Sekyls/google-developer-docs-style",
+      "repo": "Sekyls/google-developer-docs-style",
+      "category": "Writing",
+      "type": "Skill",
+      "license": "Mixed (MIT / CC BY 4.0 / Apache 2.0)",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Writes, rewrites, and reviews developer documentation against the Google Developer Documentation Style Guide loaded on demand.",
+      "install": "npx skills add Sekyls/google-developer-docs-style",
+      "tags": [
+        "styleguide",
+        "google-docs",
+        "technical-writing",
+        "writing",
+        "developer-docs"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/24"
+      }
+    },
+    {
+      "id": "ste-plain-writing",
+      "index": "073",
+      "name": "Ryuketsukami/ste-plain-writing",
+      "repo": "Ryuketsukami/ste-plain-writing",
+      "category": "Writing",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Plain language rewriting of technical prose using ASD-STE100 inspired rules, with a deterministic Python linter reporting violations.",
+      "install": "git clone https://github.com/Ryuketsukami/ste-plain-writing.git ~/.claude/skills/ste-plain-writing",
+      "tags": [
+        "plain-writing",
+        "ste100",
+        "linter",
+        "writing",
+        "clarity"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/25"
+      }
+    },
+    {
+      "id": "agent-writing-skills",
+      "index": "074",
+      "name": "jlreyes/agent-writing-skills",
+      "repo": "jlreyes/agent-writing-skills",
+      "category": "Writing",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Reader-first writing skill routed by artifact, covering reports, technical documentation, plans, RFCs, surveys, and style passes.",
+      "install": "npx skills add jlreyes/agent-writing-skills --skill writing",
+      "tags": [
+        "writing",
+        "rfcs",
+        "reports",
+        "documentation",
+        "editing",
+        "style"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/26"
+      }
+    },
+    {
+      "id": "seranking-seo-skills",
+      "index": "075",
+      "name": "seranking/seo-skills",
+      "repo": "seranking/seo-skills",
+      "category": "SEO",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Production SEO skill collection built on SE Ranking MCP data, covering content briefs, AI-search share of voice, technical audits, and schema.",
+      "install": "/plugin marketplace add seranking/seo-skills",
+      "tags": [
+        "seo",
+        "search",
+        "mcp",
+        "technical-audit",
+        "schema",
+        "keyword-research",
+        "geo"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/27"
+      }
+    },
+    {
+      "id": "claude-seo-kit",
+      "index": "076",
+      "name": "FreeAutomation-Tech/claude-seo-kit",
+      "repo": "FreeAutomation-Tech/claude-seo-kit",
+      "category": "SEO",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "No-API-key SEO audit suite with a dependency-light Python engine, covering technical checks, content E-E-A-T, Schema JSON-LD, and sitemaps.",
+      "install": "/plugin marketplace add FreeAutomation-Tech/claude-seo-kit",
+      "tags": [
+        "seo",
+        "audit",
+        "eeat",
+        "schema",
+        "sitemap",
+        "python-engine",
+        "geo"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/akhmadilham/pinax-registry/issues/28"
       }
     }
   ]

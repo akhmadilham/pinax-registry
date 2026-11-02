@@ -17,7 +17,7 @@ from pathlib import Path
 
 VALID_CATEGORIES = {
     "Business", "Design", "Discovery", "Engineering",
-    "Security", "Video", "Writing"
+    "Security", "SEO", "Video", "Writing"
 }
 
 VALID_TYPES = {"Skill", "Collection", "Workflow", "Plugin", "Tool", "Vendor", "Index"}

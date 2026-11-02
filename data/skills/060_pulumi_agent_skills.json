@@ -1,0 +1,25 @@
+{
+  "id": "pulumi-agent-skills",
+  "index": "060",
+  "name": "pulumi/agent-skills",
+  "repo": "pulumi/agent-skills",
+  "category": "Engineering",
+  "type": "Plugin",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Official Pulumi skills for writing, reviewing, and debugging Pulumi infrastructure programs, migrating from Terraform, and querying cloud docs.",
+  "install": "/plugin marketplace add pulumi/agent-skills",
+  "tags": [
+    "pulumi",
+    "iac",
+    "engineering",
+    "devops",
+    "cloud",
+    "terraform"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/12"
+  }
+}

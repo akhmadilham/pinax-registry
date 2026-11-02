@@ -1,0 +1,26 @@
+{
+  "id": "marketingskills",
+  "index": "050",
+  "name": "coreyhaines31/marketingskills",
+  "repo": "coreyhaines31/marketingskills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL (selective)",
+  "pinned_commit": null,
+  "description": "Marketing skill collection covering conversion optimisation, copywriting and copy-editing, SEO audit and schema, analytics, ads, email, pricing, and growth engineering.",
+  "install": "npx skills add coreyhaines31/marketingskills",
+  "tags": [
+    "marketing",
+    "business",
+    "cro",
+    "copywriting",
+    "seo-audit",
+    "analytics",
+    "growth"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/2"
+  }
+}

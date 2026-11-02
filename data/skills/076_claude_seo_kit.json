@@ -1,0 +1,26 @@
+{
+  "id": "claude-seo-kit",
+  "index": "076",
+  "name": "FreeAutomation-Tech/claude-seo-kit",
+  "repo": "FreeAutomation-Tech/claude-seo-kit",
+  "category": "SEO",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "No-API-key SEO audit suite with a dependency-light Python engine, covering technical checks, content E-E-A-T, Schema JSON-LD, and sitemaps.",
+  "install": "/plugin marketplace add FreeAutomation-Tech/claude-seo-kit",
+  "tags": [
+    "seo",
+    "audit",
+    "eeat",
+    "schema",
+    "sitemap",
+    "python-engine",
+    "geo"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/28"
+  }
+}

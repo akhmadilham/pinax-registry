@@ -1,0 +1,24 @@
+{
+  "id": "humanize-text",
+  "index": "070",
+  "name": "gregorymm/humanize-text",
+  "repo": "gregorymm/humanize-text",
+  "category": "Writing",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Scores text across seven AI writing categories from 1 to 10 each and rewrites flagged passages to restore natural human cadence.",
+  "install": "/plugin marketplace add gregorymm/humanize-text",
+  "tags": [
+    "humanize",
+    "writing",
+    "antislop",
+    "copy-editing",
+    "cadence"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/22"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ux-writing-skill",
+  "index": "069",
+  "name": "content-designer/ux-writing-skill",
+  "repo": "content-designer/ux-writing-skill",
+  "category": "Writing",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Interface copy for buttons, labels, error messages, forms, notifications, onboarding, and empty states with clarity and accessibility checks.",
+  "install": "npx skills add content-designer/ux-writing-skill",
+  "tags": [
+    "ux-writing",
+    "microcopy",
+    "writing",
+    "content-design",
+    "accessibility"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/21"
+  }
+}

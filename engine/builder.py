@@ -94,6 +94,7 @@ def update_readme(registry_root, compiled_skills, categories_data):
         "Discovery": "🧭",
         "Engineering": "⚙️",
         "Security": "🛡️",
+        "SEO": "🔍",
         "Video": "🎬",
         "Writing": "✍️"
     }

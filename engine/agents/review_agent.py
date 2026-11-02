@@ -21,6 +21,7 @@ CATEGORY_KEYWORDS = {
     "Security": ["security", "vulnerability", "audit", "scanner", "cve", "auth", "secret", "guard", "snyk"],
     "Video": ["video", "motion", "remotion", "ffmpeg", "render", "animation", "audio", "sfx", "shot"],
     "Business": ["business", "stripe", "payment", "founder", "saas", "client", "sales", "crm", "invoice"],
+    "SEO": ["seo", "serp", "sitemap", "backlink", "ranking", "crawler", "schema", "keyword", "search"],
     "Discovery": ["discovery", "awesome", "index", "catalog", "directory", "curated", "collection"]
 }
 

@@ -1,0 +1,25 @@
+{
+  "id": "threat-modeling-agent-skills",
+  "index": "066",
+  "name": "ivan-sincek/threat-modeling-agent-skills",
+  "repo": "ivan-sincek/threat-modeling-agent-skills",
+  "category": "Security",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Threat modeling skills in Markdown and JSON output forms for STRIDE, PASTA, and DREAD frameworks, calculating CVSS 4.0 severity scores.",
+  "install": "Copy markdown/ into the project .claude/skills/ directory",
+  "tags": [
+    "threat-modeling",
+    "stride",
+    "dread",
+    "pasta",
+    "security",
+    "cvss"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/18"
+  }
+}

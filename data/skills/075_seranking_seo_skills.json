@@ -1,0 +1,26 @@
+{
+  "id": "seranking-seo-skills",
+  "index": "075",
+  "name": "seranking/seo-skills",
+  "repo": "seranking/seo-skills",
+  "category": "SEO",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Production SEO skill collection built on SE Ranking MCP data, covering content briefs, AI-search share of voice, technical audits, and schema.",
+  "install": "/plugin marketplace add seranking/seo-skills",
+  "tags": [
+    "seo",
+    "search",
+    "mcp",
+    "technical-audit",
+    "schema",
+    "keyword-research",
+    "geo"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/27"
+  }
+}

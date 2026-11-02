@@ -3,8 +3,8 @@
 > Open-source database of verified skills for AI coding agents.
 
 [![Live Catalog](https://img.shields.io/badge/Live%20Catalog-pinax--skills.vercel.app-blue.svg)](https://pinax-skills.vercel.app/)
-[![Skills Count](https://img.shields.io/badge/skills-49%20verified-cyan.svg)](data/skills)
-[![Categories](https://img.shields.io/badge/categories-7%20domains-blueviolet.svg)](data/categories.json)
+[![Skills Count](https://img.shields.io/badge/skills-76%20verified-cyan.svg)](data/skills)
+[![Categories](https://img.shields.io/badge/categories-8%20domains-blueviolet.svg)](data/categories.json)
 [![Schema](https://img.shields.io/badge/schema-Draft--2020--12-blue.svg)](schema/skill.schema.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Validation Suite](https://img.shields.io/badge/Quality%20Gate-4--Stage%20Passed-emerald.svg)](tests)
@@ -22,7 +22,7 @@ and copy 1-click install prompts at
 ## Overview
 
 <!-- PINAX_STATS:START -->
-PINAX currently tracks **49 verified skills** across **7 domains** for autonomous coding agents (Claude Code, Cursor, Codex, and Antigravity). Every skill is audited for safe commands, validated against a formal JSON schema, and checked for tool overlaps.
+PINAX currently tracks **76 verified skills** across **8 domains** for autonomous coding agents (Claude Code, Cursor, Codex, and Antigravity). Every skill is audited for safe commands, validated against a formal JSON schema, and checked for tool overlaps.
 <!-- PINAX_STATS:END -->
 
 Agent skills give coding agents specialized domain workflows. However, community skills often run into three practical issues:
@@ -41,13 +41,14 @@ PINAX provides a transparent, schema-governed database to solve these issues. Ea
 | Domain | Skills | Lead Skill | Core Focus |
 | :--- | :---: | :--- | :--- |
 | 🎨 **Design** | 17 | `hallmark` | Make every detail intentional |
-| ⚙️ **Engineering** | 11 | `superpowers` | Go from idea to implementation with confidence |
+| 💼 **Business** | 15 | `founder-skill` | Build a smarter workflow around the tools and vendors you actually use |
+| ⚙️ **Engineering** | 15 | `superpowers` | Go from idea to implementation with confidence |
+| ✍️ **Writing** | 10 | `no-ai-slop` | Turn ideas into writing worth reading |
+| 🛡️ **Security** | 8 | `trailofbits/skills` | Find vulnerabilities before they become problems |
 | 🎬 **Video** | 6 | `ffmpeg-skill` | Create, process, and refine video with reliable workflows |
-| 💼 **Business** | 5 | `founder-skill` | Build a smarter workflow around the tools and vendors you actually use |
-| ✍️ **Writing** | 4 | `no-ai-slop` | Turn ideas into writing worth reading |
 | 🧭 **Discovery** | 3 | `awesome-agent-skills` | Explore new capabilities beyond the atlas |
-| 🛡️ **Security** | 3 | `trailofbits/skills` | Find vulnerabilities before they become problems |
-| **Total** | **49** | | |
+| 🔍 **SEO** | 2 | `seranking-seo-skills` | Audit, fix, and measure search and AI answer visibility, from technical checks to content and ranking |
+| **Total** | **76** | | |
 <!-- PINAX_DOMAINS:END -->
 
 ---

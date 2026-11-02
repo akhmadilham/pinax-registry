@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.2.0] - 2026-11-02
+
+### Added
+- **New Domain Category: SEO (8th Pantheon Domain)**:
+  - Registered `seo` domain in `data/categories.json` (Order 8, Color `#fb923c`, Icon `search`, Lead Skill `seranking-seo-skills`).
+  - Updated `schema/skill.schema.json`, `engine/validator.py`, `engine/builder.py`, and `engine/agents/review_agent.py` to support `SEO`.
+- **27 Verified Community Skills Integrated (Issues #2 to #28, Index 050 to 076)**:
+  - Business (10 skills): `marketingskills`, `aaron-marketing-skills`, `openclaudia-skills`, `marketing-skills`, `closer-skill`, `agentic-sales-skills`, `hubspot-admin-skills`, `growth-today-claude-skills`, `openaccountant-skills`, `claude-code-startup-skills`.
+  - Engineering (4 skills): `pulumi-agent-skills`, `cc-skills-golang`, `claude-postgres-skills`, `smell-check`.
+  - Security (5 skills): `gitguardian-agent-skills`, `ai-repo-safety-skill`, `threat-modeling-agent-skills`, `secure-code-review-agent-skills`, `vulnerability-management-agent-skills`.
+  - Writing (6 skills): `ux-writing-skill`, `humanize-text`, `docs-writing`, `google-developer-docs-style`, `ste-plain-writing`, `agent-writing-skills`.
+  - SEO (2 skills): `seranking-seo-skills`, `claude-seo-kit`.
+- **Conflict Matrix Extensions**:
+  - Added soft conflict pairings and resolutions in `data/conflicts.json` for `seranking-seo-skills` vs `claude-seo-kit`, `docs-writing` vs `ste-plain-writing`, and `closer-skill` vs `agentic-sales-skills`.
+- **Catalog Compilation**:
+  - Re-compiled canonical manifest `data/catalog.json` with 76 verified skills across 8 domains.
+  - Automatically updated README metrics and domain breakdown table via `engine/builder.py`.
+
 ## [1.1.0] - 2026-11-02
 
 ### Added

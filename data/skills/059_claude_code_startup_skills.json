@@ -1,0 +1,25 @@
+{
+  "id": "claude-code-startup-skills",
+  "index": "059",
+  "name": "rameerez/claude-code-startup-skills",
+  "repo": "rameerez/claude-code-startup-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Startup and SaaS operating skill set covering customer empathy, user journey work, image compression, launch checklists, and pitch review.",
+  "install": "/plugin marketplace add rameerez/claude-code-startup-skills",
+  "tags": [
+    "startup",
+    "business",
+    "saas",
+    "launch",
+    "empathy",
+    "growth"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/11"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "agentic-sales-skills",
+  "index": "055",
+  "name": "Autter-dev/agentic-sales-skills",
+  "repo": "Autter-dev/agentic-sales-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "B2B founder-led sales toolkit covering preparation, prospecting and outreach, meetings and demos, proposals and close, and sales leadership.",
+  "install": "Copy SKILL.md files into project .claude/skills/ directory",
+  "tags": [
+    "sales",
+    "business",
+    "b2b",
+    "prospecting",
+    "outreach",
+    "deals"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/7"
+  }
+}

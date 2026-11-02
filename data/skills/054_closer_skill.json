@@ -1,0 +1,25 @@
+{
+  "id": "closer-skill",
+  "index": "054",
+  "name": "Jakeschincariol/closer-skill",
+  "repo": "Jakeschincariol/closer-skill",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Eleven-skill sales team pack covering lead prospecting, cold outreach, follow-up, live sales-call coaching, proposal writing, and forecasting.",
+  "install": "/plugin marketplace add Jakeschincariol/closer-skill",
+  "tags": [
+    "sales",
+    "business",
+    "closer",
+    "outreach",
+    "prospecting",
+    "pipeline"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/6"
+  }
+}

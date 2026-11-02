@@ -1,0 +1,24 @@
+{
+  "id": "smell-check",
+  "index": "063",
+  "name": "Zhen-Bo/smell-check",
+  "repo": "Zhen-Bo/smell-check",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Evidence-ranked code smell and test smell audit for a user chosen scope, with every finding carrying line citations, severity, and refactoring.",
+  "install": "npx skills add Zhen-Bo/smell-check",
+  "tags": [
+    "code-quality",
+    "refactoring",
+    "smell-check",
+    "engineering",
+    "test-smell"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/15"
+  }
+}

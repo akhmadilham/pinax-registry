@@ -62,6 +62,15 @@
       "icon": "writing",
       "lead_skill": "no-ai-slop",
       "description": "Turn ideas into writing worth reading. Structure with purpose, eliminate filler, and communicate with clarity and precision."
+    },
+    {
+      "id": "seo",
+      "name": "SEO",
+      "order": 8,
+      "color": "#fb923c",
+      "icon": "search",
+      "lead_skill": "seranking-seo-skills",
+      "description": "Audit, fix, and measure search and AI answer visibility, from technical checks to content and ranking."
     }
   ]
 }

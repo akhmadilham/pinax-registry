@@ -1,0 +1,25 @@
+{
+  "id": "agent-writing-skills",
+  "index": "074",
+  "name": "jlreyes/agent-writing-skills",
+  "repo": "jlreyes/agent-writing-skills",
+  "category": "Writing",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Reader-first writing skill routed by artifact, covering reports, technical documentation, plans, RFCs, surveys, and style passes.",
+  "install": "npx skills add jlreyes/agent-writing-skills --skill writing",
+  "tags": [
+    "writing",
+    "rfcs",
+    "reports",
+    "documentation",
+    "editing",
+    "style"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/26"
+  }
+}

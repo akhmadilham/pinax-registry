@@ -1,0 +1,25 @@
+{
+  "id": "cc-skills-golang",
+  "index": "061",
+  "name": "samber/cc-skills-golang",
+  "repo": "samber/cc-skills-golang",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Go-only skill collection for testing, refactoring, performance, concurrency, database use, gRPC, containerization, and observability.",
+  "install": "npx skills add samber/cc-skills-golang",
+  "tags": [
+    "golang",
+    "go",
+    "engineering",
+    "concurrency",
+    "refactoring",
+    "grpc"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/13"
+  }
+}

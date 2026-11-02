@@ -1,0 +1,24 @@
+{
+  "id": "ai-repo-safety-skill",
+  "index": "065",
+  "name": "letya999/ai-repo-safety-skill",
+  "repo": "letya999/ai-repo-safety-skill",
+  "category": "Security",
+  "type": "Tool",
+  "license": "MIT",
+  "status": "INSTALL (tool)",
+  "pinned_commit": null,
+  "description": "Single skill plus Python CLI that adds git hook gates to a repo before commit, push, or publish to catch secrets, private keys, and env files.",
+  "install": "npx skills add letya999/ai-repo-safety-skill",
+  "tags": [
+    "git-hooks",
+    "security",
+    "secrets",
+    "safety-gate",
+    "tool"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/17"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "openaccountant-skills",
+  "index": "058",
+  "name": "openaccountant/skills",
+  "repo": "openaccountant/skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL (selective)",
+  "pinned_commit": null,
+  "description": "Collection of 44 open-source financial skills for agents covering profit and loss, budgeting, tax preparation, reconciliation, and cash flow.",
+  "install": "npx skills add openaccountant/skills",
+  "tags": [
+    "accounting",
+    "finance",
+    "business",
+    "tax-prep",
+    "budgeting",
+    "reconciliation"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/10"
+  }
+}

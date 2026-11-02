@@ -1,0 +1,25 @@
+{
+  "id": "claude-postgres-skills",
+  "index": "062",
+  "name": "pumarogie/claude-postgres-skills",
+  "repo": "pumarogie/claude-postgres-skills",
+  "category": "Engineering",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Six production Postgres skills for schema design, safe migrations, performant queries, connection management, locking, and troubleshooting.",
+  "install": "/plugin marketplace add pumarogie/claude-postgres-skills",
+  "tags": [
+    "postgres",
+    "postgresql",
+    "sql",
+    "engineering",
+    "database",
+    "migrations"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/akhmadilham/pinax-registry/issues/14"
+  }
+}
