@@ -54,7 +54,7 @@ Follow this structure:
 ```
 
 ### 3. Permitted Values
-- **Categories**: `Business`, `Design`, `Discovery`, `Engineering`, `Security`, `Video`, `Writing`.
+- **Categories**: `Business`, `Design`, `Discovery`, `Engineering`, `Security`, `SEO`, `Video`, `Writing`.
 - **Types**: `Skill`, `Collection`, `Workflow`, `Plugin`, `Tool`, `Vendor`, `Index`.
 - **Status**: `INSTALL`, `INSTALL-PINNED`, `INSTALL (tool)`, `INSTALL (per-area)`, `INSTALL (selective)`, `INDEX ONLY`, `MANUAL`.
 

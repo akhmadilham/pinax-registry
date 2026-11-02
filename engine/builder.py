@@ -68,6 +68,21 @@ def update_readme(registry_root, compiled_skills, categories_data):
         rf"\g<1>{max_index}+\2",
         content
     )
+    content = re.sub(
+        r"\*\*\d+ Curated Domains\*\*",
+        f"**{total_categories} Curated Domains**",
+        content
+    )
+    content = re.sub(
+        r"one of the \d+ Pantheon domains",
+        f"one of the {total_categories} Pantheon domains",
+        content
+    )
+    content = re.sub(
+        r"\d+ domain categories and visual tokens",
+        f"{total_categories} domain categories and visual tokens",
+        content
+    )
 
     # 3. Dynamic Stats Block
     stats_block = (

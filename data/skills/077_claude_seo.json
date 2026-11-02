@@ -1,0 +1,27 @@
+{
+  "id": "claude-seo",
+  "index": "077",
+  "name": "AgriciDaniel/claude-seo",
+  "repo": "AgriciDaniel/claude-seo",
+  "category": "SEO",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "6be93f4",
+  "description": "Free open-source SEO audit plugin for Claude Code featuring 26 sub-skills and 19 specialist agents covering technical checks, Core Web Vitals, E-E-A-T, Schema.org, and GEO AI search.",
+  "install": "/plugin marketplace add AgriciDaniel/claude-seo",
+  "tags": [
+    "seo",
+    "audit",
+    "technical-seo",
+    "e-e-a-t",
+    "schema",
+    "geo",
+    "claude-code",
+    "plugin"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/AgriciDaniel/claude-seo"
+  }
+}

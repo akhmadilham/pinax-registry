@@ -82,6 +82,15 @@
       "rule": "COMPATIBLE_WITH_CAUTION",
       "reason": "Both cover end-to-end B2B sales pipelines from prospecting to closing. Running both simultaneously creates overlapping workflow guidance.",
       "resolution": "Pick closer-skill for interactive call coaching or agentic-sales-skills for stage-by-stage Markdown prompts."
+    },
+    {
+      "skills": [
+        "claude-seo",
+        "claude-seo-kit"
+      ],
+      "rule": "COMPATIBLE_WITH_CAUTION",
+      "reason": "Both provide comprehensive multi-category SEO audits. claude-seo is a 19-agent Claude Code plugin; claude-seo-kit runs a standalone lightweight Python audit engine.",
+      "resolution": "Use claude-seo for native Claude Code agent teams or claude-seo-kit for lightweight headless Python CLI execution."
     }
   ]
 }

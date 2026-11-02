@@ -3,7 +3,7 @@
 > Open-source database of verified skills for AI coding agents.
 
 [![Live Catalog](https://img.shields.io/badge/Live%20Catalog-pinax--skills.vercel.app-blue.svg)](https://pinax-skills.vercel.app/)
-[![Skills Count](https://img.shields.io/badge/skills-76%20verified-cyan.svg)](data/skills)
+[![Skills Count](https://img.shields.io/badge/skills-77%20verified-cyan.svg)](data/skills)
 [![Categories](https://img.shields.io/badge/categories-8%20domains-blueviolet.svg)](data/categories.json)
 [![Schema](https://img.shields.io/badge/schema-Draft--2020--12-blue.svg)](schema/skill.schema.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -22,7 +22,7 @@ and copy 1-click install prompts at
 ## Overview
 
 <!-- PINAX_STATS:START -->
-PINAX currently tracks **76 verified skills** across **8 domains** for autonomous coding agents (Claude Code, Cursor, Codex, and Antigravity). Every skill is audited for safe commands, validated against a formal JSON schema, and checked for tool overlaps.
+PINAX currently tracks **77 verified skills** across **8 domains** for autonomous coding agents (Claude Code, Cursor, Codex, and Antigravity). Every skill is audited for safe commands, validated against a formal JSON schema, and checked for tool overlaps.
 <!-- PINAX_STATS:END -->
 
 Agent skills give coding agents specialized domain workflows. However, community skills often run into three practical issues:
@@ -47,8 +47,8 @@ PINAX provides a transparent, schema-governed database to solve these issues. Ea
 | 🛡️ **Security** | 8 | `trailofbits/skills` | Find vulnerabilities before they become problems |
 | 🎬 **Video** | 6 | `ffmpeg-skill` | Create, process, and refine video with reliable workflows |
 | 🧭 **Discovery** | 3 | `awesome-agent-skills` | Explore new capabilities beyond the atlas |
-| 🔍 **SEO** | 2 | `seranking-seo-skills` | Audit, fix, and measure search and AI answer visibility, from technical checks to content and ranking |
-| **Total** | **76** | | |
+| 🔍 **SEO** | 3 | `seranking-seo-skills` | Audit, fix, and measure search and AI answer visibility, from technical checks to content and ranking |
+| **Total** | **77** | | |
 <!-- PINAX_DOMAINS:END -->
 
 ---
@@ -57,7 +57,7 @@ PINAX provides a transparent, schema-governed database to solve these issues. Ea
 
 | Pillar | How it works |
 | :--- | :--- |
-| **7 Curated Domains** | Grouped into real developer roles (Design, Engineering, Video, Business, Writing, Security, Discovery). |
+| **8 Curated Domains** | Grouped into real developer roles (Design, Engineering, Video, Business, Writing, Security, Discovery). |
 | **Conflict Matrix** | Automatically catches hard incompatibilities and soft overlaps between tools in `data/conflicts.json`. |
 | **Deterministic Standards** | Enforces JSON Schema (Draft-2020-12) typing, open-source licenses, and tested CLI commands. |
 | **Headless Catalog** | Releases a single, machine-readable manifest (`data/catalog.json`) with a SHA-256 integrity checksum. |
@@ -82,7 +82,7 @@ Submissions from authors and maintainers are welcome.
 1. Open a new issue in this repository using the [Skill Submission Template](../../issues/new?template=skill_submission.md).
 2. Fill in the key details:
    - **Skill Name & GitHub Repository URL**
-   - **Domain Category** (`Business`, `Design`, `Discovery`, `Engineering`, `Security`, `Video`, or `Writing`)
+   - **Domain Category** (`Business`, `Design`, `Discovery`, `Engineering`, `Security`, `SEO`, `Video`, or `Writing`)
    - **Type** (`Skill`, `Collection`, `Workflow`, `Plugin`, `Tool`, `Vendor`, or `Index`)
    - **Concise Description** explaining real utility
    - **Installation Command** (e.g. `npx skills add owner/repo`)
@@ -133,7 +133,7 @@ Every skill submitted to PINAX Registry passes through a 4-stage verification ga
 ### 1. Schema & Structural Integrity
 - **Strict Typing**: All entries conform to `schema/skill.schema.json` (JSON Schema Draft-2020-12).
 - **Mandatory Fields**: Required identifiers, author attribution, public repository URL, license type, and execution tier.
-- **Valid Taxonomy**: Categorized accurately into one of the 7 Pantheon domains without arbitrary categorization drift.
+- **Valid Taxonomy**: Categorized accurately into one of the 8 Pantheon domains without arbitrary categorization drift.
 
 ### 2. Security & Safety Screening
 - **Public & Auditable**: Repositories must be public with open-source licenses (MIT, Apache 2.0, BSD, etc.).
@@ -182,7 +182,7 @@ pinax-registry/
 │       └── build.yml             # Release compiler and checksum validator
 ├── data/
 │   ├── skills/                   # Modular skill definitions (001 to 049+)
-│   ├── categories.json           # 7 domain categories and visual tokens
+│   ├── categories.json           # 8 domain categories and visual tokens
 │   ├── conflicts.json            # Hard and soft conflict matrix rules
 │   └── catalog.json              # Canonical compiled distribution manifest
 ├── engine/

@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.3.0] - 2026-11-02
+
+### Added
+- **Claude SEO Integration (`AgriciDaniel/claude-seo`)**:
+  - Integrated `077_claude_seo.json` (SEO, Plugin, pinned at `6be93f4`).
+  - Added soft conflict resolution matrix in `data/conflicts.json` between `claude-seo` (19-agent plugin) and `claude-seo-kit` (standalone Python engine).
+  - Re-compiled canonical `data/catalog.json` featuring 77 verified skills across 8 Pantheon domains.
+
+## [1.2.1] - 2026-11-02
+
+### Changed
+- **Documentation & Engine Synchronization**:
+  - Expanded `engine/builder.py` auto-updating regex engine to dynamically maintain domain counts across `## Core Architecture` and `## Repository Layout` in `README.md`.
+  - Added `SEO` category to the permitted submission categories in `CONTRIBUTING.md` and `README.md` issue proposal guide.
+  - Synchronized taxonomy references to reflect all 8 Pantheon domains.
+
 ## [1.2.0] - 2026-11-02
 
 ### Added
