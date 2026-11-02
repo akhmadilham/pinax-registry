@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.5.0] - 2026-11-02
+
+### Added
+- **Stageshow Integration (`benjitaylor/skills`, Index 084)**:
+  - Integrated `084_stageshow.json` under Design domain (Skill, MIT, pinned at `8020574`).
+  - Authored miniature product UI illustrations, interactive cursor walkthroughs, bento grids, and headless filming verification tools.
+  - Re-compiled canonical `data/catalog.json` featuring 84 verified skills across 8 Pantheon domains (Design domain now holding 18 skills).
+
 ## [1.4.0] - 2026-11-02
 
 ### Added

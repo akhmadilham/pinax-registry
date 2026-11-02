@@ -1,0 +1,27 @@
+{
+  "id": "stageshow",
+  "index": "084",
+  "name": "benjitaylor/stageshow",
+  "repo": "benjitaylor/skills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "8020574",
+  "description": "Authored miniature product UI illustrations, interactive cursor walkthroughs, and motion design in React and plain CSS. Features a portable component kit (Stage, Window, Phone, Act choreography engine), 40+ battle-tested marketing hero and bento grid examples (Linear, Figma, Raycast, Dynamic Island), and automated headless filming verification scripts for desktop and mobile viewports.",
+  "install": "npx skills add benjitaylor/skills --skill stageshow",
+  "tags": [
+    "design",
+    "motion",
+    "ui-ux",
+    "react",
+    "product-illustration",
+    "cursor-animation",
+    "bento-grid",
+    "stageshow"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/benjitaylor/skills"
+  }
+}

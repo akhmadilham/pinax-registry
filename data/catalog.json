@@ -1,18 +1,18 @@
 {
   "$schema": "../schema/skill.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-11-02T11:45:10.295218+00:00",
+  "generated_at": "2026-11-02T15:38:42.878162+00:00",
   "integrity": {
-    "skills_sha256": "0d79112a7cfceaa782ccf34fd2a082e4bcdcb8c2748983c9223068df874ab89d",
+    "skills_sha256": "1da8d7eeb8b9719be2de294b7f93a7ee845c578dc334de62afadef03370e5a0b",
     "algorithm": "SHA-256"
   },
   "stats": {
-    "total_skills": 83,
-    "pinned_skills": 46,
+    "total_skills": 84,
+    "pinned_skills": 47,
     "categories": {
       "Engineering": 15,
       "Security": 8,
-      "Design": 17,
+      "Design": 18,
       "Discovery": 3,
       "Video": 6,
       "Business": 15,
@@ -22,13 +22,13 @@
     "types": {
       "Collection": 32,
       "Tool": 5,
-      "Skill": 37,
+      "Skill": 38,
       "Index": 1,
       "Vendor": 3,
       "Plugin": 5
     },
     "licenses": {
-      "MIT": 72,
+      "MIT": 73,
       "Apache-2.0": 7,
       "No root licence file": 2,
       "CC-BY-SA-4.0": 1,
@@ -2308,6 +2308,33 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/34"
+      }
+    },
+    {
+      "id": "stageshow",
+      "index": "084",
+      "name": "benjitaylor/stageshow",
+      "repo": "benjitaylor/skills",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "8020574",
+      "description": "Authored miniature product UI illustrations, interactive cursor walkthroughs, and motion design in React and plain CSS. Features a portable component kit (Stage, Window, Phone, Act choreography engine), 40+ battle-tested marketing hero and bento grid examples (Linear, Figma, Raycast, Dynamic Island), and automated headless filming verification scripts for desktop and mobile viewports.",
+      "install": "npx skills add benjitaylor/skills --skill stageshow",
+      "tags": [
+        "design",
+        "motion",
+        "ui-ux",
+        "react",
+        "product-illustration",
+        "cursor-animation",
+        "bento-grid",
+        "stageshow"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/benjitaylor/skills"
       }
     }
   ]
