@@ -36,3 +36,17 @@ jobs:
         with:
           name: pinax-catalog
           path: data/catalog.json
+
+      - name: Trigger Vercel Deploy Hook (pinax-skills)
+        if: success()
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$VERCEL_DEPLOY_HOOK" ]; then
+            echo "Triggering Vercel deployment for pinax-skills..."
+            curl -s -X POST "$VERCEL_DEPLOY_HOOK"
+            echo "Deploy hook triggered successfully."
+          else
+            echo "VERCEL_DEPLOY_HOOK secret is not set. Skipping auto-deploy trigger."
+          fi
+
