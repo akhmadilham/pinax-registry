@@ -64,7 +64,7 @@ def update_readme(registry_root, compiled_skills, categories_data):
 
     # 2. Update directory tree line
     content = re.sub(
-        r"(data/skills/\s+# Modular skill definitions \(001 to )\d+\+(\))",
+        r"(skills/\s+# Modular skill definitions \(001 to )\d+\+(\))",
         rf"\g<1>{max_index}+\2",
         content
     )
