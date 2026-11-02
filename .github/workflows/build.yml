@@ -8,6 +8,7 @@ on:
       - 'data/categories.json'
       - 'data/conflicts.json'
       - 'engine/builder.py'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -44,7 +45,15 @@ jobs:
         run: |
           if [ -n "$VERCEL_DEPLOY_HOOK" ]; then
             echo "Triggering Vercel deployment for pinax-skills..."
-            curl -s -X POST "$VERCEL_DEPLOY_HOOK"
+            RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "$VERCEL_DEPLOY_HOOK")
+            HTTP_STATUS=$(echo "$RESPONSE" | tail -n1)
+            BODY=$(echo "$RESPONSE" | sed '$d')
+            echo "Vercel Response: $BODY"
+            echo "HTTP Status: $HTTP_STATUS"
+            if [ "$HTTP_STATUS" -lt 200 ] || [ "$HTTP_STATUS" -ge 300 ]; then
+              echo "Error: Vercel deploy hook returned non-2xx status ($HTTP_STATUS)."
+              exit 1
+            fi
             echo "Deploy hook triggered successfully."
           else
             echo "VERCEL_DEPLOY_HOOK secret is not set. Skipping auto-deploy trigger."

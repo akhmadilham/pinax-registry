@@ -110,10 +110,24 @@ def build_catalog(registry_root):
     skills_json_str = json.dumps(compiled_skills, sort_keys=True, separators=(',', ':'))
     skills_sha256 = compute_sha256(skills_json_str.encode("utf-8"))
 
+    # Preserve existing generated_at timestamp if catalog exists and checksum matches
+    generated_at = None
+    if catalog_file.exists():
+        try:
+            with open(catalog_file, "r", encoding="utf-8") as f_old:
+                existing_catalog = json.load(f_old)
+                if existing_catalog.get("integrity", {}).get("skills_sha256") == skills_sha256:
+                    generated_at = existing_catalog.get("generated_at")
+        except Exception:
+            pass
+
+    if not generated_at:
+        generated_at = datetime.now(timezone.utc).isoformat()
+
     catalog = {
         "$schema": "../schema/skill.schema.json",
         "version": "1.0.0",
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": generated_at,
         "integrity": {
             "skills_sha256": skills_sha256,
             "algorithm": "SHA-256"

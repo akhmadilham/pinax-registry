@@ -184,6 +184,10 @@ class SkillReviewer:
         # Sanitize text
         candidate["description"] = candidate.get("description", "").replace("\u2014", " - ")
 
+        # Remove ephemeral scraper fields not allowed by schema (additionalProperties: false)
+        candidate.pop("metrics", None)
+        candidate.pop("candidate_source", None)
+
         target_file = self.skills_dir / f"{next_idx}_{clean_id.replace('-', '_')}.json"
         with open(target_file, "w", encoding="utf-8") as f:
             json.dump(candidate, f, indent=2, ensure_ascii=False)
