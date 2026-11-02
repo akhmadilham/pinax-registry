@@ -14,7 +14,8 @@
 > [!TIP]
 > **Looking for the interactive web catalog?**  
 > Browse the visual atlas, filter by domain, resolve tool conflicts, 
-and copy 1-click install prompts at **[pinax-skills.vercel.app](https://pinax-skills.vercel.app/)**.
+and copy 1-click install prompts at 
+>**[pinax-skills.vercel.app](https://pinax-skills.vercel.app/)**.
 
 ---
 
