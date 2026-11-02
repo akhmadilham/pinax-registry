@@ -8,6 +8,7 @@ into the canonical distribution manifest data/catalog.json.
 import os
 import sys
 import json
+import re
 import hashlib
 from datetime import datetime, timezone
 from pathlib import Path
@@ -20,6 +21,120 @@ from validator import validate_skill_data, validate_conflicts
 
 def compute_sha256(content_bytes):
     return hashlib.sha256(content_bytes).hexdigest()
+
+
+def update_readme(registry_root, compiled_skills, categories_data):
+    """
+    Auto-updates README.md with live skill and category metrics:
+      - Badges: skills count and categories count
+      - Dynamic description paragraph (wrapped in <!-- PINAX_STATS:START/END -->)
+      - Category breakdown table (wrapped in <!-- PINAX_DOMAINS:START/END -->)
+      - File tree modular range comment
+    Guarantees strict Antislop R-02 compliance (0 em dashes).
+    """
+    root = Path(registry_root).resolve()
+    readme_file = root / "README.md"
+    if not readme_file.exists():
+        return
+
+    try:
+        with open(readme_file, "r", encoding="utf-8") as f:
+            content = f.read()
+    except Exception as e:
+        print(f"[WARN] Unable to read README.md for auto-update: {e}")
+        return
+
+    total_skills = len(compiled_skills)
+    categories = categories_data.get("categories", [])
+    total_categories = len(categories)
+    cat_counts = Counter(s.get("category") for s in compiled_skills)
+    max_index = compiled_skills[-1].get("index", f"{total_skills:03d}") if compiled_skills else "001"
+
+    # 1. Update badges
+    content = re.sub(
+        r"badge/skills-\d+%20verified-cyan\.svg",
+        f"badge/skills-{total_skills}%20verified-cyan.svg",
+        content
+    )
+    content = re.sub(
+        r"badge/categories-\d+%20domains-blueviolet\.svg",
+        f"badge/categories-{total_categories}%20domains-blueviolet.svg",
+        content
+    )
+
+    # 2. Update directory tree line
+    content = re.sub(
+        r"(data/skills/\s+# Modular skill definitions \(001 to )\d+\+(\))",
+        rf"\g<1>{max_index}+\2",
+        content
+    )
+
+    # 3. Dynamic Stats Block
+    stats_block = (
+        "<!-- PINAX_STATS:START -->\n"
+        f"PINAX currently tracks **{total_skills} verified skills** across **{total_categories} domains** "
+        f"for autonomous coding agents (Claude Code, Cursor, Codex, and Antigravity). "
+        f"Every skill is audited for safe commands, validated against a formal JSON schema, "
+        f"and checked for tool overlaps.\n"
+        "<!-- PINAX_STATS:END -->"
+    )
+
+    if "<!-- PINAX_STATS:START -->" in content and "<!-- PINAX_STATS:END -->" in content:
+        content = re.sub(
+            r"<!-- PINAX_STATS:START -->.*?<!-- PINAX_STATS:END -->",
+            stats_block,
+            content,
+            flags=re.DOTALL
+        )
+
+    # 4. Dynamic Domains Table
+    category_icons = {
+        "Business": "💼",
+        "Design": "🎨",
+        "Discovery": "🧭",
+        "Engineering": "⚙️",
+        "Security": "🛡️",
+        "Video": "🎬",
+        "Writing": "✍️"
+    }
+
+    sorted_cats = sorted(categories, key=lambda c: cat_counts.get(c.get("name"), 0), reverse=True)
+
+    table_lines = [
+        "<!-- PINAX_DOMAINS:START -->",
+        "| Domain | Skills | Lead Skill | Core Focus |",
+        "| :--- | :---: | :--- | :--- |"
+    ]
+    for c in sorted_cats:
+        cname = c.get("name", "")
+        icon = category_icons.get(cname, "📦")
+        count = cat_counts.get(cname, 0)
+        lead = f"`{c.get('lead_skill')}`" if c.get("lead_skill") else "-"
+        desc = c.get("description", "")
+        first_sentence = desc.split(".")[0].strip() if desc else ""
+        table_lines.append(f"| {icon} **{cname}** | {count} | {lead} | {first_sentence} |")
+
+    table_lines.append(f"| **Total** | **{total_skills}** | | |")
+    table_lines.append("<!-- PINAX_DOMAINS:END -->")
+    domains_block = "\n".join(table_lines)
+
+    if "<!-- PINAX_DOMAINS:START -->" in content and "<!-- PINAX_DOMAINS:END -->" in content:
+        content = re.sub(
+            r"<!-- PINAX_DOMAINS:START -->.*?<!-- PINAX_DOMAINS:END -->",
+            domains_block,
+            content,
+            flags=re.DOTALL
+        )
+
+    # Antislop check: guarantee zero em dashes
+    content = content.replace("\u2014", ": ")
+
+    try:
+        with open(readme_file, "w", encoding="utf-8") as f:
+            f.write(content)
+        print(f"[SUCCESS] Updated README.md metrics ({total_skills} skills, {total_categories} domains).")
+    except Exception as e:
+        print(f"[WARN] Failed to write updated README.md: {e}")
 
 
 def build_catalog(registry_root):
@@ -148,6 +263,9 @@ def build_catalog(registry_root):
     with open(catalog_file, "w", encoding="utf-8") as f:
         json.dump(catalog, f, indent=2, ensure_ascii=False)
         f.write("\n")
+
+    # Auto-update README.md metrics and domains table
+    update_readme(root, compiled_skills, categories_data)
 
     print(f"[SUCCESS] Compiled {len(compiled_skills)} skills into {catalog_file}")
     print(f"Checksum: {skills_sha256}")

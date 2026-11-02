@@ -1,9 +1,9 @@
 {
   "$schema": "../schema/skill.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-11-02T09:08:26.768964+00:00",
+  "generated_at": "2026-11-02T09:30:31.913642+00:00",
   "integrity": {
-    "skills_sha256": "bec1d1fbc7a2d7bafd0903b5536a2dc4d549a745f834dc0a5285cbb6d9edc9e0",
+    "skills_sha256": "c554a1e34ad6c37946e1fad0e5540ae81dfc7038c5a399115f5cb034ad0ec2d8",
     "algorithm": "SHA-256"
   },
   "stats": {
@@ -618,7 +618,7 @@
       "license": "MIT",
       "status": "INSTALL-PINNED",
       "pinned_commit": "000650b",
-      "description": "Removes 20+ AI patterns, with every edit listed for accept or reject. Already installed in Muse at this pin.",
+      "description": "Removes 20+ AI patterns, with every edit listed for accept or reject.",
       "install": "Install the /no-ai-slop skill globally from https://github.com/petergyang/no-ai-slop",
       "tags": [
         "slop",

@@ -1,6 +1,6 @@
 # PINAX Registry
 
-> Open-source database and verification framework for AI coding agent skills.
+> Open-source database of verified skills for AI coding agents.
 
 [![Live Catalog](https://img.shields.io/badge/Live%20Catalog-pinax--skills.vercel.app-blue.svg)](https://pinax-skills.vercel.app/)
 [![Skills Count](https://img.shields.io/badge/skills-49%20verified-cyan.svg)](data/skills)
@@ -13,32 +13,51 @@
 
 > [!TIP]
 > **Looking for the interactive web catalog?**  
-> Explore the visual atlas, test category filters, resolve skill conflicts, and generate 1-click install prompts at **[pinax-skills.vercel.app](https://pinax-skills.vercel.app/)**.
+> Browse the visual atlas, filter by domain, resolve tool conflicts, and copy 1-click install prompts at **[pinax-skills.vercel.app](https://pinax-skills.vercel.app/)**.
 
 ---
 
-## About PINAX
+## Overview
 
-The word *pinax* (Greek: πίναξ) refers to the classical tablets displayed in ancient libraries and sanctuaries to index monumental knowledge and public catalogs. **PINAX Registry** applies that foundational standard to the modern ecosystem of AI coding agents.
+<!-- PINAX_STATS:START -->
+PINAX currently tracks **49 verified skills** across **7 domains** for autonomous coding agents (Claude Code, Cursor, Codex, and Antigravity). Every skill is audited for safe commands, validated against a formal JSON schema, and checked for tool overlaps.
+<!-- PINAX_STATS:END -->
 
-As autonomous engineering agents (Claude Code, Cursor, Codex, Antigravity) become central to modern software development, agent capabilities ("skills") are proliferating rapidly. However, developers and teams frequently encounter three critical hurdles:
+Agent skills give coding agents specialized domain workflows. However, community skills often run into three practical issues:
 
-1. **Discovery Fragmentation**: Useful skills remain buried across scattered repositories, personal gists, and transient social announcements without clear documentation.
-2. **Instruction Conflicts**: Installing multiple skills that overlap in scope (such as competing UI frameworks or conflicting code review directives) confuses agent reasoning and degrades output quality.
-3. **Security and Safety Risks**: Community-sourced skill prompts may introduce hidden prompt injections, unsafe bash execution pipes, or undisclosed tracking.
+1. **Fragmented discovery**: Skills are scattered across gists, repositories, and social announcements without standard installation formats.
+2. **Instruction conflicts**: Installing multiple skills that overlap in scope confuses agent reasoning and degrades code output.
+3. **Unvetted execution**: Community prompts may bundle unsafe terminal execution, hidden network calls, or unclear licenses.
 
-**PINAX Registry** provides a curated, transparent, and schema-governed database to solve these challenges. Every skill is audited, categorized, and cross-referenced with a conflict matrix to guarantee reliable agent execution.
+PINAX provides a transparent, schema-governed database to solve these issues. Each entry includes tested install commands, verified commit hashes, and conflict rules to ensure reliable execution.
 
 ---
 
-## Core Architectural Pillars
+## Verified Domains
 
-| Pillar | Description |
+<!-- PINAX_DOMAINS:START -->
+| Domain | Skills | Lead Skill | Core Focus |
+| :--- | :---: | :--- | :--- |
+| 🎨 **Design** | 17 | `hallmark` | Make every detail intentional |
+| ⚙️ **Engineering** | 11 | `superpowers` | Go from idea to implementation with confidence |
+| 🎬 **Video** | 6 | `ffmpeg-skill` | Create, process, and refine video with reliable workflows |
+| 💼 **Business** | 5 | `founder-skill` | Build a smarter workflow around the tools and vendors you actually use |
+| ✍️ **Writing** | 4 | `no-ai-slop` | Turn ideas into writing worth reading |
+| 🧭 **Discovery** | 3 | `awesome-agent-skills` | Explore new capabilities beyond the atlas |
+| 🛡️ **Security** | 3 | `trailofbits/skills` | Find vulnerabilities before they become problems |
+| **Total** | **49** | | |
+<!-- PINAX_DOMAINS:END -->
+
+---
+
+## Core Architecture
+
+| Pillar | How it works |
 | :--- | :--- |
-| 🏛️ **7 Pantheon Domains** | Curated across **Business**, **Design**, **Discovery**, **Engineering**, **Security**, **Video**, and **Writing** to map cleanly to real developer jobs. |
-| ⚖️ **Conflict Matrix** | Proactively identifies hard exclusions and soft overlaps between tools, offering clear resolution recommendations. |
-| 🔒 **Deterministic Standards** | Enforces strict JSON Schema (Draft-2020-12) validation, verified license declarations, and tested CLI install commands. |
-| 🌐 **Headless Distribution** | Cleanly separated machine-readable manifests (`data/catalog.json`) designed for consumption by CLIs, web interfaces, and automated agent workflows. |
+| **7 Curated Domains** | Grouped into real developer roles (Design, Engineering, Video, Business, Writing, Security, Discovery). |
+| **Conflict Matrix** | Automatically catches hard incompatibilities and soft overlaps between tools in `data/conflicts.json`. |
+| **Deterministic Standards** | Enforces JSON Schema (Draft-2020-12) typing, open-source licenses, and tested CLI commands. |
+| **Headless Catalog** | Releases a single, machine-readable manifest (`data/catalog.json`) with a SHA-256 integrity checksum. |
 
 ---
 
@@ -46,14 +65,14 @@ As autonomous engineering agents (Claude Code, Cursor, Codex, Antigravity) becom
 
 | Platform | Role | Description |
 | :--- | :--- | :--- |
-| **[pinax-skills.vercel.app](https://pinax-skills.vercel.app/)** | Interactive Web Catalog | Visual explorer with responsive Pantheon cards, multi-skill selection checkout, and 1-click single-prompt generation. |
-| **PINAX Registry** *(This Repository)* | Canonical Data Source | Headless Git database containing modular JSON skill definitions, JSON schemas, and automated validation gates. |
+| **[pinax-skills.vercel.app](https://pinax-skills.vercel.app/)** | Interactive Web Catalog | Visual explorer with category filters, multi-skill checkout, and single-prompt generation. |
+| **PINAX Registry** *(This Repository)* | Canonical Database | Headless Git database with modular JSON skill files, automated validation, and compiler engine. |
 
 ---
 
 ## How to Submit a Skill
 
-We welcome submissions from creators, open-source developers, and teams building agent tools. You can submit skills through either of the following methods:
+Submissions from authors and maintainers are welcome.
 
 ### Option 1: Submit via GitHub Issue (Recommended)
 
@@ -63,8 +82,8 @@ We welcome submissions from creators, open-source developers, and teams building
    - **Domain Category** (`Business`, `Design`, `Discovery`, `Engineering`, `Security`, `Video`, or `Writing`)
    - **Type** (`Skill`, `Collection`, `Workflow`, `Plugin`, `Tool`, `Vendor`, or `Index`)
    - **Concise Description** explaining real utility
-   - **Installation Command**
-3. The maintainers will review the submission against the verification criteria below, run automated validation, and merge it into the catalog.
+   - **Installation Command** (e.g. `npx skills add owner/repo`)
+3. The maintainers will review the submission against verification criteria, run automated validation, and merge it into the catalog.
 
 ### Option 2: Submit via Pull Request
 
@@ -75,7 +94,7 @@ If you prefer to submit directly:
    ```json
    {
      "id": "example-skill",
-     "index": "033",
+     "index": "050",
      "name": "example-skill",
      "repo": "owner/repo",
      "category": "Engineering",
@@ -96,11 +115,15 @@ If you prefer to submit directly:
    ```bash
    python engine/validator.py --root .
    ```
-4. Open a Pull Request.
+4. Build the catalog (automatically updates `data/catalog.json` and `README.md` metrics):
+   ```bash
+   python engine/builder.py .
+   ```
+5. Open a Pull Request.
 
 ---
 
-## Verification Methodology & Quality Standards
+## Verification Standards
 
 Every skill submitted to PINAX Registry passes through a 4-stage verification gate before publication:
 
@@ -161,7 +184,7 @@ pinax-registry/
 │   └── catalog.json              # Canonical compiled distribution manifest
 ├── engine/
 │   ├── validator.py              # CLI validation engine
-│   └── builder.py                # Release manifest compiler and hash verifier
+│   └── builder.py                # Release compiler and README metrics updater
 ├── schema/
 │   └── skill.schema.json         # Formal JSON Schema specification
 ├── tests/
