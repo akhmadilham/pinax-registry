@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.3] - 2026-11-02
+
+### Changed
+- **Comprehensive About & Architecture Presentation**:
+  - Replaced plain overview link with a styled GitHub tip callout, historical etymology context, and structured problem-solution narrative.
+  - Added dedicated Core Architectural Pillars table (7 Pantheon Domains, Conflict Matrix, Deterministic Standards, Headless Distribution).
+  - Added Ecosystem Navigation table distinguishing the interactive web explorer (pinax-skills.vercel.app) from the headless data registry.
+
 ## [1.0.2] - 2026-11-02
 
 ### Changed

@@ -11,14 +11,43 @@
 
 ---
 
-## Overview
+> [!TIP]
+> **Looking for the interactive web catalog?**  
+> Explore the visual atlas, test category filters, resolve skill conflicts, and generate 1-click install prompts at **[pinax-skills.vercel.app](https://pinax-skills.vercel.app/)**.
 
-**PINAX Registry** is a community-driven, open-source database of production-tested skills, instruction sets, and tools for AI coding agents (such as Claude Code, Cursor, Codex, and Antigravity).
+---
 
-Every entry in the registry is structured according to a strict JSON Schema, audited for safety, and cross-referenced against existing tools to eliminate dependency conflicts.
+## About PINAX
 
-Interactive visual browsing, category exploration, and single-prompt installation builders are available on the live web catalog:  
-👉 **[https://pinax-skills.vercel.app/](https://pinax-skills.vercel.app/)**
+The word *pinax* (Greek: πίναξ) refers to the classical tablets displayed in ancient libraries and sanctuaries to index monumental knowledge and public catalogs. **PINAX Registry** applies that foundational standard to the modern ecosystem of AI coding agents.
+
+As autonomous engineering agents (Claude Code, Cursor, Codex, Antigravity) become central to modern software development, agent capabilities ("skills") are proliferating rapidly. However, developers and teams frequently encounter three critical hurdles:
+
+1. **Discovery Fragmentation**: Useful skills remain buried across scattered repositories, personal gists, and transient social announcements without clear documentation.
+2. **Instruction Conflicts**: Installing multiple skills that overlap in scope (such as competing UI frameworks or conflicting code review directives) confuses agent reasoning and degrades output quality.
+3. **Security and Safety Risks**: Community-sourced skill prompts may introduce hidden prompt injections, unsafe bash execution pipes, or undisclosed tracking.
+
+**PINAX Registry** provides a curated, transparent, and schema-governed database to solve these challenges. Every skill is audited, categorized, and cross-referenced with a conflict matrix to guarantee reliable agent execution.
+
+---
+
+## Core Architectural Pillars
+
+| Pillar | Description |
+| :--- | :--- |
+| 🏛️ **7 Pantheon Domains** | Curated across **Business**, **Design**, **Discovery**, **Engineering**, **Security**, **Video**, and **Writing** to map cleanly to real developer jobs. |
+| ⚖️ **Conflict Matrix** | Proactively identifies hard exclusions and soft overlaps between tools, offering clear resolution recommendations. |
+| 🔒 **Deterministic Standards** | Enforces strict JSON Schema (Draft-2020-12) validation, verified license declarations, and tested CLI install commands. |
+| 🌐 **Headless Distribution** | Cleanly separated machine-readable manifests (`data/catalog.json`) designed for consumption by CLIs, web interfaces, and automated agent workflows. |
+
+---
+
+## Ecosystem Navigation
+
+| Platform | Role | Description |
+| :--- | :--- | :--- |
+| **[pinax-skills.vercel.app](https://pinax-skills.vercel.app/)** | Interactive Web Catalog | Visual explorer with responsive Pantheon cards, multi-skill selection checkout, and 1-click single-prompt generation. |
+| **PINAX Registry** *(This Repository)* | Canonical Data Source | Headless Git database containing modular JSON skill definitions, JSON schemas, and automated validation gates. |
 
 ---
 
