@@ -1,0 +1,25 @@
+{
+  "id": "agent-scan",
+  "index": "002",
+  "name": "agent-scan",
+  "repo": "snyk/agent-scan",
+  "category": "Security",
+  "type": "Tool",
+  "license": "Apache-2.0",
+  "status": "INSTALL (tool)",
+  "pinned_commit": null,
+  "description": "Inventories agents, MCP servers, and skills, and scores injection, untrusted content, and destructive capability. Use uvx or the release binary. Listed under Tools.",
+  "install": "uvx snyk-agent-scan@0.5.17",
+  "tags": [
+    "agent",
+    "scan",
+    "security",
+    "inventories",
+    "agents",
+    "servers"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/snyk/agent-scan"
+  }
+}

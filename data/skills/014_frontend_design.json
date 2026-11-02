@@ -1,0 +1,25 @@
+{
+  "id": "frontend-design",
+  "index": "014",
+  "name": "frontend-design",
+  "repo": "anthropics/skills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "No root licence file",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "ca45fc4",
+  "description": "Distinctive UI, not templates. For landing pages and dashboards. Do not pair it with ui-ux-pro-max.",
+  "install": "/plugin marketplace add anthropics/skills",
+  "tags": [
+    "frontend",
+    "design",
+    "distinctive",
+    "templates",
+    "landing",
+    "pages"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/anthropics/skills"
+  }
+}

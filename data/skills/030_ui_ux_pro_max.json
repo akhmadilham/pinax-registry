@@ -1,0 +1,25 @@
+{
+  "id": "ui-ux-pro-max",
+  "index": "030",
+  "name": "ui-ux-pro-max",
+  "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "bf41cbc",
+  "description": "About 79 styles, 192 palettes, 74 font pairings. Pick this or frontend-design as lead, not both.",
+  "install": "/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill",
+  "tags": [
+    "design",
+    "about",
+    "styles",
+    "palettes",
+    "font",
+    "pairings"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+  }
+}

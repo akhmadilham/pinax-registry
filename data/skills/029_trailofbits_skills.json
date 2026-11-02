@@ -1,0 +1,25 @@
+{
+  "id": "trailofbits-skills",
+  "index": "029",
+  "name": "trailofbits/skills",
+  "repo": "trailofbits/skills",
+  "category": "Security",
+  "type": "Collection",
+  "license": "CC-BY-SA-4.0",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "2be6433",
+  "description": "Audit with CodeQL and Semgrep, differential review, variant analysis, supply-chain risk. Share-alike licence.",
+  "install": "/plugin marketplace add trailofbits/skills",
+  "tags": [
+    "trailofbits",
+    "skills",
+    "security",
+    "audit",
+    "codeql",
+    "semgrep"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/trailofbits/skills"
+  }
+}

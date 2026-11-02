@@ -1,0 +1,25 @@
+{
+  "id": "userinterface",
+  "index": "031",
+  "name": "userinterface",
+  "repo": "raphaelsalaja/skills",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "v3.17.1",
+  "description": "Interface rules: scope, reuse, restraint, verify, viewports, alignment, audit, prototype, match, deconstruct. Every rule shows the broken line and its fix.",
+  "install": "npx skills add raphaelsalaja/skills",
+  "tags": [
+    "userinterface",
+    "design",
+    "interface",
+    "rules:",
+    "scope",
+    "reuse"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/raphaelsalaja/skills"
+  }
+}

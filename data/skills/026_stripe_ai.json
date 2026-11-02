@@ -1,0 +1,25 @@
+{
+  "id": "stripe-ai",
+  "index": "026",
+  "name": "stripe/ai",
+  "repo": "stripe/ai",
+  "category": "Business",
+  "type": "Vendor",
+  "license": "MIT",
+  "status": "INSTALL (selective)",
+  "pinned_commit": null,
+  "description": "Official Stripe: payments, billing, Connect. Take only what you bill through.",
+  "install": "claude plugin install stripe@claude-plugins-official",
+  "tags": [
+    "stripe",
+    "business",
+    "official",
+    "stripe:",
+    "payments",
+    "billing"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/stripe/ai"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "hallmark",
+  "index": "015",
+  "name": "hallmark",
+  "repo": "nutlope/hallmark",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "4f6a46c",
+  "description": "50 themes, plus a real-browser check at 8 widths. Checks a page before it ships. Does not invent facts.",
+  "install": "npx skills add nutlope/hallmark",
+  "tags": [
+    "hallmark",
+    "design",
+    "themes",
+    "plus",
+    "real",
+    "browser"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/nutlope/hallmark"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "video-shotcraft",
+  "index": "032",
+  "name": "video-shotcraft",
+  "repo": "Vincentwei1021/video-shotcraft",
+  "category": "Video",
+  "type": "Skill",
+  "license": "Apache-2.0",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "1266a3ec…",
+  "description": "124 shot cards, beat sync, SFX for cinematic Remotion promos. Copy shot cards only, never the whole 1,218-file repo.",
+  "install": "npx skills add Vincentwei1021/video-shotcraft",
+  "tags": [
+    "video",
+    "shotcraft",
+    "shot",
+    "cards",
+    "beat",
+    "sync"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/Vincentwei1021/video-shotcraft"
+  }
+}

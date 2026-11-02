@@ -1,0 +1,25 @@
+{
+  "id": "claude-video-effects",
+  "index": "008",
+  "name": "claude-video-effects",
+  "repo": "Vibha-Ramprakash/claude-video-effects",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "36 talking-head effects: face tracking, orbit, behind-head layers. Real faces need consent first.",
+  "install": "git clone https://github.com/Vibha-Ramprakash/claude-video-effects ~/.claude/skills/effects",
+  "tags": [
+    "claude",
+    "video",
+    "effects",
+    "talking",
+    "head",
+    "effects:"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/Vibha-Ramprakash/claude-video-effects"
+  }
+}

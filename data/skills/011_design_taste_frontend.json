@@ -1,0 +1,25 @@
+{
+  "id": "design-taste-frontend",
+  "index": "011",
+  "name": "design-taste-frontend",
+  "repo": "Leonxlnx/taste-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "12af471",
+  "description": "Generates variants, critiques them, ships the best. A taste loop on top of generation.",
+  "install": "npx skills add https://github.com/Leonxlnx/taste-skill --skill design-taste-frontend",
+  "tags": [
+    "design",
+    "taste",
+    "frontend",
+    "generates",
+    "variants",
+    "critiques"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/Leonxlnx/taste-skill"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "awesome-agent-skills",
+  "index": "007",
+  "name": "awesome-agent-skills",
+  "repo": "VoltAgent/awesome-agent-skills",
+  "category": "Discovery",
+  "type": "Index",
+  "license": "MIT",
+  "status": "INDEX ONLY",
+  "pinned_commit": null,
+  "description": "1,497+ skills from official teams. Browse here, install from each skill's own repo. Installs nothing itself.",
+  "install": "Browse only  -  no install",
+  "tags": [
+    "awesome",
+    "agent",
+    "skills",
+    "discovery",
+    "497+",
+    "official"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/VoltAgent/awesome-agent-skills"
+  }
+}

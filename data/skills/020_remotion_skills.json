@@ -1,0 +1,25 @@
+{
+  "id": "remotion-skills",
+  "index": "020",
+  "name": "remotion-skills",
+  "repo": "remotion-dev/skills",
+  "category": "Video",
+  "type": "Collection",
+  "license": "No root licence file",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "30d4553",
+  "description": "Official Remotion: create, markup, studio, render, maps, captions, saas, interactivity. The GERAK reference build.",
+  "install": "npx skills add remotion-dev/skills",
+  "tags": [
+    "remotion",
+    "skills",
+    "video",
+    "official",
+    "remotion:",
+    "create"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/remotion-dev/skills"
+  }
+}

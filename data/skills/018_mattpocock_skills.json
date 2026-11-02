@@ -1,0 +1,25 @@
+{
+  "id": "mattpocock-skills",
+  "index": "018",
+  "name": "mattpocock/skills",
+  "repo": "mattpocock/skills",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "4ae2317",
+  "description": "grill-me, grill-with-docs, tdd, diagnosing-bugs, triage, code-review, to-spec. Skip the 8 in-progress skills.",
+  "install": "npx skills@latest add mattpocock/skills",
+  "tags": [
+    "mattpocock",
+    "skills",
+    "engineering",
+    "grill",
+    "docs",
+    "diagnosing"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/mattpocock/skills"
+  }
+}

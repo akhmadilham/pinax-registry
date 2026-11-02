@@ -1,0 +1,25 @@
+{
+  "id": "soniccraft",
+  "index": "024",
+  "name": "soniccraft",
+  "repo": "user-github-me/soniccraft",
+  "category": "Video",
+  "type": "Skill",
+  "license": "Apache-2.0",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "d6597067…",
+  "description": "YAML multi-track audio, −14 LUFS / −1 dBTP preset. Fixes the GERAK loudness undershoot. New (2 stars): run local-only first.",
+  "install": "claude plugin marketplace add user-github-me/soniccraft",
+  "tags": [
+    "soniccraft",
+    "video",
+    "yaml",
+    "multi",
+    "track",
+    "audio"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/user-github-me/soniccraft"
+  }
+}

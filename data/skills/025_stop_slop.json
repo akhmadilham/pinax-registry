@@ -1,0 +1,25 @@
+{
+  "id": "stop-slop",
+  "index": "025",
+  "name": "stop-slop",
+  "repo": "hardikpandya/stop-slop",
+  "category": "Writing",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "8da1f03",
+  "description": "Banned phrases and structures, scored on 5 dimensions. Rewrites anything below 35/50. Zero scripts. Pick this or no-ai-slop, not both.",
+  "install": "Copy the skill folder into Claude Code / Claude Projects",
+  "tags": [
+    "stop",
+    "slop",
+    "writing",
+    "banned",
+    "phrases",
+    "structures"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/hardikpandya/stop-slop"
+  }
+}

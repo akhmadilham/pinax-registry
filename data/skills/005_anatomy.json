@@ -1,0 +1,25 @@
+{
+  "id": "anatomy",
+  "index": "005",
+  "name": "anatomy",
+  "repo": "wheresryan22/anatomy",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "1482e846…",
+  "description": "Isometric SVG machines and systems from one prompt. Plain SKILL.md plus a Node kit. No hooks, no plugin.",
+  "install": "npx skills add wheresryan22/anatomy -g -a claude-code",
+  "tags": [
+    "anatomy",
+    "design",
+    "isometric",
+    "machines",
+    "systems",
+    "prompt"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/wheresryan22/anatomy"
+  }
+}

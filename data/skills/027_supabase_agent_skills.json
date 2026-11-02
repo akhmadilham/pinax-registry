@@ -1,0 +1,25 @@
+{
+  "id": "supabase-agent-skills",
+  "index": "027",
+  "name": "supabase/agent-skills",
+  "repo": "supabase/agent-skills",
+  "category": "Business",
+  "type": "Vendor",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "Official Supabase plus Postgres best-practices. No scripts, no hooks.",
+  "install": "npx skills add supabase/agent-skills --skill supabase-postgres-best-practices",
+  "tags": [
+    "supabase",
+    "agent",
+    "skills",
+    "business",
+    "official",
+    "plus"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/supabase/agent-skills"
+  }
+}

@@ -1,0 +1,953 @@
+{
+  "$schema": "../schema/skill.schema.json",
+  "version": "1.0.0",
+  "generated_at": "2026-11-02T04:29:17.252434+00:00",
+  "integrity": {
+    "skills_sha256": "e17c1b04ef98678c5f675fefb79e846fbdf561083cce506e9e26c67d98628d61",
+    "algorithm": "SHA-256"
+  },
+  "stats": {
+    "total_skills": 32,
+    "pinned_skills": 22,
+    "categories": {
+      "Engineering": 6,
+      "Security": 3,
+      "Design": 8,
+      "Discovery": 1,
+      "Video": 6,
+      "Business": 5,
+      "Writing": 3
+    },
+    "types": {
+      "Collection": 12,
+      "Tool": 3,
+      "Skill": 13,
+      "Index": 1,
+      "Vendor": 3
+    },
+    "licenses": {
+      "MIT": 24,
+      "Apache-2.0": 5,
+      "No root licence file": 2,
+      "CC-BY-SA-4.0": 1
+    }
+  },
+  "categories": [
+    {
+      "id": "business",
+      "name": "Business",
+      "order": 1,
+      "color": "#4ade80",
+      "icon": "briefcase",
+      "lead_skill": "founder-skill",
+      "description": "Build a smarter workflow around the tools and vendors you actually use. Less overhead, more meaningful work."
+    },
+    {
+      "id": "design",
+      "name": "Design",
+      "order": 2,
+      "color": "#f472b6",
+      "icon": "design",
+      "lead_skill": "hallmark",
+      "description": "Make every detail intentional. Refine visual quality, maintain consistency, and review your work before it ships."
+    },
+    {
+      "id": "discovery",
+      "name": "Discovery",
+      "order": 3,
+      "color": "#9ca3af",
+      "icon": "compass",
+      "lead_skill": "awesome-agent-skills",
+      "description": "Explore new capabilities beyond the atlas. Find useful skills, examine their sources, and install on your terms."
+    },
+    {
+      "id": "engineering",
+      "name": "Engineering",
+      "order": 4,
+      "color": "#22d3ee",
+      "icon": "code",
+      "lead_skill": "superpowers",
+      "description": "Go from idea to implementation with confidence. Plan, build, debug, and validate software that holds up in practice."
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "order": 5,
+      "color": "#f87171",
+      "icon": "shield",
+      "lead_skill": "trailofbits/skills",
+      "description": "Find vulnerabilities before they become problems. Audit code, dependencies, and workflows with practical security checks."
+    },
+    {
+      "id": "video",
+      "name": "Video",
+      "order": 6,
+      "color": "#a78bfa",
+      "icon": "video",
+      "lead_skill": "ffmpeg-skill",
+      "description": "Create, process, and refine video with reliable workflows. Check quality, audio levels, and exports before delivery."
+    },
+    {
+      "id": "writing",
+      "name": "Writing",
+      "order": 7,
+      "color": "#fbbf24",
+      "icon": "writing",
+      "lead_skill": "no-ai-slop",
+      "description": "Turn ideas into writing worth reading. Structure with purpose, eliminate filler, and communicate with clarity and precision."
+    }
+  ],
+  "conflicts": {
+    "hard_conflicts": [
+      {
+        "skills": [
+          "frontend-design",
+          "ui-ux-pro-max"
+        ],
+        "rule": "EXCLUSIVE",
+        "reason": "Design lead: pick one, not both. The first one you ticked is kept; the other is skipped.",
+        "resolution": "Keep first selected, drop secondary."
+      },
+      {
+        "skills": [
+          "no-ai-slop",
+          "stop-slop"
+        ],
+        "rule": "EXCLUSIVE",
+        "reason": "Writing: pick one, not both. Their banned-pattern lists collide if stacked in one edit. The first one you ticked is kept; the other is skipped.",
+        "resolution": "Keep first selected, drop secondary."
+      }
+    ],
+    "soft_conflicts": [
+      {
+        "skills": [
+          "remotion-skills",
+          "remotion-superpowers"
+        ],
+        "rule": "COMPATIBLE_WITH_CAUTION",
+        "reason": "Both cover Remotion creation. Keeping both is fine: superpowers is the workflow layer, remotion-skills is the official reference.",
+        "resolution": "Load only one writing filter per draft or use distinct sub-features."
+      },
+      {
+        "skills": [
+          "anti-slop",
+          "no-ai-slop"
+        ],
+        "rule": "COMPATIBLE_WITH_CAUTION",
+        "reason": "Anti-slop includes antislop-copywriting, which overlaps no-ai-slop's banned list. Load only one writing filter per draft, or use anti-slop's UI and code parts only.",
+        "resolution": "Load only one writing filter per draft or use distinct sub-features."
+      },
+      {
+        "skills": [
+          "anti-slop",
+          "stop-slop"
+        ],
+        "rule": "COMPATIBLE_WITH_CAUTION",
+        "reason": "Anti-slop includes antislop-copywriting, which overlaps stop-slop's banned list. Load only one writing filter per draft, or use anti-slop's UI and code parts only.",
+        "resolution": "Load only one writing filter per draft or use distinct sub-features."
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "addyosmani-agent-skills",
+      "index": "001",
+      "name": "addyosmani/agent-skills",
+      "repo": "addyosmani/agent-skills",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "25 production skills. Take spec-driven-development, code-review-and-quality, and shipping-and-launch only. Copy references/ too.",
+      "install": "npx skills add addyosmani/agent-skills --skill code-review-and-quality",
+      "tags": [
+        "addyosmani",
+        "agent",
+        "skills",
+        "engineering",
+        "production",
+        "spec"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/addyosmani/agent-skills"
+      }
+    },
+    {
+      "id": "agent-scan",
+      "index": "002",
+      "name": "agent-scan",
+      "repo": "snyk/agent-scan",
+      "category": "Security",
+      "type": "Tool",
+      "license": "Apache-2.0",
+      "status": "INSTALL (tool)",
+      "pinned_commit": null,
+      "description": "Inventories agents, MCP servers, and skills, and scores injection, untrusted content, and destructive capability. Use uvx or the release binary. Listed under Tools.",
+      "install": "uvx snyk-agent-scan@0.5.17",
+      "tags": [
+        "agent",
+        "scan",
+        "security",
+        "inventories",
+        "agents",
+        "servers"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/snyk/agent-scan"
+      }
+    },
+    {
+      "id": "agentkit-dev-skills",
+      "index": "003",
+      "name": "agentkit-dev-skills",
+      "repo": "agentkitco/agentkit-dev-skills",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "a870f95",
+      "description": "13 everyday skills, including review-my-diff and prove-it-ran. Run review-my-diff before every commit.",
+      "install": "claude plugin marketplace add agentkitco/agentkit-dev-skills",
+      "tags": [
+        "agentkit",
+        "skills",
+        "engineering",
+        "everyday",
+        "including",
+        "review"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/agentkitco/agentkit-dev-skills"
+      }
+    },
+    {
+      "id": "agents-catalogue",
+      "index": "004",
+      "name": "agents (catalogue)",
+      "repo": "wshobson/agents",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL (per-area)",
+      "pinned_commit": null,
+      "description": "94 plugins, 202 agents, 185 skill folders. Pick one area at a time. Never install wholesale.",
+      "install": "/plugin marketplace add wshobson/agents",
+      "tags": [
+        "agents",
+        "catalogue",
+        "engineering",
+        "plugins",
+        "skill",
+        "folders"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/wshobson/agents"
+      }
+    },
+    {
+      "id": "anatomy",
+      "index": "005",
+      "name": "anatomy",
+      "repo": "wheresryan22/anatomy",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "1482e846…",
+      "description": "Isometric SVG machines and systems from one prompt. Plain SKILL.md plus a Node kit. No hooks, no plugin.",
+      "install": "npx skills add wheresryan22/anatomy -g -a claude-code",
+      "tags": [
+        "anatomy",
+        "design",
+        "isometric",
+        "machines",
+        "systems",
+        "prompt"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/wheresryan22/anatomy"
+      }
+    },
+    {
+      "id": "anti-slop",
+      "index": "006",
+      "name": "anti-slop",
+      "repo": "miqdadbadjuber/anti-slop",
+      "category": "Design",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "941b153",
+      "description": "Six-skill filter against generic UI, copy, and code. Load core plus the part you need.",
+      "install": "npx skills add miqdadbadjuber/anti-slop",
+      "tags": [
+        "anti",
+        "slop",
+        "design",
+        "skill",
+        "filter",
+        "against"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/miqdadbadjuber/anti-slop"
+      }
+    },
+    {
+      "id": "awesome-agent-skills",
+      "index": "007",
+      "name": "awesome-agent-skills",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "category": "Discovery",
+      "type": "Index",
+      "license": "MIT",
+      "status": "INDEX ONLY",
+      "pinned_commit": null,
+      "description": "1,497+ skills from official teams. Browse here, install from each skill's own repo. Installs nothing itself.",
+      "install": "Browse only  -  no install",
+      "tags": [
+        "awesome",
+        "agent",
+        "skills",
+        "discovery",
+        "497+",
+        "official"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/VoltAgent/awesome-agent-skills"
+      }
+    },
+    {
+      "id": "claude-video-effects",
+      "index": "008",
+      "name": "claude-video-effects",
+      "repo": "Vibha-Ramprakash/claude-video-effects",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "36 talking-head effects: face tracking, orbit, behind-head layers. Real faces need consent first.",
+      "install": "git clone https://github.com/Vibha-Ramprakash/claude-video-effects ~/.claude/skills/effects",
+      "tags": [
+        "claude",
+        "video",
+        "effects",
+        "talking",
+        "head",
+        "effects:"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/Vibha-Ramprakash/claude-video-effects"
+      }
+    },
+    {
+      "id": "cloudflare-skills",
+      "index": "009",
+      "name": "cloudflare/skills",
+      "repo": "cloudflare/skills",
+      "category": "Business",
+      "type": "Vendor",
+      "license": "Apache-2.0",
+      "status": "INSTALL (selective)",
+      "pinned_commit": null,
+      "description": "Official Cloudflare: Workers, Wrangler, R2, D1, KV, Agents SDK. Take only what you use.",
+      "install": "npx skills add https://github.com/cloudflare/skills --skill workers-best-practices",
+      "tags": [
+        "cloudflare",
+        "skills",
+        "business",
+        "official",
+        "cloudflare:",
+        "workers"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/cloudflare/skills"
+      }
+    },
+    {
+      "id": "context7",
+      "index": "010",
+      "name": "context7",
+      "repo": "upstash/context7",
+      "category": "Engineering",
+      "type": "Tool",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "MCP docs, version-specific. Stops invented APIs. Prefer claude mcp add on headless hosts. Listed under Tools.",
+      "install": "claude mcp add context7 -- npx -y @upstash/context7-mcp",
+      "tags": [
+        "context7",
+        "engineering",
+        "docs",
+        "version",
+        "specific",
+        "stops"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/upstash/context7"
+      }
+    },
+    {
+      "id": "design-taste-frontend",
+      "index": "011",
+      "name": "design-taste-frontend",
+      "repo": "Leonxlnx/taste-skill",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "12af471",
+      "description": "Generates variants, critiques them, ships the best. A taste loop on top of generation.",
+      "install": "npx skills add https://github.com/Leonxlnx/taste-skill --skill design-taste-frontend",
+      "tags": [
+        "design",
+        "taste",
+        "frontend",
+        "generates",
+        "variants",
+        "critiques"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/Leonxlnx/taste-skill"
+      }
+    },
+    {
+      "id": "ffmpeg-skill",
+      "index": "012",
+      "name": "ffmpeg-skill",
+      "repo": "kajisho5/ffmpeg-skill",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "1ce2c18",
+      "description": "42 local ffmpeg tools: cut, captions, loudness, delivery checks. No cloud, no API key. Run it after the render.",
+      "install": "npx ffmpeg-skill",
+      "tags": [
+        "ffmpeg",
+        "skill",
+        "video",
+        "local",
+        "tools:",
+        "captions"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/kajisho5/ffmpeg-skill"
+      }
+    },
+    {
+      "id": "founder-skill",
+      "index": "013",
+      "name": "founder-skill",
+      "repo": "Jakeschincariol/founder-skill",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "11 validation skills: board, CFO, pricing, 100-agent consumer panel. Markdown plus small Python calculators.",
+      "install": "/plugin marketplace add Jakeschincariol/founder-skill",
+      "tags": [
+        "founder",
+        "skill",
+        "business",
+        "validation",
+        "skills:",
+        "board"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/Jakeschincariol/founder-skill"
+      }
+    },
+    {
+      "id": "frontend-design",
+      "index": "014",
+      "name": "frontend-design",
+      "repo": "anthropics/skills",
+      "category": "Design",
+      "type": "Skill",
+      "license": "No root licence file",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "ca45fc4",
+      "description": "Distinctive UI, not templates. For landing pages and dashboards. Do not pair it with ui-ux-pro-max.",
+      "install": "/plugin marketplace add anthropics/skills",
+      "tags": [
+        "frontend",
+        "design",
+        "distinctive",
+        "templates",
+        "landing",
+        "pages"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/anthropics/skills"
+      }
+    },
+    {
+      "id": "hallmark",
+      "index": "015",
+      "name": "hallmark",
+      "repo": "nutlope/hallmark",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "4f6a46c",
+      "description": "50 themes, plus a real-browser check at 8 widths. Checks a page before it ships. Does not invent facts.",
+      "install": "npx skills add nutlope/hallmark",
+      "tags": [
+        "hallmark",
+        "design",
+        "themes",
+        "plus",
+        "real",
+        "browser"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/nutlope/hallmark"
+      }
+    },
+    {
+      "id": "i-have-adhd",
+      "index": "016",
+      "name": "i-have-adhd",
+      "repo": "ayghri/i-have-adhd",
+      "category": "Writing",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "1ecea19",
+      "description": "Action-first output: next step first, numbered steps, no tangents, state restated.",
+      "install": "npx skills add ayghri/i-have-adhd",
+      "tags": [
+        "have",
+        "adhd",
+        "writing",
+        "action",
+        "first",
+        "output:"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/ayghri/i-have-adhd"
+      }
+    },
+    {
+      "id": "landing-page-design",
+      "index": "017",
+      "name": "landing-page-design",
+      "repo": "elayadesign/ai-design-skills",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "4fdcdd5",
+      "description": "Intake first: offer, buyer, one action, then a strict visual system. Only skill in this repo.",
+      "install": "Copy skills/landing-page-design into .claude/skills/",
+      "tags": [
+        "landing",
+        "page",
+        "design",
+        "intake",
+        "first:",
+        "offer"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/elayadesign/ai-design-skills"
+      }
+    },
+    {
+      "id": "mattpocock-skills",
+      "index": "018",
+      "name": "mattpocock/skills",
+      "repo": "mattpocock/skills",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "4ae2317",
+      "description": "grill-me, grill-with-docs, tdd, diagnosing-bugs, triage, code-review, to-spec. Skip the 8 in-progress skills.",
+      "install": "npx skills@latest add mattpocock/skills",
+      "tags": [
+        "mattpocock",
+        "skills",
+        "engineering",
+        "grill",
+        "docs",
+        "diagnosing"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/mattpocock/skills"
+      }
+    },
+    {
+      "id": "no-ai-slop",
+      "index": "019",
+      "name": "no-ai-slop",
+      "repo": "petergyang/no-ai-slop",
+      "category": "Writing",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "000650b",
+      "description": "Removes 20+ AI patterns, with every edit listed for accept or reject. Already installed in Muse at this pin.",
+      "install": "Install the /no-ai-slop skill globally from https://github.com/petergyang/no-ai-slop",
+      "tags": [
+        "slop",
+        "writing",
+        "removes",
+        "patterns",
+        "every",
+        "edit"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/petergyang/no-ai-slop"
+      }
+    },
+    {
+      "id": "remotion-skills",
+      "index": "020",
+      "name": "remotion-skills",
+      "repo": "remotion-dev/skills",
+      "category": "Video",
+      "type": "Collection",
+      "license": "No root licence file",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "30d4553",
+      "description": "Official Remotion: create, markup, studio, render, maps, captions, saas, interactivity. The GERAK reference build.",
+      "install": "npx skills add remotion-dev/skills",
+      "tags": [
+        "remotion",
+        "skills",
+        "video",
+        "official",
+        "remotion:",
+        "create"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/remotion-dev/skills"
+      }
+    },
+    {
+      "id": "remotion-superpowers",
+      "index": "021",
+      "name": "remotion-superpowers",
+      "repo": "DojoCodingLabs/remotion-superpowers",
+      "category": "Video",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "970efd2",
+      "description": "One prompt in, finished MP4 out: voiceover, music, SFX, stock, captions, review loop. ElevenLabs and Replicate keys are paid.",
+      "install": "/plugin marketplace add DojoCodingLabs/remotion-superpowers",
+      "tags": [
+        "remotion",
+        "superpowers",
+        "video",
+        "prompt",
+        "finished",
+        "out:"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/DojoCodingLabs/remotion-superpowers"
+      }
+    },
+    {
+      "id": "skill-scanner",
+      "index": "022",
+      "name": "skill-scanner",
+      "repo": "cisco-ai-defense/skill-scanner",
+      "category": "Security",
+      "type": "Tool",
+      "license": "Apache-2.0",
+      "status": "INSTALL (tool)",
+      "pinned_commit": "f782465",
+      "description": "Scans a skill before the agent reads it: YAML, YARA, Python AST, SARIF. Best-effort only. Listed under Tools.",
+      "install": "pip install cisco-ai-skill-scanner",
+      "tags": [
+        "skill",
+        "scanner",
+        "security",
+        "scans",
+        "before",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/cisco-ai-defense/skill-scanner"
+      }
+    },
+    {
+      "id": "slides_maker",
+      "index": "023",
+      "name": "slides_maker",
+      "repo": "addsumtech/slides_maker",
+      "category": "Business",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "d601c11f…",
+      "description": "Docs to editable PPTX, with charts, speaker notes, and a critic review. Its 323 KB SKILL.md needs a dedicated deck session.",
+      "install": "npx skills add addsumtech/slides_maker",
+      "tags": [
+        "slides_maker",
+        "business",
+        "docs",
+        "editable",
+        "pptx",
+        "charts"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/addsumtech/slides_maker"
+      }
+    },
+    {
+      "id": "soniccraft",
+      "index": "024",
+      "name": "soniccraft",
+      "repo": "user-github-me/soniccraft",
+      "category": "Video",
+      "type": "Skill",
+      "license": "Apache-2.0",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "d6597067…",
+      "description": "YAML multi-track audio, −14 LUFS / −1 dBTP preset. Fixes the GERAK loudness undershoot. New (2 stars): run local-only first.",
+      "install": "claude plugin marketplace add user-github-me/soniccraft",
+      "tags": [
+        "soniccraft",
+        "video",
+        "yaml",
+        "multi",
+        "track",
+        "audio"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/user-github-me/soniccraft"
+      }
+    },
+    {
+      "id": "stop-slop",
+      "index": "025",
+      "name": "stop-slop",
+      "repo": "hardikpandya/stop-slop",
+      "category": "Writing",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "8da1f03",
+      "description": "Banned phrases and structures, scored on 5 dimensions. Rewrites anything below 35/50. Zero scripts. Pick this or no-ai-slop, not both.",
+      "install": "Copy the skill folder into Claude Code / Claude Projects",
+      "tags": [
+        "stop",
+        "slop",
+        "writing",
+        "banned",
+        "phrases",
+        "structures"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/hardikpandya/stop-slop"
+      }
+    },
+    {
+      "id": "stripe-ai",
+      "index": "026",
+      "name": "stripe/ai",
+      "repo": "stripe/ai",
+      "category": "Business",
+      "type": "Vendor",
+      "license": "MIT",
+      "status": "INSTALL (selective)",
+      "pinned_commit": null,
+      "description": "Official Stripe: payments, billing, Connect. Take only what you bill through.",
+      "install": "claude plugin install stripe@claude-plugins-official",
+      "tags": [
+        "stripe",
+        "business",
+        "official",
+        "stripe:",
+        "payments",
+        "billing"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/stripe/ai"
+      }
+    },
+    {
+      "id": "supabase-agent-skills",
+      "index": "027",
+      "name": "supabase/agent-skills",
+      "repo": "supabase/agent-skills",
+      "category": "Business",
+      "type": "Vendor",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": null,
+      "description": "Official Supabase plus Postgres best-practices. No scripts, no hooks.",
+      "install": "npx skills add supabase/agent-skills --skill supabase-postgres-best-practices",
+      "tags": [
+        "supabase",
+        "agent",
+        "skills",
+        "business",
+        "official",
+        "plus"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/supabase/agent-skills"
+      }
+    },
+    {
+      "id": "superpowers",
+      "index": "028",
+      "name": "superpowers",
+      "repo": "obra/superpowers",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "2ce8aa1",
+      "description": "Brainstorm, plan, test-drive, review, verify before completion. Plugin routes only. Telemetry off: SUPERPOWERS_DISABLE_TELEMETRY=true.",
+      "install": "/plugin install superpowers@claude-plugins-official",
+      "tags": [
+        "superpowers",
+        "engineering",
+        "brainstorm",
+        "plan",
+        "test",
+        "drive"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/obra/superpowers"
+      }
+    },
+    {
+      "id": "trailofbits-skills",
+      "index": "029",
+      "name": "trailofbits/skills",
+      "repo": "trailofbits/skills",
+      "category": "Security",
+      "type": "Collection",
+      "license": "CC-BY-SA-4.0",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "2be6433",
+      "description": "Audit with CodeQL and Semgrep, differential review, variant analysis, supply-chain risk. Share-alike licence.",
+      "install": "/plugin marketplace add trailofbits/skills",
+      "tags": [
+        "trailofbits",
+        "skills",
+        "security",
+        "audit",
+        "codeql",
+        "semgrep"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/trailofbits/skills"
+      }
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "index": "030",
+      "name": "ui-ux-pro-max",
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "category": "Design",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "bf41cbc",
+      "description": "About 79 styles, 192 palettes, 74 font pairings. Pick this or frontend-design as lead, not both.",
+      "install": "/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill",
+      "tags": [
+        "design",
+        "about",
+        "styles",
+        "palettes",
+        "font",
+        "pairings"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+      }
+    },
+    {
+      "id": "userinterface",
+      "index": "031",
+      "name": "userinterface",
+      "repo": "raphaelsalaja/skills",
+      "category": "Design",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "v3.17.1",
+      "description": "Interface rules: scope, reuse, restraint, verify, viewports, alignment, audit, prototype, match, deconstruct. Every rule shows the broken line and its fix.",
+      "install": "npx skills add raphaelsalaja/skills",
+      "tags": [
+        "userinterface",
+        "design",
+        "interface",
+        "rules:",
+        "scope",
+        "reuse"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/raphaelsalaja/skills"
+      }
+    },
+    {
+      "id": "video-shotcraft",
+      "index": "032",
+      "name": "video-shotcraft",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "category": "Video",
+      "type": "Skill",
+      "license": "Apache-2.0",
+      "status": "INSTALL-PINNED",
+      "pinned_commit": "1266a3ec…",
+      "description": "124 shot cards, beat sync, SFX for cinematic Remotion promos. Copy shot cards only, never the whole 1,218-file repo.",
+      "install": "npx skills add Vincentwei1021/video-shotcraft",
+      "tags": [
+        "video",
+        "shotcraft",
+        "shot",
+        "cards",
+        "beat",
+        "sync"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-02",
+        "source": "https://github.com/Vincentwei1021/video-shotcraft"
+      }
+    }
+  ]
+}

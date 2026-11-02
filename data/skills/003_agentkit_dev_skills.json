@@ -1,0 +1,25 @@
+{
+  "id": "agentkit-dev-skills",
+  "index": "003",
+  "name": "agentkit-dev-skills",
+  "repo": "agentkitco/agentkit-dev-skills",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "a870f95",
+  "description": "13 everyday skills, including review-my-diff and prove-it-ran. Run review-my-diff before every commit.",
+  "install": "claude plugin marketplace add agentkitco/agentkit-dev-skills",
+  "tags": [
+    "agentkit",
+    "skills",
+    "engineering",
+    "everyday",
+    "including",
+    "review"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/agentkitco/agentkit-dev-skills"
+  }
+}

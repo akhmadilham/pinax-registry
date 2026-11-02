@@ -1,0 +1,25 @@
+{
+  "id": "superpowers",
+  "index": "028",
+  "name": "superpowers",
+  "repo": "obra/superpowers",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "2ce8aa1",
+  "description": "Brainstorm, plan, test-drive, review, verify before completion. Plugin routes only. Telemetry off: SUPERPOWERS_DISABLE_TELEMETRY=true.",
+  "install": "/plugin install superpowers@claude-plugins-official",
+  "tags": [
+    "superpowers",
+    "engineering",
+    "brainstorm",
+    "plan",
+    "test",
+    "drive"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/obra/superpowers"
+  }
+}

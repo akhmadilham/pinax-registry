@@ -1,0 +1,25 @@
+{
+  "id": "no-ai-slop",
+  "index": "019",
+  "name": "no-ai-slop",
+  "repo": "petergyang/no-ai-slop",
+  "category": "Writing",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "000650b",
+  "description": "Removes 20+ AI patterns, with every edit listed for accept or reject. Already installed in Muse at this pin.",
+  "install": "Install the /no-ai-slop skill globally from https://github.com/petergyang/no-ai-slop",
+  "tags": [
+    "slop",
+    "writing",
+    "removes",
+    "patterns",
+    "every",
+    "edit"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/petergyang/no-ai-slop"
+  }
+}

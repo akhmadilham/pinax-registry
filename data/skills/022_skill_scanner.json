@@ -1,0 +1,25 @@
+{
+  "id": "skill-scanner",
+  "index": "022",
+  "name": "skill-scanner",
+  "repo": "cisco-ai-defense/skill-scanner",
+  "category": "Security",
+  "type": "Tool",
+  "license": "Apache-2.0",
+  "status": "INSTALL (tool)",
+  "pinned_commit": "f782465",
+  "description": "Scans a skill before the agent reads it: YAML, YARA, Python AST, SARIF. Best-effort only. Listed under Tools.",
+  "install": "pip install cisco-ai-skill-scanner",
+  "tags": [
+    "skill",
+    "scanner",
+    "security",
+    "scans",
+    "before",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/cisco-ai-defense/skill-scanner"
+  }
+}

@@ -1,0 +1,29 @@
+name: Validate PINAX Skills
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    name: 4-Stage Quality Gate
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Unit Tests
+        run: |
+          python -m unittest discover -s tests
+
+      - name: Run Full PINAX Validator
+        run: |
+          python engine/validator.py --root .

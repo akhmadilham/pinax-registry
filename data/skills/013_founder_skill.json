@@ -1,0 +1,25 @@
+{
+  "id": "founder-skill",
+  "index": "013",
+  "name": "founder-skill",
+  "repo": "Jakeschincariol/founder-skill",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "11 validation skills: board, CFO, pricing, 100-agent consumer panel. Markdown plus small Python calculators.",
+  "install": "/plugin marketplace add Jakeschincariol/founder-skill",
+  "tags": [
+    "founder",
+    "skill",
+    "business",
+    "validation",
+    "skills:",
+    "board"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/Jakeschincariol/founder-skill"
+  }
+}

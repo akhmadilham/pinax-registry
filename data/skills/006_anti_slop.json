@@ -1,0 +1,25 @@
+{
+  "id": "anti-slop",
+  "index": "006",
+  "name": "anti-slop",
+  "repo": "miqdadbadjuber/anti-slop",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "941b153",
+  "description": "Six-skill filter against generic UI, copy, and code. Load core plus the part you need.",
+  "install": "npx skills add miqdadbadjuber/anti-slop",
+  "tags": [
+    "anti",
+    "slop",
+    "design",
+    "skill",
+    "filter",
+    "against"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/miqdadbadjuber/anti-slop"
+  }
+}

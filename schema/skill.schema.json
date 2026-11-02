@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/akhmadilham/pinax-registry/main/schema/skill.schema.json",
+  "title": "PINAX Skill Definition",
+  "description": "Schema definition for an AI coding agent skill in the PINAX Registry.",
+  "type": "object",
+  "required": [
+    "id",
+    "index",
+    "name",
+    "repo",
+    "category",
+    "type",
+    "license",
+    "status",
+    "description",
+    "install"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_.-]+$",
+      "description": "Unique URL-safe identifier for the skill."
+    },
+    "index": {
+      "type": "string",
+      "pattern": "^[0-9]{3}$",
+      "description": "3-digit sequential index string (e.g. 001)."
+    },
+    "name": {
+      "type": "string",
+      "description": "Canonical name or title of the skill."
+    },
+    "repo": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$",
+      "description": "GitHub repository in owner/repo format."
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Business",
+        "Design",
+        "Discovery",
+        "Engineering",
+        "Security",
+        "Video",
+        "Writing"
+      ],
+      "description": "Pantheon domain category."
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "Skill",
+        "Collection",
+        "Workflow",
+        "Plugin",
+        "Tool",
+        "Vendor",
+        "Index"
+      ],
+      "description": "Packaging archetype."
+    },
+    "license": {
+      "type": "string",
+      "description": "SPDX license identifier (e.g. MIT, Apache-2.0)."
+    },
+    "status": {
+      "type": "string",
+      "description": "Installation verification tier (e.g. INSTALL, INSTALL-PINNED, INSTALL (tool), INDEX ONLY)."
+    },
+    "pinned_commit": {
+      "type": ["string", "null"],
+      "description": "Verified Git commit SHA or null."
+    },
+    "description": {
+      "type": "string",
+      "description": "Functional summary of capabilities, usage advice, and boundaries."
+    },
+    "install": {
+      "type": "string",
+      "description": "CLI installation command."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Search and discovery keywords."
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "verified_at": { "type": "string" },
+        "source": { "type": "string" }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

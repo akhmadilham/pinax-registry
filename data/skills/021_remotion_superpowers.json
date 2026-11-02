@@ -1,0 +1,25 @@
+{
+  "id": "remotion-superpowers",
+  "index": "021",
+  "name": "remotion-superpowers",
+  "repo": "DojoCodingLabs/remotion-superpowers",
+  "category": "Video",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "970efd2",
+  "description": "One prompt in, finished MP4 out: voiceover, music, SFX, stock, captions, review loop. ElevenLabs and Replicate keys are paid.",
+  "install": "/plugin marketplace add DojoCodingLabs/remotion-superpowers",
+  "tags": [
+    "remotion",
+    "superpowers",
+    "video",
+    "prompt",
+    "finished",
+    "out:"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/DojoCodingLabs/remotion-superpowers"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "landing-page-design",
+  "index": "017",
+  "name": "landing-page-design",
+  "repo": "elayadesign/ai-design-skills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "4fdcdd5",
+  "description": "Intake first: offer, buyer, one action, then a strict visual system. Only skill in this repo.",
+  "install": "Copy skills/landing-page-design into .claude/skills/",
+  "tags": [
+    "landing",
+    "page",
+    "design",
+    "intake",
+    "first:",
+    "offer"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/elayadesign/ai-design-skills"
+  }
+}

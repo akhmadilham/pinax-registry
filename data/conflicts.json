@@ -1,0 +1,51 @@
+{
+  "hard_conflicts": [
+    {
+      "skills": [
+        "frontend-design",
+        "ui-ux-pro-max"
+      ],
+      "rule": "EXCLUSIVE",
+      "reason": "Design lead: pick one, not both. The first one you ticked is kept; the other is skipped.",
+      "resolution": "Keep first selected, drop secondary."
+    },
+    {
+      "skills": [
+        "no-ai-slop",
+        "stop-slop"
+      ],
+      "rule": "EXCLUSIVE",
+      "reason": "Writing: pick one, not both. Their banned-pattern lists collide if stacked in one edit. The first one you ticked is kept; the other is skipped.",
+      "resolution": "Keep first selected, drop secondary."
+    }
+  ],
+  "soft_conflicts": [
+    {
+      "skills": [
+        "remotion-skills",
+        "remotion-superpowers"
+      ],
+      "rule": "COMPATIBLE_WITH_CAUTION",
+      "reason": "Both cover Remotion creation. Keeping both is fine: superpowers is the workflow layer, remotion-skills is the official reference.",
+      "resolution": "Load only one writing filter per draft or use distinct sub-features."
+    },
+    {
+      "skills": [
+        "anti-slop",
+        "no-ai-slop"
+      ],
+      "rule": "COMPATIBLE_WITH_CAUTION",
+      "reason": "Anti-slop includes antislop-copywriting, which overlaps no-ai-slop's banned list. Load only one writing filter per draft, or use anti-slop's UI and code parts only.",
+      "resolution": "Load only one writing filter per draft or use distinct sub-features."
+    },
+    {
+      "skills": [
+        "anti-slop",
+        "stop-slop"
+      ],
+      "rule": "COMPATIBLE_WITH_CAUTION",
+      "reason": "Anti-slop includes antislop-copywriting, which overlaps stop-slop's banned list. Load only one writing filter per draft, or use anti-slop's UI and code parts only.",
+      "resolution": "Load only one writing filter per draft or use distinct sub-features."
+    }
+  ]
+}

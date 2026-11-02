@@ -1,0 +1,25 @@
+{
+  "id": "cloudflare-skills",
+  "index": "009",
+  "name": "cloudflare/skills",
+  "repo": "cloudflare/skills",
+  "category": "Business",
+  "type": "Vendor",
+  "license": "Apache-2.0",
+  "status": "INSTALL (selective)",
+  "pinned_commit": null,
+  "description": "Official Cloudflare: Workers, Wrangler, R2, D1, KV, Agents SDK. Take only what you use.",
+  "install": "npx skills add https://github.com/cloudflare/skills --skill workers-best-practices",
+  "tags": [
+    "cloudflare",
+    "skills",
+    "business",
+    "official",
+    "cloudflare:",
+    "workers"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/cloudflare/skills"
+  }
+}

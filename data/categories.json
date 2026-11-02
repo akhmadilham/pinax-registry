@@ -1,0 +1,67 @@
+{
+  "categories": [
+    {
+      "id": "business",
+      "name": "Business",
+      "order": 1,
+      "color": "#4ade80",
+      "icon": "briefcase",
+      "lead_skill": "founder-skill",
+      "description": "Build a smarter workflow around the tools and vendors you actually use. Less overhead, more meaningful work."
+    },
+    {
+      "id": "design",
+      "name": "Design",
+      "order": 2,
+      "color": "#f472b6",
+      "icon": "design",
+      "lead_skill": "hallmark",
+      "description": "Make every detail intentional. Refine visual quality, maintain consistency, and review your work before it ships."
+    },
+    {
+      "id": "discovery",
+      "name": "Discovery",
+      "order": 3,
+      "color": "#9ca3af",
+      "icon": "compass",
+      "lead_skill": "awesome-agent-skills",
+      "description": "Explore new capabilities beyond the atlas. Find useful skills, examine their sources, and install on your terms."
+    },
+    {
+      "id": "engineering",
+      "name": "Engineering",
+      "order": 4,
+      "color": "#22d3ee",
+      "icon": "code",
+      "lead_skill": "superpowers",
+      "description": "Go from idea to implementation with confidence. Plan, build, debug, and validate software that holds up in practice."
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "order": 5,
+      "color": "#f87171",
+      "icon": "shield",
+      "lead_skill": "trailofbits/skills",
+      "description": "Find vulnerabilities before they become problems. Audit code, dependencies, and workflows with practical security checks."
+    },
+    {
+      "id": "video",
+      "name": "Video",
+      "order": 6,
+      "color": "#a78bfa",
+      "icon": "video",
+      "lead_skill": "ffmpeg-skill",
+      "description": "Create, process, and refine video with reliable workflows. Check quality, audio levels, and exports before delivery."
+    },
+    {
+      "id": "writing",
+      "name": "Writing",
+      "order": 7,
+      "color": "#fbbf24",
+      "icon": "writing",
+      "lead_skill": "no-ai-slop",
+      "description": "Turn ideas into writing worth reading. Structure with purpose, eliminate filler, and communicate with clarity and precision."
+    }
+  ]
+}

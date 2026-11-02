@@ -1,0 +1,25 @@
+{
+  "id": "agents-catalogue",
+  "index": "004",
+  "name": "agents (catalogue)",
+  "repo": "wshobson/agents",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL (per-area)",
+  "pinned_commit": null,
+  "description": "94 plugins, 202 agents, 185 skill folders. Pick one area at a time. Never install wholesale.",
+  "install": "/plugin marketplace add wshobson/agents",
+  "tags": [
+    "agents",
+    "catalogue",
+    "engineering",
+    "plugins",
+    "skill",
+    "folders"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/wshobson/agents"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "i-have-adhd",
+  "index": "016",
+  "name": "i-have-adhd",
+  "repo": "ayghri/i-have-adhd",
+  "category": "Writing",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "1ecea19",
+  "description": "Action-first output: next step first, numbered steps, no tangents, state restated.",
+  "install": "npx skills add ayghri/i-have-adhd",
+  "tags": [
+    "have",
+    "adhd",
+    "writing",
+    "action",
+    "first",
+    "output:"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/ayghri/i-have-adhd"
+  }
+}

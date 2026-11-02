@@ -1,0 +1,25 @@
+{
+  "id": "context7",
+  "index": "010",
+  "name": "context7",
+  "repo": "upstash/context7",
+  "category": "Engineering",
+  "type": "Tool",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "MCP docs, version-specific. Stops invented APIs. Prefer claude mcp add on headless hosts. Listed under Tools.",
+  "install": "claude mcp add context7 -- npx -y @upstash/context7-mcp",
+  "tags": [
+    "context7",
+    "engineering",
+    "docs",
+    "version",
+    "specific",
+    "stops"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/upstash/context7"
+  }
+}

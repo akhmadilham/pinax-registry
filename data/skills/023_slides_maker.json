@@ -1,0 +1,25 @@
+{
+  "id": "slides_maker",
+  "index": "023",
+  "name": "slides_maker",
+  "repo": "addsumtech/slides_maker",
+  "category": "Business",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "d601c11f…",
+  "description": "Docs to editable PPTX, with charts, speaker notes, and a critic review. Its 323 KB SKILL.md needs a dedicated deck session.",
+  "install": "npx skills add addsumtech/slides_maker",
+  "tags": [
+    "slides_maker",
+    "business",
+    "docs",
+    "editable",
+    "pptx",
+    "charts"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/addsumtech/slides_maker"
+  }
+}

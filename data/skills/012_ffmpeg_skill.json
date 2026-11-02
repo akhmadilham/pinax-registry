@@ -1,0 +1,25 @@
+{
+  "id": "ffmpeg-skill",
+  "index": "012",
+  "name": "ffmpeg-skill",
+  "repo": "kajisho5/ffmpeg-skill",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL-PINNED",
+  "pinned_commit": "1ce2c18",
+  "description": "42 local ffmpeg tools: cut, captions, loudness, delivery checks. No cloud, no API key. Run it after the render.",
+  "install": "npx ffmpeg-skill",
+  "tags": [
+    "ffmpeg",
+    "skill",
+    "video",
+    "local",
+    "tools:",
+    "captions"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/kajisho5/ffmpeg-skill"
+  }
+}

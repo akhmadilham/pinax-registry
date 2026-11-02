@@ -1,0 +1,25 @@
+{
+  "id": "addyosmani-agent-skills",
+  "index": "001",
+  "name": "addyosmani/agent-skills",
+  "repo": "addyosmani/agent-skills",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": null,
+  "description": "25 production skills. Take spec-driven-development, code-review-and-quality, and shipping-and-launch only. Copy references/ too.",
+  "install": "npx skills add addyosmani/agent-skills --skill code-review-and-quality",
+  "tags": [
+    "addyosmani",
+    "agent",
+    "skills",
+    "engineering",
+    "production",
+    "spec"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-02",
+    "source": "https://github.com/addyosmani/agent-skills"
+  }
+}
