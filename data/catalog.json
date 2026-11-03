@@ -1,9 +1,9 @@
 {
   "$schema": "../schema/skill.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-11-03T03:59:16.364246+00:00",
+  "generated_at": "2026-11-03T04:28:18.655607+00:00",
   "integrity": {
-    "skills_sha256": "a4c5107c409b1f45a64e1835e1687b8eada9f0253610e66a17f279aec12ee30a",
+    "skills_sha256": "e029ef044415dbcf7741d626e5105417662c31e37ec30a34ea0f04ed9a4dc3cd",
     "algorithm": "SHA-256"
   },
   "stats": {
@@ -247,7 +247,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/addyosmani/agent-skills"
-      }
+      },
+      "stars": 112857
     },
     {
       "id": "agent-scan",
@@ -272,7 +273,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/snyk/agent-scan"
-      }
+      },
+      "stars": 3197
     },
     {
       "id": "agentkit-dev-skills",
@@ -297,7 +299,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/agentkitco/agentkit-dev-skills"
-      }
+      },
+      "stars": 0
     },
     {
       "id": "agents-catalogue",
@@ -322,7 +325,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/wshobson/agents"
-      }
+      },
+      "stars": 42123
     },
     {
       "id": "anatomy",
@@ -347,7 +351,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/wheresryan22/anatomy"
-      }
+      },
+      "stars": 24173
     },
     {
       "id": "anti-slop",
@@ -372,7 +377,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/miqdadbadjuber/anti-slop"
-      }
+      },
+      "stars": 8033
     },
     {
       "id": "awesome-agent-skills",
@@ -397,7 +403,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/VoltAgent/awesome-agent-skills"
-      }
+      },
+      "stars": 36779
     },
     {
       "id": "claude-video-effects",
@@ -422,7 +429,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/Vibha-Ramprakash/claude-video-effects"
-      }
+      },
+      "stars": 599
     },
     {
       "id": "cloudflare-skills",
@@ -447,7 +455,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/cloudflare/skills"
-      }
+      },
+      "stars": 3259
     },
     {
       "id": "context7",
@@ -472,7 +481,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/upstash/context7"
-      }
+      },
+      "stars": 64106
     },
     {
       "id": "design-taste-frontend",
@@ -497,7 +507,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/Leonxlnx/taste-skill"
-      }
+      },
+      "stars": 108887
     },
     {
       "id": "ffmpeg-skill",
@@ -522,7 +533,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/kajisho5/ffmpeg-skill"
-      }
+      },
+      "stars": 4389
     },
     {
       "id": "founder-skill",
@@ -547,7 +559,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/Jakeschincariol/founder-skill"
-      }
+      },
+      "stars": 2374
     },
     {
       "id": "frontend-design",
@@ -572,7 +585,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/anthropics/skills"
-      }
+      },
+      "stars": 186828
     },
     {
       "id": "hallmark",
@@ -597,7 +611,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/nutlope/hallmark"
-      }
+      },
+      "stars": 46149
     },
     {
       "id": "i-have-adhd",
@@ -622,7 +637,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/ayghri/i-have-adhd"
-      }
+      },
+      "stars": 59847
     },
     {
       "id": "landing-page-design",
@@ -647,7 +663,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/elayadesign/ai-design-skills"
-      }
+      },
+      "stars": 13782
     },
     {
       "id": "mattpocock-skills",
@@ -672,7 +689,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/mattpocock/skills"
-      }
+      },
+      "stars": 310395
     },
     {
       "id": "no-ai-slop",
@@ -697,7 +715,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/petergyang/no-ai-slop"
-      }
+      },
+      "stars": 13059
     },
     {
       "id": "remotion-skills",
@@ -722,7 +741,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/remotion-dev/skills"
-      }
+      },
+      "stars": 6156
     },
     {
       "id": "remotion-superpowers",
@@ -747,7 +767,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/DojoCodingLabs/remotion-superpowers"
-      }
+      },
+      "stars": 158
     },
     {
       "id": "skill-scanner",
@@ -772,7 +793,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/cisco-ai-defense/skill-scanner"
-      }
+      },
+      "stars": 2682
     },
     {
       "id": "slides_maker",
@@ -797,7 +819,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/addsumtech/slides_maker"
-      }
+      },
+      "stars": 648
     },
     {
       "id": "soniccraft",
@@ -822,7 +845,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/user-github-me/soniccraft"
-      }
+      },
+      "stars": 2
     },
     {
       "id": "stop-slop",
@@ -847,7 +871,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/hardikpandya/stop-slop"
-      }
+      },
+      "stars": 18562
     },
     {
       "id": "stripe-ai",
@@ -872,7 +897,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/stripe/ai"
-      }
+      },
+      "stars": 2032
     },
     {
       "id": "supabase-agent-skills",
@@ -897,7 +923,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/supabase/agent-skills"
-      }
+      },
+      "stars": 2990
     },
     {
       "id": "superpowers",
@@ -922,7 +949,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/obra/superpowers"
-      }
+      },
+      "stars": 311337
     },
     {
       "id": "trailofbits-skills",
@@ -947,7 +975,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/trailofbits/skills"
-      }
+      },
+      "stars": 7968
     },
     {
       "id": "ui-ux-pro-max",
@@ -972,7 +1001,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
-      }
+      },
+      "stars": 144366
     },
     {
       "id": "userinterface",
@@ -997,7 +1027,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/raphaelsalaja/skills"
-      }
+      },
+      "stars": 47
     },
     {
       "id": "video-shotcraft",
@@ -1022,7 +1053,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/Vincentwei1021/video-shotcraft"
-      }
+      },
+      "stars": 16245
     },
     {
       "id": "emilkowalski-skills",
@@ -1048,7 +1080,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "animate",
@@ -1073,7 +1106,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/animate"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "animate-expo",
@@ -1099,7 +1133,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/animate-expo"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "animation-performance",
@@ -1125,7 +1160,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/animation-performance"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "animation-vocabulary",
@@ -1150,7 +1186,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/animation-vocabulary"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "apple-design",
@@ -1176,7 +1213,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/apple-design"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "ask-sonner",
@@ -1202,7 +1240,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/ask-sonner"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "break-ui",
@@ -1228,7 +1267,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/break-ui"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "emil-design-eng",
@@ -1253,7 +1293,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/emil-design-eng"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "find-animation-opportunities",
@@ -1277,7 +1318,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/find-animation-opportunities"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "improve-animations",
@@ -1301,7 +1343,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/improve-animations"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "mobile-native",
@@ -1327,7 +1370,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/mobile-native"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "pick-ui-library",
@@ -1353,7 +1397,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/pick-ui-library"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "prototype",
@@ -1378,7 +1423,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/prototype"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "remove-animations",
@@ -1403,7 +1449,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/remove-animations"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "review-animations",
@@ -1428,7 +1475,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/review-animations"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "write-swift",
@@ -1455,7 +1503,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/emilkowalski/skills/tree/main/skills/write-swift"
-      }
+      },
+      "stars": 53064
     },
     {
       "id": "marketingskills",
@@ -1481,7 +1530,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/2"
-      }
+      },
+      "stars": 58140
     },
     {
       "id": "aaron-marketing-skills",
@@ -1508,7 +1558,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/3"
-      }
+      },
+      "stars": 3056
     },
     {
       "id": "openclaudia-skills",
@@ -1534,7 +1585,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/4"
-      }
+      },
+      "stars": 725
     },
     {
       "id": "marketing-skills",
@@ -1558,7 +1610,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/5"
-      }
+      },
+      "stars": 1074
     },
     {
       "id": "closer-skill",
@@ -1583,7 +1636,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/6"
-      }
+      },
+      "stars": 18
     },
     {
       "id": "agentic-sales-skills",
@@ -1608,7 +1662,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/7"
-      }
+      },
+      "stars": 4
     },
     {
       "id": "hubspot-admin-skills",
@@ -1633,7 +1688,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/8"
-      }
+      },
+      "stars": 79
     },
     {
       "id": "growth-today-claude-skills",
@@ -1658,7 +1714,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/9"
-      }
+      },
+      "stars": 6
     },
     {
       "id": "openaccountant-skills",
@@ -1683,7 +1740,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/10"
-      }
+      },
+      "stars": 111
     },
     {
       "id": "claude-code-startup-skills",
@@ -1708,7 +1766,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/11"
-      }
+      },
+      "stars": 31
     },
     {
       "id": "pulumi-agent-skills",
@@ -1733,7 +1792,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/12"
-      }
+      },
+      "stars": 78
     },
     {
       "id": "cc-skills-golang",
@@ -1758,7 +1818,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/13"
-      }
+      },
+      "stars": 3761
     },
     {
       "id": "claude-postgres-skills",
@@ -1783,7 +1844,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/14"
-      }
+      },
+      "stars": 2
     },
     {
       "id": "smell-check",
@@ -1807,7 +1869,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/15"
-      }
+      },
+      "stars": 241
     },
     {
       "id": "gitguardian-agent-skills",
@@ -1832,7 +1895,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/16"
-      }
+      },
+      "stars": 11
     },
     {
       "id": "ai-repo-safety-skill",
@@ -1856,7 +1920,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/17"
-      }
+      },
+      "stars": 5
     },
     {
       "id": "threat-modeling-agent-skills",
@@ -1881,7 +1946,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/18"
-      }
+      },
+      "stars": 2
     },
     {
       "id": "secure-code-review-agent-skills",
@@ -1905,7 +1971,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/19"
-      }
+      },
+      "stars": 1
     },
     {
       "id": "vulnerability-management-agent-skills",
@@ -1929,7 +1996,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/20"
-      }
+      },
+      "stars": 2
     },
     {
       "id": "ux-writing-skill",
@@ -1953,7 +2021,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/21"
-      }
+      },
+      "stars": 251
     },
     {
       "id": "humanize-text",
@@ -1977,7 +2046,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/22"
-      }
+      },
+      "stars": 8
     },
     {
       "id": "docs-writing",
@@ -2001,7 +2071,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/23"
-      }
+      },
+      "stars": 0
     },
     {
       "id": "google-developer-docs-style",
@@ -2025,7 +2096,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/24"
-      }
+      },
+      "stars": 0
     },
     {
       "id": "ste-plain-writing",
@@ -2049,7 +2121,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/25"
-      }
+      },
+      "stars": 7
     },
     {
       "id": "agent-writing-skills",
@@ -2074,7 +2147,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/26"
-      }
+      },
+      "stars": 0
     },
     {
       "id": "seranking-seo-skills",
@@ -2100,7 +2174,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/27"
-      }
+      },
+      "stars": 194
     },
     {
       "id": "claude-seo-kit",
@@ -2126,7 +2201,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/28"
-      }
+      },
+      "stars": 0
     },
     {
       "id": "claude-seo",
@@ -2153,7 +2229,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/AgriciDaniel/claude-seo"
-      }
+      },
+      "stars": 26042
     },
     {
       "id": "seo-intelligence-skill",
@@ -2180,7 +2257,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/29"
-      }
+      },
+      "stars": 3
     },
     {
       "id": "geo-seo-claude",
@@ -2206,7 +2284,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/30"
-      }
+      },
+      "stars": 11442
     },
     {
       "id": "seo-audit-skill",
@@ -2230,7 +2309,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/31"
-      }
+      },
+      "stars": 777
     },
     {
       "id": "youtube-seo-skills",
@@ -2256,7 +2336,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/32"
-      }
+      },
+      "stars": 21
     },
     {
       "id": "claude-youtube",
@@ -2282,7 +2363,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/33"
-      }
+      },
+      "stars": 641
     },
     {
       "id": "sv-seo-aeo",
@@ -2308,7 +2390,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/akhmadilham/pinax-registry/issues/34"
-      }
+      },
+      "stars": 1
     },
     {
       "id": "stageshow",
@@ -2335,7 +2418,8 @@
       "provenance": {
         "verified_at": "2026-11-02",
         "source": "https://github.com/benjitaylor/skills"
-      }
+      },
+      "stars": 984
     },
     {
       "id": "huashu-design",
@@ -2356,7 +2440,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/alchaincyf/huashu-design"
-      }
+      },
+      "stars": 28519
     },
     {
       "id": "garden-skills",
@@ -2377,7 +2462,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/ConardLi/garden-skills"
-      }
+      },
+      "stars": 13545
     },
     {
       "id": "ui-skills",
@@ -2397,7 +2483,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/ibelick/ui-skills"
-      }
+      },
+      "stars": 10535
     },
     {
       "id": "baoyu-design",
@@ -2418,7 +2505,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/JimLiu/baoyu-design"
-      }
+      },
+      "stars": 5911
     },
     {
       "id": "logo-design-skill",
@@ -2439,7 +2527,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/kaankiziltug/logo-design-skill"
-      }
+      },
+      "stars": 5833
     },
     {
       "id": "awesome-design-skills",
@@ -2460,7 +2549,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/bergside/awesome-design-skills"
-      }
+      },
+      "stars": 3453
     },
     {
       "id": "designer-skills",
@@ -2481,7 +2571,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/Owl-Listener/designer-skills"
-      }
+      },
+      "stars": 3221
     },
     {
       "id": "nothing-design-skill",
@@ -2502,7 +2593,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/dominikmartn/nothing-design-skill"
-      }
+      },
+      "stars": 2848
     },
     {
       "id": "motion-design-skill",
@@ -2525,7 +2617,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/LottieFiles/motion-design-skill"
-      }
+      },
+      "stars": 2729
     },
     {
       "id": "oil-ui",
@@ -2546,7 +2639,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/oil-oil/oil-ui"
-      }
+      },
+      "stars": 2646
     },
     {
       "id": "design-motion-principles",
@@ -2568,7 +2662,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/kylezantos/design-motion-principles"
-      }
+      },
+      "stars": 1484
     },
     {
       "id": "claude-skills-rampstackco",
@@ -2590,7 +2685,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/rampstackco/claude-skills"
-      }
+      },
+      "stars": 1023
     },
     {
       "id": "ponytail",
@@ -2611,7 +2707,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/DietrichGebert/ponytail"
-      }
+      },
+      "stars": 183009
     },
     {
       "id": "archify",
@@ -2632,7 +2729,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/tt-a1i/archify"
-      }
+      },
+      "stars": 92812
     },
     {
       "id": "visual-explainer",
@@ -2654,7 +2752,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/nicobailon/visual-explainer"
-      }
+      },
+      "stars": 10753
     },
     {
       "id": "drawio-skill",
@@ -2677,7 +2776,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/Agents365-ai/drawio-skill"
-      }
+      },
+      "stars": 10531
     },
     {
       "id": "drama-skills",
@@ -2698,7 +2798,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/zenstory-ai/drama-skills"
-      }
+      },
+      "stars": 3690
     },
     {
       "id": "claude-real-video",
@@ -2720,7 +2821,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video"
-      }
+      },
+      "stars": 2281
     },
     {
       "id": "scenario-labs-skills",
@@ -2742,7 +2844,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/scenario-labs/skills"
-      }
+      },
+      "stars": 1736
     },
     {
       "id": "video-spec-builder",
@@ -2764,7 +2867,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/feicaiclub/video-spec-builder"
-      }
+      },
+      "stars": 1062
     },
     {
       "id": "styleseed",
@@ -2785,7 +2889,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/bitjaru/styleseed"
-      }
+      },
+      "stars": 998
     },
     {
       "id": "gbro-cover-design",
@@ -2807,7 +2912,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/pyang5166/gbro-cover-design"
-      }
+      },
+      "stars": 947
     },
     {
       "id": "ui-design-brain",
@@ -2828,7 +2934,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/carmahhawwari/ui-design-brain"
-      }
+      },
+      "stars": 903
     },
     {
       "id": "hue",
@@ -2849,7 +2956,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/dominikmartn/hue"
-      }
+      },
+      "stars": 863
     },
     {
       "id": "open-design-agent-kit",
@@ -2872,7 +2980,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/feimacode/open-design-agent-kit"
-      }
+      },
+      "stars": 911
     },
     {
       "id": "web-design",
@@ -2893,7 +3002,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/xiaopu-ai/web-design"
-      }
+      },
+      "stars": 807
     },
     {
       "id": "skills-suleimanodetoro",
@@ -2914,7 +3024,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/suleimanodetoro/skills"
-      }
+      },
+      "stars": 767
     },
     {
       "id": "power-design",
@@ -2935,7 +3046,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/ItsssssJack/power-design"
-      }
+      },
+      "stars": 751
     },
     {
       "id": "genjutsu",
@@ -2956,7 +3068,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/AThevon/genjutsu"
-      }
+      },
+      "stars": 731
     },
     {
       "id": "design-judge-skills",
@@ -2977,7 +3090,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/SeanJ1ang/design-judge-skills"
-      }
+      },
+      "stars": 710
     },
     {
       "id": "refactoring-ui-skill",
@@ -2998,7 +3112,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/s0xDk/refactoring-ui-skill"
-      }
+      },
+      "stars": 680
     },
     {
       "id": "qiaomu-design",
@@ -3019,7 +3134,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/joeseesun/qiaomu-design"
-      }
+      },
+      "stars": 671
     },
     {
       "id": "platform-design-skills",
@@ -3040,7 +3156,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/ehmo/platform-design-skills"
-      }
+      },
+      "stars": 638
     },
     {
       "id": "tinte",
@@ -3061,7 +3178,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/Railly/tinte"
-      }
+      },
+      "stars": 625
     },
     {
       "id": "designer-skills-julianoczkowski",
@@ -3083,7 +3201,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/julianoczkowski/designer-skills"
-      }
+      },
+      "stars": 597
     },
     {
       "id": "ai-design-components",
@@ -3104,7 +3223,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/ancoleman/ai-design-components"
-      }
+      },
+      "stars": 526
     },
     {
       "id": "stack-diagram",
@@ -3126,7 +3246,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/caru-ini/stack-diagram"
-      }
+      },
+      "stars": 1263
     },
     {
       "id": "fdeops",
@@ -3147,7 +3268,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/suboss87/FDEOps"
-      }
+      },
+      "stars": 947
     },
     {
       "id": "open-agent-hub",
@@ -3170,7 +3292,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/guanyang/open-agent-hub"
-      }
+      },
+      "stars": 985
     },
     {
       "id": "video-recap-skills",
@@ -3191,7 +3314,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/zenstory-ai/video-recap-skills"
-      }
+      },
+      "stars": 602
     },
     {
       "id": "openclaw-marketing-skills",
@@ -3215,7 +3339,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/LeoYeAI/openclaw-marketing-skills"
-      }
+      },
+      "stars": 1053
     },
     {
       "id": "ecommerce-visual-copywriting",
@@ -3238,7 +3363,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/feichanggege/ecommerce-visual-copywriting-skill"
-      }
+      },
+      "stars": 1007
     },
     {
       "id": "ai-startup-skills",
@@ -3261,7 +3387,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/huaxialucaicaizi/ai-startup-skills"
-      }
+      },
+      "stars": 922
     },
     {
       "id": "digital-oracle",
@@ -3283,7 +3410,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/komako-workshop/digital-oracle"
-      }
+      },
+      "stars": 908
     },
     {
       "id": "academic-pptx-skill",
@@ -3305,7 +3433,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/Gabberflast/academic-pptx-skill"
-      }
+      },
+      "stars": 1430
     },
     {
       "id": "apple-hig",
@@ -3327,7 +3456,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/justinwetch/HIGAgentSkills"
-      }
+      },
+      "stars": 760
     },
     {
       "id": "graphify",
@@ -3350,7 +3480,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/Graphify-Labs/graphify"
-      }
+      },
+      "stars": 141309
     },
     {
       "id": "open-code-review",
@@ -3375,7 +3506,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/alibaba/open-code-review"
-      }
+      },
+      "stars": 49308
     },
     {
       "id": "planning-with-files",
@@ -3400,7 +3532,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/OthmanAdi/planning-with-files"
-      }
+      },
+      "stars": 27842
     },
     {
       "id": "google-skills",
@@ -3422,7 +3555,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/google/skills"
-      }
+      },
+      "stars": 21805
     },
     {
       "id": "context-engineering",
@@ -3443,7 +3577,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
-      }
+      },
+      "stars": 18290
     },
     {
       "id": "ai-research-skills",
@@ -3464,7 +3599,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/Orchestra-Research/AI-Research-SKILLs"
-      }
+      },
+      "stars": 14209
     },
     {
       "id": "elephant-goldfish-model",
@@ -3489,7 +3625,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/google/elephant-goldfish-model"
-      }
+      },
+      "stars": 10721
     },
     {
       "id": "awesome-android-agent-skills",
@@ -3512,7 +3649,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/new-silvermoon/awesome-android-agent-skills"
-      }
+      },
+      "stars": 998
     },
     {
       "id": "spec-driven-develop",
@@ -3535,7 +3673,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/zhu1090093659/spec_driven_develop"
-      }
+      },
+      "stars": 993
     },
     {
       "id": "self-learning",
@@ -3559,7 +3698,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/Kulaxyz/self-learning-skills"
-      }
+      },
+      "stars": 971
     },
     {
       "id": "agent-plugins",
@@ -3583,7 +3723,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/awslabs/agent-plugins"
-      }
+      },
+      "stars": 933
     },
     {
       "id": "ontology-driven-dev",
@@ -3607,7 +3748,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/sharptoolbox/ontology-driven-dev"
-      }
+      },
+      "stars": 518
     },
     {
       "id": "shuorenhua",
@@ -3629,7 +3771,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/MrGeDiao/shuorenhua"
-      }
+      },
+      "stars": 2425
     },
     {
       "id": "chinese-novelist",
@@ -3652,7 +3795,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/PenglongHuang/chinese-novelist-skill"
-      }
+      },
+      "stars": 4603
     },
     {
       "id": "speak-human-tw",
@@ -3675,7 +3819,8 @@
       "provenance": {
         "verified_at": "2026-11-03",
         "source": "https://github.com/Raymondhou0917/speak-human-tw"
-      }
+      },
+      "stars": 1114
     }
   ]
 }

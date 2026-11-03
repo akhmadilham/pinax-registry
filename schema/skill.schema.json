@@ -83,6 +83,11 @@
       "type": "string",
       "description": "CLI installation command."
     },
+    "stars": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "GitHub repository stargazers count."
+    },
     "tags": {
       "type": "array",
       "items": { "type": "string" },
