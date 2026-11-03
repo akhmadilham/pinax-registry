@@ -1,0 +1,23 @@
+{
+  "id": "ian-handdrawn-ppt",
+  "index": "218",
+  "name": "helloianneo/ian-handdrawn-ppt",
+  "repo": "helloianneo/ian-handdrawn-ppt",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "7b832a4",
+  "description": "A skill that generates Chinese hand-drawn style technical PPT full-page images, using a compact theme-token style file to keep the sketch-like look consistent across slides.",
+  "install": "Git clone, plus cp -R ./ian-handdrawn-ppt \"${CODEX_HOME:-$HOME/.codex}/skills/\"",
+  "tags": [
+    "design",
+    "ian",
+    "handdrawn",
+    "ppt"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/helloianneo/ian-handdrawn-ppt"
+  }
+}

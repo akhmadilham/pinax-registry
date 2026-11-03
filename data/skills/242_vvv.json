@@ -1,0 +1,22 @@
+{
+  "id": "vvv",
+  "index": "242",
+  "name": "actionow-ai/vvv",
+  "repo": "actionow-ai/vvv",
+  "category": "Video",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "df9bb12",
+  "description": "A video template system for building a video template once and reusing it many times, with open editable wedding video templates and local rendering, plus agent compatibility and integration docs.",
+  "install": "/plugin install vvv --marketplace actionow-ai/vvv for Claude Code, and npx skills add actionow-ai/vvv plus repo clone and VVV_KIT setup for Codex, Cursor, Gemini CLI, Copilot, and others",
+  "tags": [
+    "video",
+    "vvv",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/actionow-ai/vvv"
+  }
+}

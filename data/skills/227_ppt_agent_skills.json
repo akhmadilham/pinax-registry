@@ -1,0 +1,22 @@
+{
+  "id": "ppt-agent-skills",
+  "index": "227",
+  "name": "sunbigfly/ppt-agent-skills",
+  "repo": "sunbigfly/ppt-agent-skills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "13e3537",
+  "description": "A code-driven presentation generation framework skill, building decks through code and structured slide definitions rather than image-only output.",
+  "install": "npx skills add sunbigfly/ppt-agent-skills",
+  "tags": [
+    "design",
+    "ppt",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/sunbigfly/ppt-agent-skills"
+  }
+}

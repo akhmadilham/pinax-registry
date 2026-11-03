@@ -1,0 +1,23 @@
+{
+  "id": "mcd-saver-strategist",
+  "index": "217",
+  "name": "hujjun/mcd-saver-strategist",
+  "repo": "hujjun/mcd-saver-strategist",
+  "category": "Business",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "6e2c462",
+  "description": "A skill that optimizes McDonald's China coupon use, finding the best coupon and deal combinations for a given order through the McDonald's MCP platform.",
+  "install": "git clone https://github.com/hujjun/mcd-saver-strategist.git && cp -r mcd-saver-strategist/skills/mcd-saver-strategist ~/.workbuddy/skills/",
+  "tags": [
+    "business",
+    "mcd",
+    "saver",
+    "strategist"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/hujjun/mcd-saver-strategist"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "pm-claude-skills",
+  "index": "172",
+  "name": "mohitagw15856/pm-claude-skills",
+  "repo": "mohitagw15856/pm-claude-skills",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "f7c90bc",
+  "description": "A large product management and engineering skill collection, drafted here cherry-pick only, led by an AI code review skill for reviewing AI-authored code. Related folders cover API test plans and bug diagnosis, among a very large skills listing whose total count is unverified.",
+  "install": "npx pm-claude-skills add (any tool: Cursor, Codex, Windsurf, Cline, Zed, per README), plus a China mirror registry variant, per-tool docs/installation.md, copy-from-exports for ChatGPT/Gemini, and an MCP route. README states installing copies text files and uninstalling deletes them. Draft scope is cherry-pick, led by skills/ai-code-review.",
+  "tags": [
+    "engineering",
+    "claude"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/mohitagw15856/pm-claude-skills"
+  }
+}

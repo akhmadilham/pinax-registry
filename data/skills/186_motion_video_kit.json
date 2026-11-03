@@ -1,0 +1,21 @@
+{
+  "id": "motion-video-kit",
+  "index": "186",
+  "name": "echris6/motion-video-kit",
+  "repo": "echris6/motion-video-kit",
+  "category": "Video",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "e4b1c00",
+  "description": "A motion video kit whose sample skill, business-motion-film, guides producing business motion films. Other skill folders, templates, and scripts exist in the repo.",
+  "install": "git clone, then copy business-motion-film to ~/.claude/skills/ for all projects, or per-project copy",
+  "tags": [
+    "video",
+    "motion"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/echris6/motion-video-kit"
+  }
+}

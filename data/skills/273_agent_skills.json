@@ -1,0 +1,21 @@
+{
+  "id": "agent-skills",
+  "index": "273",
+  "name": "sleekdotdesign/agent-skills",
+  "repo": "sleekdotdesign/agent-skills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "fb90438",
+  "description": "Single skill for designing mobile apps and creating screens, managing Sleek projects through the Sleek REST API.",
+  "install": "npx skills add sleekdotdesign/agent-skills (interactive) or npx skills add sleekdotdesign/agent-skills -s sleek-design-mobile-apps (direct)",
+  "tags": [
+    "design",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/sleekdotdesign/agent-skills"
+  }
+}

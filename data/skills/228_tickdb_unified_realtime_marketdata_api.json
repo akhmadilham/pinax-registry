@@ -1,0 +1,26 @@
+{
+  "id": "tickdb-unified-realtime-marketdata-api",
+  "index": "228",
+  "name": "tickdb/tickdb-unified-realtime-marketdata-api",
+  "repo": "tickdb/tickdb-unified-realtime-marketdata-api",
+  "category": "Business",
+  "type": "Tool",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "e913ac4",
+  "description": "An AI-native real-time market data API for US/HK/CN stocks, forex, futures, crypto, indices, and commodities, with a Skill and CLI interface so agents can query live market data directly.",
+  "install": "npx clawhub@latest install tickdb-market-data for the skill (AI auto-fetches a trial key), plus python -m pip install -e . for the API package",
+  "tags": [
+    "business",
+    "tickdb",
+    "unified",
+    "realtime",
+    "marketdata",
+    "api",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/tickdb/tickdb-unified-realtime-marketdata-api"
+  }
+}

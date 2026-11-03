@@ -1,0 +1,22 @@
+{
+  "id": "extract-design-system",
+  "index": "165",
+  "name": "arvindrk/extract-design-system",
+  "repo": "arvindrk/extract-design-system",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "1873741",
+  "description": "A skill that extracts design primitives from a public website into a design system starter: tokens, styles, and components, ready to turn into code. It scrapes a user-supplied public website URL with Playwright locally, and requires confirming the target is public and reachable and asking before modifying existing code.",
+  "install": "npx skills add arvindrk/extract-design-system (README install section; also skills.sh listing).",
+  "tags": [
+    "design",
+    "extract",
+    "system"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/arvindrk/extract-design-system"
+  }
+}

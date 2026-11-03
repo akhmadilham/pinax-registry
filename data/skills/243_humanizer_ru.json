@@ -1,0 +1,21 @@
+{
+  "id": "humanizer-ru",
+  "index": "243",
+  "name": "ilyautov/humanizer-ru",
+  "repo": "ilyautov/humanizer-ru",
+  "category": "Writing",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "b6df5d9",
+  "description": "A Russian text editing collection that removes bureaucratic style and template phrasing, checks meaning and facts, and applies 67 markers and 21 hard rules for clean Russian prose.",
+  "install": "npx skills add ilyautov/humanizer-ru, or /plugin marketplace add ilyautov/humanizer-ru then /plugin install humanizer-ru@ilyautov-plugins, plus git clone and a CLI installer that asks where to install",
+  "tags": [
+    "writing",
+    "humanizer"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/ilyautov/humanizer-ru"
+  }
+}

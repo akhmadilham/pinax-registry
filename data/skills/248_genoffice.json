@@ -1,0 +1,21 @@
+{
+  "id": "genoffice",
+  "index": "248",
+  "name": "genspark-ai/genoffice",
+  "repo": "genspark-ai/genoffice",
+  "category": "Design",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "e1f50e9",
+  "description": "Terminal-based Office workflow skill for creating and converting pptx, xlsx, and docx files and PDFs, with local processing, plus a set of recommended companion skills (including an SOP writer). Draft scope is the genoffice skill plus the presentation angle.",
+  "install": "npx skills add genspark-ai/genoffice (Settings/Integrations install in the GenOffice app also documented)",
+  "tags": [
+    "design",
+    "genoffice"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/genspark-ai/genoffice"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "appllama-skills",
+  "index": "251",
+  "name": "appllama/appllama-skills",
+  "repo": "appllama/appllama-skills",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "dd5caae",
+  "description": "Mobile app design skills built around a simulator-verified quality bar: one skill covers using the Appllama workflow, the other covers app design itself.",
+  "install": "npx skills@latest add appllama/appllama-skills (per-agent and per-skill variants documented; git clone manual route also documented)",
+  "tags": [
+    "design",
+    "appllama"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/appllama/appllama-skills"
+  }
+}

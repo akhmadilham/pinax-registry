@@ -1,0 +1,22 @@
+{
+  "id": "seomachine",
+  "index": "159",
+  "name": "thecraighewitt/seomachine",
+  "repo": "thecraighewitt/seomachine",
+  "category": "SEO",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "120e7b4",
+  "description": "An SEO machine repo with 26 marketing skills as slash commands under .claude/skills, covering SEO audit, programmatic SEO, schema markup, content strategy, copywriting, and paid ads. It also ships Python analysis modules, data sources, research scripts, and a WordPress MU-plugin for Yoast fields. Install is clone plus pip install for the analysis modules.",
+  "install": "git clone https://github.com/thecraighewitt/seomachine.git plus pip install of Python dependencies for analysis modules, per README. No plugin or npx route was documented in the README lines read.",
+  "tags": [
+    "seo",
+    "seomachine",
+    "python"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/thecraighewitt/seomachine"
+  }
+}

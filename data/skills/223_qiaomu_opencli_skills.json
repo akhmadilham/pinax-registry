@@ -1,0 +1,22 @@
+{
+  "id": "qiaomu-opencli-skills",
+  "index": "223",
+  "name": "joeseesun/qiaomu-opencli-skills",
+  "repo": "joeseesun/qiaomu-opencli-skills",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "4d9a08e",
+  "description": "A collection of skills around the opencli tool for social and content search, including smart search across Bilibili, Zhihu, X, YouTube, Weibo, Xiaohongshu, and other sites, plus opencli usage and browser skills.",
+  "install": "npx skills add joeseesun/qiaomu-opencli-skills, and per-skill variants",
+  "tags": [
+    "engineering",
+    "qiaomu",
+    "opencli"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/joeseesun/qiaomu-opencli-skills"
+  }
+}

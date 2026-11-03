@@ -1,0 +1,21 @@
+{
+  "id": "immortal-skill",
+  "index": "222",
+  "name": "agenmod/immortal-skill",
+  "repo": "agenmod/immortal-skill",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "cdab91b",
+  "description": "A digital-immortality framework skill that builds a seven-dimensional digital persona from a person's chat records, for use as a persistent persona across messaging platforms.",
+  "install": "cp -r immortal-skill <your-workspace>/skills/immortal-skill, or cp -r immortal-skill ~/.openclaw/skills/immortal-skill",
+  "tags": [
+    "engineering",
+    "immortal"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/agenmod/immortal-skill"
+  }
+}

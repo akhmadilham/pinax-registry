@@ -1,0 +1,21 @@
+{
+  "id": "blender-skills",
+  "index": "269",
+  "name": "el4cteo/blender-skills",
+  "repo": "el4cteo/blender-skills",
+  "category": "Design",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "fb92cfb",
+  "description": "Full Blender pipeline skill collection covering core Blender work, asset QA, and 26 further Blender skills, installed as a plugin marketplace package.",
+  "install": "/plugin marketplace add EL4CTEO/blender-skills then /plugin install blender-agent-skills@blender-agent-skills",
+  "tags": [
+    "design",
+    "blender"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/el4cteo/blender-skills"
+  }
+}

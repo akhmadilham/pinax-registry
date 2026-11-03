@@ -1,0 +1,22 @@
+{
+  "id": "cutlist",
+  "index": "194",
+  "name": "itsryanlenk/cutlist",
+  "repo": "itsryanlenk/cutlist",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "e4ef067",
+  "description": "A video cut-list skill that builds cut lists and trims video, installed by a local copy or symlink installer with per-agent flags.",
+  "install": "bash install.sh with agent flags (--codex, --claude, --cursor, --gemini, --copilot, --all, --global, --link, --into), copying or symlinking the skills/cutlist folder to the agent skills directory. install.sh is a local copy or symlink installer, not a pipe installer.",
+  "tags": [
+    "video",
+    "cutlist",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/itsryanlenk/cutlist"
+  }
+}

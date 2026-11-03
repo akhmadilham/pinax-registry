@@ -1,0 +1,21 @@
+{
+  "id": "simon-skills",
+  "index": "244",
+  "name": "trustfuture/simon-skills",
+  "repo": "trustfuture/simon-skills",
+  "category": "Video",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "cc2b45d",
+  "description": "A collection for faceless video, including a short common video skill and a whiteboard-video skill for whiteboard explainer videos.",
+  "install": "Git clone the repo, then use the skills/ folder as the skills source (no copy destination is stated in README, so state the skills folder explicitly)",
+  "tags": [
+    "video",
+    "simon"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/trustfuture/simon-skills"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "anti-defensive-writing-skill",
+  "index": "207",
+  "name": "adkid-zephyr/anti-defensive-writing-skill",
+  "repo": "adkid-zephyr/anti-defensive-writing-skill",
+  "category": "Writing",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "82d3140",
+  "description": "A skill that rewrites defensive academic writing into direct, confident prose, with Chinese and English versions, targeting hedging, over-qualification, and self-undermining phrasing in research text.",
+  "install": "codex plugin marketplace add Adkid-Zephyr/anti-defensive-writing-Skill, or cp -r skills/anti-defensive-writing ~/.claude/skills/",
+  "tags": [
+    "writing",
+    "anti",
+    "defensive"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/adkid-zephyr/anti-defensive-writing-skill"
+  }
+}

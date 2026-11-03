@@ -1,0 +1,23 @@
+{
+  "id": "chubbyskills",
+  "index": "221",
+  "name": "chubbyguan/chubbyskills",
+  "repo": "chubbyguan/chubbyskills",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "d066d76",
+  "description": "A collection for content ingestion and personal knowledge bases, including a skill that ingests Chinese multi-channel content (short video, social, audio, articles) into a searchable base, with an MCP server component.",
+  "install": "npx skills add chubbyguan/chubbyskills",
+  "tags": [
+    "engineering",
+    "chubbyskills",
+    "audio",
+    "video"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/chubbyguan/chubbyskills"
+  }
+}

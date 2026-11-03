@@ -1,0 +1,22 @@
+{
+  "id": "silk-design",
+  "index": "166",
+  "name": "bendrape1-byte/silk-design",
+  "repo": "bendrape1-byte/silk-design",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "0f530f0",
+  "description": "A UI design skill focused on smooth, polished interface craft with a design system reference and 10 style skins. It guides motion and smoothness choices, composition, backgrounds, effects, and templates, with 23 reference template folders for visual direction.",
+  "install": "git clone https://github.com/bendrape1-byte/silk-design ~/.claude/skills/silk-design (README install section).",
+  "tags": [
+    "design",
+    "silk",
+    "motion"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/bendrape1-byte/silk-design"
+  }
+}

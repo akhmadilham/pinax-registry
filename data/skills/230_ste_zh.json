@@ -1,0 +1,21 @@
+{
+  "id": "ste-zh",
+  "index": "230",
+  "name": "dualface/ste-zh",
+  "repo": "dualface/ste-zh",
+  "category": "Writing",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "22f868e",
+  "description": "A skill for reporting results to users in Chinese under ASD-STE100 simplified technical English principles, adapted to Chinese reporting, covering clarity, structure, and terminology discipline.",
+  "install": "npx skills add dualface/ste-zh -g (and per-agent variants), plus git clone to ~/.claude/skills/ste",
+  "tags": [
+    "writing",
+    "ste"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/dualface/ste-zh"
+  }
+}

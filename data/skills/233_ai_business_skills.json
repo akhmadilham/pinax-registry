@@ -1,0 +1,21 @@
+{
+  "id": "ai-business-skills",
+  "index": "233",
+  "name": "minhnv0807/ai-business-skills",
+  "repo": "minhnv0807/ai-business-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "fe33cb1",
+  "description": "A bilingual Vietnamese/English collection of business skills (69 Vietnamese plus 69 global skills) covering marketing, media planning, SEO growth, brand voice, and team briefs for Vietnamese-market business work.",
+  "install": "/plugin marketplace add minhnv0807/ai-business-skills, then /plugin install ai-business-skills, plus git clone (plugin route only; do NOT use the bash install.sh route, which was not read)",
+  "tags": [
+    "business",
+    "seo"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/minhnv0807/ai-business-skills"
+  }
+}

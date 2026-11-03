@@ -1,0 +1,23 @@
+{
+  "id": "pixel2motion",
+  "index": "180",
+  "name": "nolangz/pixel2motion",
+  "repo": "nolangz/pixel2motion",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "e9faedb",
+  "description": "A motion design skill that starts from a motion brief in motion_spec.md (personality, usage context, part inventory, choreography sketch) and choreographs animation, with references, scripts, and docs folders supporting the workflow.",
+  "install": "npx skills add nolangz/pixel2motion",
+  "tags": [
+    "video",
+    "pixel2motion",
+    "motion",
+    "design"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/nolangz/pixel2motion"
+  }
+}

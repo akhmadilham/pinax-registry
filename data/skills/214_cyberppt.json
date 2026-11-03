@@ -1,0 +1,21 @@
+{
+  "id": "cyberppt",
+  "index": "214",
+  "name": "crazyykhllc-bit/cyberppt",
+  "repo": "crazyykhllc-bit/cyberppt",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "980e557",
+  "description": "A skill for generating high-density, editable consulting-style PowerPoint decks, turning research or outlines into dense, professional slide layouts.",
+  "install": "git clone https://github.com/crazyykhllc-bit/CyberPPT.git \"$env:USERPROFILE\\.codex\\skills\\cyber-ppt\"",
+  "tags": [
+    "design",
+    "cyberppt"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/crazyykhllc-bit/cyberppt"
+  }
+}

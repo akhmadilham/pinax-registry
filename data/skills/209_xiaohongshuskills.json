@@ -1,0 +1,23 @@
+{
+  "id": "xiaohongshuskills",
+  "index": "209",
+  "name": "white0dew/xiaohongshuskills",
+  "repo": "white0dew/xiaohongshuskills",
+  "category": "Business",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "e411c16",
+  "description": "A skill that auto-publishes text/image and video content to Xiaohongshu (RedBook), handling note creation and posting workflow from the agent side.",
+  "install": "npx skills add white0dew/xiaohongshuskills",
+  "tags": [
+    "business",
+    "xiaohongshuskills",
+    "video",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/white0dew/xiaohongshuskills"
+  }
+}

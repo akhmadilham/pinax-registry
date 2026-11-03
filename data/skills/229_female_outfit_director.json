@@ -1,0 +1,23 @@
+{
+  "id": "female-outfit-director",
+  "index": "229",
+  "name": "liyue-aigc/female-outfit-director",
+  "repo": "liyue-aigc/female-outfit-director",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "1f96d63",
+  "description": "A video director skill for multi-outfit collage first-frames and beat-synced outfit-change videos, planning outfit sequences and transitions for fashion video.",
+  "install": "npx skills add liyue-aigc/female-outfit-director",
+  "tags": [
+    "video",
+    "female",
+    "outfit",
+    "director"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/liyue-aigc/female-outfit-director"
+  }
+}

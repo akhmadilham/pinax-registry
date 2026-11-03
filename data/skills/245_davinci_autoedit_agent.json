@@ -1,0 +1,23 @@
+{
+  "id": "davinci-autoedit-agent",
+  "index": "245",
+  "name": "liuluhaixiu/davinci-autoedit-agent",
+  "repo": "liuluhaixiu/davinci-autoedit-agent",
+  "category": "Video",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "93cf371",
+  "description": "A collection for DaVinci Resolve video editing automation, including a viral-video-writer skill and a davinci-autoedit-agent skill that drives editing through a DaVinci MCP server.",
+  "install": "npx skills add liuluhaixiu/davinci-autoedit-agent",
+  "tags": [
+    "video",
+    "davinci",
+    "autoedit",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/liuluhaixiu/davinci-autoedit-agent"
+  }
+}

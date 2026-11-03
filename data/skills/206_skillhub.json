@@ -1,0 +1,22 @@
+{
+  "id": "skillhub",
+  "index": "206",
+  "name": "iflytek/skillhub",
+  "repo": "iflytek/skillhub",
+  "category": "Engineering",
+  "type": "Tool",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "04d7f81",
+  "description": "A skill registry and agent tooling platform from iFlytek, with built-in skills (including weather) that can be published and fetched through a registry CLI, plus a self-hosted server component.",
+  "install": "Clone or copy the skill files into the agent skills directory (clone/copy route only; do NOT use the README server deploy pipe route)",
+  "tags": [
+    "engineering",
+    "skillhub",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/iflytek/skillhub"
+  }
+}

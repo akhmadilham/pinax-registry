@@ -1,0 +1,20 @@
+{
+  "id": "skills-writing",
+  "index": "199",
+  "name": "poorvith-mp/skills-writing",
+  "repo": "poorvith-mp/skills-writing",
+  "category": "Writing",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "036f70c",
+  "description": "A writing skill collection covering technical documentation, book writing, screenwriting, SOP writing, line editing, writing taste, executive summaries, talk writing, and translation. The sample skill, technical-docs, guides technical documentation writing.",
+  "install": "npx skills add poorvith-mp/skills-writing, or install individual skills directly, or git clone plus copy of a skill folder (cp -R skills-writing/skills/<skill-id> ~/.gemini/skills/ pattern for Gemini CLI, with Claude Code copy route also documented)",
+  "tags": [
+    "writing"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/poorvith-mp/skills-writing"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "nature-skills",
+  "index": "200",
+  "name": "yuan1z0825/nature-skills",
+  "repo": "yuan1z0825/nature-skills",
+  "category": "Writing",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "69817e4",
+  "description": "A collection of bilingual Chinese-English skills for academic paper work, including paper reading and data extraction for paper readers. A router skill directs the agent to the right sub-skill, and the nature-data skill extracts structured data from papers.",
+  "install": "npx skills add Yuan1z0825/nature-skills --list, or per skill npx skills add Yuan1z0825/nature-skills --agent codex --skill nature-figure --yes --copy",
+  "tags": [
+    "writing",
+    "nature",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/yuan1z0825/nature-skills"
+  }
+}

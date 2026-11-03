@@ -1,0 +1,23 @@
+{
+  "id": "claude-motion-studio",
+  "index": "197",
+  "name": "megomaged/claude-motion-studio",
+  "repo": "megomaged/claude-motion-studio",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "f071a80",
+  "description": "A motion studio skill that builds motion from scratch, never copying another skill's or repo's code or text, with every report claim drawn from evidence. It supports Remotion, HTML/GSAP, and SVG motion work.",
+  "install": "download the repository (Code, Download ZIP), unzip it, copy the folder into ~/.claude/skills/ (every project) or <project>/.claude/skills/ (one project), named claude-motion-studio. Do not invent a skills-add command; use the download-and-copy route.",
+  "tags": [
+    "video",
+    "claude",
+    "motion",
+    "studio"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/megomaged/claude-motion-studio"
+  }
+}

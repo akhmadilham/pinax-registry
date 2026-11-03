@@ -1,0 +1,21 @@
+{
+  "id": "clipify",
+  "index": "191",
+  "name": "louisedesadeleer/clipify",
+  "repo": "louisedesadeleer/clipify",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "5f6b75e",
+  "description": "A clip editing skill using ffmpeg that trims clips instantly with -c copy and re-encodes only when cuts require it.",
+  "install": "git clone into ~/.claude/skills/clipify",
+  "tags": [
+    "video",
+    "clipify"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/louisedesadeleer/clipify"
+  }
+}

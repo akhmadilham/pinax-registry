@@ -1,0 +1,21 @@
+{
+  "id": "manim_skill",
+  "index": "261",
+  "name": "adithya-s-k/manim_skill",
+  "repo": "adithya-s-k/manim_skill",
+  "category": "Video",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "cef0450",
+  "description": "Manim animation skills for composing math animations, with best-practice guides for both ManimGL and Manim Community Edition.",
+  "install": "npx skills add adithya-s-k/manim_skill (plus Manim/ffmpeg/LaTeX dependency installs)",
+  "tags": [
+    "video",
+    "manim"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/adithya-s-k/manim_skill"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "everything-claude-code-zh",
+  "index": "161",
+  "name": "xu-xiang/everything-claude-code-zh",
+  "repo": "xu-xiang/everything-claude-code-zh",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "dfbf946",
+  "description": "Chinese translation of a large engineering workflow skill collection covering topics such as API design and general Claude Code workflows. The sample skill read covers API design in Chinese.",
+  "install": "/plugin marketplace add affaan-m/everything-claude-code then /plugin install everything-claude-code@everything-claude-code. This plugin route is the documented non-pipe route to draft; the README also documents a manual git clone plus install script rules step, which is not the drafted route.",
+  "tags": [
+    "engineering",
+    "everything",
+    "claude",
+    "code",
+    "design"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/xu-xiang/everything-claude-code-zh"
+  }
+}

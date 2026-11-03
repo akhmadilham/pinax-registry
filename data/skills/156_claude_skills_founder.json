@@ -1,0 +1,22 @@
+{
+  "id": "claude-skills-founder",
+  "index": "156",
+  "name": "emotixco/claude-skills-founder",
+  "repo": "emotixco/claude-skills-founder",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "ea6864c",
+  "description": "A founder collection of 14 skills covering competitor matrix, email sequences, fundraise prep, go-to-market, landing pages, metrics dashboards, MVP scope, persona generation, pitch decks, pricing strategy, product briefs, status tracking, user interviews, and idea validation. The verified sample validates an idea.",
+  "install": "/plugin marketplace add emotixco/claude-skills-founder then /plugin install founder@emotix, plus git clone.",
+  "tags": [
+    "business",
+    "claude",
+    "founder"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/emotixco/claude-skills-founder"
+  }
+}

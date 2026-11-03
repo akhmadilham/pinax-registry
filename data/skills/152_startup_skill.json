@@ -1,0 +1,22 @@
+{
+  "id": "startup-skill",
+  "index": "152",
+  "name": "ferdinandobons/startup-skill",
+  "repo": "ferdinandobons/startup-skill",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "a5f97c3",
+  "description": "A startup collection covering competitor analysis, design, and pitch work. The verified sample builds competitor battle cards and warns against battle cards that ignore competitor strengths.",
+  "install": "npx skills add ferdinandobons/startup-skill. A plugin marketplace route and skillkit route are also documented.",
+  "tags": [
+    "business",
+    "startup",
+    "design"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/ferdinandobons/startup-skill"
+  }
+}

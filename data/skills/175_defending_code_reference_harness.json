@@ -1,0 +1,24 @@
+{
+  "id": "defending-code-reference-harness",
+  "index": "175",
+  "name": "anthropics/defending-code-reference-harness",
+  "repo": "anthropics/defending-code-reference-harness",
+  "category": "Security",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "d3bea6b",
+  "description": "Anthropic reference harness of defensive security skills covering quickstart, threat modeling, vulnerability scanning, triage, patching, customization, and detection and response hunting and response. The sample skill read, vuln-scan, guides vulnerability scanning of code.",
+  "install": "git clone, open in Claude Code, run /quickstart (skill-only route; do not present the harness sandbox setup as the install)",
+  "tags": [
+    "security",
+    "defending",
+    "code",
+    "reference",
+    "harness"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/anthropics/defending-code-reference-harness"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "html-ppt-skill",
+  "index": "204",
+  "name": "lewislulu/html-ppt-skill",
+  "repo": "lewislulu/html-ppt-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "fd16290",
+  "description": "A template-driven skill for building static HTML presentations, using a token-based design system with curated templates, design tokens, and layout guidance for slide decks rendered as HTML.",
+  "install": "npx skills add https://github.com/lewislulu/html-ppt-skill, or git clone plus npx skills add ./html-ppt-skill, or manual cp -R html-ppt-skill ~/.claude/skills/html-ppt",
+  "tags": [
+    "design",
+    "html",
+    "ppt"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/lewislulu/html-ppt-skill"
+  }
+}

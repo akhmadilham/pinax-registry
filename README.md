@@ -3,7 +3,7 @@
 > Open-source database of verified skills for AI coding agents.
 
 [![Live Catalog](https://img.shields.io/badge/Live%20Catalog-pinax--skills.vercel.app-blue.svg)](https://pinax-skills.vercel.app/)
-[![Skills Count](https://img.shields.io/badge/skills-145%20verified-cyan.svg)](data/skills)
+[![Skills Count](https://img.shields.io/badge/skills-274%20verified-cyan.svg)](data/skills)
 [![Categories](https://img.shields.io/badge/categories-8%20domains-blueviolet.svg)](data/categories.json)
 [![Schema](https://img.shields.io/badge/schema-Draft--2020--12-blue.svg)](schema/skill.schema.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -22,7 +22,7 @@ and copy 1-click install prompts at
 ## Overview
 
 <!-- PINAX_STATS:START -->
-PINAX currently tracks **145 verified skills** across **8 domains** for autonomous coding agents (Claude Code, Cursor, Codex, and Antigravity). Every skill is audited for safe commands, validated against a formal JSON schema, and checked for tool overlaps.
+PINAX currently tracks **274 verified skills** across **8 domains** for autonomous coding agents (Claude Code, Cursor, Codex, and Antigravity). Every skill is audited for safe commands, validated against a formal JSON schema, and checked for tool overlaps.
 <!-- PINAX_STATS:END -->
 
 Agent skills give coding agents specialized domain workflows. However, community skills often run into three practical issues:
@@ -40,15 +40,15 @@ PINAX provides a transparent, schema-governed database to solve these issues. Ea
 <!-- PINAX_DOMAINS:START -->
 | Domain | Skills | Lead Skill | Core Focus |
 | :--- | :---: | :--- | :--- |
-| 🎨 **Design** | 48 | `hallmark` | Make every detail intentional |
-| ⚙️ **Engineering** | 34 | `superpowers` | Go from idea to implementation with confidence |
-| 💼 **Business** | 19 | `founder-skill` | Build a smarter workflow around the tools and vendors you actually use |
-| ✍️ **Writing** | 13 | `no-ai-slop` | Turn ideas into writing worth reading |
-| 🎬 **Video** | 11 | `ffmpeg-skill` | Create, process, and refine video with reliable workflows |
-| 🔍 **SEO** | 9 | `claude-seo` | Audit, fix, and measure search and AI answer visibility, from technical checks to content and ranking |
-| 🛡️ **Security** | 8 | `trailofbits/skills` | Find vulnerabilities before they become problems |
-| 🧭 **Discovery** | 3 | `awesome-agent-skills` | Explore new capabilities beyond the atlas |
-| **Total** | **145** | | |
+| 🎨 **Design** | 84 | `hallmark` | Make every detail intentional |
+| ⚙️ **Engineering** | 51 | `superpowers` | Go from idea to implementation with confidence |
+| 🎬 **Video** | 44 | `ffmpeg-skill` | Create, process, and refine video with reliable workflows |
+| 💼 **Business** | 39 | `founder-skill` | Build a smarter workflow around the tools and vendors you actually use |
+| ✍️ **Writing** | 25 | `no-ai-slop` | Turn ideas into writing worth reading |
+| 🔍 **SEO** | 14 | `claude-seo` | Audit, fix, and measure search and AI answer visibility, from technical checks to content and ranking |
+| 🛡️ **Security** | 12 | `trailofbits/skills` | Find vulnerabilities before they become problems |
+| 🧭 **Discovery** | 5 | `awesome-agent-skills` | Explore new capabilities beyond the atlas |
+| **Total** | **274** | | |
 <!-- PINAX_DOMAINS:END -->
 
 ---
@@ -181,7 +181,7 @@ pinax-registry/
 │       ├── validate.yml          # Automated 4-stage quality gate CI
 │       └── build.yml             # Release compiler and checksum validator
 ├── data/
-│   ├── skills/                   # Modular skill definitions (001 to 145+)
+│   ├── skills/                   # Modular skill definitions (001 to 274+)
 │   ├── categories.json           # 8 domain categories and visual tokens
 │   ├── conflicts.json            # Hard and soft conflict matrix rules
 │   └── catalog.json              # Canonical compiled distribution manifest

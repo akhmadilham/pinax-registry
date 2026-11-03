@@ -1,0 +1,21 @@
+{
+  "id": "refactoring-ui",
+  "index": "168",
+  "name": "edisonmbli/refactoring-ui",
+  "repo": "edisonmbli/refactoring-ui-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "4459662",
+  "description": "A UI design skill that applies Refactoring UI principles, restated in its own words, to improve interfaces, with Tailwind-oriented guidance and design principles for cleaner, more usable layouts. It is an unofficial implementation of principles, not a copy of the book.",
+  "install": "/plugin install refactoring-ui via marketplace add, per README. README explains marketplace add clones the repo and install loads from the conventional directory, and updates are a renamed git pull.",
+  "tags": [
+    "design",
+    "refactoring"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/edisonmbli/refactoring-ui-skill"
+  }
+}

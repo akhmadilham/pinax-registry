@@ -1,0 +1,22 @@
+{
+  "id": "seedance-prompt-en",
+  "index": "176",
+  "name": "dexhunter/seedance-prompt-en",
+  "repo": "dexhunter/seedance2-skill",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "516284d",
+  "description": "A Seedance 2.0 multimodal prompt guide covering camera work, effects, extension, editing, music beat-matching, e-commerce ads, short dramas, and educational content.",
+  "install": "npx skills add dexhunter/seedance2-skill, or manual copy (cp SKILL.md ~/.claude/skills/seedance-prompt-en.md)",
+  "tags": [
+    "video",
+    "seedance",
+    "prompt"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/dexhunter/seedance2-skill"
+  }
+}

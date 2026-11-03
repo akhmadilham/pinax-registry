@@ -1,0 +1,23 @@
+{
+  "id": "create-photo-flipbook-ui",
+  "index": "272",
+  "name": "haichaolihc/create-photo-flipbook-ui",
+  "repo": "haichaolihc/create-photo-flipbook-ui",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "d7a43c9",
+  "description": "Curates user photos, designs photobook spreads, and builds an interactive page-turning site with a bundled 3D hardcover book runtime.",
+  "install": "Codex skill-installer script route in README (python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py with the repo path). This is a local system installer script, not a remote pipe.",
+  "tags": [
+    "design",
+    "create",
+    "photo",
+    "flipbook"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/haichaolihc/create-photo-flipbook-ui"
+  }
+}

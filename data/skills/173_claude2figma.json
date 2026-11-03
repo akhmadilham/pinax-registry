@@ -1,0 +1,22 @@
+{
+  "id": "claude2figma",
+  "index": "173",
+  "name": "senlindesign/claude2figma",
+  "repo": "senlindesign/claude2figma",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "edc95d7",
+  "description": "A small Claude-to-Figma workflow skill set with exactly 4 skills: Figma preflight checks, component rules, Figma style binding, and reference interpretation. It guides an agent to work from a Figma file with a design system, checking style and variable bindings on returned nodes.",
+  "install": "Clone-and-copy: clone the repo, copy .claude/skills/* into the project .claude/skills/, copy .claude/settings.json, copy CLAUDE.md.template to CLAUDE.md, then paste the Figma file URL into CLAUDE.md. Use the current repo name in the clone step; README step 1 still shows the old repo name (cc2figma), and GitHub renames normally redirect, but the draft uses the current name.",
+  "tags": [
+    "design",
+    "claude2figma",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/senlindesign/claude2figma"
+  }
+}

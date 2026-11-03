@@ -1,0 +1,22 @@
+{
+  "id": "day1global-skills",
+  "index": "153",
+  "name": "star23/day1global-skills",
+  "repo": "star23/day1global-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "562c14b",
+  "description": "A finance and macro collection including macro liquidity monitoring, a bitcoin bottom model, tech earnings deep dive, US market sentiment, and US value investing. The verified sample monitors macro liquidity via Fed Net Liquidity, SOFR, MOVE, and yen carry trade signals, using web search for latest data.",
+  "install": "npx skills add https://github.com/star23/Day1Global-Skills --all and git clone (repo name case as documented in verify evidence).",
+  "tags": [
+    "business",
+    "day1global",
+    "finance"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/star23/day1global-skills"
+  }
+}

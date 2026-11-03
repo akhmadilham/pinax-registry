@@ -1,0 +1,22 @@
+{
+  "id": "motionmaxxing",
+  "index": "259",
+  "name": "tejashmakwana/motionmaxxing",
+  "repo": "tejashmakwana/motionmaxxing",
+  "category": "Video",
+  "type": "Skill",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "8c8ec0f",
+  "description": "Measured motion rework skill for motion graphics, built on principles of weight, soft-land angle, snap-settle timing, and negative tracking, installed via a local requirements-check script.",
+  "install": "git clone into the Claude skills directory, then run the local install.sh (checks Node 22+, Python 3.9+, ffmpeg, Chrome, and links or copies the folder into the skills directory)",
+  "tags": [
+    "video",
+    "motionmaxxing",
+    "motion"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/tejashmakwana/motionmaxxing"
+  }
+}

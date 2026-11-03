@@ -1,0 +1,24 @@
+{
+  "id": "awesome-deepseek-harness-plugins",
+  "index": "238",
+  "name": "zhiyuan-fan/awesome-deepseek-harness-plugins",
+  "repo": "zhiyuan-fan/awesome-deepseek-harness-plugins",
+  "category": "Discovery",
+  "type": "Index",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "6b31166",
+  "description": "A curated index of DeepSeek Harness plugins, listing plugins by category so users can discover harness extensions without searching repo by repo.",
+  "install": "npx skills add zhiyuan-fan/awesome-deepseek-harness-plugins",
+  "tags": [
+    "discovery",
+    "awesome",
+    "deepseek",
+    "harness",
+    "plugins"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/zhiyuan-fan/awesome-deepseek-harness-plugins"
+  }
+}

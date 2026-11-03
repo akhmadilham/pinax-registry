@@ -1,0 +1,23 @@
+{
+  "id": "academic-figure-generator",
+  "index": "212",
+  "name": "ligphidonk/academic-figure-generator",
+  "repo": "ligphidonk/academic-figure-generator",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "0a2bec6",
+  "description": "A collection of skills for generating academic figures, with prompt-based figure styles (including a pastel variant) that turn research content into publication-ready graphics.",
+  "install": "npx skills add LigphiDonk/academic-figure-generator, or git clone and cp -r academic-figure-generator/academic-figure-prompt .claude/skills/ (and .gemini/skills/)",
+  "tags": [
+    "design",
+    "academic",
+    "figure",
+    "generator"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/ligphidonk/academic-figure-generator"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "notfair-plugin",
+  "index": "146",
+  "name": "nowork-studio/notfair-plugin",
+  "repo": "nowork-studio/notfair-plugin",
+  "category": "Business",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "ed835f2",
+  "description": "A plugin for SEO backlink auditing. The verified sample routes through a backlink-audit workflow document covering audit steps and Google disavow guidance. It registers one MCP server named NotFair via browser OAuth for live account analysis.",
+  "install": "/plugin marketplace add nowork-studio/notfair-plugin then /plugin install notfair@nowork-studio.",
+  "tags": [
+    "business",
+    "notfair",
+    "seo"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/nowork-studio/notfair-plugin"
+  }
+}

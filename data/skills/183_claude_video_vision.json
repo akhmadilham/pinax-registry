@@ -1,0 +1,24 @@
+{
+  "id": "claude-video-vision",
+  "index": "183",
+  "name": "jordanrendric/claude-video-vision",
+  "repo": "jordanrendric/claude-video-vision",
+  "category": "Video",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "4a4f990",
+  "description": "A video perception plugin plus MCP server. The sample skill, video-perception, works from base64 images, transcription, timestamps, and audio events to give an agent video understanding.",
+  "install": "/plugin marketplace add https://github.com/jordanrendric/claude-video-vision, then /plugin install claude-video-vision; the MCP server auto-installs via npx from npm. A git clone plus claude --plugin-dir route is also documented.",
+  "tags": [
+    "video",
+    "claude",
+    "vision",
+    "audio",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/jordanrendric/claude-video-vision"
+  }
+}

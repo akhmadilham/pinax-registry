@@ -1,0 +1,23 @@
+{
+  "id": "jinba-consulting-pptx-skill",
+  "index": "257",
+  "name": "carnot-tech/jinba-consulting-pptx-skill",
+  "repo": "carnot-tech/jinba-consulting-pptx-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "e5f35e5",
+  "description": "Boardroom deck rulebook for building consulting presentations as PPTX, with a machine rule checker and a 65-part HTML slide library behind the deck output.",
+  "install": "git clone into the Claude skills directory, using the current repo name jinba-consulting-pptx-skill",
+  "tags": [
+    "design",
+    "jinba",
+    "consulting",
+    "pptx"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/carnot-tech/jinba-consulting-pptx-skill"
+  }
+}

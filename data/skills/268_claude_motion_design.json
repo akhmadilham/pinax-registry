@@ -1,0 +1,23 @@
+{
+  "id": "claude-motion-design",
+  "index": "268",
+  "name": "howseen-ai/claude-motion-design",
+  "repo": "howseen-ai/claude-motion-design",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "3d90d34",
+  "description": "Pure-code motion design video skill using HTML plus Playwright plus ffmpeg, with frame-by-frame seek(t) rendering, motion blur blending, and beat-cut sound, without After Effects or Remotion.",
+  "install": "copy skill/motion-design into ~/.claude/skills/, plus Python deps (pip install playwright imageio-ffmpeg numpy pillow and Playwright Chromium install), per the README install section",
+  "tags": [
+    "video",
+    "claude",
+    "motion",
+    "design"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/howseen-ai/claude-motion-design"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "awesome-finance-skills",
+  "index": "147",
+  "name": "rkiding/awesome-finance-skills",
+  "repo": "rkiding/awesome-finance-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "853f09b",
+  "description": "A finance skills collection. The verified sample fetches hot finance news and unified trends using local scripts, Polymarket data, and dependencies such as requests and loguru with a local database. Data sources include Chinese platforms alongside English ones.",
+  "install": "npx skills add rkiding/awesome-finance-skills@alphaear-news (repo name is case-insensitive; prior pass used RKiding/Awesome-finance-skills for the same repo).",
+  "tags": [
+    "business",
+    "awesome",
+    "finance"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/rkiding/awesome-finance-skills"
+  }
+}

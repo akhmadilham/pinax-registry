@@ -1,0 +1,21 @@
+{
+  "id": "aso-skills",
+  "index": "149",
+  "name": "appeeky/aso-skills",
+  "repo": "appeeky/aso-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "3919d7c",
+  "description": "An app store optimization (ASO) collection with a router skill that routes intent to a sub-skill and instructs reading that sub-skill file. Sub-skills include Android ASO, A/B testing of store listings, app analytics, and app clips. The verified Android ASO sample covers store listing optimization for Android.",
+  "install": "npx skills add appeeky/aso-skills. A plugin route is also documented.",
+  "tags": [
+    "business",
+    "aso"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/appeeky/aso-skills"
+  }
+}

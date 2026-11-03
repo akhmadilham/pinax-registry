@@ -1,0 +1,22 @@
+{
+  "id": "seedance-2-5-video-director",
+  "index": "232",
+  "name": "liyue-aigc/seedance-2-5-video-director",
+  "repo": "liyue-aigc/seedance-2-5-video-director",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "ad0e68b",
+  "description": "A video director skill for Seedance 2.5, covering prompts, scripts, diagnostics, character locking, continuation, editing, and transitions for AI video production.",
+  "install": "npx skills add liyue-aigc/seedance-2-5-video-director -g -y, plus git clone into the skills directory",
+  "tags": [
+    "video",
+    "seedance",
+    "director"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/liyue-aigc/seedance-2-5-video-director"
+  }
+}

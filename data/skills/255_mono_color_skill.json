@@ -1,0 +1,22 @@
+{
+  "id": "mono-color-skill",
+  "index": "255",
+  "name": "yanliudesign/mono-color-skill",
+  "repo": "yanliudesign/mono-color-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "c8ff705",
+  "description": "Editorial image skill working in one ink or a controlled two-ink palette, with a validation workflow for checking the constrained-color output.",
+  "install": "git clone route in README, plus direct SKILL.md load for other agents",
+  "tags": [
+    "design",
+    "mono",
+    "color"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/yanliudesign/mono-color-skill"
+  }
+}

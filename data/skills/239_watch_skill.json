@@ -1,0 +1,23 @@
+{
+  "id": "watch-skill",
+  "index": "239",
+  "name": "oxbshw/watch-skill",
+  "repo": "oxbshw/watch-skill",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "f1317c8",
+  "description": "A skill that turns video, audio, and screen activity into searchable timestamped evidence, with a watch skill and a loop skill, plus an MCP server and CLI for capture and search.",
+  "install": "pip install 'watch-skill[standard]' (and ocr/loop variants) and npx skills add oxbshw/watch-skill -g, plus npx --yes @deepwatch/cli setup",
+  "tags": [
+    "engineering",
+    "watch",
+    "audio",
+    "video"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/oxbshw/watch-skill"
+  }
+}

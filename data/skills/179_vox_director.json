@@ -1,0 +1,24 @@
+{
+  "id": "vox-director",
+  "index": "179",
+  "name": "alisa0808/vox-director",
+  "repo": "alisa0808/vox-director",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "6a85a7c",
+  "description": "A one-topic to finished-video skill that produces Vox-style paper-collage explainer or ad videos end to end: script, collage keyframes, motion, voice-over, music, and captions, running on the Atlas Cloud API plus local ffmpeg, with two human approval gates per AGENTS.md.",
+  "install": "git clone into ~/.claude/skills/vox-director",
+  "tags": [
+    "video",
+    "vox",
+    "director",
+    "motion",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/alisa0808/vox-director"
+  }
+}

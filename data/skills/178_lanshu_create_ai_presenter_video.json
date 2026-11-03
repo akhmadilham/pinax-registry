@@ -1,0 +1,23 @@
+{
+  "id": "lanshu-create-ai-presenter-video",
+  "index": "178",
+  "name": "cclank/lanshu-create-ai-presenter-video",
+  "repo": "cclank/lanshu-create-ai-presenter-video",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "762d3ee",
+  "description": "A harness-neutral presenter video skill that produces presenter and styled-route videos, with provider-neutral voice and lip-sync selection and per-job provider and model recording. Fonts, libraries, and services used by the explainer engine are listed separately in explainer/THIRD_PARTY.md, which was not read.",
+  "install": "git clone into ~/.claude/skills/lanshu-create-ai-presenter-video (from README install section)",
+  "tags": [
+    "video",
+    "lanshu",
+    "create",
+    "presenter"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/cclank/lanshu-create-ai-presenter-video"
+  }
+}

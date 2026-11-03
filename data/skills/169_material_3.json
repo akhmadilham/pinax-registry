@@ -1,0 +1,21 @@
+{
+  "id": "material-3",
+  "index": "169",
+  "name": "hamen/material-3",
+  "repo": "hamen/material-3-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "14385f2",
+  "description": "A Material Design 3 (Material You) skill for Android and Jetpack Compose UI work: design tokens, components, color, and Material 3 patterns, as a user-invokable skill for building compliant, polished Material interfaces.",
+  "install": "npx --yes skills add hamen/material-3-skill --skill material-3 -y (recommended) and Claude Code plugin route (/plugin install material-3@material-3-skill). Only the current routes are drafted; README notes the older plugin command never worked and is superseded.",
+  "tags": [
+    "design",
+    "material"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/hamen/material-3-skill"
+  }
+}

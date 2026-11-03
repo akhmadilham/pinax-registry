@@ -1,0 +1,22 @@
+{
+  "id": "sast-skills",
+  "index": "184",
+  "name": "utkusen/sast-skills",
+  "repo": "utkusen/sast-skills",
+  "category": "Security",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "3a5bf8f",
+  "description": "A static application security testing (SAST) skill collection under sast-files/.agents/skills/ (including sast-analysis, sast-businesslogic, sast-fileupload, and more). The sample skill, sast-analysis, guides SAST analysis and code review.",
+  "install": "npx skills add utkusen/sast-skills",
+  "tags": [
+    "security",
+    "sast",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/utkusen/sast-skills"
+  }
+}

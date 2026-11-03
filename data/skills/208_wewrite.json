@@ -1,0 +1,21 @@
+{
+  "id": "wewrite",
+  "index": "208",
+  "name": "imraywang/wewrite",
+  "repo": "imraywang/wewrite",
+  "category": "Writing",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "8a5cdab",
+  "description": "A collection of skills for WeChat publishing and content pipelines, covering article writing, style handling, and learning from past content, with publishing steps that use the user's own WeChat configuration.",
+  "install": "npx skills add imraywang/wewrite, or git clone (do NOT use the README bash install.sh route, which was not read)",
+  "tags": [
+    "writing",
+    "wewrite"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/imraywang/wewrite"
+  }
+}

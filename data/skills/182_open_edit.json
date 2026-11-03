@@ -1,0 +1,24 @@
+{
+  "id": "open-edit",
+  "index": "182",
+  "name": "veedstudio/open-edit",
+  "repo": "veedstudio/open-edit",
+  "category": "Video",
+  "type": "Skill",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "15d14d7",
+  "description": "An open-source, agent-driven editing pipeline skill. The agent transcribes with real per-word timings, composes the piece as an HTML page, renders it frame by frame in a browser, reviews the frames and fixes what it sees, then hands back the file. It covers subtitles, motion graphics, slides, cutting and reframing, and rendered video.",
+  "install": "npx skills add veedstudio/open-edit --skill open-edit (from README Get started section; gap-filled, see Gap fills)",
+  "tags": [
+    "video",
+    "open",
+    "edit",
+    "motion",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/veedstudio/open-edit"
+  }
+}

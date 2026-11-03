@@ -1,0 +1,22 @@
+{
+  "id": "claude-to-im-skill",
+  "index": "211",
+  "name": "op7418/claude-to-im-skill",
+  "repo": "op7418/claude-to-im-skill",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "536908f",
+  "description": "A skill that bridges Claude Code and Codex to instant-messaging platforms (Telegram, Discord, Feishu/Lark), letting the agent send and receive through those channels with an interactive setup wizard for tokens.",
+  "install": "npx skills add op7418/Claude-to-IM-skill, or git clone into Claude Code or Codex skills directories",
+  "tags": [
+    "engineering",
+    "claude",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/op7418/claude-to-im-skill"
+  }
+}

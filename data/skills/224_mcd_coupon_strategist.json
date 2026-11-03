@@ -1,0 +1,23 @@
+{
+  "id": "mcd-coupon-strategist",
+  "index": "224",
+  "name": "syenzzz/mcd-coupon-strategist",
+  "repo": "syenzzz/mcd-coupon-strategist",
+  "category": "Business",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "4e381ba",
+  "description": "A skill that optimizes McDonald's China coupon combinations, computing the best stacking of coupons and deals for a given order, with a zero-dependency demo that runs without a token.",
+  "install": "npx skills add syenzzz/mcd-coupon-strategist",
+  "tags": [
+    "business",
+    "mcd",
+    "coupon",
+    "strategist"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/syenzzz/mcd-coupon-strategist"
+  }
+}

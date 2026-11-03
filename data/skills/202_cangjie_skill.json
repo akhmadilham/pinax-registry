@@ -1,0 +1,22 @@
+{
+  "id": "cangjie-skill",
+  "index": "202",
+  "name": "kangarooking/cangjie-skill",
+  "repo": "kangarooking/cangjie-skill",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "a28de55",
+  "description": "A skill that distills books, transcripts, and courses into executable agent skills, turning long source material into structured, reusable skill content with templates and benchmarks.",
+  "install": "Clone the repo and copy the skill folder into the agent skills directory (repo folder copy/clone route; the DeepSeek Harness tarball route is checksum-verified local install, not a pipe, and is not the draft route)",
+  "tags": [
+    "engineering",
+    "cangjie",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/kangarooking/cangjie-skill"
+  }
+}

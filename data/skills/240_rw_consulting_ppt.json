@@ -1,0 +1,22 @@
+{
+  "id": "rw-consulting-ppt",
+  "index": "240",
+  "name": "pikapika260214/rw-consulting-ppt",
+  "repo": "pikapika260214/rw-consulting-ppt",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "7665d89",
+  "description": "A collection for turning industry reports and notes into proof-object-first image consulting PPTs, plus an astralow skill for editable PPT output, aimed at consulting-style decks with evidence-backed slides.",
+  "install": "cp -R ./skills/rw-consulting-ppt/. ~/.codex/skills/rw-consulting-ppt/ and the astralow equivalent, plus python -m pip install -r skills/astralow-for-editable-ppt/requirements.txt",
+  "tags": [
+    "design",
+    "consulting",
+    "ppt"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/pikapika260214/rw-consulting-ppt"
+  }
+}

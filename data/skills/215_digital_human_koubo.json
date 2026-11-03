@@ -1,0 +1,24 @@
+{
+  "id": "digital-human-koubo",
+  "index": "215",
+  "name": "andyhuo520/digital-human-koubo",
+  "repo": "andyhuo520/digital-human-koubo",
+  "category": "Video",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "f661a6c",
+  "description": "A collection for digital-human talking-head video, including a digital-human skill and a finance-explainer skill that generate presenter-style explainer videos.",
+  "install": "Clone the repo, then mkdir -p ~/.claude/skills && cp -R skills/digital-human-koubo skills/finance-explainer ~/.claude/skills/ (and Codex equivalent), or zip import in WorkBuddy/OpenClaw skills pages",
+  "tags": [
+    "video",
+    "digital",
+    "human",
+    "koubo",
+    "finance"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/andyhuo520/digital-human-koubo"
+  }
+}

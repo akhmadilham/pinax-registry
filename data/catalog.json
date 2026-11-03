@@ -1,38 +1,40 @@
 {
   "$schema": "../schema/skill.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-11-03T04:28:18.655607+00:00",
+  "generated_at": "2026-11-03T11:28:20.156176+00:00",
   "integrity": {
-    "skills_sha256": "e029ef044415dbcf7741d626e5105417662c31e37ec30a34ea0f04ed9a4dc3cd",
+    "skills_sha256": "3d6f8f89790263ea1009044d9142ec3839b0cc8ef40d8fc4b9272d6ed5a3a87e",
     "algorithm": "SHA-256"
   },
   "stats": {
-    "total_skills": 145,
-    "pinned_skills": 108,
+    "total_skills": 274,
+    "pinned_skills": 237,
     "categories": {
-      "Engineering": 34,
-      "Security": 8,
-      "Design": 48,
-      "Discovery": 3,
-      "Video": 11,
-      "Business": 19,
-      "Writing": 13,
-      "SEO": 9
+      "Engineering": 51,
+      "Security": 12,
+      "Design": 84,
+      "Discovery": 5,
+      "Video": 44,
+      "Business": 39,
+      "Writing": 25,
+      "SEO": 14
     },
     "types": {
-      "Collection": 54,
-      "Tool": 7,
-      "Skill": 72,
-      "Index": 1,
+      "Collection": 111,
+      "Tool": 12,
+      "Skill": 126,
+      "Index": 3,
       "Vendor": 3,
-      "Plugin": 8
+      "Plugin": 19
     },
     "licenses": {
-      "MIT": 124,
-      "Apache-2.0": 17,
+      "MIT": 239,
+      "Apache-2.0": 29,
       "No root licence file": 2,
       "CC-BY-SA-4.0": 1,
-      "Mixed (MIT / CC BY 4.0 / Apache 2.0)": 1
+      "Mixed (MIT / CC BY 4.0 / Apache 2.0)": 1,
+      "CC0-1.0": 1,
+      "CC": 1
     }
   },
   "categories": [
@@ -3821,6 +3823,2875 @@
         "source": "https://github.com/Raymondhou0917/speak-human-tw"
       },
       "stars": 1114
+    },
+    {
+      "id": "notfair-plugin",
+      "index": "146",
+      "name": "nowork-studio/notfair-plugin",
+      "repo": "nowork-studio/notfair-plugin",
+      "category": "Business",
+      "type": "Plugin",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "ed835f2",
+      "description": "A plugin for SEO backlink auditing. The verified sample routes through a backlink-audit workflow document covering audit steps and Google disavow guidance. It registers one MCP server named NotFair via browser OAuth for live account analysis.",
+      "install": "/plugin marketplace add nowork-studio/notfair-plugin then /plugin install notfair@nowork-studio.",
+      "tags": [
+        "business",
+        "notfair",
+        "seo"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/nowork-studio/notfair-plugin"
+      }
+    },
+    {
+      "id": "awesome-finance-skills",
+      "index": "147",
+      "name": "rkiding/awesome-finance-skills",
+      "repo": "rkiding/awesome-finance-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": "853f09b",
+      "description": "A finance skills collection. The verified sample fetches hot finance news and unified trends using local scripts, Polymarket data, and dependencies such as requests and loguru with a local database. Data sources include Chinese platforms alongside English ones.",
+      "install": "npx skills add rkiding/awesome-finance-skills@alphaear-news (repo name is case-insensitive; prior pass used RKiding/Awesome-finance-skills for the same repo).",
+      "tags": [
+        "business",
+        "awesome",
+        "finance"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/rkiding/awesome-finance-skills"
+      }
+    },
+    {
+      "id": "wondelai-skills-business-subset",
+      "index": "148",
+      "name": "wondelai/skills (Business subset)",
+      "repo": "wondelai/skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "d8d5d75",
+      "description": "A multi-domain collection of 50 plus skills; this draft covers the Business subset only, such as create-business, grow-business, and improve-business. The verified sample guides an idea-to-validated-business journey by orchestrating ten phase skills.",
+      "install": "/plugin marketplace add wondelai/skills plus per-collection plugin installs, and npx skills add wondelai/skills/<name> --global.",
+      "tags": [
+        "business",
+        "wondelai/skills",
+        "(business",
+        "subset)"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/wondelai/skills"
+      }
+    },
+    {
+      "id": "aso-skills",
+      "index": "149",
+      "name": "appeeky/aso-skills",
+      "repo": "appeeky/aso-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "3919d7c",
+      "description": "An app store optimization (ASO) collection with a router skill that routes intent to a sub-skill and instructs reading that sub-skill file. Sub-skills include Android ASO, A/B testing of store listings, app analytics, and app clips. The verified Android ASO sample covers store listing optimization for Android.",
+      "install": "npx skills add appeeky/aso-skills. A plugin route is also documented.",
+      "tags": [
+        "business",
+        "aso"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/appeeky/aso-skills"
+      }
+    },
+    {
+      "id": "newsjack",
+      "index": "150",
+      "name": "elvisun/newsjack",
+      "repo": "elvisun/newsjack",
+      "category": "Business",
+      "type": "Tool",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "47d0fb2",
+      "description": "A PR and media monitoring tool packaged as an npm CLI plus plugin skills. The verified sample skill designs an AI visibility panel. The tool connects to a Medialyst connector over OAuth for media data.",
+      "install": "npm i -g newsjack@latest. Npm route only. Do not use the README pipe installer and do not use install.sh, which downloads release tarballs and removes install directories.",
+      "tags": [
+        "business",
+        "newsjack",
+        "design"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/elvisun/newsjack"
+      }
+    },
+    {
+      "id": "ecommerce-skills",
+      "index": "151",
+      "name": "nexscope-ai/ecommerce-skills",
+      "repo": "nexscope-ai/ecommerce-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "ee0fb29",
+      "description": "A large ecommerce collection of 140 plus skills including keyword research, marketing strategy building, conversion rate optimization, and marketplace SEO for Etsy and eBay. The verified sample is an ecommerce keyword research skill.",
+      "install": "npx skills add nexscope-ai/ecommerce-skills -g and per-skill --skill form.",
+      "tags": [
+        "business",
+        "ecommerce",
+        "seo"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/nexscope-ai/ecommerce-skills"
+      }
+    },
+    {
+      "id": "startup-skill",
+      "index": "152",
+      "name": "ferdinandobons/startup-skill",
+      "repo": "ferdinandobons/startup-skill",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "a5f97c3",
+      "description": "A startup collection covering competitor analysis, design, and pitch work. The verified sample builds competitor battle cards and warns against battle cards that ignore competitor strengths.",
+      "install": "npx skills add ferdinandobons/startup-skill. A plugin marketplace route and skillkit route are also documented.",
+      "tags": [
+        "business",
+        "startup",
+        "design"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/ferdinandobons/startup-skill"
+      }
+    },
+    {
+      "id": "day1global-skills",
+      "index": "153",
+      "name": "star23/day1global-skills",
+      "repo": "star23/day1global-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "562c14b",
+      "description": "A finance and macro collection including macro liquidity monitoring, a bitcoin bottom model, tech earnings deep dive, US market sentiment, and US value investing. The verified sample monitors macro liquidity via Fed Net Liquidity, SOFR, MOVE, and yen carry trade signals, using web search for latest data.",
+      "install": "npx skills add https://github.com/star23/Day1Global-Skills --all and git clone (repo name case as documented in verify evidence).",
+      "tags": [
+        "business",
+        "day1global",
+        "finance"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/star23/day1global-skills"
+      }
+    },
+    {
+      "id": "amazon-skills",
+      "index": "154",
+      "name": "nexscope-ai/amazon-skills",
+      "repo": "nexscope-ai/amazon-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "0f3b13f",
+      "description": "An Amazon-specific collection of 50 plus skills. The verified sample is an Amazon keyword research skill. It is the marketplace-specific sibling of the same author's ecommerce-skills collection.",
+      "install": "npx skills add nexscope-ai/Amazon-Skills -g and per-skill form (repo name case as documented in verify evidence).",
+      "tags": [
+        "business",
+        "amazon"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/nexscope-ai/amazon-skills"
+      }
+    },
+    {
+      "id": "founder-playbook",
+      "index": "155",
+      "name": "getagentseal/founder-playbook",
+      "repo": "getagentseal/founder-playbook",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "e811e63",
+      "description": "A founder playbook collection of 16 skills derived from well known business books and frameworks, including lean startup, crossing the chasm, blue ocean strategy, mom test, traction, storybrand, spin selling, and 100m offers and leads material. The verified sample is the mom test skill for customer interviews.",
+      "install": "npx skills add getagentseal/founder-playbook and git clone.",
+      "tags": [
+        "business",
+        "founder",
+        "playbook"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/getagentseal/founder-playbook"
+      }
+    },
+    {
+      "id": "claude-skills-founder",
+      "index": "156",
+      "name": "emotixco/claude-skills-founder",
+      "repo": "emotixco/claude-skills-founder",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "ea6864c",
+      "description": "A founder collection of 14 skills covering competitor matrix, email sequences, fundraise prep, go-to-market, landing pages, metrics dashboards, MVP scope, persona generation, pitch decks, pricing strategy, product briefs, status tracking, user interviews, and idea validation. The verified sample validates an idea.",
+      "install": "/plugin marketplace add emotixco/claude-skills-founder then /plugin install founder@emotix, plus git clone.",
+      "tags": [
+        "business",
+        "claude",
+        "founder"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/emotixco/claude-skills-founder"
+      }
+    },
+    {
+      "id": "the-startup",
+      "index": "157",
+      "name": "rsmdt/the-startup",
+      "repo": "rsmdt/the-startup",
+      "category": "Business",
+      "type": "Plugin",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "e803d51",
+      "description": "A startup plugin with skills, commands, and agents for deep-research analysis, archiving, and brainstorming. The verified sample is a deep-research analysis orchestrator that requires cited claims and independent skeptic verification, producing one cited report.",
+      "install": "/plugin marketplace add rsmdt/the-startup then /plugin install start@the-startup. Plugin route only. Do not use the README pipe installer for install.sh.",
+      "tags": [
+        "business",
+        "the",
+        "startup",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/rsmdt/the-startup"
+      }
+    },
+    {
+      "id": "claude-trading-skills",
+      "index": "158",
+      "name": "agiprolabs/claude-trading-skills",
+      "repo": "agiprolabs/claude-trading-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "981e1d7",
+      "description": "A trading collection of 68 skills including risk management, backtesting with backtrader, copy trading, dex execution, kelly criterion, and portfolio analytics. The verified sample is a risk management skill. Install is via the plugin route or clone plus copy.",
+      "install": "/plugin marketplace add agiprolabs/claude-trading-skills then /plugin install trading-skills@agiprolabs-claude-trading-skills, plus git clone plus copy. Plugin route only for the draft; the README prerequisite of a uv install via a pipe for uv itself is not drafted.",
+      "tags": [
+        "business",
+        "claude",
+        "trading"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/agiprolabs/claude-trading-skills"
+      }
+    },
+    {
+      "id": "seomachine",
+      "index": "159",
+      "name": "thecraighewitt/seomachine",
+      "repo": "thecraighewitt/seomachine",
+      "category": "SEO",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "120e7b4",
+      "description": "An SEO machine repo with 26 marketing skills as slash commands under .claude/skills, covering SEO audit, programmatic SEO, schema markup, content strategy, copywriting, and paid ads. It also ships Python analysis modules, data sources, research scripts, and a WordPress MU-plugin for Yoast fields. Install is clone plus pip install for the analysis modules.",
+      "install": "git clone https://github.com/thecraighewitt/seomachine.git plus pip install of Python dependencies for analysis modules, per README. No plugin or npx route was documented in the README lines read.",
+      "tags": [
+        "seo",
+        "seomachine",
+        "python"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/thecraighewitt/seomachine"
+      }
+    },
+    {
+      "id": "superpowers-zh",
+      "index": "160",
+      "name": "jnmetacode/superpowers-zh",
+      "repo": "jnmetacode/superpowers-zh",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "020339d",
+      "description": "Chinese community edition of a software development workflow skill set. It provides structured brainstorming and planning, test-driven development and debugging workflows, and related engineering practices, with 15 translated skills plus 4 China-original skills. The sample skill read covers brainstorming in Chinese.",
+      "install": "npx superpowers-zh (per-tool variants documented in the README install table), plus manual copy to each tool's skills directory.",
+      "tags": [
+        "engineering",
+        "superpowers"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/jnmetacode/superpowers-zh"
+      }
+    },
+    {
+      "id": "everything-claude-code-zh",
+      "index": "161",
+      "name": "xu-xiang/everything-claude-code-zh",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "dfbf946",
+      "description": "Chinese translation of a large engineering workflow skill collection covering topics such as API design and general Claude Code workflows. The sample skill read covers API design in Chinese.",
+      "install": "/plugin marketplace add affaan-m/everything-claude-code then /plugin install everything-claude-code@everything-claude-code. This plugin route is the documented non-pipe route to draft; the README also documents a manual git clone plus install script rules step, which is not the drafted route.",
+      "tags": [
+        "engineering",
+        "everything",
+        "claude",
+        "code",
+        "design"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/xu-xiang/everything-claude-code-zh"
+      }
+    },
+    {
+      "id": "vision-skills",
+      "index": "162",
+      "name": "anionex/vision-skills",
+      "repo": "anionex/agent-vision-toolkit",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "328c0ae",
+      "description": "A skill for agent vision work: analyzing images, running OCR, grounding GUI elements, and working from screenshots. It pairs the skill instructions with local vision client and proxy tooling so an agent can call a user-configured vision model.",
+      "install": "npx skills add Anionex/agent-vision-toolkit --skill vision-skills -a codex -g --copy -y (per-agent variants in README and AGENT_INSTALL.md), plus a three-step manual install.",
+      "tags": [
+        "design",
+        "vision",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/anionex/agent-vision-toolkit"
+      }
+    },
+    {
+      "id": "penpot-mcp",
+      "index": "163",
+      "name": "ar27111994/penpot-mcp",
+      "repo": "ar27111994/penpot-mcp",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "c1a87cd",
+      "description": "A design skill for working with Penpot through its official MCP server: design-to-code, design systems and tokens, prototyping, and interactions. It guides the agent to work with the currently focused page in the active Penpot tab via MCP.",
+      "install": "npx skills add ar27111994/penpot-mcp (README badge and install section).",
+      "tags": [
+        "design",
+        "penpot",
+        "mcp",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/ar27111994/penpot-mcp"
+      }
+    },
+    {
+      "id": "evidence-based-brand-systems",
+      "index": "164",
+      "name": "arome3/evidence-based-brand-systems",
+      "repo": "arome3/evidence-based-brand-systems",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "d75d35c",
+      "description": "A brand system skill that builds and verifies brand assets from evidence rather than guesswork: brand tokens, boards, assets, and source references, checked by a local brand verifier script. The workflow emphasizes verifying brand claims against captured references before shipping brand output.",
+      "install": "/plugin install evidence-based-brand-systems@evidence-based-brand-systems, plus a skill-installer path for the skill folder. README also lists pip installs for the verifier's own dependencies (fonttools, uharfbuzz, playwright, pillow) and a Playwright browser install step; those are dependency installs for the local verifier, not a pipe installer, and the plugin route is presented first.",
+      "tags": [
+        "design",
+        "evidence",
+        "based",
+        "brand",
+        "systems"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/arome3/evidence-based-brand-systems"
+      }
+    },
+    {
+      "id": "extract-design-system",
+      "index": "165",
+      "name": "arvindrk/extract-design-system",
+      "repo": "arvindrk/extract-design-system",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "1873741",
+      "description": "A skill that extracts design primitives from a public website into a design system starter: tokens, styles, and components, ready to turn into code. It scrapes a user-supplied public website URL with Playwright locally, and requires confirming the target is public and reachable and asking before modifying existing code.",
+      "install": "npx skills add arvindrk/extract-design-system (README install section; also skills.sh listing).",
+      "tags": [
+        "design",
+        "extract",
+        "system"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/arvindrk/extract-design-system"
+      }
+    },
+    {
+      "id": "silk-design",
+      "index": "166",
+      "name": "bendrape1-byte/silk-design",
+      "repo": "bendrape1-byte/silk-design",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "0f530f0",
+      "description": "A UI design skill focused on smooth, polished interface craft with a design system reference and 10 style skins. It guides motion and smoothness choices, composition, backgrounds, effects, and templates, with 23 reference template folders for visual direction.",
+      "install": "git clone https://github.com/bendrape1-byte/silk-design ~/.claude/skills/silk-design (README install section).",
+      "tags": [
+        "design",
+        "silk",
+        "motion"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/bendrape1-byte/silk-design"
+      }
+    },
+    {
+      "id": "arcana",
+      "index": "167",
+      "name": "cj-ways/arcana",
+      "repo": "cj-ways/arcana",
+      "category": "Engineering",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "62a5cbd",
+      "description": "A CLI-managed collection of 18 engineering and design workflow skills, including audits, reviews, fixes, planning, test generation, release checks, security checks, and a design-phase prompt skill for v0.dev. The sample skill read covers v0 design prompting. The CLI supports init with a dry-run preview and plugin install.",
+      "install": "npx @cj-ways/arcana init (with --dry-run preview documented) and plugin route (/plugin install arcana@cj-ways-skills). Only the CLI/plugin install is drafted.",
+      "tags": [
+        "engineering",
+        "arcana",
+        "design",
+        "security"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/cj-ways/arcana"
+      }
+    },
+    {
+      "id": "refactoring-ui",
+      "index": "168",
+      "name": "edisonmbli/refactoring-ui",
+      "repo": "edisonmbli/refactoring-ui-skill",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "4459662",
+      "description": "A UI design skill that applies Refactoring UI principles, restated in its own words, to improve interfaces, with Tailwind-oriented guidance and design principles for cleaner, more usable layouts. It is an unofficial implementation of principles, not a copy of the book.",
+      "install": "/plugin install refactoring-ui via marketplace add, per README. README explains marketplace add clones the repo and install loads from the conventional directory, and updates are a renamed git pull.",
+      "tags": [
+        "design",
+        "refactoring"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/edisonmbli/refactoring-ui-skill"
+      }
+    },
+    {
+      "id": "material-3",
+      "index": "169",
+      "name": "hamen/material-3",
+      "repo": "hamen/material-3-skill",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "14385f2",
+      "description": "A Material Design 3 (Material You) skill for Android and Jetpack Compose UI work: design tokens, components, color, and Material 3 patterns, as a user-invokable skill for building compliant, polished Material interfaces.",
+      "install": "npx --yes skills add hamen/material-3-skill --skill material-3 -y (recommended) and Claude Code plugin route (/plugin install material-3@material-3-skill). Only the current routes are drafted; README notes the older plugin command never worked and is superseded.",
+      "tags": [
+        "design",
+        "material"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/hamen/material-3-skill"
+      }
+    },
+    {
+      "id": "khasky-awesome-agent-skills",
+      "index": "170",
+      "name": "khasky/khasky-awesome-agent-skills",
+      "repo": "khasky/awesome-agent-skills",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "58ea4e8",
+      "description": "A large audit and review skill collection (49 folders), drafted here cherry-pick only, led by a read-only security audit skill. The audit subset covers security, dependency, leak, privacy, and code review and quality audits, with explicit read-only behavior and no edits applied.",
+      "install": "npx skills add khasky/awesome-agent-skills (single-skill variant with -s documented, with a README warning that single-skill installs can leave cross-skill reference links dangling) and plugin routes (Claude Code, Copilot CLI, Antigravity). Draft scope is cherry-pick (the security-audit sample and named audit skills), never the install-everything route.",
+      "tags": [
+        "engineering",
+        "awesome",
+        "agent",
+        "security"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/khasky/awesome-agent-skills"
+      }
+    },
+    {
+      "id": "build-awwwards-quality-sites",
+      "index": "171",
+      "name": "mengto/build-awwwards-quality-sites",
+      "repo": "mengto/skills",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "1de14e2",
+      "description": "A single web design skill for building Awwwards-quality sites with strong motion and interaction, landing page craft, and honest sourcing rules: never reuse, trace, or closely reproduce reference assets, screenshots, source code, identity, or copy; use appropriately licensed media; never ship generated people presented as real customers, staff, or endorsers. Draft scope is this one folder only.",
+      "install": "Folder-copy style, no invented installer command: for Claude Code, reference the skill from CLAUDE.md, copy it into a Claude skills setup, or open the SKILL.md directly as working context; for Codex, load the SKILL.md before acting; for Cursor, point rules/chat context at the skill folder. README also notes install notes for Codex, Claude Code, and Cursor are still to be added once the preferred setup is stable.",
+      "tags": [
+        "design",
+        "build",
+        "awwwards",
+        "quality",
+        "sites",
+        "motion"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/mengto/skills"
+      }
+    },
+    {
+      "id": "pm-claude-skills",
+      "index": "172",
+      "name": "mohitagw15856/pm-claude-skills",
+      "repo": "mohitagw15856/pm-claude-skills",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "f7c90bc",
+      "description": "A large product management and engineering skill collection, drafted here cherry-pick only, led by an AI code review skill for reviewing AI-authored code. Related folders cover API test plans and bug diagnosis, among a very large skills listing whose total count is unverified.",
+      "install": "npx pm-claude-skills add (any tool: Cursor, Codex, Windsurf, Cline, Zed, per README), plus a China mirror registry variant, per-tool docs/installation.md, copy-from-exports for ChatGPT/Gemini, and an MCP route. README states installing copies text files and uninstalling deletes them. Draft scope is cherry-pick, led by skills/ai-code-review.",
+      "tags": [
+        "engineering",
+        "claude"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/mohitagw15856/pm-claude-skills"
+      }
+    },
+    {
+      "id": "claude2figma",
+      "index": "173",
+      "name": "senlindesign/claude2figma",
+      "repo": "senlindesign/claude2figma",
+      "category": "Design",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "edc95d7",
+      "description": "A small Claude-to-Figma workflow skill set with exactly 4 skills: Figma preflight checks, component rules, Figma style binding, and reference interpretation. It guides an agent to work from a Figma file with a design system, checking style and variable bindings on returned nodes.",
+      "install": "Clone-and-copy: clone the repo, copy .claude/skills/* into the project .claude/skills/, copy .claude/settings.json, copy CLAUDE.md.template to CLAUDE.md, then paste the Figma file URL into CLAUDE.md. Use the current repo name in the clone step; README step 1 still shows the old repo name (cc2figma), and GitHub renames normally redirect, but the draft uses the current name.",
+      "tags": [
+        "design",
+        "claude2figma",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/senlindesign/claude2figma"
+      }
+    },
+    {
+      "id": "watch",
+      "index": "174",
+      "name": "bradautomates/watch",
+      "repo": "bradautomates/claude-video",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "03ceb42",
+      "description": "A video watch skill that lets an agent watch a video via yt-dlp frames plus transcript, using Gemini or a local engine, to answer questions about video content.",
+      "install": "npx skills add bradautomates/claude-video -g --skill watch",
+      "tags": [
+        "video",
+        "watch",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/bradautomates/claude-video"
+      }
+    },
+    {
+      "id": "defending-code-reference-harness",
+      "index": "175",
+      "name": "anthropics/defending-code-reference-harness",
+      "repo": "anthropics/defending-code-reference-harness",
+      "category": "Security",
+      "type": "Collection",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": "d3bea6b",
+      "description": "Anthropic reference harness of defensive security skills covering quickstart, threat modeling, vulnerability scanning, triage, patching, customization, and detection and response hunting and response. The sample skill read, vuln-scan, guides vulnerability scanning of code.",
+      "install": "git clone, open in Claude Code, run /quickstart (skill-only route; do not present the harness sandbox setup as the install)",
+      "tags": [
+        "security",
+        "defending",
+        "code",
+        "reference",
+        "harness"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/anthropics/defending-code-reference-harness"
+      }
+    },
+    {
+      "id": "seedance-prompt-en",
+      "index": "176",
+      "name": "dexhunter/seedance-prompt-en",
+      "repo": "dexhunter/seedance2-skill",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "516284d",
+      "description": "A Seedance 2.0 multimodal prompt guide covering camera work, effects, extension, editing, music beat-matching, e-commerce ads, short dramas, and educational content.",
+      "install": "npx skills add dexhunter/seedance2-skill, or manual copy (cp SKILL.md ~/.claude/skills/seedance-prompt-en.md)",
+      "tags": [
+        "video",
+        "seedance",
+        "prompt"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/dexhunter/seedance2-skill"
+      }
+    },
+    {
+      "id": "firered-openstoryline",
+      "index": "177",
+      "name": "fireredteam/firered-openstoryline",
+      "repo": "fireredteam/firered-openstoryline",
+      "category": "Video",
+      "type": "Collection",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": "c9e9452",
+      "description": "An open storyboard video collection whose sample skill, openstoryline-use, guides an editing workflow with local media copied into outputs session folders, for AI video generation and storyboard video work.",
+      "install": "npx skills add FireRedTeam/FireRed-OpenStoryline --skill openstoryline-install, or git clone plus copy of .claude/skills folders to ~/.claude/skills",
+      "tags": [
+        "video",
+        "firered",
+        "openstoryline"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/fireredteam/firered-openstoryline"
+      }
+    },
+    {
+      "id": "lanshu-create-ai-presenter-video",
+      "index": "178",
+      "name": "cclank/lanshu-create-ai-presenter-video",
+      "repo": "cclank/lanshu-create-ai-presenter-video",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "762d3ee",
+      "description": "A harness-neutral presenter video skill that produces presenter and styled-route videos, with provider-neutral voice and lip-sync selection and per-job provider and model recording. Fonts, libraries, and services used by the explainer engine are listed separately in explainer/THIRD_PARTY.md, which was not read.",
+      "install": "git clone into ~/.claude/skills/lanshu-create-ai-presenter-video (from README install section)",
+      "tags": [
+        "video",
+        "lanshu",
+        "create",
+        "presenter"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/cclank/lanshu-create-ai-presenter-video"
+      }
+    },
+    {
+      "id": "vox-director",
+      "index": "179",
+      "name": "alisa0808/vox-director",
+      "repo": "alisa0808/vox-director",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "6a85a7c",
+      "description": "A one-topic to finished-video skill that produces Vox-style paper-collage explainer or ad videos end to end: script, collage keyframes, motion, voice-over, music, and captions, running on the Atlas Cloud API plus local ffmpeg, with two human approval gates per AGENTS.md.",
+      "install": "git clone into ~/.claude/skills/vox-director",
+      "tags": [
+        "video",
+        "vox",
+        "director",
+        "motion",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/alisa0808/vox-director"
+      }
+    },
+    {
+      "id": "pixel2motion",
+      "index": "180",
+      "name": "nolangz/pixel2motion",
+      "repo": "nolangz/pixel2motion",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "e9faedb",
+      "description": "A motion design skill that starts from a motion brief in motion_spec.md (personality, usage context, part inventory, choreography sketch) and choreographs animation, with references, scripts, and docs folders supporting the workflow.",
+      "install": "npx skills add nolangz/pixel2motion",
+      "tags": [
+        "video",
+        "pixel2motion",
+        "motion",
+        "design"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/nolangz/pixel2motion"
+      }
+    },
+    {
+      "id": "claude-code-video-toolkit",
+      "index": "181",
+      "name": "digitalsamba/claude-code-video-toolkit",
+      "repo": "digitalsamba/claude-code-video-toolkit",
+      "category": "Video",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "a8eaaf7",
+      "description": "A 24-skill video production collection under .claude/skills/ covering AI video generation and video editing. The sample read, Remotion, guides Remotion-based video work. Setup uses Claude Code slash commands after cloning.",
+      "install": "git clone, then Claude Code slash commands /setup and /video, with Node.js 22+ and Claude Code required and uv recommended for Python tools. Do not reproduce the README uv pipe suggestion; point to the official uv install docs or a package manager instead.",
+      "tags": [
+        "video",
+        "claude",
+        "code",
+        "toolkit",
+        "motion"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/digitalsamba/claude-code-video-toolkit"
+      }
+    },
+    {
+      "id": "open-edit",
+      "index": "182",
+      "name": "veedstudio/open-edit",
+      "repo": "veedstudio/open-edit",
+      "category": "Video",
+      "type": "Skill",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": "15d14d7",
+      "description": "An open-source, agent-driven editing pipeline skill. The agent transcribes with real per-word timings, composes the piece as an HTML page, renders it frame by frame in a browser, reviews the frames and fixes what it sees, then hands back the file. It covers subtitles, motion graphics, slides, cutting and reframing, and rendered video.",
+      "install": "npx skills add veedstudio/open-edit --skill open-edit (from README Get started section; gap-filled, see Gap fills)",
+      "tags": [
+        "video",
+        "open",
+        "edit",
+        "motion",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/veedstudio/open-edit"
+      }
+    },
+    {
+      "id": "claude-video-vision",
+      "index": "183",
+      "name": "jordanrendric/claude-video-vision",
+      "repo": "jordanrendric/claude-video-vision",
+      "category": "Video",
+      "type": "Plugin",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "4a4f990",
+      "description": "A video perception plugin plus MCP server. The sample skill, video-perception, works from base64 images, transcription, timestamps, and audio events to give an agent video understanding.",
+      "install": "/plugin marketplace add https://github.com/jordanrendric/claude-video-vision, then /plugin install claude-video-vision; the MCP server auto-installs via npx from npm. A git clone plus claude --plugin-dir route is also documented.",
+      "tags": [
+        "video",
+        "claude",
+        "vision",
+        "audio",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/jordanrendric/claude-video-vision"
+      }
+    },
+    {
+      "id": "sast-skills",
+      "index": "184",
+      "name": "utkusen/sast-skills",
+      "repo": "utkusen/sast-skills",
+      "category": "Security",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "3a5bf8f",
+      "description": "A static application security testing (SAST) skill collection under sast-files/.agents/skills/ (including sast-analysis, sast-businesslogic, sast-fileupload, and more). The sample skill, sast-analysis, guides SAST analysis and code review.",
+      "install": "npx skills add utkusen/sast-skills",
+      "tags": [
+        "security",
+        "sast",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/utkusen/sast-skills"
+      }
+    },
+    {
+      "id": "awesome-journal-skills",
+      "index": "185",
+      "name": "brycewang-stanford/awesome-journal-skills",
+      "repo": "brycewang-stanford/awesome-journal-skills",
+      "category": "Writing",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "932eb23",
+      "description": "A very large curated journal skill pack collection (3,964 SKILL.md files confirmed via search, for example PNAS, Cell, AER, and QJE packs). The sample skill, pnas-fit, assesses fit for PNAS journal submission. Skills cover journal fit and submission guidance per journal.",
+      "install": "/plugin marketplace add https://github.com/brycewang-stanford/awesome-journal-skills, then /plugin install <pack-name> (for example qje-skills), plus git clone and copy routes (cp -R AER-skills/skills/aer-* ~/.claude/skills/ pattern)",
+      "tags": [
+        "writing",
+        "awesome",
+        "journal"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/brycewang-stanford/awesome-journal-skills"
+      }
+    },
+    {
+      "id": "motion-video-kit",
+      "index": "186",
+      "name": "echris6/motion-video-kit",
+      "repo": "echris6/motion-video-kit",
+      "category": "Video",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "e4b1c00",
+      "description": "A motion video kit whose sample skill, business-motion-film, guides producing business motion films. Other skill folders, templates, and scripts exist in the repo.",
+      "install": "git clone, then copy business-motion-film to ~/.claude/skills/ for all projects, or per-project copy",
+      "tags": [
+        "video",
+        "motion"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/echris6/motion-video-kit"
+      }
+    },
+    {
+      "id": "reelbench-skills",
+      "index": "187",
+      "name": "eternityspring/reelbench-skills",
+      "repo": "eternityspring/reelbench-skills",
+      "category": "Video",
+      "type": "Collection",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": "df39d5d",
+      "description": "A video analysis and reel benchmarking skill collection. The sample skill, video-shots, analyses video shots. Its install script is a local copy installer, not a remote fetcher.",
+      "install": "git clone, then ./scripts/install.sh (local symlink installer: symlinks skill folders into ~/.claude/skills or ~/.codex/skills, skips existing real directories rather than overwriting them, supports --uninstall), or manual copy (cp -r skills/video-shots ~/.claude/skills/)",
+      "tags": [
+        "video",
+        "reelbench"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/eternityspring/reelbench-skills"
+      }
+    },
+    {
+      "id": "vibe-security",
+      "index": "188",
+      "name": "raroque/vibe-security",
+      "repo": "raroque/vibe-security-skill",
+      "category": "Security",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "850938f",
+      "description": "A secure code review skill covering vulnerability management and security best practices for vibe-coded projects, guiding the agent through a security review of code.",
+      "install": "npx skills add https://github.com/raroque/vibe-security-skill --skill vibe-security, plus manual copy-install of the vibe-security/ folder to project or global skills directory",
+      "tags": [
+        "security",
+        "vibe",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/raroque/vibe-security-skill"
+      }
+    },
+    {
+      "id": "claude-skills-governance-risk-and-compliance",
+      "index": "189",
+      "name": "sushegaad/claude-skills-governance-risk-and-compliance",
+      "repo": "sushegaad/claude-skills-governance-risk-and-compliance",
+      "category": "Security",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "aab13e1",
+      "description": "A governance, risk, and compliance plugin catalogue (README claims 36 skills under plugins/*/skills/*/, including ccpa, cis-controls, cmmc, and more). The sample skill, ccpa, guides CCPA compliance work.",
+      "install": "/plugin marketplace add Sushegaad/Claude-Skills-Governance-Risk-and-Compliance, then /plugin install for named skills (for example iso27001@grc-skills, soc2@grc-skills, fedramp@grc-skills, nist-csf@grc-skills, cmmc@grc-skills)",
+      "tags": [
+        "security",
+        "claude",
+        "governance",
+        "risk",
+        "and",
+        "compliance"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/sushegaad/claude-skills-governance-risk-and-compliance"
+      }
+    },
+    {
+      "id": "higgsfield-ai-prompt-skill",
+      "index": "190",
+      "name": "osidemedia/higgsfield-ai-prompt-skill",
+      "repo": "osidemedia/higgsfield-ai-prompt-skill",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "6a6a5dd",
+      "description": "A router skill for 35 sub-skills under skills/, with a DISCIPLINE.md cross-cutting framework of 9 discipline patterns, workspace input/output/processed folders, and a learning memory and generation ledger under ~/.higgsfield-skill/db/. It routes a prompt request to the right sub-skill and prompts can be pasted into higgsfield.ai directly.",
+      "install": "git clone into ~/.claude/skills/higgsfield, so Claude Code registers the root SKILL.md as one skill named higgsfield and routes to sub-skills by path; a Cowork upload route is also documented. Do not reproduce the README Higgsfield CLI pipe line; the CLI is explicitly not required for this skill to work, so use the clone route only.",
+      "tags": [
+        "video",
+        "higgsfield",
+        "prompt"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/osidemedia/higgsfield-ai-prompt-skill"
+      }
+    },
+    {
+      "id": "clipify",
+      "index": "191",
+      "name": "louisedesadeleer/clipify",
+      "repo": "louisedesadeleer/clipify",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "5f6b75e",
+      "description": "A clip editing skill using ffmpeg that trims clips instantly with -c copy and re-encodes only when cuts require it.",
+      "install": "git clone into ~/.claude/skills/clipify",
+      "tags": [
+        "video",
+        "clipify"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/louisedesadeleer/clipify"
+      }
+    },
+    {
+      "id": "reader-seat",
+      "index": "192",
+      "name": "bobbyyue/reader-seat",
+      "repo": "bobbyyue/reader-seat",
+      "category": "Writing",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "339f2c1",
+      "description": "A reader-seat writing workflow skill covering commitments, timing, uncertainty, intended action, recognizable voice, direct expression planning, and defensive-expression checks with private computed values, plus deliver.py lifecycle-draft rules.",
+      "install": "git clone into the agent skills directory (git clone https://github.com/BobbyYue/reader-seat.git /path/to/your-agent/skills/reader-seat)",
+      "tags": [
+        "writing",
+        "reader",
+        "seat"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/bobbyyue/reader-seat"
+      }
+    },
+    {
+      "id": "claude-video-engine",
+      "index": "193",
+      "name": "chakkiyar102/claude-video-engine",
+      "repo": "chakkiyar102/claude-video-engine",
+      "category": "Video",
+      "type": "Plugin",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "8e8f40c",
+      "description": "A bundled video-pipeline plugin skill. Intake copies the user's raw clip into a job, engine commands run via CLAUDE_PLUGIN_ROOT, and jobs are stored in the current project, producing captioned video through a pipeline CLI.",
+      "install": "git clone plus python3 -m pip install openai-whisper pillow, with FFmpeg installed separately through the operating system package manager",
+      "tags": [
+        "video",
+        "claude",
+        "engine"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/chakkiyar102/claude-video-engine"
+      }
+    },
+    {
+      "id": "cutlist",
+      "index": "194",
+      "name": "itsryanlenk/cutlist",
+      "repo": "itsryanlenk/cutlist",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "e4ef067",
+      "description": "A video cut-list skill that builds cut lists and trims video, installed by a local copy or symlink installer with per-agent flags.",
+      "install": "bash install.sh with agent flags (--codex, --claude, --cursor, --gemini, --copilot, --all, --global, --link, --into), copying or symlinking the skills/cutlist folder to the agent skills directory. install.sh is a local copy or symlink installer, not a pipe installer.",
+      "tags": [
+        "video",
+        "cutlist",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/itsryanlenk/cutlist"
+      }
+    },
+    {
+      "id": "video-captions",
+      "index": "195",
+      "name": "katareayush/video-captions",
+      "repo": "katareayush/video-captions",
+      "category": "Video",
+      "type": "Plugin",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "b541fcc",
+      "description": "A video caption skill using faster-whisper transcription and an ffmpeg subtitle build, with a video-captions launcher on PATH and a scripts/ folder beside the SKILL.md.",
+      "install": "git clone plus python3 install.py. Use only the plugin or clone route; never reproduce the repo's piped one-liner route.",
+      "tags": [
+        "video",
+        "captions"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/katareayush/video-captions"
+      }
+    },
+    {
+      "id": "agent-video-editor",
+      "index": "196",
+      "name": "kmilo93sd/agent-video-editor",
+      "repo": "kmilo93sd/agent-video-editor",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "8e32c0a",
+      "description": "A video editing skill (skill folder editing-videos) for editing videos including meme video and video production work, with a recorded-licence rule: no copyrighted meme images, clips, or sounds without a license, recreate the joke instead.",
+      "install": "npx skills add kmilo93sd/agent-video-editor, or Claude Code plugin route (/plugin marketplace add kmilo93sd/agent-video-editor, /plugin install agent-video-editor@agent-video-editor), or by hand copying skills/editing-videos/ into the agent skills folder",
+      "tags": [
+        "video",
+        "agent",
+        "editor"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/kmilo93sd/agent-video-editor"
+      }
+    },
+    {
+      "id": "claude-motion-studio",
+      "index": "197",
+      "name": "megomaged/claude-motion-studio",
+      "repo": "megomaged/claude-motion-studio",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "f071a80",
+      "description": "A motion studio skill that builds motion from scratch, never copying another skill's or repo's code or text, with every report claim drawn from evidence. It supports Remotion, HTML/GSAP, and SVG motion work.",
+      "install": "download the repository (Code, Download ZIP), unzip it, copy the folder into ~/.claude/skills/ (every project) or <project>/.claude/skills/ (one project), named claude-motion-studio. Do not invent a skills-add command; use the download-and-copy route.",
+      "tags": [
+        "video",
+        "claude",
+        "motion",
+        "studio"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/megomaged/claude-motion-studio"
+      }
+    },
+    {
+      "id": "video-agent-skills",
+      "index": "198",
+      "name": "melvynx/video-agent-skills",
+      "repo": "melvynx/video-agent-skills",
+      "category": "Video",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "4774fa4",
+      "description": "A video agent skill collection with 13 skill folders (broll, clips, codex-images, editing, insta-audit, outliers, publish, short-editing, short-translate, steal, studio-script, studio-setup, vox). The samples read, short-editing and publish, cover short video editing and publishing with an approval gate before publishing.",
+      "install": "npx skills add Melvynx/video-agent-skills -a claude-code (add -g for every project), or git clone plus copy of skills/* to .claude/skills/. For publishing, use only the MCP route or the manual kit route, never the Treg pipe line.",
+      "tags": [
+        "video",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/melvynx/video-agent-skills"
+      }
+    },
+    {
+      "id": "skills-writing",
+      "index": "199",
+      "name": "poorvith-mp/skills-writing",
+      "repo": "poorvith-mp/skills-writing",
+      "category": "Writing",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "036f70c",
+      "description": "A writing skill collection covering technical documentation, book writing, screenwriting, SOP writing, line editing, writing taste, executive summaries, talk writing, and translation. The sample skill, technical-docs, guides technical documentation writing.",
+      "install": "npx skills add poorvith-mp/skills-writing, or install individual skills directly, or git clone plus copy of a skill folder (cp -R skills-writing/skills/<skill-id> ~/.gemini/skills/ pattern for Gemini CLI, with Claude Code copy route also documented)",
+      "tags": [
+        "writing"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/poorvith-mp/skills-writing"
+      }
+    },
+    {
+      "id": "nature-skills",
+      "index": "200",
+      "name": "yuan1z0825/nature-skills",
+      "repo": "yuan1z0825/nature-skills",
+      "category": "Writing",
+      "type": "Collection",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": "69817e4",
+      "description": "A collection of bilingual Chinese-English skills for academic paper work, including paper reading and data extraction for paper readers. A router skill directs the agent to the right sub-skill, and the nature-data skill extracts structured data from papers.",
+      "install": "npx skills add Yuan1z0825/nature-skills --list, or per skill npx skills add Yuan1z0825/nature-skills --agent codex --skill nature-figure --yes --copy",
+      "tags": [
+        "writing",
+        "nature",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/yuan1z0825/nature-skills"
+      }
+    },
+    {
+      "id": "humanizer-zh",
+      "index": "201",
+      "name": "op7418/humanizer-zh",
+      "repo": "op7418/humanizer-zh",
+      "category": "Writing",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "f4518a8",
+      "description": "A Chinese-language skill that rewrites text to remove traces of AI generation, covering phrasing, rhythm, and template markers typical of machine-generated Chinese text.",
+      "install": "npx skills add https://github.com/op7418/Humanizer-zh.git, or git clone to ~/.claude/skills/humanizer-zh",
+      "tags": [
+        "writing",
+        "humanizer"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/op7418/humanizer-zh"
+      }
+    },
+    {
+      "id": "cangjie-skill",
+      "index": "202",
+      "name": "kangarooking/cangjie-skill",
+      "repo": "kangarooking/cangjie-skill",
+      "category": "Engineering",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "a28de55",
+      "description": "A skill that distills books, transcripts, and courses into executable agent skills, turning long source material into structured, reusable skill content with templates and benchmarks.",
+      "install": "Clone the repo and copy the skill folder into the agent skills directory (repo folder copy/clone route; the DeepSeek Harness tarball route is checksum-verified local install, not a pipe, and is not the draft route)",
+      "tags": [
+        "engineering",
+        "cangjie",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/kangarooking/cangjie-skill"
+      }
+    },
+    {
+      "id": "html-anything",
+      "index": "203",
+      "name": "nexu-io/html-anything",
+      "repo": "nexu-io/html-anything",
+      "category": "Design",
+      "type": "Tool",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": "975fb3b",
+      "description": "An HTML editor app with embedded agentic template skills, including a product spec template and an investor pitch deck template. Users pick templates in the app; adding a skill means copying a similar skill folder and editing its SKILL.md frontmatter.",
+      "install": "git clone https://github.com/nexu-io/html-anything.git, then run the app with pnpm -F @html-anything/next dev to use the template picker",
+      "tags": [
+        "design",
+        "html",
+        "anything",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/nexu-io/html-anything"
+      }
+    },
+    {
+      "id": "html-ppt-skill",
+      "index": "204",
+      "name": "lewislulu/html-ppt-skill",
+      "repo": "lewislulu/html-ppt-skill",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "fd16290",
+      "description": "A template-driven skill for building static HTML presentations, using a token-based design system with curated templates, design tokens, and layout guidance for slide decks rendered as HTML.",
+      "install": "npx skills add https://github.com/lewislulu/html-ppt-skill, or git clone plus npx skills add ./html-ppt-skill, or manual cp -R html-ppt-skill ~/.claude/skills/html-ppt",
+      "tags": [
+        "design",
+        "html",
+        "ppt"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/lewislulu/html-ppt-skill"
+      }
+    },
+    {
+      "id": "oh-story-claudecode",
+      "index": "205",
+      "name": "zenstory-ai/oh-story-claudecode",
+      "repo": "zenstory-ai/oh-story-claudecode",
+      "category": "Writing",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "3fde437",
+      "description": "A collection of skills for writing Chinese web novels (wangwen), routed through a story skill that directs the agent across novel planning, drafting, and revision sub-skills.",
+      "install": "npx skills add zenstory-ai/oh-story-claudecode -y -g",
+      "tags": [
+        "writing",
+        "story",
+        "claudecode",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/zenstory-ai/oh-story-claudecode"
+      }
+    },
+    {
+      "id": "skillhub",
+      "index": "206",
+      "name": "iflytek/skillhub",
+      "repo": "iflytek/skillhub",
+      "category": "Engineering",
+      "type": "Tool",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": "04d7f81",
+      "description": "A skill registry and agent tooling platform from iFlytek, with built-in skills (including weather) that can be published and fetched through a registry CLI, plus a self-hosted server component.",
+      "install": "Clone or copy the skill files into the agent skills directory (clone/copy route only; do NOT use the README server deploy pipe route)",
+      "tags": [
+        "engineering",
+        "skillhub",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/iflytek/skillhub"
+      }
+    },
+    {
+      "id": "anti-defensive-writing-skill",
+      "index": "207",
+      "name": "adkid-zephyr/anti-defensive-writing-skill",
+      "repo": "adkid-zephyr/anti-defensive-writing-skill",
+      "category": "Writing",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "82d3140",
+      "description": "A skill that rewrites defensive academic writing into direct, confident prose, with Chinese and English versions, targeting hedging, over-qualification, and self-undermining phrasing in research text.",
+      "install": "codex plugin marketplace add Adkid-Zephyr/anti-defensive-writing-Skill, or cp -r skills/anti-defensive-writing ~/.claude/skills/",
+      "tags": [
+        "writing",
+        "anti",
+        "defensive"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/adkid-zephyr/anti-defensive-writing-skill"
+      }
+    },
+    {
+      "id": "wewrite",
+      "index": "208",
+      "name": "imraywang/wewrite",
+      "repo": "imraywang/wewrite",
+      "category": "Writing",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "8a5cdab",
+      "description": "A collection of skills for WeChat publishing and content pipelines, covering article writing, style handling, and learning from past content, with publishing steps that use the user's own WeChat configuration.",
+      "install": "npx skills add imraywang/wewrite, or git clone (do NOT use the README bash install.sh route, which was not read)",
+      "tags": [
+        "writing",
+        "wewrite"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/imraywang/wewrite"
+      }
+    },
+    {
+      "id": "xiaohongshuskills",
+      "index": "209",
+      "name": "white0dew/xiaohongshuskills",
+      "repo": "white0dew/xiaohongshuskills",
+      "category": "Business",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "e411c16",
+      "description": "A skill that auto-publishes text/image and video content to Xiaohongshu (RedBook), handling note creation and posting workflow from the agent side.",
+      "install": "npx skills add white0dew/xiaohongshuskills",
+      "tags": [
+        "business",
+        "xiaohongshuskills",
+        "video",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/white0dew/xiaohongshuskills"
+      }
+    },
+    {
+      "id": "deepcamera",
+      "index": "210",
+      "name": "sharpai/deepcamera",
+      "repo": "sharpai/deepcamera",
+      "category": "Engineering",
+      "type": "Tool",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "933dcc7",
+      "description": "An AI camera and surveillance platform with local vision-language analysis (Qwen, DeepSeek, SmolVLM, LLaVA, YOLO26), exposing camera skills through a skill store so a deployment agent can set up analysis channels on local camera feeds.",
+      "install": "Install skills from the Aegis Skill Store UI (one-click setup with no terminal needed per README; deployment agent reads the skill SKILL.md manifest and runs the right backend commands)",
+      "tags": [
+        "engineering",
+        "deepcamera",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/sharpai/deepcamera"
+      }
+    },
+    {
+      "id": "claude-to-im-skill",
+      "index": "211",
+      "name": "op7418/claude-to-im-skill",
+      "repo": "op7418/claude-to-im-skill",
+      "category": "Engineering",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "536908f",
+      "description": "A skill that bridges Claude Code and Codex to instant-messaging platforms (Telegram, Discord, Feishu/Lark), letting the agent send and receive through those channels with an interactive setup wizard for tokens.",
+      "install": "npx skills add op7418/Claude-to-IM-skill, or git clone into Claude Code or Codex skills directories",
+      "tags": [
+        "engineering",
+        "claude",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/op7418/claude-to-im-skill"
+      }
+    },
+    {
+      "id": "academic-figure-generator",
+      "index": "212",
+      "name": "ligphidonk/academic-figure-generator",
+      "repo": "ligphidonk/academic-figure-generator",
+      "category": "Design",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "0a2bec6",
+      "description": "A collection of skills for generating academic figures, with prompt-based figure styles (including a pastel variant) that turn research content into publication-ready graphics.",
+      "install": "npx skills add LigphiDonk/academic-figure-generator, or git clone and cp -r academic-figure-generator/academic-figure-prompt .claude/skills/ (and .gemini/skills/)",
+      "tags": [
+        "design",
+        "academic",
+        "figure",
+        "generator"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/ligphidonk/academic-figure-generator"
+      }
+    },
+    {
+      "id": "delegate-skills",
+      "index": "213",
+      "name": "amelnagdy/delegate-skills",
+      "repo": "amelnagdy/delegate-skills",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "3aa72d6",
+      "description": "A collection of delegation skills that hand a coding task to a separate coding-agent CLI, review the resulting diff, and land the commit, covering pi and omp delegation variants.",
+      "install": "npx skills add amElnagdy/delegate-skills (and per-skill and --global variants)",
+      "tags": [
+        "engineering",
+        "delegate",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/amelnagdy/delegate-skills"
+      }
+    },
+    {
+      "id": "cyberppt",
+      "index": "214",
+      "name": "crazyykhllc-bit/cyberppt",
+      "repo": "crazyykhllc-bit/cyberppt",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "980e557",
+      "description": "A skill for generating high-density, editable consulting-style PowerPoint decks, turning research or outlines into dense, professional slide layouts.",
+      "install": "git clone https://github.com/crazyykhllc-bit/CyberPPT.git \"$env:USERPROFILE\\.codex\\skills\\cyber-ppt\"",
+      "tags": [
+        "design",
+        "cyberppt"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/crazyykhllc-bit/cyberppt"
+      }
+    },
+    {
+      "id": "digital-human-koubo",
+      "index": "215",
+      "name": "andyhuo520/digital-human-koubo",
+      "repo": "andyhuo520/digital-human-koubo",
+      "category": "Video",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "f661a6c",
+      "description": "A collection for digital-human talking-head video, including a digital-human skill and a finance-explainer skill that generate presenter-style explainer videos.",
+      "install": "Clone the repo, then mkdir -p ~/.claude/skills && cp -R skills/digital-human-koubo skills/finance-explainer ~/.claude/skills/ (and Codex equivalent), or zip import in WorkBuddy/OpenClaw skills pages",
+      "tags": [
+        "video",
+        "digital",
+        "human",
+        "koubo",
+        "finance"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/andyhuo520/digital-human-koubo"
+      }
+    },
+    {
+      "id": "mcd-budget-meal",
+      "index": "216",
+      "name": "sam-hui-dot/mcd-budget-meal",
+      "repo": "sam-hui-dot/mcd-budget-meal",
+      "category": "Business",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "25d5f34",
+      "description": "A skill for planning budget meals at McDonald's China, checking real prices and deals through the McDonald's MCP platform and building low-cost meal combinations.",
+      "install": "Download and unpack the repo, then import the skills/mcd-budget-meal folder into the client skills directory (folder import only; do NOT use the WorkBuddy install.ps1 route, which was not read)",
+      "tags": [
+        "business",
+        "mcd",
+        "budget",
+        "meal"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/sam-hui-dot/mcd-budget-meal"
+      }
+    },
+    {
+      "id": "mcd-saver-strategist",
+      "index": "217",
+      "name": "hujjun/mcd-saver-strategist",
+      "repo": "hujjun/mcd-saver-strategist",
+      "category": "Business",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "6e2c462",
+      "description": "A skill that optimizes McDonald's China coupon use, finding the best coupon and deal combinations for a given order through the McDonald's MCP platform.",
+      "install": "git clone https://github.com/hujjun/mcd-saver-strategist.git && cp -r mcd-saver-strategist/skills/mcd-saver-strategist ~/.workbuddy/skills/",
+      "tags": [
+        "business",
+        "mcd",
+        "saver",
+        "strategist"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/hujjun/mcd-saver-strategist"
+      }
+    },
+    {
+      "id": "ian-handdrawn-ppt",
+      "index": "218",
+      "name": "helloianneo/ian-handdrawn-ppt",
+      "repo": "helloianneo/ian-handdrawn-ppt",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "7b832a4",
+      "description": "A skill that generates Chinese hand-drawn style technical PPT full-page images, using a compact theme-token style file to keep the sketch-like look consistent across slides.",
+      "install": "Git clone, plus cp -R ./ian-handdrawn-ppt \"${CODEX_HOME:-$HOME/.codex}/skills/\"",
+      "tags": [
+        "design",
+        "ian",
+        "handdrawn",
+        "ppt"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/helloianneo/ian-handdrawn-ppt"
+      }
+    },
+    {
+      "id": "awesome-claude-video-skills",
+      "index": "219",
+      "name": "zhuyansen/awesome-claude-video-skills",
+      "repo": "zhuyansen/awesome-claude-video-skills",
+      "category": "Discovery",
+      "type": "Index",
+      "license": "CC0-1.0",
+      "status": "INSTALL",
+      "pinned_commit": "888820f",
+      "description": "A curated index of video skills, listing 180 repos by type with security grading, so users can discover video-related agent skills by category instead of searching repo by repo.",
+      "install": "npx skills add zhuyansen/awesome-claude-video-skills",
+      "tags": [
+        "discovery",
+        "awesome",
+        "claude",
+        "video",
+        "agent",
+        "security"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/zhuyansen/awesome-claude-video-skills"
+      }
+    },
+    {
+      "id": "xhs-visual-director-skill",
+      "index": "220",
+      "name": "ziguishian/xhs-visual-director-skill",
+      "repo": "ziguishian/xhs-visual-director-skill",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "5c730c6",
+      "description": "A visual-director skill for Xiaohongshu text-image posts, directing layout, imagery, and visual style for posts on the platform.",
+      "install": "Install or reference the skill/ directory as a Codex skill (README install-suggestion section; the installable skill body is in skill/)",
+      "tags": [
+        "design",
+        "xhs",
+        "visual",
+        "director"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/ziguishian/xhs-visual-director-skill"
+      }
+    },
+    {
+      "id": "chubbyskills",
+      "index": "221",
+      "name": "chubbyguan/chubbyskills",
+      "repo": "chubbyguan/chubbyskills",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "d066d76",
+      "description": "A collection for content ingestion and personal knowledge bases, including a skill that ingests Chinese multi-channel content (short video, social, audio, articles) into a searchable base, with an MCP server component.",
+      "install": "npx skills add chubbyguan/chubbyskills",
+      "tags": [
+        "engineering",
+        "chubbyskills",
+        "audio",
+        "video"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/chubbyguan/chubbyskills"
+      }
+    },
+    {
+      "id": "immortal-skill",
+      "index": "222",
+      "name": "agenmod/immortal-skill",
+      "repo": "agenmod/immortal-skill",
+      "category": "Engineering",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "cdab91b",
+      "description": "A digital-immortality framework skill that builds a seven-dimensional digital persona from a person's chat records, for use as a persistent persona across messaging platforms.",
+      "install": "cp -r immortal-skill <your-workspace>/skills/immortal-skill, or cp -r immortal-skill ~/.openclaw/skills/immortal-skill",
+      "tags": [
+        "engineering",
+        "immortal"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/agenmod/immortal-skill"
+      }
+    },
+    {
+      "id": "qiaomu-opencli-skills",
+      "index": "223",
+      "name": "joeseesun/qiaomu-opencli-skills",
+      "repo": "joeseesun/qiaomu-opencli-skills",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "4d9a08e",
+      "description": "A collection of skills around the opencli tool for social and content search, including smart search across Bilibili, Zhihu, X, YouTube, Weibo, Xiaohongshu, and other sites, plus opencli usage and browser skills.",
+      "install": "npx skills add joeseesun/qiaomu-opencli-skills, and per-skill variants",
+      "tags": [
+        "engineering",
+        "qiaomu",
+        "opencli"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/joeseesun/qiaomu-opencli-skills"
+      }
+    },
+    {
+      "id": "mcd-coupon-strategist",
+      "index": "224",
+      "name": "syenzzz/mcd-coupon-strategist",
+      "repo": "syenzzz/mcd-coupon-strategist",
+      "category": "Business",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "4e381ba",
+      "description": "A skill that optimizes McDonald's China coupon combinations, computing the best stacking of coupons and deals for a given order, with a zero-dependency demo that runs without a token.",
+      "install": "npx skills add syenzzz/mcd-coupon-strategist",
+      "tags": [
+        "business",
+        "mcd",
+        "coupon",
+        "strategist"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/syenzzz/mcd-coupon-strategist"
+      }
+    },
+    {
+      "id": "novel-to-game",
+      "index": "225",
+      "name": "zenstory-ai/novel-to-game",
+      "repo": "zenstory-ai/novel-to-game",
+      "category": "Writing",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "20abf50",
+      "description": "A collection that adapts novels into games, covering game concept, game build, and game QA skills that turn a story into playable game design and build steps.",
+      "install": "npx skills add zenstory-ai/novel-to-game -g -y -a claude-code -s '*' (and Codex and Kimi Code variants), plus native plugin installation",
+      "tags": [
+        "writing",
+        "novel",
+        "game",
+        "design"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/zenstory-ai/novel-to-game"
+      }
+    },
+    {
+      "id": "vibe-knowledge-film",
+      "index": "226",
+      "name": "heychengc/vibe-knowledge-film",
+      "repo": "heychengc/vibe-knowledge-film",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "62d5150",
+      "description": "A skill for making Douyin viral Vibe knowledge short films, guiding topic, script, visuals, and rendering for short knowledge videos in a consistent style.",
+      "install": "Place the directory in the agent skills directory (for example ~/.claude/skills/vibe-knowledge-film), then pip install -r requirements.txt, python -m playwright install, and python engine/get_fonts.py (requires local Google Chrome and ffmpeg)",
+      "tags": [
+        "video",
+        "vibe",
+        "knowledge",
+        "film"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/heychengc/vibe-knowledge-film"
+      }
+    },
+    {
+      "id": "ppt-agent-skills",
+      "index": "227",
+      "name": "sunbigfly/ppt-agent-skills",
+      "repo": "sunbigfly/ppt-agent-skills",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "13e3537",
+      "description": "A code-driven presentation generation framework skill, building decks through code and structured slide definitions rather than image-only output.",
+      "install": "npx skills add sunbigfly/ppt-agent-skills",
+      "tags": [
+        "design",
+        "ppt",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/sunbigfly/ppt-agent-skills"
+      }
+    },
+    {
+      "id": "tickdb-unified-realtime-marketdata-api",
+      "index": "228",
+      "name": "tickdb/tickdb-unified-realtime-marketdata-api",
+      "repo": "tickdb/tickdb-unified-realtime-marketdata-api",
+      "category": "Business",
+      "type": "Tool",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "e913ac4",
+      "description": "An AI-native real-time market data API for US/HK/CN stocks, forex, futures, crypto, indices, and commodities, with a Skill and CLI interface so agents can query live market data directly.",
+      "install": "npx clawhub@latest install tickdb-market-data for the skill (AI auto-fetches a trial key), plus python -m pip install -e . for the API package",
+      "tags": [
+        "business",
+        "tickdb",
+        "unified",
+        "realtime",
+        "marketdata",
+        "api",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/tickdb/tickdb-unified-realtime-marketdata-api"
+      }
+    },
+    {
+      "id": "female-outfit-director",
+      "index": "229",
+      "name": "liyue-aigc/female-outfit-director",
+      "repo": "liyue-aigc/female-outfit-director",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "1f96d63",
+      "description": "A video director skill for multi-outfit collage first-frames and beat-synced outfit-change videos, planning outfit sequences and transitions for fashion video.",
+      "install": "npx skills add liyue-aigc/female-outfit-director",
+      "tags": [
+        "video",
+        "female",
+        "outfit",
+        "director"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/liyue-aigc/female-outfit-director"
+      }
+    },
+    {
+      "id": "ste-zh",
+      "index": "230",
+      "name": "dualface/ste-zh",
+      "repo": "dualface/ste-zh",
+      "category": "Writing",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "22f868e",
+      "description": "A skill for reporting results to users in Chinese under ASD-STE100 simplified technical English principles, adapted to Chinese reporting, covering clarity, structure, and terminology discipline.",
+      "install": "npx skills add dualface/ste-zh -g (and per-agent variants), plus git clone to ~/.claude/skills/ste",
+      "tags": [
+        "writing",
+        "ste"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/dualface/ste-zh"
+      }
+    },
+    {
+      "id": "beautiful-feishu-whiteboard",
+      "index": "231",
+      "name": "zarazhangrui/beautiful-feishu-whiteboard",
+      "repo": "zarazhangrui/beautiful-feishu-whiteboard",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "6989843",
+      "description": "A skill offering 35 curated colour palette styles for Feishu/Lark whiteboards, guiding board design with consistent, attractive palettes.",
+      "install": "npx skills add zarazhangrui/beautiful-feishu-whiteboard (and -g variant), plus manual git clone into the agent skills folder",
+      "tags": [
+        "design",
+        "beautiful",
+        "feishu",
+        "whiteboard"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/zarazhangrui/beautiful-feishu-whiteboard"
+      }
+    },
+    {
+      "id": "seedance-2-5-video-director",
+      "index": "232",
+      "name": "liyue-aigc/seedance-2-5-video-director",
+      "repo": "liyue-aigc/seedance-2-5-video-director",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "ad0e68b",
+      "description": "A video director skill for Seedance 2.5, covering prompts, scripts, diagnostics, character locking, continuation, editing, and transitions for AI video production.",
+      "install": "npx skills add liyue-aigc/seedance-2-5-video-director -g -y, plus git clone into the skills directory",
+      "tags": [
+        "video",
+        "seedance",
+        "director"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/liyue-aigc/seedance-2-5-video-director"
+      }
+    },
+    {
+      "id": "ai-business-skills",
+      "index": "233",
+      "name": "minhnv0807/ai-business-skills",
+      "repo": "minhnv0807/ai-business-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "fe33cb1",
+      "description": "A bilingual Vietnamese/English collection of business skills (69 Vietnamese plus 69 global skills) covering marketing, media planning, SEO growth, brand voice, and team briefs for Vietnamese-market business work.",
+      "install": "/plugin marketplace add minhnv0807/ai-business-skills, then /plugin install ai-business-skills, plus git clone (plugin route only; do NOT use the bash install.sh route, which was not read)",
+      "tags": [
+        "business",
+        "seo"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/minhnv0807/ai-business-skills"
+      }
+    },
+    {
+      "id": "ljg-skill-xray-paper",
+      "index": "234",
+      "name": "lijigang/ljg-skill-xray-paper",
+      "repo": "lijigang/ljg-skill-xray-paper",
+      "category": "Writing",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "d467998",
+      "description": "A paper X-ray skill that analyses a research paper into problem, perspective, and result plus cognitive delta cards in ASCII art, giving a fast structured read of an arXiv paper, paper URL, or PDF path.",
+      "install": "claude plugin add lijigang/ljg-skill-xray-paper, invoked as /ljg-xray-paper <arxiv ID, paper URL, or PDF path>",
+      "tags": [
+        "writing",
+        "ljg",
+        "xray",
+        "paper"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/lijigang/ljg-skill-xray-paper"
+      }
+    },
+    {
+      "id": "xiaohongshu-ai-workbench",
+      "index": "235",
+      "name": "mengke-wang/xiaohongshu-ai-workbench",
+      "repo": "mengke-wang/xiaohongshu-ai-workbench",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "7c1705d",
+      "description": "A Xiaohongshu operations workbench and handbook collection, including title generation and diagnosis, profile skills, and a suite skill, plus comment-reply automation, for planning and running Xiaohongshu content.",
+      "install": "Download a .skill file from packages/ and import it into Codex, or manually copy the skill folder to the skills directory; a clone-for-development route is also documented",
+      "tags": [
+        "business",
+        "xiaohongshu",
+        "workbench"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/mengke-wang/xiaohongshu-ai-workbench"
+      }
+    },
+    {
+      "id": "xiaobei-skill",
+      "index": "236",
+      "name": "xiao24bei/xiaobei-skill",
+      "repo": "xiao24bei/xiaobei-skill",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": "1b9fe1d",
+      "description": "A collection for graduate workflows and Office automation, including image-to-VBA conversion, academic-paper-to-PPT, and rebuilding images in PowerPoint, aimed at student and office document work.",
+      "install": "Git clone, plus per skill python -m pip install -r skills/<skill>/requirements.txt",
+      "tags": [
+        "engineering",
+        "xiaobei"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/xiao24bei/xiaobei-skill"
+      }
+    },
+    {
+      "id": "claude-code-skills",
+      "index": "237",
+      "name": "levnikolaevich/claude-code-skills",
+      "repo": "levnikolaevich/claude-code-skills",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "bb2f0cb",
+      "description": "A collection of Claude Code plugins and development workflow skills, including a delivery suite with release-publisher skills, organized as plugins with ln-prefixed skills.",
+      "install": "/plugin marketplace add levnikolaevich/claude-code-skills, then /plugin install implementation-suite@levnikolaevich-skills-marketplace, plus a Codex plugin marketplace variant",
+      "tags": [
+        "engineering",
+        "claude",
+        "code"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/levnikolaevich/claude-code-skills"
+      }
+    },
+    {
+      "id": "awesome-deepseek-harness-plugins",
+      "index": "238",
+      "name": "zhiyuan-fan/awesome-deepseek-harness-plugins",
+      "repo": "zhiyuan-fan/awesome-deepseek-harness-plugins",
+      "category": "Discovery",
+      "type": "Index",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "6b31166",
+      "description": "A curated index of DeepSeek Harness plugins, listing plugins by category so users can discover harness extensions without searching repo by repo.",
+      "install": "npx skills add zhiyuan-fan/awesome-deepseek-harness-plugins",
+      "tags": [
+        "discovery",
+        "awesome",
+        "deepseek",
+        "harness",
+        "plugins"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/zhiyuan-fan/awesome-deepseek-harness-plugins"
+      }
+    },
+    {
+      "id": "watch-skill",
+      "index": "239",
+      "name": "oxbshw/watch-skill",
+      "repo": "oxbshw/watch-skill",
+      "category": "Engineering",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "f1317c8",
+      "description": "A skill that turns video, audio, and screen activity into searchable timestamped evidence, with a watch skill and a loop skill, plus an MCP server and CLI for capture and search.",
+      "install": "pip install 'watch-skill[standard]' (and ocr/loop variants) and npx skills add oxbshw/watch-skill -g, plus npx --yes @deepwatch/cli setup",
+      "tags": [
+        "engineering",
+        "watch",
+        "audio",
+        "video"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/oxbshw/watch-skill"
+      }
+    },
+    {
+      "id": "rw-consulting-ppt",
+      "index": "240",
+      "name": "pikapika260214/rw-consulting-ppt",
+      "repo": "pikapika260214/rw-consulting-ppt",
+      "category": "Design",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "7665d89",
+      "description": "A collection for turning industry reports and notes into proof-object-first image consulting PPTs, plus an astralow skill for editable PPT output, aimed at consulting-style decks with evidence-backed slides.",
+      "install": "cp -R ./skills/rw-consulting-ppt/. ~/.codex/skills/rw-consulting-ppt/ and the astralow equivalent, plus python -m pip install -r skills/astralow-for-editable-ppt/requirements.txt",
+      "tags": [
+        "design",
+        "consulting",
+        "ppt"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/pikapika260214/rw-consulting-ppt"
+      }
+    },
+    {
+      "id": "mattpocock-skills-zh",
+      "index": "241",
+      "name": "devcxl/mattpocock-skills-zh",
+      "repo": "devcxl/mattpocock-skills-zh",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "30fc5db",
+      "description": "A Chinese translation of the mattpocock skills collection covering engineering practices (pull requests, test-driven development, retrospectives, and others), synced daily, keeping original technical terms.",
+      "install": "claude plugin marketplace add devcxl/mattpocock-skills-zh, then /plugin install mattpocock-skills@mattpocock (Chinese marketplace), plus a skills.sh copy route (pick one install method per agent to avoid duplicate installs, per README)",
+      "tags": [
+        "engineering",
+        "mattpocock"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/devcxl/mattpocock-skills-zh"
+      }
+    },
+    {
+      "id": "vvv",
+      "index": "242",
+      "name": "actionow-ai/vvv",
+      "repo": "actionow-ai/vvv",
+      "category": "Video",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "df9bb12",
+      "description": "A video template system for building a video template once and reusing it many times, with open editable wedding video templates and local rendering, plus agent compatibility and integration docs.",
+      "install": "/plugin install vvv --marketplace actionow-ai/vvv for Claude Code, and npx skills add actionow-ai/vvv plus repo clone and VVV_KIT setup for Codex, Cursor, Gemini CLI, Copilot, and others",
+      "tags": [
+        "video",
+        "vvv",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/actionow-ai/vvv"
+      }
+    },
+    {
+      "id": "humanizer-ru",
+      "index": "243",
+      "name": "ilyautov/humanizer-ru",
+      "repo": "ilyautov/humanizer-ru",
+      "category": "Writing",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "b6df5d9",
+      "description": "A Russian text editing collection that removes bureaucratic style and template phrasing, checks meaning and facts, and applies 67 markers and 21 hard rules for clean Russian prose.",
+      "install": "npx skills add ilyautov/humanizer-ru, or /plugin marketplace add ilyautov/humanizer-ru then /plugin install humanizer-ru@ilyautov-plugins, plus git clone and a CLI installer that asks where to install",
+      "tags": [
+        "writing",
+        "humanizer"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/ilyautov/humanizer-ru"
+      }
+    },
+    {
+      "id": "simon-skills",
+      "index": "244",
+      "name": "trustfuture/simon-skills",
+      "repo": "trustfuture/simon-skills",
+      "category": "Video",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "cc2b45d",
+      "description": "A collection for faceless video, including a short common video skill and a whiteboard-video skill for whiteboard explainer videos.",
+      "install": "Git clone the repo, then use the skills/ folder as the skills source (no copy destination is stated in README, so state the skills folder explicitly)",
+      "tags": [
+        "video",
+        "simon"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/trustfuture/simon-skills"
+      }
+    },
+    {
+      "id": "davinci-autoedit-agent",
+      "index": "245",
+      "name": "liuluhaixiu/davinci-autoedit-agent",
+      "repo": "liuluhaixiu/davinci-autoedit-agent",
+      "category": "Video",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "93cf371",
+      "description": "A collection for DaVinci Resolve video editing automation, including a viral-video-writer skill and a davinci-autoedit-agent skill that drives editing through a DaVinci MCP server.",
+      "install": "npx skills add liuluhaixiu/davinci-autoedit-agent",
+      "tags": [
+        "video",
+        "davinci",
+        "autoedit",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/liuluhaixiu/davinci-autoedit-agent"
+      }
+    },
+    {
+      "id": "frontend-slides",
+      "index": "246",
+      "name": "zarazhangrui/frontend-slides",
+      "repo": "zarazhangrui/frontend-slides",
+      "category": "Design",
+      "type": "Plugin",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "9906a34",
+      "description": "Builds zero-dependency, animation-rich HTML presentations on a fixed 16:9 stage, with a visual style discovery step before generating slides.",
+      "install": "/plugin marketplace add https://github.com/zarazhangrui/frontend-slides then /plugin install frontend-slides@frontend-slides (git clone manual route also documented)",
+      "tags": [
+        "design",
+        "frontend",
+        "slides"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/zarazhangrui/frontend-slides"
+      }
+    },
+    {
+      "id": "gsap-skills",
+      "index": "247",
+      "name": "greensock/gsap-skills",
+      "repo": "greensock/gsap-skills",
+      "category": "Design",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "aed9cfd",
+      "description": "Official GSAP skill collection covering the core animation API (tweens, easing, stagger), timelines, ScrollTrigger, plugins, React integration via the useGSAP hook, frameworks, utilities, and performance guidance.",
+      "install": "npx skills add https://github.com/greensock/gsap-skills (Claude Code plugin marketplace route also documented)",
+      "tags": [
+        "design",
+        "gsap",
+        "react"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/greensock/gsap-skills"
+      }
+    },
+    {
+      "id": "genoffice",
+      "index": "248",
+      "name": "genspark-ai/genoffice",
+      "repo": "genspark-ai/genoffice",
+      "category": "Design",
+      "type": "Collection",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": "e1f50e9",
+      "description": "Terminal-based Office workflow skill for creating and converting pptx, xlsx, and docx files and PDFs, with local processing, plus a set of recommended companion skills (including an SOP writer). Draft scope is the genoffice skill plus the presentation angle.",
+      "install": "npx skills add genspark-ai/genoffice (Settings/Integrations install in the GenOffice app also documented)",
+      "tags": [
+        "design",
+        "genoffice"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/genspark-ai/genoffice"
+      }
+    },
+    {
+      "id": "open-seo-mcp-skills",
+      "index": "249",
+      "name": "ryze-ai-adgent/open-seo-mcp-skills",
+      "repo": "ryze-ai-adgent/open-seo-mcp-skills",
+      "category": "SEO",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "f587b0a",
+      "description": "SEO skill collection backed by an MCP data source, covering SEO audits, rank tracking, backlink checks, competitor gaps, keyword research, content briefs, AI visibility, and SEO versus ads comparison.",
+      "install": "claude plugin marketplace add Ryze-AI-Adgent/open-seo-mcp-skills then plugin install (git clone plus copy route also documented; claude mcp add ryze for the MCP server)",
+      "tags": [
+        "seo",
+        "open",
+        "mcp"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/ryze-ai-adgent/open-seo-mcp-skills"
+      }
+    },
+    {
+      "id": "scroll-craft",
+      "index": "250",
+      "name": "nateherkai/scroll-craft",
+      "repo": "nateherkai/scroll-craft",
+      "category": "Design",
+      "type": "Plugin",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "75d81f7",
+      "description": "Guides building premium scroll-driven websites to a stated design standard, with verification tools for checking the scroll experience.",
+      "install": "/plugin marketplace add nateherkai/scroll-craft then /plugin install nateherk-design (claude --plugin-dir local route also documented)",
+      "tags": [
+        "design",
+        "scroll",
+        "craft"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/nateherkai/scroll-craft"
+      }
+    },
+    {
+      "id": "appllama-skills",
+      "index": "251",
+      "name": "appllama/appllama-skills",
+      "repo": "appllama/appllama-skills",
+      "category": "Design",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "dd5caae",
+      "description": "Mobile app design skills built around a simulator-verified quality bar: one skill covers using the Appllama workflow, the other covers app design itself.",
+      "install": "npx skills@latest add appllama/appllama-skills (per-agent and per-skill variants documented; git clone manual route also documented)",
+      "tags": [
+        "design",
+        "appllama"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/appllama/appllama-skills"
+      }
+    },
+    {
+      "id": "effective-html",
+      "index": "252",
+      "name": "plannotator/effective-html",
+      "repo": "plannotator/effective-html",
+      "category": "Design",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "5ce160a",
+      "description": "Collection for producing HTML design artifacts: standalone pages, one-pagers, diagrams, wireframes, prototypes, and planned HTML builds, usable as a reference without installing.",
+      "install": "npx skills add plannotator/effective-html (per-skill variants documented)",
+      "tags": [
+        "design",
+        "effective",
+        "html"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/plannotator/effective-html"
+      }
+    },
+    {
+      "id": "swiftui-agent-skill",
+      "index": "253",
+      "name": "avdlee/swiftui-agent-skill",
+      "repo": "avdlee/swiftui-agent-skill",
+      "category": "Design",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "204dba7",
+      "description": "SwiftUI expert skill plus a skill for keeping SwiftUI API usage up to date, aimed at agents writing idiomatic SwiftUI code.",
+      "install": "npx skills@latest add https://github.com/avdlee/swiftui-agent-skill --skill swiftui-expert-skill (Claude Code plugin marketplace route also documented)",
+      "tags": [
+        "design",
+        "swiftui",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/avdlee/swiftui-agent-skill"
+      }
+    },
+    {
+      "id": "pixelfx",
+      "index": "254",
+      "name": "patch-gg/pixelfx",
+      "repo": "patch-gg/pixelfx",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "a841596",
+      "description": "Pixel-art visual effects skill for the web, backed by an effects library; the skill guides applying pixel effects while the library itself is installed separately.",
+      "install": "/plugin marketplace add patch-gg/pixelfx then /plugin install pixelfx@pixelfx (npm i github:patch-gg/pixelfx for the library)",
+      "tags": [
+        "design",
+        "pixelfx"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/patch-gg/pixelfx"
+      }
+    },
+    {
+      "id": "mono-color-skill",
+      "index": "255",
+      "name": "yanliudesign/mono-color-skill",
+      "repo": "yanliudesign/mono-color-skill",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "c8ff705",
+      "description": "Editorial image skill working in one ink or a controlled two-ink palette, with a validation workflow for checking the constrained-color output.",
+      "install": "git clone route in README, plus direct SKILL.md load for other agents",
+      "tags": [
+        "design",
+        "mono",
+        "color"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/yanliudesign/mono-color-skill"
+      }
+    },
+    {
+      "id": "opc-skills",
+      "index": "256",
+      "name": "resciencelab/opc-skills",
+      "repo": "resciencelab/opc-skills",
+      "category": "SEO",
+      "type": "Collection",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": "389e5c2",
+      "description": "Growth skill collection whose in-scope component is seo-geo: an SEO and GEO audit workflow covering schema and AI-search citation, alongside other growth skills for social and product channels. Draft scope is the seo-geo skill only, not the whole collection.",
+      "install": "/plugin marketplace add ReScienceLab/opc-skills then /plugin install seo-geo@opc-skills (universal installation route in README also documented)",
+      "tags": [
+        "seo",
+        "opc"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/resciencelab/opc-skills"
+      }
+    },
+    {
+      "id": "jinba-consulting-pptx-skill",
+      "index": "257",
+      "name": "carnot-tech/jinba-consulting-pptx-skill",
+      "repo": "carnot-tech/jinba-consulting-pptx-skill",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "e5f35e5",
+      "description": "Boardroom deck rulebook for building consulting presentations as PPTX, with a machine rule checker and a 65-part HTML slide library behind the deck output.",
+      "install": "git clone into the Claude skills directory, using the current repo name jinba-consulting-pptx-skill",
+      "tags": [
+        "design",
+        "jinba",
+        "consulting",
+        "pptx"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/carnot-tech/jinba-consulting-pptx-skill"
+      }
+    },
+    {
+      "id": "gtm-engineer-skills",
+      "index": "258",
+      "name": "onvoyage-ai/gtm-engineer-skills",
+      "repo": "onvoyage-ai/gtm-engineer-skills",
+      "category": "SEO",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "cfdb9ed",
+      "description": "Go-to-market pipeline skills spanning content audits, brand research, backlink building, AEO/GEO improvement, GEO charts, keyword research, website AEO audits, resource pages, GEO content research and planning, SEO/GEO writing, and Reddit opportunity research.",
+      "install": "git clone https://github.com/onvoyage-ai/gtm-engineer-skills.git in README",
+      "tags": [
+        "seo",
+        "gtm",
+        "engineer"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/onvoyage-ai/gtm-engineer-skills"
+      }
+    },
+    {
+      "id": "motionmaxxing",
+      "index": "259",
+      "name": "tejashmakwana/motionmaxxing",
+      "repo": "tejashmakwana/motionmaxxing",
+      "category": "Video",
+      "type": "Skill",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": "8c8ec0f",
+      "description": "Measured motion rework skill for motion graphics, built on principles of weight, soft-land angle, snap-settle timing, and negative tracking, installed via a local requirements-check script.",
+      "install": "git clone into the Claude skills directory, then run the local install.sh (checks Node 22+, Python 3.9+, ffmpeg, Chrome, and links or copies the folder into the skills directory)",
+      "tags": [
+        "video",
+        "motionmaxxing",
+        "motion"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/tejashmakwana/motionmaxxing"
+      }
+    },
+    {
+      "id": "goose-skills",
+      "index": "260",
+      "name": "gooseworks-ai/goose-skills",
+      "repo": "gooseworks-ai/goose-skills",
+      "category": "Video",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "1add09b",
+      "description": "Brand-growth skill collection with a router skill that sends video work to video skills, ad work to ad skills, and photo work to product-photo skills; draft scope is the video-ad skills subset, not the whole collection. Includes marketing playbooks and a GooseWorks MCP server.",
+      "install": "agent-read install page (gooseworks.ai/install.md) that installs the skills and the gooseworks MCP server with Google sign-in, with npx gooseworks@latest doctor as the check",
+      "tags": [
+        "video",
+        "goose"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/gooseworks-ai/goose-skills"
+      }
+    },
+    {
+      "id": "manim_skill",
+      "index": "261",
+      "name": "adithya-s-k/manim_skill",
+      "repo": "adithya-s-k/manim_skill",
+      "category": "Video",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "cef0450",
+      "description": "Manim animation skills for composing math animations, with best-practice guides for both ManimGL and Manim Community Edition.",
+      "install": "npx skills add adithya-s-k/manim_skill (plus Manim/ffmpeg/LaTeX dependency installs)",
+      "tags": [
+        "video",
+        "manim"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/adithya-s-k/manim_skill"
+      }
+    },
+    {
+      "id": "claudedesignskills",
+      "index": "262",
+      "name": "freshtechbro/claudedesignskills",
+      "repo": "freshtechbro/claudedesignskills",
+      "category": "Design",
+      "type": "Plugin",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "1da73fe",
+      "description": "Agency design marketplace of plugins and skills for 3D and WebGL, animation libraries, and interactive web experiences, installed per plugin from the marketplace.",
+      "install": "/plugin marketplace add freshtechbro/claudedesignskills then per-plugin /plugin install commands",
+      "tags": [
+        "design",
+        "claudedesignskills"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/freshtechbro/claudedesignskills"
+      }
+    },
+    {
+      "id": "motion-graphics",
+      "index": "263",
+      "name": "barty-bart/motion-graphics",
+      "repo": "barty-bart/motion-graphics",
+      "category": "Video",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "3d83d98",
+      "description": "One-job-per-skill motion video collection covering motion b-roll, sound effects, object separation, and explainer videos at default, engaging, and high-energy levels.",
+      "install": "npx skills add Barty-Bart/motion-graphics",
+      "tags": [
+        "video",
+        "motion",
+        "graphics"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/barty-bart/motion-graphics"
+      }
+    },
+    {
+      "id": "bang-motion",
+      "index": "264",
+      "name": "bangtutorial/bang-motion",
+      "repo": "bangtutorial/bang-motion",
+      "category": "Video",
+      "type": "Plugin",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "c1aa65e",
+      "description": "Builds openers, promos, product demos, kinetic typography, and explainers as a single index.html that plays like video, with a style gallery of examples.",
+      "install": "/plugin marketplace add bangtutorial/bang-motion then /plugin install bang-motion@bang-motion (git clone route also documented)",
+      "tags": [
+        "video",
+        "bang",
+        "motion"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/bangtutorial/bang-motion"
+      }
+    },
+    {
+      "id": "fire-your-seo-agency",
+      "index": "265",
+      "name": "leopard627/fire-your-seo-agency",
+      "repo": "leopard627/fire-your-seo-agency",
+      "category": "SEO",
+      "type": "Plugin",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "5f7249f",
+      "description": "Self-running SEO, AEO, GEO, LLMO, and NEO/Naver audit and optimization skill, positioned as a replacement for hiring an SEO agency.",
+      "install": "/plugin marketplace add leopard627/fire-your-seo-agency then /plugin install fire-your-seo-agency@fire-your-seo-agency (git clone into .claude/skills routes also documented)",
+      "tags": [
+        "seo",
+        "fire",
+        "your",
+        "agency"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/leopard627/fire-your-seo-agency"
+      }
+    },
+    {
+      "id": "brand-building-skills",
+      "index": "266",
+      "name": "arnabbagxd/brand-building-skills",
+      "repo": "arnabbagxd/brand-building-skills",
+      "category": "Design",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "4a0a8b5",
+      "description": "Brand strategy workflow collection covering ASO, meta ads, google ads, rebranding, brand story, brand voice, brand audit, UGC strategy, brand naming, brand launch, and related brand-building work.",
+      "install": "npx skills add arnabbagxd/brand-building-skills (Claude Code route also documented)",
+      "tags": [
+        "design",
+        "brand",
+        "building"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/arnabbagxd/brand-building-skills"
+      }
+    },
+    {
+      "id": "claude-remotion-skill",
+      "index": "267",
+      "name": "haidrrrry/claude-remotion-skill",
+      "repo": "haidrrrry/claude-remotion-skill",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "1dcbe5e",
+      "description": "Remotion motion graphics skill covering springs, staggered choreography, color grades, film grain, Ken Burns movement, word-synced captions, and sound design.",
+      "install": "git clone route in README, plus npm install for the project deps",
+      "tags": [
+        "video",
+        "claude",
+        "remotion",
+        "motion",
+        "design"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/haidrrrry/claude-remotion-skill"
+      }
+    },
+    {
+      "id": "claude-motion-design",
+      "index": "268",
+      "name": "howseen-ai/claude-motion-design",
+      "repo": "howseen-ai/claude-motion-design",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "3d90d34",
+      "description": "Pure-code motion design video skill using HTML plus Playwright plus ffmpeg, with frame-by-frame seek(t) rendering, motion blur blending, and beat-cut sound, without After Effects or Remotion.",
+      "install": "copy skill/motion-design into ~/.claude/skills/, plus Python deps (pip install playwright imageio-ffmpeg numpy pillow and Playwright Chromium install), per the README install section",
+      "tags": [
+        "video",
+        "claude",
+        "motion",
+        "design"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/howseen-ai/claude-motion-design"
+      }
+    },
+    {
+      "id": "blender-skills",
+      "index": "269",
+      "name": "el4cteo/blender-skills",
+      "repo": "el4cteo/blender-skills",
+      "category": "Design",
+      "type": "Plugin",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "fb92cfb",
+      "description": "Full Blender pipeline skill collection covering core Blender work, asset QA, and 26 further Blender skills, installed as a plugin marketplace package.",
+      "install": "/plugin marketplace add EL4CTEO/blender-skills then /plugin install blender-agent-skills@blender-agent-skills",
+      "tags": [
+        "design",
+        "blender"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/el4cteo/blender-skills"
+      }
+    },
+    {
+      "id": "rossark-motion-skill",
+      "index": "270",
+      "name": "rossark0/rossark-motion-skill",
+      "repo": "rossark0/rossark-motion-skill",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "9b20964",
+      "description": "Animates anything drawn via code templates, guided by a feel-alive checklist: breathe, look around, blink, shift weight, act.",
+      "install": "npx skills@latest add rossark0/rossark-motion-skill",
+      "tags": [
+        "design",
+        "rossark",
+        "motion"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/rossark0/rossark-motion-skill"
+      }
+    },
+    {
+      "id": "skill.color-expert",
+      "index": "271",
+      "name": "meodai/skill.color-expert",
+      "repo": "meodai/skill.color-expert",
+      "category": "Design",
+      "type": "Skill",
+      "license": "CC",
+      "status": "INSTALL",
+      "pinned_commit": "5bf7c77",
+      "description": "Color science expert skill built as a greatest-hits SKILL.md plus a compact references index, for answering color questions and making color decisions with theory behind them.",
+      "install": "npx skills add meodai/skill.color-expert (git clone route also documented)",
+      "tags": [
+        "design",
+        "skill.color",
+        "expert"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/meodai/skill.color-expert"
+      }
+    },
+    {
+      "id": "create-photo-flipbook-ui",
+      "index": "272",
+      "name": "haichaolihc/create-photo-flipbook-ui",
+      "repo": "haichaolihc/create-photo-flipbook-ui",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "d7a43c9",
+      "description": "Curates user photos, designs photobook spreads, and builds an interactive page-turning site with a bundled 3D hardcover book runtime.",
+      "install": "Codex skill-installer script route in README (python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py with the repo path). This is a local system installer script, not a remote pipe.",
+      "tags": [
+        "design",
+        "create",
+        "photo",
+        "flipbook"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/haichaolihc/create-photo-flipbook-ui"
+      }
+    },
+    {
+      "id": "agent-skills",
+      "index": "273",
+      "name": "sleekdotdesign/agent-skills",
+      "repo": "sleekdotdesign/agent-skills",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "fb90438",
+      "description": "Single skill for designing mobile apps and creating screens, managing Sleek projects through the Sleek REST API.",
+      "install": "npx skills add sleekdotdesign/agent-skills (interactive) or npx skills add sleekdotdesign/agent-skills -s sleek-design-mobile-apps (direct)",
+      "tags": [
+        "design",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/sleekdotdesign/agent-skills"
+      }
+    },
+    {
+      "id": "frontend-slides-editable",
+      "index": "274",
+      "name": "archlizheng/frontend-slides-editable",
+      "repo": "archlizheng/frontend-slides-editable",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "e5663e6",
+      "description": "Builds single-file HTML decks that stay editable after generation, with a built-in browser editor for dragging, resizing, editing text, reordering pages, saving locally, and exporting clean standalone HTML.",
+      "install": "npx skills add archlizheng/frontend-slides-editable (plus --skill variant for future multi-skill layout)",
+      "tags": [
+        "design",
+        "frontend",
+        "slides",
+        "editable"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/archlizheng/frontend-slides-editable"
+      }
     }
   ]
 }

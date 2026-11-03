@@ -1,0 +1,22 @@
+{
+  "id": "reader-seat",
+  "index": "192",
+  "name": "bobbyyue/reader-seat",
+  "repo": "bobbyyue/reader-seat",
+  "category": "Writing",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "339f2c1",
+  "description": "A reader-seat writing workflow skill covering commitments, timing, uncertainty, intended action, recognizable voice, direct expression planning, and defensive-expression checks with private computed values, plus deliver.py lifecycle-draft rules.",
+  "install": "git clone into the agent skills directory (git clone https://github.com/BobbyYue/reader-seat.git /path/to/your-agent/skills/reader-seat)",
+  "tags": [
+    "writing",
+    "reader",
+    "seat"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/bobbyyue/reader-seat"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "motion-graphics",
+  "index": "263",
+  "name": "barty-bart/motion-graphics",
+  "repo": "barty-bart/motion-graphics",
+  "category": "Video",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "3d83d98",
+  "description": "One-job-per-skill motion video collection covering motion b-roll, sound effects, object separation, and explainer videos at default, engaging, and high-energy levels.",
+  "install": "npx skills add Barty-Bart/motion-graphics",
+  "tags": [
+    "video",
+    "motion",
+    "graphics"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/barty-bart/motion-graphics"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "effective-html",
+  "index": "252",
+  "name": "plannotator/effective-html",
+  "repo": "plannotator/effective-html",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "5ce160a",
+  "description": "Collection for producing HTML design artifacts: standalone pages, one-pagers, diagrams, wireframes, prototypes, and planned HTML builds, usable as a reference without installing.",
+  "install": "npx skills add plannotator/effective-html (per-skill variants documented)",
+  "tags": [
+    "design",
+    "effective",
+    "html"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/plannotator/effective-html"
+  }
+}

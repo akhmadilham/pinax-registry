@@ -1,0 +1,23 @@
+{
+  "id": "vibe-knowledge-film",
+  "index": "226",
+  "name": "heychengc/vibe-knowledge-film",
+  "repo": "heychengc/vibe-knowledge-film",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "62d5150",
+  "description": "A skill for making Douyin viral Vibe knowledge short films, guiding topic, script, visuals, and rendering for short knowledge videos in a consistent style.",
+  "install": "Place the directory in the agent skills directory (for example ~/.claude/skills/vibe-knowledge-film), then pip install -r requirements.txt, python -m playwright install, and python engine/get_fonts.py (requires local Google Chrome and ffmpeg)",
+  "tags": [
+    "video",
+    "vibe",
+    "knowledge",
+    "film"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/heychengc/vibe-knowledge-film"
+  }
+}

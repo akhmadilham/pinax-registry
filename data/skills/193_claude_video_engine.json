@@ -1,0 +1,22 @@
+{
+  "id": "claude-video-engine",
+  "index": "193",
+  "name": "chakkiyar102/claude-video-engine",
+  "repo": "chakkiyar102/claude-video-engine",
+  "category": "Video",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "8e8f40c",
+  "description": "A bundled video-pipeline plugin skill. Intake copies the user's raw clip into a job, engine commands run via CLAUDE_PLUGIN_ROOT, and jobs are stored in the current project, producing captioned video through a pipeline CLI.",
+  "install": "git clone plus python3 -m pip install openai-whisper pillow, with FFmpeg installed separately through the operating system package manager",
+  "tags": [
+    "video",
+    "claude",
+    "engine"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/chakkiyar102/claude-video-engine"
+  }
+}

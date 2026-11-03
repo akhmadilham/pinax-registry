@@ -1,0 +1,21 @@
+{
+  "id": "claudedesignskills",
+  "index": "262",
+  "name": "freshtechbro/claudedesignskills",
+  "repo": "freshtechbro/claudedesignskills",
+  "category": "Design",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "1da73fe",
+  "description": "Agency design marketplace of plugins and skills for 3D and WebGL, animation libraries, and interactive web experiences, installed per plugin from the marketplace.",
+  "install": "/plugin marketplace add freshtechbro/claudedesignskills then per-plugin /plugin install commands",
+  "tags": [
+    "design",
+    "claudedesignskills"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/freshtechbro/claudedesignskills"
+  }
+}

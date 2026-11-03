@@ -1,0 +1,25 @@
+{
+  "id": "build-awwwards-quality-sites",
+  "index": "171",
+  "name": "mengto/build-awwwards-quality-sites",
+  "repo": "mengto/skills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "1de14e2",
+  "description": "A single web design skill for building Awwwards-quality sites with strong motion and interaction, landing page craft, and honest sourcing rules: never reuse, trace, or closely reproduce reference assets, screenshots, source code, identity, or copy; use appropriately licensed media; never ship generated people presented as real customers, staff, or endorsers. Draft scope is this one folder only.",
+  "install": "Folder-copy style, no invented installer command: for Claude Code, reference the skill from CLAUDE.md, copy it into a Claude skills setup, or open the SKILL.md directly as working context; for Codex, load the SKILL.md before acting; for Cursor, point rules/chat context at the skill folder. README also notes install notes for Codex, Claude Code, and Cursor are still to be added once the preferred setup is stable.",
+  "tags": [
+    "design",
+    "build",
+    "awwwards",
+    "quality",
+    "sites",
+    "motion"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/mengto/skills"
+  }
+}

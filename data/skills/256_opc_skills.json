@@ -1,0 +1,21 @@
+{
+  "id": "opc-skills",
+  "index": "256",
+  "name": "resciencelab/opc-skills",
+  "repo": "resciencelab/opc-skills",
+  "category": "SEO",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "389e5c2",
+  "description": "Growth skill collection whose in-scope component is seo-geo: an SEO and GEO audit workflow covering schema and AI-search citation, alongside other growth skills for social and product channels. Draft scope is the seo-geo skill only, not the whole collection.",
+  "install": "/plugin marketplace add ReScienceLab/opc-skills then /plugin install seo-geo@opc-skills (universal installation route in README also documented)",
+  "tags": [
+    "seo",
+    "opc"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/resciencelab/opc-skills"
+  }
+}

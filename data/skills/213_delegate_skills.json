@@ -1,0 +1,22 @@
+{
+  "id": "delegate-skills",
+  "index": "213",
+  "name": "amelnagdy/delegate-skills",
+  "repo": "amelnagdy/delegate-skills",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "3aa72d6",
+  "description": "A collection of delegation skills that hand a coding task to a separate coding-agent CLI, review the resulting diff, and land the commit, covering pi and omp delegation variants.",
+  "install": "npx skills add amElnagdy/delegate-skills (and per-skill and --global variants)",
+  "tags": [
+    "engineering",
+    "delegate",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/amelnagdy/delegate-skills"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "awesome-journal-skills",
+  "index": "185",
+  "name": "brycewang-stanford/awesome-journal-skills",
+  "repo": "brycewang-stanford/awesome-journal-skills",
+  "category": "Writing",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "932eb23",
+  "description": "A very large curated journal skill pack collection (3,964 SKILL.md files confirmed via search, for example PNAS, Cell, AER, and QJE packs). The sample skill, pnas-fit, assesses fit for PNAS journal submission. Skills cover journal fit and submission guidance per journal.",
+  "install": "/plugin marketplace add https://github.com/brycewang-stanford/awesome-journal-skills, then /plugin install <pack-name> (for example qje-skills), plus git clone and copy routes (cp -R AER-skills/skills/aer-* ~/.claude/skills/ pattern)",
+  "tags": [
+    "writing",
+    "awesome",
+    "journal"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/brycewang-stanford/awesome-journal-skills"
+  }
+}

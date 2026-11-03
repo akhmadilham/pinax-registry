@@ -1,0 +1,22 @@
+{
+  "id": "agent-video-editor",
+  "index": "196",
+  "name": "kmilo93sd/agent-video-editor",
+  "repo": "kmilo93sd/agent-video-editor",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "8e32c0a",
+  "description": "A video editing skill (skill folder editing-videos) for editing videos including meme video and video production work, with a recorded-licence rule: no copyrighted meme images, clips, or sounds without a license, recreate the joke instead.",
+  "install": "npx skills add kmilo93sd/agent-video-editor, or Claude Code plugin route (/plugin marketplace add kmilo93sd/agent-video-editor, /plugin install agent-video-editor@agent-video-editor), or by hand copying skills/editing-videos/ into the agent skills folder",
+  "tags": [
+    "video",
+    "agent",
+    "editor"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/kmilo93sd/agent-video-editor"
+  }
+}

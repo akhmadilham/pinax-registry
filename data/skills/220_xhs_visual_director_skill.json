@@ -1,0 +1,23 @@
+{
+  "id": "xhs-visual-director-skill",
+  "index": "220",
+  "name": "ziguishian/xhs-visual-director-skill",
+  "repo": "ziguishian/xhs-visual-director-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "5c730c6",
+  "description": "A visual-director skill for Xiaohongshu text-image posts, directing layout, imagery, and visual style for posts on the platform.",
+  "install": "Install or reference the skill/ directory as a Codex skill (README install-suggestion section; the installable skill body is in skill/)",
+  "tags": [
+    "design",
+    "xhs",
+    "visual",
+    "director"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/ziguishian/xhs-visual-director-skill"
+  }
+}

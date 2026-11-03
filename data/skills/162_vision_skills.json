@@ -1,0 +1,22 @@
+{
+  "id": "vision-skills",
+  "index": "162",
+  "name": "anionex/vision-skills",
+  "repo": "anionex/agent-vision-toolkit",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "328c0ae",
+  "description": "A skill for agent vision work: analyzing images, running OCR, grounding GUI elements, and working from screenshots. It pairs the skill instructions with local vision client and proxy tooling so an agent can call a user-configured vision model.",
+  "install": "npx skills add Anionex/agent-vision-toolkit --skill vision-skills -a codex -g --copy -y (per-agent variants in README and AGENT_INSTALL.md), plus a three-step manual install.",
+  "tags": [
+    "design",
+    "vision",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/anionex/agent-vision-toolkit"
+  }
+}

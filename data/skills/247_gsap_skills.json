@@ -1,0 +1,22 @@
+{
+  "id": "gsap-skills",
+  "index": "247",
+  "name": "greensock/gsap-skills",
+  "repo": "greensock/gsap-skills",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "aed9cfd",
+  "description": "Official GSAP skill collection covering the core animation API (tweens, easing, stagger), timelines, ScrollTrigger, plugins, React integration via the useGSAP hook, frameworks, utilities, and performance guidance.",
+  "install": "npx skills add https://github.com/greensock/gsap-skills (Claude Code plugin marketplace route also documented)",
+  "tags": [
+    "design",
+    "gsap",
+    "react"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/greensock/gsap-skills"
+  }
+}

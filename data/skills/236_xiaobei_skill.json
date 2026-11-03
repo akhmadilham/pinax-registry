@@ -1,0 +1,21 @@
+{
+  "id": "xiaobei-skill",
+  "index": "236",
+  "name": "xiao24bei/xiaobei-skill",
+  "repo": "xiao24bei/xiaobei-skill",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "1b9fe1d",
+  "description": "A collection for graduate workflows and Office automation, including image-to-VBA conversion, academic-paper-to-PPT, and rebuilding images in PowerPoint, aimed at student and office document work.",
+  "install": "Git clone, plus per skill python -m pip install -r skills/<skill>/requirements.txt",
+  "tags": [
+    "engineering",
+    "xiaobei"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/xiao24bei/xiaobei-skill"
+  }
+}

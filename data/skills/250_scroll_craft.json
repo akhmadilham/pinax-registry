@@ -1,0 +1,22 @@
+{
+  "id": "scroll-craft",
+  "index": "250",
+  "name": "nateherkai/scroll-craft",
+  "repo": "nateherkai/scroll-craft",
+  "category": "Design",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "75d81f7",
+  "description": "Guides building premium scroll-driven websites to a stated design standard, with verification tools for checking the scroll experience.",
+  "install": "/plugin marketplace add nateherkai/scroll-craft then /plugin install nateherk-design (claude --plugin-dir local route also documented)",
+  "tags": [
+    "design",
+    "scroll",
+    "craft"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/nateherkai/scroll-craft"
+  }
+}

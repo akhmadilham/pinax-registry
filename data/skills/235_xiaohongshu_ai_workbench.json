@@ -1,0 +1,22 @@
+{
+  "id": "xiaohongshu-ai-workbench",
+  "index": "235",
+  "name": "mengke-wang/xiaohongshu-ai-workbench",
+  "repo": "mengke-wang/xiaohongshu-ai-workbench",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "7c1705d",
+  "description": "A Xiaohongshu operations workbench and handbook collection, including title generation and diagnosis, profile skills, and a suite skill, plus comment-reply automation, for planning and running Xiaohongshu content.",
+  "install": "Download a .skill file from packages/ and import it into Codex, or manually copy the skill folder to the skills directory; a clone-for-development route is also documented",
+  "tags": [
+    "business",
+    "xiaohongshu",
+    "workbench"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/mengke-wang/xiaohongshu-ai-workbench"
+  }
+}

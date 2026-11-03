@@ -1,0 +1,21 @@
+{
+  "id": "pixelfx",
+  "index": "254",
+  "name": "patch-gg/pixelfx",
+  "repo": "patch-gg/pixelfx",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "a841596",
+  "description": "Pixel-art visual effects skill for the web, backed by an effects library; the skill guides applying pixel effects while the library itself is installed separately.",
+  "install": "/plugin marketplace add patch-gg/pixelfx then /plugin install pixelfx@pixelfx (npm i github:patch-gg/pixelfx for the library)",
+  "tags": [
+    "design",
+    "pixelfx"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/patch-gg/pixelfx"
+  }
+}

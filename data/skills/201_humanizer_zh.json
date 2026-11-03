@@ -1,0 +1,21 @@
+{
+  "id": "humanizer-zh",
+  "index": "201",
+  "name": "op7418/humanizer-zh",
+  "repo": "op7418/humanizer-zh",
+  "category": "Writing",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "f4518a8",
+  "description": "A Chinese-language skill that rewrites text to remove traces of AI generation, covering phrasing, rhythm, and template markers typical of machine-generated Chinese text.",
+  "install": "npx skills add https://github.com/op7418/Humanizer-zh.git, or git clone to ~/.claude/skills/humanizer-zh",
+  "tags": [
+    "writing",
+    "humanizer"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/op7418/humanizer-zh"
+  }
+}

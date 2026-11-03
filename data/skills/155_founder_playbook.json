@@ -1,0 +1,22 @@
+{
+  "id": "founder-playbook",
+  "index": "155",
+  "name": "getagentseal/founder-playbook",
+  "repo": "getagentseal/founder-playbook",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "e811e63",
+  "description": "A founder playbook collection of 16 skills derived from well known business books and frameworks, including lean startup, crossing the chasm, blue ocean strategy, mom test, traction, storybrand, spin selling, and 100m offers and leads material. The verified sample is the mom test skill for customer interviews.",
+  "install": "npx skills add getagentseal/founder-playbook and git clone.",
+  "tags": [
+    "business",
+    "founder",
+    "playbook"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/getagentseal/founder-playbook"
+  }
+}

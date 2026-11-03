@@ -1,0 +1,23 @@
+{
+  "id": "khasky-awesome-agent-skills",
+  "index": "170",
+  "name": "khasky/khasky-awesome-agent-skills",
+  "repo": "khasky/awesome-agent-skills",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "58ea4e8",
+  "description": "A large audit and review skill collection (49 folders), drafted here cherry-pick only, led by a read-only security audit skill. The audit subset covers security, dependency, leak, privacy, and code review and quality audits, with explicit read-only behavior and no edits applied.",
+  "install": "npx skills add khasky/awesome-agent-skills (single-skill variant with -s documented, with a README warning that single-skill installs can leave cross-skill reference links dangling) and plugin routes (Claude Code, Copilot CLI, Antigravity). Draft scope is cherry-pick (the security-audit sample and named audit skills), never the install-everything route.",
+  "tags": [
+    "engineering",
+    "awesome",
+    "agent",
+    "security"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/khasky/awesome-agent-skills"
+  }
+}

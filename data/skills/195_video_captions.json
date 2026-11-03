@@ -1,0 +1,21 @@
+{
+  "id": "video-captions",
+  "index": "195",
+  "name": "katareayush/video-captions",
+  "repo": "katareayush/video-captions",
+  "category": "Video",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "b541fcc",
+  "description": "A video caption skill using faster-whisper transcription and an ffmpeg subtitle build, with a video-captions launcher on PATH and a scripts/ folder beside the SKILL.md.",
+  "install": "git clone plus python3 install.py. Use only the plugin or clone route; never reproduce the repo's piped one-liner route.",
+  "tags": [
+    "video",
+    "captions"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/katareayush/video-captions"
+  }
+}

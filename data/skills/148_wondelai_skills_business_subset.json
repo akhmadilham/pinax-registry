@@ -1,0 +1,23 @@
+{
+  "id": "wondelai-skills-business-subset",
+  "index": "148",
+  "name": "wondelai/skills (Business subset)",
+  "repo": "wondelai/skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "d8d5d75",
+  "description": "A multi-domain collection of 50 plus skills; this draft covers the Business subset only, such as create-business, grow-business, and improve-business. The verified sample guides an idea-to-validated-business journey by orchestrating ten phase skills.",
+  "install": "/plugin marketplace add wondelai/skills plus per-collection plugin installs, and npx skills add wondelai/skills/<name> --global.",
+  "tags": [
+    "business",
+    "wondelai/skills",
+    "(business",
+    "subset)"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/wondelai/skills"
+  }
+}

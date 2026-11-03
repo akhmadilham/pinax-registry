@@ -1,0 +1,22 @@
+{
+  "id": "open-seo-mcp-skills",
+  "index": "249",
+  "name": "ryze-ai-adgent/open-seo-mcp-skills",
+  "repo": "ryze-ai-adgent/open-seo-mcp-skills",
+  "category": "SEO",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "f587b0a",
+  "description": "SEO skill collection backed by an MCP data source, covering SEO audits, rank tracking, backlink checks, competitor gaps, keyword research, content briefs, AI visibility, and SEO versus ads comparison.",
+  "install": "claude plugin marketplace add Ryze-AI-Adgent/open-seo-mcp-skills then plugin install (git clone plus copy route also documented; claude mcp add ryze for the MCP server)",
+  "tags": [
+    "seo",
+    "open",
+    "mcp"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/ryze-ai-adgent/open-seo-mcp-skills"
+  }
+}

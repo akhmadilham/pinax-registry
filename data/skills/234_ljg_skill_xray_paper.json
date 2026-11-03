@@ -1,0 +1,23 @@
+{
+  "id": "ljg-skill-xray-paper",
+  "index": "234",
+  "name": "lijigang/ljg-skill-xray-paper",
+  "repo": "lijigang/ljg-skill-xray-paper",
+  "category": "Writing",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "d467998",
+  "description": "A paper X-ray skill that analyses a research paper into problem, perspective, and result plus cognitive delta cards in ASCII art, giving a fast structured read of an arXiv paper, paper URL, or PDF path.",
+  "install": "claude plugin add lijigang/ljg-skill-xray-paper, invoked as /ljg-xray-paper <arxiv ID, paper URL, or PDF path>",
+  "tags": [
+    "writing",
+    "ljg",
+    "xray",
+    "paper"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/lijigang/ljg-skill-xray-paper"
+  }
+}

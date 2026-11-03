@@ -1,0 +1,21 @@
+{
+  "id": "amazon-skills",
+  "index": "154",
+  "name": "nexscope-ai/amazon-skills",
+  "repo": "nexscope-ai/amazon-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "0f3b13f",
+  "description": "An Amazon-specific collection of 50 plus skills. The verified sample is an Amazon keyword research skill. It is the marketplace-specific sibling of the same author's ecommerce-skills collection.",
+  "install": "npx skills add nexscope-ai/Amazon-Skills -g and per-skill form (repo name case as documented in verify evidence).",
+  "tags": [
+    "business",
+    "amazon"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/nexscope-ai/amazon-skills"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "bang-motion",
+  "index": "264",
+  "name": "bangtutorial/bang-motion",
+  "repo": "bangtutorial/bang-motion",
+  "category": "Video",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "c1aa65e",
+  "description": "Builds openers, promos, product demos, kinetic typography, and explainers as a single index.html that plays like video, with a style gallery of examples.",
+  "install": "/plugin marketplace add bangtutorial/bang-motion then /plugin install bang-motion@bang-motion (git clone route also documented)",
+  "tags": [
+    "video",
+    "bang",
+    "motion"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/bangtutorial/bang-motion"
+  }
+}

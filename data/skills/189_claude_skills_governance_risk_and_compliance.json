@@ -1,0 +1,25 @@
+{
+  "id": "claude-skills-governance-risk-and-compliance",
+  "index": "189",
+  "name": "sushegaad/claude-skills-governance-risk-and-compliance",
+  "repo": "sushegaad/claude-skills-governance-risk-and-compliance",
+  "category": "Security",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "aab13e1",
+  "description": "A governance, risk, and compliance plugin catalogue (README claims 36 skills under plugins/*/skills/*/, including ccpa, cis-controls, cmmc, and more). The sample skill, ccpa, guides CCPA compliance work.",
+  "install": "/plugin marketplace add Sushegaad/Claude-Skills-Governance-Risk-and-Compliance, then /plugin install for named skills (for example iso27001@grc-skills, soc2@grc-skills, fedramp@grc-skills, nist-csf@grc-skills, cmmc@grc-skills)",
+  "tags": [
+    "security",
+    "claude",
+    "governance",
+    "risk",
+    "and",
+    "compliance"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/sushegaad/claude-skills-governance-risk-and-compliance"
+  }
+}

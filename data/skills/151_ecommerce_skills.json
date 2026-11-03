@@ -1,0 +1,22 @@
+{
+  "id": "ecommerce-skills",
+  "index": "151",
+  "name": "nexscope-ai/ecommerce-skills",
+  "repo": "nexscope-ai/ecommerce-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "ee0fb29",
+  "description": "A large ecommerce collection of 140 plus skills including keyword research, marketing strategy building, conversion rate optimization, and marketplace SEO for Etsy and eBay. The verified sample is an ecommerce keyword research skill.",
+  "install": "npx skills add nexscope-ai/ecommerce-skills -g and per-skill --skill form.",
+  "tags": [
+    "business",
+    "ecommerce",
+    "seo"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/nexscope-ai/ecommerce-skills"
+  }
+}

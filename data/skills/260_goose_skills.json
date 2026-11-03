@@ -1,0 +1,21 @@
+{
+  "id": "goose-skills",
+  "index": "260",
+  "name": "gooseworks-ai/goose-skills",
+  "repo": "gooseworks-ai/goose-skills",
+  "category": "Video",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "1add09b",
+  "description": "Brand-growth skill collection with a router skill that sends video work to video skills, ad work to ad skills, and photo work to product-photo skills; draft scope is the video-ad skills subset, not the whole collection. Includes marketing playbooks and a GooseWorks MCP server.",
+  "install": "agent-read install page (gooseworks.ai/install.md) that installs the skills and the gooseworks MCP server with Google sign-in, with npx gooseworks@latest doctor as the check",
+  "tags": [
+    "video",
+    "goose"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/gooseworks-ai/goose-skills"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "fire-your-seo-agency",
+  "index": "265",
+  "name": "leopard627/fire-your-seo-agency",
+  "repo": "leopard627/fire-your-seo-agency",
+  "category": "SEO",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "5f7249f",
+  "description": "Self-running SEO, AEO, GEO, LLMO, and NEO/Naver audit and optimization skill, positioned as a replacement for hiring an SEO agency.",
+  "install": "/plugin marketplace add leopard627/fire-your-seo-agency then /plugin install fire-your-seo-agency@fire-your-seo-agency (git clone into .claude/skills routes also documented)",
+  "tags": [
+    "seo",
+    "fire",
+    "your",
+    "agency"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/leopard627/fire-your-seo-agency"
+  }
+}

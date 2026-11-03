@@ -1,0 +1,22 @@
+{
+  "id": "claude-code-skills",
+  "index": "237",
+  "name": "levnikolaevich/claude-code-skills",
+  "repo": "levnikolaevich/claude-code-skills",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "bb2f0cb",
+  "description": "A collection of Claude Code plugins and development workflow skills, including a delivery suite with release-publisher skills, organized as plugins with ln-prefixed skills.",
+  "install": "/plugin marketplace add levnikolaevich/claude-code-skills, then /plugin install implementation-suite@levnikolaevich-skills-marketplace, plus a Codex plugin marketplace variant",
+  "tags": [
+    "engineering",
+    "claude",
+    "code"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/levnikolaevich/claude-code-skills"
+  }
+}

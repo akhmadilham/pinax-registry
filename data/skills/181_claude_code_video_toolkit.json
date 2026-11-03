@@ -1,0 +1,24 @@
+{
+  "id": "claude-code-video-toolkit",
+  "index": "181",
+  "name": "digitalsamba/claude-code-video-toolkit",
+  "repo": "digitalsamba/claude-code-video-toolkit",
+  "category": "Video",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "a8eaaf7",
+  "description": "A 24-skill video production collection under .claude/skills/ covering AI video generation and video editing. The sample read, Remotion, guides Remotion-based video work. Setup uses Claude Code slash commands after cloning.",
+  "install": "git clone, then Claude Code slash commands /setup and /video, with Node.js 22+ and Claude Code required and uv recommended for Python tools. Do not reproduce the README uv pipe suggestion; point to the official uv install docs or a package manager instead.",
+  "tags": [
+    "video",
+    "claude",
+    "code",
+    "toolkit",
+    "motion"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/digitalsamba/claude-code-video-toolkit"
+  }
+}

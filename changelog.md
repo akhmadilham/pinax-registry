@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.8.0] - 2026-11-03
+
+### Added
+- **Batch Community Skills Integration (129 Clean PASS Skills, Index 146 to 274)**:
+  - Registered 129 verified open-source skills across all 8 Pantheon domains (Design +36, Video +33, Business +20, Engineering +17, Writing +12, SEO +5, Security +4, Discovery +2).
+  - Registry expanded to 274 canonical skills (86% commit-pinned).
+  - Verified 100% legal open-source licenses in git tree (MIT, Apache-2.0, BSD, GPL, MPL).
+  - Screened for zero prompt injections, zero malware, zero hidden tracking, and zero ToS scraping violations.
+
 ## [1.7.0] - 2026-11-03
 
 ### Changed

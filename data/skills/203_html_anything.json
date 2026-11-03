@@ -1,0 +1,23 @@
+{
+  "id": "html-anything",
+  "index": "203",
+  "name": "nexu-io/html-anything",
+  "repo": "nexu-io/html-anything",
+  "category": "Design",
+  "type": "Tool",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "975fb3b",
+  "description": "An HTML editor app with embedded agentic template skills, including a product spec template and an investor pitch deck template. Users pick templates in the app; adding a skill means copying a similar skill folder and editing its SKILL.md frontmatter.",
+  "install": "git clone https://github.com/nexu-io/html-anything.git, then run the app with pnpm -F @html-anything/next dev to use the template picker",
+  "tags": [
+    "design",
+    "html",
+    "anything",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/nexu-io/html-anything"
+  }
+}

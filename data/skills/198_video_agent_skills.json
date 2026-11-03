@@ -1,0 +1,21 @@
+{
+  "id": "video-agent-skills",
+  "index": "198",
+  "name": "melvynx/video-agent-skills",
+  "repo": "melvynx/video-agent-skills",
+  "category": "Video",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "4774fa4",
+  "description": "A video agent skill collection with 13 skill folders (broll, clips, codex-images, editing, insta-audit, outliers, publish, short-editing, short-translate, steal, studio-script, studio-setup, vox). The samples read, short-editing and publish, cover short video editing and publishing with an approval gate before publishing.",
+  "install": "npx skills add Melvynx/video-agent-skills -a claude-code (add -g for every project), or git clone plus copy of skills/* to .claude/skills/. For publishing, use only the MCP route or the manual kit route, never the Treg pipe line.",
+  "tags": [
+    "video",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/melvynx/video-agent-skills"
+  }
+}

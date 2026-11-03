@@ -1,0 +1,22 @@
+{
+  "id": "deepcamera",
+  "index": "210",
+  "name": "sharpai/deepcamera",
+  "repo": "sharpai/deepcamera",
+  "category": "Engineering",
+  "type": "Tool",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "933dcc7",
+  "description": "An AI camera and surveillance platform with local vision-language analysis (Qwen, DeepSeek, SmolVLM, LLaVA, YOLO26), exposing camera skills through a skill store so a deployment agent can set up analysis channels on local camera feeds.",
+  "install": "Install skills from the Aegis Skill Store UI (one-click setup with no terminal needed per README; deployment agent reads the skill SKILL.md manifest and runs the right backend commands)",
+  "tags": [
+    "engineering",
+    "deepcamera",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/sharpai/deepcamera"
+  }
+}

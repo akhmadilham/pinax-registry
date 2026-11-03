@@ -1,0 +1,21 @@
+{
+  "id": "mattpocock-skills-zh",
+  "index": "241",
+  "name": "devcxl/mattpocock-skills-zh",
+  "repo": "devcxl/mattpocock-skills-zh",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "30fc5db",
+  "description": "A Chinese translation of the mattpocock skills collection covering engineering practices (pull requests, test-driven development, retrospectives, and others), synced daily, keeping original technical terms.",
+  "install": "claude plugin marketplace add devcxl/mattpocock-skills-zh, then /plugin install mattpocock-skills@mattpocock (Chinese marketplace), plus a skills.sh copy route (pick one install method per agent to avoid duplicate installs, per README)",
+  "tags": [
+    "engineering",
+    "mattpocock"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/devcxl/mattpocock-skills-zh"
+  }
+}

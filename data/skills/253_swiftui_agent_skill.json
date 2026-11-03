@@ -1,0 +1,22 @@
+{
+  "id": "swiftui-agent-skill",
+  "index": "253",
+  "name": "avdlee/swiftui-agent-skill",
+  "repo": "avdlee/swiftui-agent-skill",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "204dba7",
+  "description": "SwiftUI expert skill plus a skill for keeping SwiftUI API usage up to date, aimed at agents writing idiomatic SwiftUI code.",
+  "install": "npx skills@latest add https://github.com/avdlee/swiftui-agent-skill --skill swiftui-expert-skill (Claude Code plugin marketplace route also documented)",
+  "tags": [
+    "design",
+    "swiftui",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/avdlee/swiftui-agent-skill"
+  }
+}

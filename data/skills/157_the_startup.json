@@ -1,0 +1,23 @@
+{
+  "id": "the-startup",
+  "index": "157",
+  "name": "rsmdt/the-startup",
+  "repo": "rsmdt/the-startup",
+  "category": "Business",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "e803d51",
+  "description": "A startup plugin with skills, commands, and agents for deep-research analysis, archiving, and brainstorming. The verified sample is a deep-research analysis orchestrator that requires cited claims and independent skeptic verification, producing one cited report.",
+  "install": "/plugin marketplace add rsmdt/the-startup then /plugin install start@the-startup. Plugin route only. Do not use the README pipe installer for install.sh.",
+  "tags": [
+    "business",
+    "the",
+    "startup",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/rsmdt/the-startup"
+  }
+}

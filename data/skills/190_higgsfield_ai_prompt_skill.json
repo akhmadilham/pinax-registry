@@ -1,0 +1,22 @@
+{
+  "id": "higgsfield-ai-prompt-skill",
+  "index": "190",
+  "name": "osidemedia/higgsfield-ai-prompt-skill",
+  "repo": "osidemedia/higgsfield-ai-prompt-skill",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "6a6a5dd",
+  "description": "A router skill for 35 sub-skills under skills/, with a DISCIPLINE.md cross-cutting framework of 9 discipline patterns, workspace input/output/processed folders, and a learning memory and generation ledger under ~/.higgsfield-skill/db/. It routes a prompt request to the right sub-skill and prompts can be pasted into higgsfield.ai directly.",
+  "install": "git clone into ~/.claude/skills/higgsfield, so Claude Code registers the root SKILL.md as one skill named higgsfield and routes to sub-skills by path; a Cowork upload route is also documented. Do not reproduce the README Higgsfield CLI pipe line; the CLI is explicitly not required for this skill to work, so use the clone route only.",
+  "tags": [
+    "video",
+    "higgsfield",
+    "prompt"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/osidemedia/higgsfield-ai-prompt-skill"
+  }
+}

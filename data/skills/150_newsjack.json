@@ -1,0 +1,22 @@
+{
+  "id": "newsjack",
+  "index": "150",
+  "name": "elvisun/newsjack",
+  "repo": "elvisun/newsjack",
+  "category": "Business",
+  "type": "Tool",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "47d0fb2",
+  "description": "A PR and media monitoring tool packaged as an npm CLI plus plugin skills. The verified sample skill designs an AI visibility panel. The tool connects to a Medialyst connector over OAuth for media data.",
+  "install": "npm i -g newsjack@latest. Npm route only. Do not use the README pipe installer and do not use install.sh, which downloads release tarballs and removes install directories.",
+  "tags": [
+    "business",
+    "newsjack",
+    "design"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/elvisun/newsjack"
+  }
+}

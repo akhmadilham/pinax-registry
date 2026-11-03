@@ -1,0 +1,22 @@
+{
+  "id": "rossark-motion-skill",
+  "index": "270",
+  "name": "rossark0/rossark-motion-skill",
+  "repo": "rossark0/rossark-motion-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "9b20964",
+  "description": "Animates anything drawn via code templates, guided by a feel-alive checklist: breathe, look around, blink, shift weight, act.",
+  "install": "npx skills@latest add rossark0/rossark-motion-skill",
+  "tags": [
+    "design",
+    "rossark",
+    "motion"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/rossark0/rossark-motion-skill"
+  }
+}

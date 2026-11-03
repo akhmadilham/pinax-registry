@@ -1,0 +1,22 @@
+{
+  "id": "frontend-slides",
+  "index": "246",
+  "name": "zarazhangrui/frontend-slides",
+  "repo": "zarazhangrui/frontend-slides",
+  "category": "Design",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "9906a34",
+  "description": "Builds zero-dependency, animation-rich HTML presentations on a fixed 16:9 stage, with a visual style discovery step before generating slides.",
+  "install": "/plugin marketplace add https://github.com/zarazhangrui/frontend-slides then /plugin install frontend-slides@frontend-slides (git clone manual route also documented)",
+  "tags": [
+    "design",
+    "frontend",
+    "slides"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/zarazhangrui/frontend-slides"
+  }
+}

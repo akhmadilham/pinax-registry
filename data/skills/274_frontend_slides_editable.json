@@ -1,0 +1,23 @@
+{
+  "id": "frontend-slides-editable",
+  "index": "274",
+  "name": "archlizheng/frontend-slides-editable",
+  "repo": "archlizheng/frontend-slides-editable",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "e5663e6",
+  "description": "Builds single-file HTML decks that stay editable after generation, with a built-in browser editor for dragging, resizing, editing text, reordering pages, saving locally, and exporting clean standalone HTML.",
+  "install": "npx skills add archlizheng/frontend-slides-editable (plus --skill variant for future multi-skill layout)",
+  "tags": [
+    "design",
+    "frontend",
+    "slides",
+    "editable"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/archlizheng/frontend-slides-editable"
+  }
+}

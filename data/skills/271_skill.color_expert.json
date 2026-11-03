@@ -1,0 +1,22 @@
+{
+  "id": "skill.color-expert",
+  "index": "271",
+  "name": "meodai/skill.color-expert",
+  "repo": "meodai/skill.color-expert",
+  "category": "Design",
+  "type": "Skill",
+  "license": "CC",
+  "status": "INSTALL",
+  "pinned_commit": "5bf7c77",
+  "description": "Color science expert skill built as a greatest-hits SKILL.md plus a compact references index, for answering color questions and making color decisions with theory behind them.",
+  "install": "npx skills add meodai/skill.color-expert (git clone route also documented)",
+  "tags": [
+    "design",
+    "skill.color",
+    "expert"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/meodai/skill.color-expert"
+  }
+}

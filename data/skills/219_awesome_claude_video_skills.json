@@ -1,0 +1,25 @@
+{
+  "id": "awesome-claude-video-skills",
+  "index": "219",
+  "name": "zhuyansen/awesome-claude-video-skills",
+  "repo": "zhuyansen/awesome-claude-video-skills",
+  "category": "Discovery",
+  "type": "Index",
+  "license": "CC0-1.0",
+  "status": "INSTALL",
+  "pinned_commit": "888820f",
+  "description": "A curated index of video skills, listing 180 repos by type with security grading, so users can discover video-related agent skills by category instead of searching repo by repo.",
+  "install": "npx skills add zhuyansen/awesome-claude-video-skills",
+  "tags": [
+    "discovery",
+    "awesome",
+    "claude",
+    "video",
+    "agent",
+    "security"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/zhuyansen/awesome-claude-video-skills"
+  }
+}

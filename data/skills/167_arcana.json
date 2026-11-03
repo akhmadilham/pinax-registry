@@ -1,0 +1,23 @@
+{
+  "id": "arcana",
+  "index": "167",
+  "name": "cj-ways/arcana",
+  "repo": "cj-ways/arcana",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "62a5cbd",
+  "description": "A CLI-managed collection of 18 engineering and design workflow skills, including audits, reviews, fixes, planning, test generation, release checks, security checks, and a design-phase prompt skill for v0.dev. The sample skill read covers v0 design prompting. The CLI supports init with a dry-run preview and plugin install.",
+  "install": "npx @cj-ways/arcana init (with --dry-run preview documented) and plugin route (/plugin install arcana@cj-ways-skills). Only the CLI/plugin install is drafted.",
+  "tags": [
+    "engineering",
+    "arcana",
+    "design",
+    "security"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/cj-ways/arcana"
+  }
+}

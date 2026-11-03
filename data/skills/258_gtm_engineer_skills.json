@@ -1,0 +1,22 @@
+{
+  "id": "gtm-engineer-skills",
+  "index": "258",
+  "name": "onvoyage-ai/gtm-engineer-skills",
+  "repo": "onvoyage-ai/gtm-engineer-skills",
+  "category": "SEO",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "cfdb9ed",
+  "description": "Go-to-market pipeline skills spanning content audits, brand research, backlink building, AEO/GEO improvement, GEO charts, keyword research, website AEO audits, resource pages, GEO content research and planning, SEO/GEO writing, and Reddit opportunity research.",
+  "install": "git clone https://github.com/onvoyage-ai/gtm-engineer-skills.git in README",
+  "tags": [
+    "seo",
+    "gtm",
+    "engineer"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/onvoyage-ai/gtm-engineer-skills"
+  }
+}

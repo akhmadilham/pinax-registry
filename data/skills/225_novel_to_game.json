@@ -1,0 +1,23 @@
+{
+  "id": "novel-to-game",
+  "index": "225",
+  "name": "zenstory-ai/novel-to-game",
+  "repo": "zenstory-ai/novel-to-game",
+  "category": "Writing",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "20abf50",
+  "description": "A collection that adapts novels into games, covering game concept, game build, and game QA skills that turn a story into playable game design and build steps.",
+  "install": "npx skills add zenstory-ai/novel-to-game -g -y -a claude-code -s '*' (and Codex and Kimi Code variants), plus native plugin installation",
+  "tags": [
+    "writing",
+    "novel",
+    "game",
+    "design"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/zenstory-ai/novel-to-game"
+  }
+}

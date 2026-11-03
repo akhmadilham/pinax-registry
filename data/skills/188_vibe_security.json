@@ -1,0 +1,22 @@
+{
+  "id": "vibe-security",
+  "index": "188",
+  "name": "raroque/vibe-security",
+  "repo": "raroque/vibe-security-skill",
+  "category": "Security",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "850938f",
+  "description": "A secure code review skill covering vulnerability management and security best practices for vibe-coded projects, guiding the agent through a security review of code.",
+  "install": "npx skills add https://github.com/raroque/vibe-security-skill --skill vibe-security, plus manual copy-install of the vibe-security/ folder to project or global skills directory",
+  "tags": [
+    "security",
+    "vibe",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/raroque/vibe-security-skill"
+  }
+}

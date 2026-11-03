@@ -1,0 +1,21 @@
+{
+  "id": "superpowers-zh",
+  "index": "160",
+  "name": "jnmetacode/superpowers-zh",
+  "repo": "jnmetacode/superpowers-zh",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "020339d",
+  "description": "Chinese community edition of a software development workflow skill set. It provides structured brainstorming and planning, test-driven development and debugging workflows, and related engineering practices, with 15 translated skills plus 4 China-original skills. The sample skill read covers brainstorming in Chinese.",
+  "install": "npx superpowers-zh (per-tool variants documented in the README install table), plus manual copy to each tool's skills directory.",
+  "tags": [
+    "engineering",
+    "superpowers"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/jnmetacode/superpowers-zh"
+  }
+}

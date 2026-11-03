@@ -1,0 +1,21 @@
+{
+  "id": "reelbench-skills",
+  "index": "187",
+  "name": "eternityspring/reelbench-skills",
+  "repo": "eternityspring/reelbench-skills",
+  "category": "Video",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "df39d5d",
+  "description": "A video analysis and reel benchmarking skill collection. The sample skill, video-shots, analyses video shots. Its install script is a local copy installer, not a remote fetcher.",
+  "install": "git clone, then ./scripts/install.sh (local symlink installer: symlinks skill folders into ~/.claude/skills or ~/.codex/skills, skips existing real directories rather than overwriting them, supports --uninstall), or manual copy (cp -r skills/video-shots ~/.claude/skills/)",
+  "tags": [
+    "video",
+    "reelbench"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/eternityspring/reelbench-skills"
+  }
+}

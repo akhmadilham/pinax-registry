@@ -1,0 +1,22 @@
+{
+  "id": "firered-openstoryline",
+  "index": "177",
+  "name": "fireredteam/firered-openstoryline",
+  "repo": "fireredteam/firered-openstoryline",
+  "category": "Video",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "c9e9452",
+  "description": "An open storyboard video collection whose sample skill, openstoryline-use, guides an editing workflow with local media copied into outputs session folders, for AI video generation and storyboard video work.",
+  "install": "npx skills add FireRedTeam/FireRed-OpenStoryline --skill openstoryline-install, or git clone plus copy of .claude/skills folders to ~/.claude/skills",
+  "tags": [
+    "video",
+    "firered",
+    "openstoryline"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/fireredteam/firered-openstoryline"
+  }
+}

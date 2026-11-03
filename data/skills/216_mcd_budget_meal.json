@@ -1,0 +1,23 @@
+{
+  "id": "mcd-budget-meal",
+  "index": "216",
+  "name": "sam-hui-dot/mcd-budget-meal",
+  "repo": "sam-hui-dot/mcd-budget-meal",
+  "category": "Business",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "25d5f34",
+  "description": "A skill for planning budget meals at McDonald's China, checking real prices and deals through the McDonald's MCP platform and building low-cost meal combinations.",
+  "install": "Download and unpack the repo, then import the skills/mcd-budget-meal folder into the client skills directory (folder import only; do NOT use the WorkBuddy install.ps1 route, which was not read)",
+  "tags": [
+    "business",
+    "mcd",
+    "budget",
+    "meal"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/sam-hui-dot/mcd-budget-meal"
+  }
+}

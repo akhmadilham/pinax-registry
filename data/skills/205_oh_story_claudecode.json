@@ -1,0 +1,23 @@
+{
+  "id": "oh-story-claudecode",
+  "index": "205",
+  "name": "zenstory-ai/oh-story-claudecode",
+  "repo": "zenstory-ai/oh-story-claudecode",
+  "category": "Writing",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "3fde437",
+  "description": "A collection of skills for writing Chinese web novels (wangwen), routed through a story skill that directs the agent across novel planning, drafting, and revision sub-skills.",
+  "install": "npx skills add zenstory-ai/oh-story-claudecode -y -g",
+  "tags": [
+    "writing",
+    "story",
+    "claudecode",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/zenstory-ai/oh-story-claudecode"
+  }
+}

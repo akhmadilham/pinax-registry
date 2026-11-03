@@ -1,0 +1,24 @@
+{
+  "id": "evidence-based-brand-systems",
+  "index": "164",
+  "name": "arome3/evidence-based-brand-systems",
+  "repo": "arome3/evidence-based-brand-systems",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "d75d35c",
+  "description": "A brand system skill that builds and verifies brand assets from evidence rather than guesswork: brand tokens, boards, assets, and source references, checked by a local brand verifier script. The workflow emphasizes verifying brand claims against captured references before shipping brand output.",
+  "install": "/plugin install evidence-based-brand-systems@evidence-based-brand-systems, plus a skill-installer path for the skill folder. README also lists pip installs for the verifier's own dependencies (fonttools, uharfbuzz, playwright, pillow) and a Playwright browser install step; those are dependency installs for the local verifier, not a pipe installer, and the plugin route is presented first.",
+  "tags": [
+    "design",
+    "evidence",
+    "based",
+    "brand",
+    "systems"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/arome3/evidence-based-brand-systems"
+  }
+}

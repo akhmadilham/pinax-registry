@@ -1,0 +1,24 @@
+{
+  "id": "claude-remotion-skill",
+  "index": "267",
+  "name": "haidrrrry/claude-remotion-skill",
+  "repo": "haidrrrry/claude-remotion-skill",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "1dcbe5e",
+  "description": "Remotion motion graphics skill covering springs, staggered choreography, color grades, film grain, Ken Burns movement, word-synced captions, and sound design.",
+  "install": "git clone route in README, plus npm install for the project deps",
+  "tags": [
+    "video",
+    "claude",
+    "remotion",
+    "motion",
+    "design"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/haidrrrry/claude-remotion-skill"
+  }
+}

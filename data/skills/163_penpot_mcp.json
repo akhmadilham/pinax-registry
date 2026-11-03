@@ -1,0 +1,23 @@
+{
+  "id": "penpot-mcp",
+  "index": "163",
+  "name": "ar27111994/penpot-mcp",
+  "repo": "ar27111994/penpot-mcp",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "c1a87cd",
+  "description": "A design skill for working with Penpot through its official MCP server: design-to-code, design systems and tokens, prototyping, and interactions. It guides the agent to work with the currently focused page in the active Penpot tab via MCP.",
+  "install": "npx skills add ar27111994/penpot-mcp (README badge and install section).",
+  "tags": [
+    "design",
+    "penpot",
+    "mcp",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/ar27111994/penpot-mcp"
+  }
+}
