@@ -1,0 +1,23 @@
+{
+  "id": "spec-driven-develop",
+  "index": "139",
+  "name": "zhu1090093659/spec-driven-develop",
+  "repo": "zhu1090093659/spec_driven_develop",
+  "category": "Engineering",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "14f8c0f",
+  "description": "Spec-driven development workflow for coding agents: architecture-first planning, task decomposition, orchestrator-centric execution, one coherent reviewable batch PR per phase, plus a findings-first code-review workflow (review-spd). The core skill has no external dependencies and no platform-specific logic per the README. Restricted strictly to Claude plugin installation route.",
+  "install": "/plugin install spec-driven-develop@spec-driven-develop",
+  "tags": [
+    "engineering",
+    "spec",
+    "driven",
+    "develop"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/zhu1090093659/spec_driven_develop"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "huashu-design",
+  "index": "085",
+  "name": "alchaincyf/huashu-design",
+  "repo": "alchaincyf/huashu-design",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "9b01ee8",
+  "description": "HTML-native design skill that returns deliverable web or app prototypes, editable PPTX decks, animation, or infographics from one prompt, with an 84-style library, candidate-direction selection, and a design health check.",
+  "install": "npx skills add alchaincyf/huashu-design",
+  "tags": [
+    "design",
+    "huashu"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/alchaincyf/huashu-design"
+  }
+}

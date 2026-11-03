@@ -1,0 +1,21 @@
+{
+  "id": "power-design",
+  "index": "112",
+  "name": "ItsssssJack/power-design",
+  "repo": "ItsssssJack/power-design",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "f0c4143",
+  "description": "Slide design skill: brand DNA combined with 20 codified design principles, for slides that do not look AI-made.",
+  "install": "git clone https://github.com/ItsssssJack/power-design ~/.claude/skills/power-design",
+  "tags": [
+    "design",
+    "power"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/ItsssssJack/power-design"
+  }
+}

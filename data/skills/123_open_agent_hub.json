@@ -1,0 +1,23 @@
+{
+  "id": "open-agent-hub",
+  "index": "123",
+  "name": "guanyang/open-agent-hub",
+  "repo": "guanyang/open-agent-hub",
+  "category": "Engineering",
+  "type": "Tool",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "ce4f3ce",
+  "description": "Lightweight, zero-dependency CLI tool to manage and activate capabilities (Skills, Agents, Commands) for coding assistants. The 113 SKILL.md files found by code search are bundled and managed skill files, not one single skill, so install selectively.",
+  "install": "npx skills add guanyang/open-agent-hub",
+  "tags": [
+    "engineering",
+    "open",
+    "agent",
+    "hub"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/guanyang/open-agent-hub"
+  }
+}

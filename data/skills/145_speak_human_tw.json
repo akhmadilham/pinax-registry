@@ -1,0 +1,23 @@
+{
+  "id": "speak-human-tw",
+  "index": "145",
+  "name": "Raymondhou0917/speak-human-tw",
+  "repo": "Raymondhou0917/speak-human-tw",
+  "category": "Writing",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "774ab93",
+  "description": "Traditional Chinese rewrite skill that finds 38 AI writing traces, corrects mainland Chinese wording and half-width punctuation, and rewrites text to read naturally, listing a complete numbered change list before editing and protecting facts, code, and quoted material. Tailored for Traditional Chinese (zh-TW) language workflows.",
+  "install": "git clone https://github.com/Raymondhou0917/speak-human-tw.git ~/.claude/skills/speak-human-tw",
+  "tags": [
+    "writing",
+    "speak",
+    "human",
+    "zh-tw"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/Raymondhou0917/speak-human-tw"
+  }
+}

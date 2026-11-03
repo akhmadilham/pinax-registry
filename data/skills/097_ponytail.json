@@ -1,0 +1,21 @@
+{
+  "id": "ponytail",
+  "index": "097",
+  "name": "DietrichGebert/ponytail",
+  "repo": "DietrichGebert/ponytail",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "96608e0",
+  "description": "Engineering skill for writing less code and shipping with tests for risky logic, including diff review framed as the review of the developer who gets paged. Plugin for many agents, 13 SKILL.md files found by code search in the 500+ run.",
+  "install": "/plugin marketplace add DietrichGebert/ponytail && /plugin install ponytail@ponytail",
+  "tags": [
+    "engineering",
+    "ponytail"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/DietrichGebert/ponytail"
+  }
+}

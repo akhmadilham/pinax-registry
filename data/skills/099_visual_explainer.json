@@ -1,0 +1,22 @@
+{
+  "id": "visual-explainer",
+  "index": "099",
+  "name": "nicobailon/visual-explainer",
+  "repo": "nicobailon/visual-explainer",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "2a34c38",
+  "description": "Turns complex terminal output into styled HTML pages: explain a system architecture, review a diff, or compare requirements against a plan. One SKILL.md file.",
+  "install": "/plugin marketplace add nicobailon/visual-explainer && /plugin install visual-explainer@visual-explainer-marketplace",
+  "tags": [
+    "engineering",
+    "visual",
+    "explainer"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/nicobailon/visual-explainer"
+  }
+}

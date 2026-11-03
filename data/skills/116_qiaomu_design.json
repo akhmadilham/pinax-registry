@@ -1,0 +1,21 @@
+{
+  "id": "qiaomu-design",
+  "index": "116",
+  "name": "joeseesun/qiaomu-design",
+  "repo": "joeseesun/qiaomu-design",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "ccd9cec",
+  "description": "Opinionated design advisor skill for Claude Code: anti-AI-slop design guidance plus a style fitting room and a 58-site design-system library. It explicitly fuses anthropics/skills, Vercel guidelines, taste-skill, emilkowalski/skills, and ui-ux-pro-max sources.",
+  "install": "npx skills add joeseesun/qiaomu-design",
+  "tags": [
+    "design",
+    "qiaomu"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/joeseesun/qiaomu-design"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "web-design",
+  "index": "110",
+  "name": "xiaopu-ai/web-design",
+  "repo": "xiaopu-ai/web-design",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "22a4f48",
+  "description": "Web page design skill that works spec first, code second, for designing consistent web pages.",
+  "install": "git clone https://github.com/KAOPU-XiaoPu/web-design ~/.claude/skills/web-design",
+  "tags": [
+    "design",
+    "web"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/xiaopu-ai/web-design"
+  }
+}

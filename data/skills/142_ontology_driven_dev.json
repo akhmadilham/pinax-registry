@@ -1,0 +1,24 @@
+{
+  "id": "ontology-driven-dev",
+  "index": "142",
+  "name": "sharptoolbox/ontology-driven-dev",
+  "repo": "sharptoolbox/ontology-driven-dev",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "49a9eff",
+  "description": "Ontology driven business system development skill that moves from requirement exploration to a software specification, then to a seven model ontology YAML, then to a runnable Flask plus SQLite plus React application, with human confirmation gates between stages and a built-in code-paas base. Tailored for Chinese (zh-CN) language workflows.",
+  "install": "git clone https://github.com/sharptoolbox/ontology-driven-dev.git && cp -r ontology-driven-dev ~/.claude/skills/",
+  "tags": [
+    "engineering",
+    "ontology",
+    "driven",
+    "dev",
+    "zh-cn"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/sharptoolbox/ontology-driven-dev"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "awesome-design-skills",
+  "index": "090",
+  "name": "bergside/awesome-design-skills",
+  "repo": "bergside/awesome-design-skills",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "f631a09",
+  "description": "Collection of 67 design skill files as aesthetic presets (ant, bento, bold, cafe, clean, cosmic, and more) for agentic tools, pulled one preset at a time via its CLI.",
+  "install": "npx typeui.sh pull <preset>",
+  "tags": [
+    "design",
+    "awesome"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/bergside/awesome-design-skills"
+  }
+}

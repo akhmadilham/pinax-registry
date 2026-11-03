@@ -1,0 +1,21 @@
+{
+  "id": "platform-design-skills",
+  "index": "117",
+  "name": "ehmo/platform-design-skills",
+  "repo": "ehmo/platform-design-skills",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "dc2be82",
+  "description": "Platform design skill pack with 300+ rules for Apple HIG, Material Design 3, and WCAG 2.2 across iOS, iPadOS, macOS, tvOS, visionOS, watchOS, and web, one SKILL.md per platform.",
+  "install": "npx skills add ehmo/platform-design-skills",
+  "tags": [
+    "design",
+    "platform"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/ehmo/platform-design-skills"
+  }
+}

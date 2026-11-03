@@ -1,0 +1,22 @@
+{
+  "id": "claude-skills-rampstackco",
+  "index": "096",
+  "name": "rampstackco/claude-skills-rampstackco",
+  "repo": "rampstackco/claude-skills",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "9b90db2",
+  "description": "Website lifecycle skill collection. The Design entry is design-standards; other skills cover code review, dispatch authoring, SEO, and development work. Cherry-pick design-standards for this issue.",
+  "install": "/plugin marketplace add rampstackco/claude-skills && /plugin install rampstack-skills@rampstack",
+  "tags": [
+    "design",
+    "claude",
+    "(rampstackco)"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/rampstackco/claude-skills"
+  }
+}

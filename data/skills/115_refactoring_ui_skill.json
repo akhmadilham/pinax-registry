@@ -1,0 +1,21 @@
+{
+  "id": "refactoring-ui-skill",
+  "index": "115",
+  "name": "s0xDk/refactoring-ui-skill",
+  "repo": "s0xDk/refactoring-ui-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "4887214",
+  "description": "Applies the concrete design rules from the book Refactoring UI (Wathan and Schertler) as a Claude Code skill.",
+  "install": "git clone https://github.com/s0xDk/refactoring-ui-skill.git ~/.claude/skills/refactoring-ui",
+  "tags": [
+    "design",
+    "refactoring"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/s0xDk/refactoring-ui-skill"
+  }
+}

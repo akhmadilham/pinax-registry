@@ -1,0 +1,22 @@
+{
+  "id": "stack-diagram",
+  "index": "121",
+  "name": "caru-ini/stack-diagram",
+  "repo": "caru-ini/stack-diagram",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "1ed53e3",
+  "description": "Turns a one-sentence stack description into an architecture diagram with official logos. One SKILL.md file.",
+  "install": "npx skills add caru-ini/stack-diagram",
+  "tags": [
+    "engineering",
+    "stack",
+    "diagram"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/caru-ini/stack-diagram"
+  }
+}

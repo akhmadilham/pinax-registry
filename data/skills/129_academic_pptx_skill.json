@@ -1,0 +1,22 @@
+{
+  "id": "academic-pptx-skill",
+  "index": "129",
+  "name": "Gabberflast/academic-pptx-skill",
+  "repo": "Gabberflast/academic-pptx-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "9f2b703",
+  "description": "Claude skill for academic presentations as PPTX: conference talks, seminar slides, thesis defences, and grant briefings. It enforces action titles, a situation-complication-resolution argument structure, one exhibit per results slide, in-text citations with a References slide, and a Conclusions slide that stays on screen during Q and A. It sets content and design standards; the technical PPTX generation uses the host's built-in PPTX capability.",
+  "install": "git clone https://github.com/Gabberflast/academic-pptx-skill.git (Claude desktop/web skill package)",
+  "tags": [
+    "design",
+    "academic",
+    "pptx"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/Gabberflast/academic-pptx-skill"
+  }
+}

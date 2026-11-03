@@ -1,0 +1,21 @@
+{
+  "id": "archify",
+  "index": "098",
+  "name": "tt-a1i/archify",
+  "repo": "tt-a1i/archify",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "a406594",
+  "description": "Turns an idea, plan, or codebase into an interactive architecture or system diagram (Mermaid, flowcharts, sequence diagrams) with source-evidence citations pinned to a commit.",
+  "install": "npx skills use tt-a1i/archify@archify --agent codex",
+  "tags": [
+    "engineering",
+    "archify"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/tt-a1i/archify"
+  }
+}

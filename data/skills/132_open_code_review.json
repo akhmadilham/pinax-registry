@@ -1,0 +1,25 @@
+{
+  "id": "open-code-review",
+  "index": "132",
+  "name": "alibaba/open-code-review",
+  "repo": "alibaba/open-code-review",
+  "category": "Engineering",
+  "type": "Plugin",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "8f9c8b7",
+  "description": "AI-powered code-review tool with a Claude and Codex plugin and portable agent skills. It runs deterministic plus LLM review, ships review slash commands and a delegate skill, and requires the ocr CLI to be installed first. Review quality and behaviour are documented per integration in the plugin README.",
+  "install": "npm install -g @alibaba-group/open-code-review && /plugin install open-code-review@open-code-review",
+  "tags": [
+    "engineering",
+    "open",
+    "code",
+    "review",
+    "code-review",
+    "alibaba"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/alibaba/open-code-review"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ai-startup-skills",
+  "index": "127",
+  "name": "huaxialucaicaizi/ai-startup-skills",
+  "repo": "huaxialucaicaizi/ai-startup-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "a49b503",
+  "description": "Router skill plus 7 sub-skills for a founder or one-person company building an AI product in China, routed by stage: MVP validation, business plan, policy and subsidies, roadshow, growth, pricing and sales, and registration and compliance. The router identifies the current stage and hands off to the matching sub-skill under skills/. The README is bilingual Chinese and English.",
+  "install": "git clone https://github.com/huaxialucaicaizi/ai-startup-skills.git && cp -R ai-startup-skills/skills/* ~/.claude/skills/",
+  "tags": [
+    "business",
+    "startup",
+    "startup",
+    "china-business"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/huaxialucaicaizi/ai-startup-skills"
+  }
+}

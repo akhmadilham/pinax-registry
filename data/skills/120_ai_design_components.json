@@ -1,0 +1,21 @@
+{
+  "id": "ai-design-components",
+  "index": "120",
+  "name": "ancoleman/ai-design-components",
+  "repo": "ancoleman/ai-design-components",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "76551b7",
+  "description": "UI/UX and backend component design skills for AI-assisted development. The Design subset is the UI/UX component skills; the repo also holds backend and deploy skills. Cherry-pick the UI ones for this issue.",
+  "install": "claude plugin marketplace add ancoleman/ai-design-components && claude plugin install ui-foundation-skills@ai-design-components",
+  "tags": [
+    "design",
+    "components"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/ancoleman/ai-design-components"
+  }
+}

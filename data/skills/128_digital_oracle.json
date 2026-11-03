@@ -1,0 +1,22 @@
+{
+  "id": "digital-oracle",
+  "index": "128",
+  "name": "komako-workshop/digital-oracle",
+  "repo": "komako-workshop/digital-oracle",
+  "category": "Business",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "a63e4c1",
+  "description": "Skill that answers probability questions about geopolitics, economics, markets, industries, and other priced topics using market trading data rather than opinion. It reads prices from prediction markets, commodities, equities, options chains, derivatives, yield curves, and currencies, cross-validates multiple signals, and returns a structured probability report. Its README lists 13 free public data providers, including Polymarket, Kalshi, Stooq, Deribit, US Treasury, CFTC COT, CoinGecko, SEC EDGAR, BIS, World Bank, Yahoo Finance, Eastmoney, and web search, and states all APIs are free with no API key. Twelve of 13 providers use only the Python standard library; options chain analysis needs yfinance via uv.",
+  "install": "git clone https://github.com/komako-workshop/digital-oracle.git (or clawhub install digital-oracle)",
+  "tags": [
+    "business",
+    "digital",
+    "oracle"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/komako-workshop/digital-oracle"
+  }
+}

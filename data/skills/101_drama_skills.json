@@ -1,0 +1,21 @@
+{
+  "id": "drama-skills",
+  "index": "101",
+  "name": "zenstory-ai/drama-skills",
+  "repo": "zenstory-ai/drama-skills",
+  "category": "Video",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "d8a9a9b",
+  "description": "Short-drama and comic-drama skill collection with 12 SKILL.md files, covering drama and comic-drama production workflows.",
+  "install": "npx skills add zenstory-ai/drama-skills -y -g",
+  "tags": [
+    "video",
+    "drama"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/zenstory-ai/drama-skills"
+  }
+}

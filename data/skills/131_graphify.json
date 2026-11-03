@@ -1,0 +1,23 @@
+{
+  "id": "graphify",
+  "index": "131",
+  "name": "Graphify-Labs/graphify",
+  "repo": "Graphify-Labs/graphify",
+  "category": "Engineering",
+  "type": "Tool",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "8e6a6d2",
+  "description": "Turns a codebase (docs, SQL schemas, configs, PDFs) into a queryable knowledge graph to cut agent token spend, then registers a graphify skill for the assistant. The skill supports graph queries, extraction, and exports including Mermaid call-flow HTML. Install is package based, then one registration command per assistant.",
+  "install": "pip install graphifyy && graphify install",
+  "tags": [
+    "engineering",
+    "graphify",
+    "graphify",
+    "knowledge-graph"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/Graphify-Labs/graphify"
+  }
+}

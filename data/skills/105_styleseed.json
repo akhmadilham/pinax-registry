@@ -1,0 +1,21 @@
+{
+  "id": "styleseed",
+  "index": "105",
+  "name": "bitjaru/styleseed",
+  "repo": "bitjaru/styleseed",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "ce66f1d",
+  "description": "Design method engine for agents: one styleseed skill with 22 internal methods for deriving a design system.",
+  "install": "npx skills add bitjaru/styleseed",
+  "tags": [
+    "design",
+    "styleseed"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/bitjaru/styleseed"
+  }
+}

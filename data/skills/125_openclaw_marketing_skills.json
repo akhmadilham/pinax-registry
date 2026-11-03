@@ -1,0 +1,24 @@
+{
+  "id": "openclaw-marketing-skills",
+  "index": "125",
+  "name": "LeoYeAI/openclaw-marketing-skills",
+  "repo": "LeoYeAI/openclaw-marketing-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "ed6b63f",
+  "description": "Collection of 37 marketing skills for OpenClaw agents covering CRO, copywriting and copy editing, cold email and email sequences, social content, SEO audit and AI SEO, programmatic SEO, site architecture, schema markup, content strategy, paid ads and ad creative, A/B test setup, analytics tracking, referral programs, churn prevention, RevOps, sales enablement, launch strategy, pricing strategy, competitor alternatives, marketing psychology, and lead magnets, plus data connectors for Google Ads, Search Console, Meta Ads, and X/Twitter. A product marketing context skill sets up one product context document that the other skills reference. Note: Automates multi-channel social posting; requires active user API credentials.",
+  "install": "Install: clawhub install LeoYeAI/openclaw-marketing-skills",
+  "tags": [
+    "business",
+    "openclaw",
+    "marketing",
+    "marketing",
+    "social-media"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/LeoYeAI/openclaw-marketing-skills"
+  }
+}

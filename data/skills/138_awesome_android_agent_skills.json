@@ -1,0 +1,23 @@
+{
+  "id": "awesome-android-agent-skills",
+  "index": "138",
+  "name": "new-silvermoon/awesome-android-agent-skills",
+  "repo": "new-silvermoon/awesome-android-agent-skills",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "82900ea",
+  "description": "Standardised Agent Skills for modern Android development across GitHub Copilot, Claude, Gemini, and Cursor: Clean Architecture, ViewModel and StateFlow, data layer with Room and Retrofit, Jetpack Compose UI and navigation, Coil, accessibility, XML to Compose migration, RxJava to Coroutines migration, Compose performance audit, Gradle build performance, Kotlin coroutines, and testing and emulator automation. An Agent.md foundation file sets project architecture, minimum SDK, and testing philosophy.",
+  "install": "Copy .github/skills from new-silvermoon/awesome-android-agent-skills to .claude/skills/",
+  "tags": [
+    "engineering",
+    "awesome",
+    "android",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/new-silvermoon/awesome-android-agent-skills"
+  }
+}

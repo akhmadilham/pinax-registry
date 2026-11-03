@@ -1,0 +1,21 @@
+{
+  "id": "ui-design-brain",
+  "index": "107",
+  "name": "carmahhawwari/ui-design-brain",
+  "repo": "carmahhawwari/ui-design-brain",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "38f04c5",
+  "description": "Cursor skill giving agents real UI component knowledge: best practices, layout patterns, and design-system conventions for 60+ components, with five selectable design directions (Modern SaaS and others).",
+  "install": "git clone https://github.com/carmahhawwari/ui-design-brain.git",
+  "tags": [
+    "design",
+    "brain"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/carmahhawwari/ui-design-brain"
+  }
+}

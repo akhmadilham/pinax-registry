@@ -1,0 +1,25 @@
+{
+  "id": "elephant-goldfish-model",
+  "index": "137",
+  "name": "google/elephant-goldfish-model",
+  "repo": "google/elephant-goldfish-model",
+  "category": "Engineering",
+  "type": "Plugin",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "5ba5afa",
+  "description": "Spec design and review plugin. Elephant holds project context and drafts the specification; Goldfish reviewers stress-test it with zero-context subagents before code is written. The plugin ships skills including egm-bootstrap, egm-brainstorm, egm-draft, egm-review, and egm-drift-report.",
+  "install": "claude plugin marketplace add google/elephant-goldfish-model && claude plugin install egm@egm",
+  "tags": [
+    "engineering",
+    "elephant",
+    "goldfish",
+    "model",
+    "google",
+    "memory"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/google/elephant-goldfish-model"
+  }
+}

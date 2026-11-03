@@ -1,0 +1,22 @@
+{
+  "id": "shuorenhua",
+  "index": "143",
+  "name": "MrGeDiao/shuorenhua",
+  "repo": "MrGeDiao/shuorenhua",
+  "category": "Writing",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "0a00194",
+  "description": "Chinese-first rewrite skill that edits text to remove AI tone while preserving facts, terminology, and responsibility attribution, with a mark-only review mode that lists problems without rewriting. Guidance is Chinese; the SKILL.md description states it supports Chinese and English text review. Tailored for Chinese (zh-CN) language workflows.",
+  "install": "npx skills add MrGeDiao/shuorenhua",
+  "tags": [
+    "writing",
+    "shuorenhua",
+    "zh-cn"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/MrGeDiao/shuorenhua"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "agent-plugins",
+  "index": "141",
+  "name": "awslabs/agent-plugins",
+  "repo": "awslabs/agent-plugins",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "fbefb37",
+  "description": "Official AWS agent plugins and skills for architecting and deploying on AWS: Amplify, serverless, databases, deploy-on-aws, SageMaker AI, codebase-documentor, and location service. The deploy skill analyses a codebase, recommends services, shows a monthly cost estimate before proceeding, applies security defaults, and deploys only after user confirmation. Note: Provisions live billable AWS cloud infrastructure; requires AWS credentials.",
+  "install": "/plugin marketplace add awslabs/agent-plugins && /plugin install deploy-on-aws@agent-plugins-for-aws",
+  "tags": [
+    "engineering",
+    "agent",
+    "plugins",
+    "aws",
+    "cloud"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/awslabs/agent-plugins"
+  }
+}

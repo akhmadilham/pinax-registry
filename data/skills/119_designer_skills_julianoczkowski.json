@@ -1,0 +1,22 @@
+{
+  "id": "designer-skills-julianoczkowski",
+  "index": "119",
+  "name": "julianoczkowski/designer-skills-julianoczkowski",
+  "repo": "julianoczkowski/designer-skills",
+  "category": "Design",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "c259656",
+  "description": "Collection of agent skills for designers who prototype and build with AI coding tools: design brief, design flow, design review, design tokens, frontend-design, brief-to-tasks, information architecture, plus grill-me. Cherry-pick the design skills for this issue.",
+  "install": "npx skills add julianoczkowski/designer-skills",
+  "tags": [
+    "design",
+    "designer",
+    "(julianoczkowski)"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/julianoczkowski/designer-skills"
+  }
+}

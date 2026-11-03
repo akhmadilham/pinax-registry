@@ -1,0 +1,24 @@
+{
+  "id": "self-learning",
+  "index": "140",
+  "name": "Kulaxyz/self-learning",
+  "repo": "Kulaxyz/self-learning-skills",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "1304fce",
+  "description": "Self-improving skill for coding agents: it harvests hard-won session knowledge (deploy commands, live verification steps, project conventions) into committed, shared skills and rules instead of losing that knowledge at /clear. The skill itself instructs stripping credentials from harvested material (for example redis, https user and password, amqp, and kafka connection strings). Warning: Auto-commits terminal sessions to git; review credentials and secrets before use.",
+  "install": "npx skills add kulaxyz/self-learning-skills",
+  "tags": [
+    "engineering",
+    "self",
+    "learning",
+    "self-learning",
+    "memory"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/Kulaxyz/self-learning-skills"
+  }
+}

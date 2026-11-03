@@ -1,0 +1,25 @@
+{
+  "id": "planning-with-files",
+  "index": "133",
+  "name": "OthmanAdi/planning-with-files",
+  "repo": "OthmanAdi/planning-with-files",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "0fa6c79",
+  "description": "Persistent file-based planning for coding agents and long-running tasks: crash-proof Markdown plan state (task_plan.md, findings.md, progress.md) that survives /clear, compaction, and crashes, with lifecycle hooks that inject selected project planning context and a session recovery path that reads same-project local session records only.",
+  "install": "npx skills add OthmanAdi/planning-with-files --skill planning-with-files -g",
+  "tags": [
+    "engineering",
+    "planning",
+    "with",
+    "files",
+    "planning",
+    "task-management"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/OthmanAdi/planning-with-files"
+  }
+}

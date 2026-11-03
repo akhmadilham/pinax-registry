@@ -1,0 +1,21 @@
+{
+  "id": "video-recap-skills",
+  "index": "124",
+  "name": "zenstory-ai/video-recap-skills",
+  "repo": "zenstory-ai/video-recap-skills",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "bbb37bd",
+  "description": "Turns a video into a Chinese narration recap (video narration): scene detection, ASR, VLM analysis, script, TTS, and ffmpeg assembly, with optional editable JSON.",
+  "install": "/plugin marketplace add zenstory-ai/video-recap-skills && /plugin install video-recap-skills@video-recap",
+  "tags": [
+    "video",
+    "recap"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/zenstory-ai/video-recap-skills"
+  }
+}

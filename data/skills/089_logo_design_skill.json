@@ -1,0 +1,21 @@
+{
+  "id": "logo-design-skill",
+  "index": "089",
+  "name": "kaankiziltug/logo-design-skill",
+  "repo": "kaankiziltug/logo-design-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "7340903",
+  "description": "Logo design skill covering principles, process, and an SVG catalog with templates, for Claude, Gemini CLI, Codex, and other agents.",
+  "install": "/plugin marketplace add kaankiziltug/logo-design-skill && /plugin install logo-design@logo-design-skill",
+  "tags": [
+    "design",
+    "logo"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/kaankiziltug/logo-design-skill"
+  }
+}

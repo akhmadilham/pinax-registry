@@ -1,0 +1,21 @@
+{
+  "id": "skills-suleimanodetoro",
+  "index": "111",
+  "name": "suleimanodetoro/skills-suleimanodetoro",
+  "repo": "suleimanodetoro/skills",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "390a7cc",
+  "description": "Agent skills for interface design, React, React Native, and software security. The Design entries are design-interface and review-interface; other skills are React and security work. Cherry-pick the Design entries for this issue.",
+  "install": "npx skills add suleimanodetoro/skills",
+  "tags": [
+    "design",
+    "(suleimanodetoro)"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/suleimanodetoro/skills"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ai-research-skills",
+  "index": "136",
+  "name": "Orchestra-Research/ai-research-skills",
+  "repo": "Orchestra-Research/AI-Research-SKILLs",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "773a529",
+  "description": "98-skill library for autonomous AI research and engineering: fine-tuning (Axolotl, LLaMA-Factory, PEFT), post-training (TRL, GRPO), inference serving (vLLM, TensorRT-LLM), distributed training, optimisation, and observability. Install per skill only, never the whole library.",
+  "install": "/plugin marketplace add orchestra-research/AI-research-SKILLs && /plugin install fine-tuning@ai-research-skills",
+  "tags": [
+    "engineering",
+    "research"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/Orchestra-Research/AI-Research-SKILLs"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "drawio-skill",
+  "index": "100",
+  "name": "Agents365-ai/drawio-skill",
+  "repo": "Agents365-ai/drawio-skill",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "1f59eae",
+  "description": "Turns text into professional draw.io diagrams for architecture, AWS, Terraform and Kubernetes, SQL, and OpenAPI, with 321 brand logos resolved at build time. Two SKILL.md files found by code search in the 500+ run.",
+  "install": "npx skills add Agents365-ai/drawio-skill -g",
+  "tags": [
+    "engineering",
+    "drawio",
+    "drawio",
+    "diagrams"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/Agents365-ai/drawio-skill"
+  }
+}

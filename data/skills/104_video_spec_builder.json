@@ -1,0 +1,22 @@
+{
+  "id": "video-spec-builder",
+  "index": "104",
+  "name": "feicaiclub/video-spec-builder",
+  "repo": "feicaiclub/video-spec-builder",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "9e73275",
+  "description": "Builds a second-precise storyboard specification for HyperFrames video production.",
+  "install": "npx skills add feicaiclub/video-spec-builder",
+  "tags": [
+    "video",
+    "spec",
+    "builder"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/feicaiclub/video-spec-builder"
+  }
+}

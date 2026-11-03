@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.6.0] - 2026-11-03
+
+### Added
+- **Community Skills Integration (Batch Issues #35 to #97, Index 085 to 145)**:
+  - Added 61 verified open-source skills across 5 Pantheon domains (Design +30, Engineering +13, Business +10, Writing +4, Video +4).
+  - Registry now hosts 145 canonical skills across all 8 Pantheon domains (74% commit-pinned).
+  - Included notable tools and collections: `google/skills`, `alibaba/open-code-review`, `LottieFiles/motion-design-skill`, `awslabs/agent-plugins`, `Graphify-Labs/graphify`, `google/elephant-goldfish-model`, and `huashu-design`.
+- **Enforced Safety and Language Guards**:
+  - Pinned safety guardrails on Issue #91 (`spec-driven-develop` restricted strictly to Claude plugin route).
+  - Injected security token leak warnings for auto-commit tools (Issue #92 `self-learning`).
+  - Flagged billable cloud dependencies (Issue #93 `agent-plugins`) and live account posting requirements (Issue #76 `openclaw-marketing-skills`).
+  - Explicitly tagged locale-specific skills for `zh-CN` (#94, #95, #96) and `zh-TW` (#97).
+
+### Rejected
+- **SOP Compliance Rejections**:
+  - Issue #53 (`Youtube-clipper-skill`): Closed due to platform Terms of Service scraping risk.
+  - Issue #81 (`cc-design`): Closed due to missing open-source LICENSE file in repository tree.
+  - Issue #98 (`xiaohu-wechat-format`): Closed due to missing LICENSE file in repository root.
+
 ## [1.5.0] - 2026-11-02
 
 ### Added

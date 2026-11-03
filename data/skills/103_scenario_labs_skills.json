@@ -1,0 +1,22 @@
+{
+  "id": "scenario-labs-skills",
+  "index": "103",
+  "name": "scenario-labs/scenario-labs-skills",
+  "repo": "scenario-labs/skills",
+  "category": "Video",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "7f4b801",
+  "description": "Vendor skill pack from Scenario. Video skills include scenario-video, veo, wan, and kling model routes.",
+  "install": "npx skills add scenario-labs/skills",
+  "tags": [
+    "video",
+    "scenario",
+    "labs"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/scenario-labs/skills"
+  }
+}

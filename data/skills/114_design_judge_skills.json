@@ -1,0 +1,21 @@
+{
+  "id": "design-judge-skills",
+  "index": "114",
+  "name": "SeanJ1ang/design-judge-skills",
+  "repo": "SeanJ1ang/design-judge-skills",
+  "category": "Design",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "abf53e6",
+  "description": "Evidence-driven agent skills for design award work: award research, evaluation, award matching, entry writing, and submission checking (design-award-search, design-award-match, design-evaluation, design-submission-check, and more).",
+  "install": "npx skills add SeanJ1ang/design-judge-skills",
+  "tags": [
+    "design",
+    "judge"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/SeanJ1ang/design-judge-skills"
+  }
+}

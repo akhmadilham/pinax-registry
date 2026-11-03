@@ -1,0 +1,22 @@
+{
+  "id": "claude-real-video",
+  "index": "102",
+  "name": "HUANGCHIHHUNGLeo/claude-real-video",
+  "repo": "HUANGCHIHHUNGLeo/claude-real-video",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "ab4b9b2",
+  "description": "Lets an agent watch video with scene-aware frames plus transcript, for video understanding work.",
+  "install": "npx skills add HUANGCHIHHUNGLeo/claude-real-video",
+  "tags": [
+    "video",
+    "claude",
+    "real"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video"
+  }
+}

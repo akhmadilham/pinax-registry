@@ -1,0 +1,21 @@
+{
+  "id": "nothing-design-skill",
+  "index": "092",
+  "name": "dominikmartn/nothing-design-skill",
+  "repo": "dominikmartn/nothing-design-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "74affbb",
+  "description": "UI generation in the Nothing design language: monochrome, typographic, industrial styling.",
+  "install": "git clone https://github.com/dominikmartn/nothing-design-skill.git (copy nothing-design/ into skills/)",
+  "tags": [
+    "design",
+    "nothing"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/dominikmartn/nothing-design-skill"
+  }
+}

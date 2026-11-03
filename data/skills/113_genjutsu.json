@@ -1,0 +1,21 @@
+{
+  "id": "genjutsu",
+  "index": "113",
+  "name": "AThevon/genjutsu",
+  "repo": "AThevon/genjutsu",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "ac9ca74",
+  "description": "Creative coding skills across 20 skill folders: canvas generative work, graphics composition, motion composition, multiplatform composition, CSS native work, design audit, desktop principles, framer-motion, and more.",
+  "install": "npx skills add https://genjutsu.athevon.dev -g",
+  "tags": [
+    "design",
+    "genjutsu"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/AThevon/genjutsu"
+  }
+}

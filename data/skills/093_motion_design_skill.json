@@ -1,0 +1,23 @@
+{
+  "id": "motion-design-skill",
+  "index": "093",
+  "name": "LottieFiles/motion-design-skill",
+  "repo": "LottieFiles/motion-design-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "f9a8a04",
+  "description": "Universal motion design principles for agents covering timing, easing, choreography, and Disney animation principles.",
+  "install": "npx skills add LottieFiles/motion-design-skill",
+  "tags": [
+    "design",
+    "motion",
+    "lottie",
+    "motion"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/LottieFiles/motion-design-skill"
+  }
+}

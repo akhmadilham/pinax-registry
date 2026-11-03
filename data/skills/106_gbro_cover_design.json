@@ -1,0 +1,22 @@
+{
+  "id": "gbro-cover-design",
+  "index": "106",
+  "name": "pyang5166/gbro-cover-design",
+  "repo": "pyang5166/gbro-cover-design",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "8d1a0a5",
+  "description": "Cover design prompt skill for WeChat articles and Xiaohongshu covers: 3:4 vertical format, 10 composition styles, three rounds of questions, face consistency for real-person covers.",
+  "install": "git clone https://github.com/pyang5166/gbro-cover-design.git",
+  "tags": [
+    "design",
+    "gbro",
+    "cover"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/pyang5166/gbro-cover-design"
+  }
+}

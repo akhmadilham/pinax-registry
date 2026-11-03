@@ -1,0 +1,23 @@
+{
+  "id": "ecommerce-visual-copywriting",
+  "index": "126",
+  "name": "feichanggege/ecommerce-visual-copywriting",
+  "repo": "feichanggege/ecommerce-visual-copywriting-skill",
+  "category": "Business",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "7fd4aba",
+  "description": "Single skill that turns product material, packaging and qualification documents, target platform, target audience, and visual references into an executable ecommerce visual plan covering conversion strategy, a locked campaign style, main image and detail page and listing and A+ storyboards, in-image copy, design notes, image generation prompts, and evidence and compliance review. It refuses to invent qualifications, data, sales, reviews, certifications, or efficacy claims, and it does not list or publish products by itself. It covers Taobao, Tmall, JD, Pinduoduo, Douyin Shop, Xiaohongshu, WeChat shops, Amazon, Shopify, TikTok Shop, Temu, Shopee, and Lazada.",
+  "install": "npx skills add feichanggege/ecommerce-visual-copywriting-skill",
+  "tags": [
+    "business",
+    "ecommerce",
+    "visual",
+    "copywriting"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/feichanggege/ecommerce-visual-copywriting-skill"
+  }
+}

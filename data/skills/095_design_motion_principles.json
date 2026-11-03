@@ -1,0 +1,22 @@
+{
+  "id": "design-motion-principles",
+  "index": "095",
+  "name": "kylezantos/design-motion-principles",
+  "repo": "kylezantos/design-motion-principles",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "4a9ca87",
+  "description": "Motion skill with two modes: build interactive components with purposeful motion, or audit existing motion.",
+  "install": "npx skills add kylezantos/design-motion-principles",
+  "tags": [
+    "design",
+    "motion",
+    "principles"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/kylezantos/design-motion-principles"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "hue",
+  "index": "108",
+  "name": "dominikmartn/hue",
+  "repo": "dominikmartn/hue",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "a910e31",
+  "description": "Skill that learns any brand and turns it into a complete design system.",
+  "install": "git clone https://github.com/dominikmartn/hue ~/.claude/skills/hue",
+  "tags": [
+    "design",
+    "hue"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/dominikmartn/hue"
+  }
+}

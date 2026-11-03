@@ -1,0 +1,21 @@
+{
+  "id": "garden-skills",
+  "index": "086",
+  "name": "ConardLi/garden-skills",
+  "repo": "ConardLi/garden-skills",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "2b9a893",
+  "description": "Skill collection for design work. The Design picks are web-design-engineer, beautiful-article, and motion-showreel; other skills in the repo cover knowledge, image, and video utilities. Install selectively, never whole.",
+  "install": "npx skills add ConardLi/garden-skills",
+  "tags": [
+    "design",
+    "garden"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/ConardLi/garden-skills"
+  }
+}

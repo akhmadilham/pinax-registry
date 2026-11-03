@@ -1,0 +1,21 @@
+{
+  "id": "fdeops",
+  "index": "122",
+  "name": "suboss87/fdeops",
+  "repo": "suboss87/FDEOps",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "30e3f6c",
+  "description": "Skills for forward-deployed engineers working through an AI coding agent: build, debug, review, ship, handoff. 36 SKILL.md files found by code search in the 500+ run.",
+  "install": "npx skills add suboss87/fdeops --skill fde",
+  "tags": [
+    "engineering",
+    "fdeops"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/suboss87/FDEOps"
+  }
+}

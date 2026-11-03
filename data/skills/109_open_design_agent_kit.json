@@ -1,0 +1,23 @@
+{
+  "id": "open-design-agent-kit",
+  "index": "109",
+  "name": "feimacode/open-design-agent-kit",
+  "repo": "feimacode/open-design-agent-kit",
+  "category": "Design",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "eaea6af",
+  "description": "Design kit built into the coding agent: an open-design skill plus 27 open-design commands (social posts, posters, campaigns, explorations, decks from documents) and an MCP server registered on first use.",
+  "install": "/plugin marketplace add feimacode/open-design-agent-kit && /plugin install open-design",
+  "tags": [
+    "design",
+    "open",
+    "agent",
+    "kit"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/feimacode/open-design-agent-kit"
+  }
+}

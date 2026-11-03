@@ -1,0 +1,22 @@
+{
+  "id": "google-skills",
+  "index": "134",
+  "name": "google/google-skills",
+  "repo": "google/skills",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "0c369ce",
+  "description": "Official Agent Skills collection for Google products and technologies, including Google Cloud skills such as Cloud Run, BigQuery, GKE, Cloud SQL, and Airflow DAG troubleshooting and migration. The collection is large; install specific skills only, never the whole repo.",
+  "install": "npx skills add google/skills",
+  "tags": [
+    "engineering",
+    "google",
+    "google"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/google/skills"
+  }
+}

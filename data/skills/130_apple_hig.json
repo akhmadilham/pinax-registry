@@ -1,0 +1,22 @@
+{
+  "id": "apple-hig",
+  "index": "130",
+  "name": "justinwetch/apple-hig",
+  "repo": "justinwetch/HIGAgentSkills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "2206ff9",
+  "description": "Apple Human Interface Guidelines distilled for agents: one skill for design review and implementation, with a routing index, distilled references, an opt-in enforce mode for independent review and repair, and a /duo slash command for paired review workflows.",
+  "install": "git clone https://github.com/justinwetch/HIGAgentSkills.git (Extract apple-hig/ into skills directory)",
+  "tags": [
+    "design",
+    "apple",
+    "hig"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/justinwetch/HIGAgentSkills"
+  }
+}

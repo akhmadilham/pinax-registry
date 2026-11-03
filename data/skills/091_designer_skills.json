@@ -1,0 +1,21 @@
+{
+  "id": "designer-skills",
+  "index": "091",
+  "name": "Owl-Listener/designer-skills",
+  "repo": "Owl-Listener/designer-skills",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "9a6930c",
+  "description": "Designer skills collection across design operations (design critique, handoff spec, team workflow), design research (empathy map, journey map), and design systems (design token, icon system, motion system).",
+  "install": "/plugin marketplace add Owl-Listener/designer-skills && /plugin install ux-strategy@designer-skills",
+  "tags": [
+    "design",
+    "designer"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/Owl-Listener/designer-skills"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "tinte",
+  "index": "118",
+  "name": "Railly/tinte",
+  "repo": "Railly/tinte",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "7905be3",
+  "description": "Compiles a design system into an agent plugin: extracts an identity from any reference and emits SKILL.md plus shadcn presets (theme and font presets via tinte.dev).",
+  "install": "Copy skills/tinte/ into skills directory (presets: npx shadcn@latest add https://tinte.dev/api/preset/<slug>)",
+  "tags": [
+    "design",
+    "tinte"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/Railly/tinte"
+  }
+}

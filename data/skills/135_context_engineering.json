@@ -1,0 +1,21 @@
+{
+  "id": "context-engineering",
+  "index": "135",
+  "name": "muratcankoylan/context-engineering",
+  "repo": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "9ff0c99",
+  "description": "Context-engineering and harness-engineering skills for production agent systems: curating context, agent operating loops, and LLM-as-judge evaluation, shipped as a Claude Code plugin marketplace that the agent discovers and activates by task context.",
+  "install": "/plugin marketplace add muratcankoylan/Agent-Skills-for-Context-Engineering && /plugin install context-engineering@context-engineering-marketplace",
+  "tags": [
+    "engineering",
+    "context"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "oil-ui",
+  "index": "094",
+  "name": "oil-oil/oil-ui",
+  "repo": "oil-oil/oil-ui",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "4e8d25f",
+  "description": "UI design skill that explores distinct directions, compares them side by side, and turns a chosen direction into code.",
+  "install": "npx skills add oil-oil/oil-ui",
+  "tags": [
+    "design",
+    "oil"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/oil-oil/oil-ui"
+  }
+}

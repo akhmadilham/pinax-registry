@@ -1,0 +1,21 @@
+{
+  "id": "baoyu-design",
+  "index": "088",
+  "name": "JimLiu/baoyu-design",
+  "repo": "JimLiu/baoyu-design",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "016b39d",
+  "description": "Local design skill that produces polished UI mockups through claude-dashboard and claude-slides skills, usable across Cursor, Codex, DeepSeek Harness, and other agents.",
+  "install": "npx skills add JimLiu/baoyu-design",
+  "tags": [
+    "design",
+    "baoyu"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/JimLiu/baoyu-design"
+  }
+}
