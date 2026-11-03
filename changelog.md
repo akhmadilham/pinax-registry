@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.9.1] - 2026-11-03
+
+### Removed
+- **SOP Remediation: Purged Non-Compliant Entries (Issues #133 and #137)**:
+  - Removed `174_watch.json` (`bradautomates/claude-video`): platform ToS scraping risk (unauthenticated YouTube stream ripping via yt-dlp).
+  - Removed `170_khasky_awesome_agent_skills.json` (`khasky/awesome-agent-skills`): direct name collision with lead skill 007 (`awesome-agent-skills`) and unvetted sub-modules.
+  - Recompiled canonical registry to 310 certified, 100% compliant skills.
+
 ## [1.9.0] - 2026-11-03
 
 ### Added

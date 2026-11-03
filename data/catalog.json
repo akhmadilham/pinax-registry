@@ -1,34 +1,34 @@
 {
   "$schema": "../schema/skill.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-11-03T11:43:05.401889+00:00",
+  "generated_at": "2026-11-03T11:58:48.539969+00:00",
   "integrity": {
-    "skills_sha256": "2d62097bce3766d1478f16371a007fe9efa4b4f56870b91663fb8180fea5a5c7",
+    "skills_sha256": "64e3218aa276935a306df9ce2fa33e6657da8263c944709041b47d398880788d",
     "algorithm": "SHA-256"
   },
   "stats": {
-    "total_skills": 312,
-    "pinned_skills": 275,
+    "total_skills": 310,
+    "pinned_skills": 273,
     "categories": {
-      "Engineering": 57,
+      "Engineering": 56,
       "Security": 12,
       "Design": 92,
       "Discovery": 6,
-      "Video": 56,
+      "Video": 55,
       "Business": 46,
       "Writing": 27,
       "SEO": 16
     },
     "types": {
-      "Collection": 126,
+      "Collection": 125,
       "Tool": 12,
-      "Skill": 147,
+      "Skill": 146,
       "Index": 4,
       "Vendor": 3,
       "Plugin": 20
     },
     "licenses": {
-      "MIT": 273,
+      "MIT": 271,
       "Apache-2.0": 32,
       "No root licence file": 2,
       "CC-BY-SA-4.0": 1,
@@ -4380,30 +4380,6 @@
       "stars": 1541
     },
     {
-      "id": "khasky-awesome-agent-skills",
-      "index": "170",
-      "name": "khasky/khasky-awesome-agent-skills",
-      "repo": "khasky/awesome-agent-skills",
-      "category": "Engineering",
-      "type": "Collection",
-      "license": "MIT",
-      "status": "INSTALL",
-      "pinned_commit": "58ea4e8",
-      "description": "A large audit and review skill collection (49 folders), drafted here cherry-pick only, led by a read-only security audit skill. The audit subset covers security, dependency, leak, privacy, and code review and quality audits, with explicit read-only behavior and no edits applied.",
-      "install": "npx skills add khasky/awesome-agent-skills (single-skill variant with -s documented, with a README warning that single-skill installs can leave cross-skill reference links dangling) and plugin routes (Claude Code, Copilot CLI, Antigravity). Draft scope is cherry-pick (the security-audit sample and named audit skills), never the install-everything route.",
-      "tags": [
-        "engineering",
-        "awesome",
-        "agent",
-        "security"
-      ],
-      "provenance": {
-        "verified_at": "2026-11-03",
-        "source": "https://github.com/khasky/awesome-agent-skills"
-      },
-      "stars": 30
-    },
-    {
       "id": "build-awwwards-quality-sites",
       "index": "171",
       "name": "mengto/build-awwwards-quality-sites",
@@ -4473,29 +4449,6 @@
         "source": "https://github.com/senlindesign/claude2figma"
       },
       "stars": 207
-    },
-    {
-      "id": "watch",
-      "index": "174",
-      "name": "bradautomates/watch",
-      "repo": "bradautomates/claude-video",
-      "category": "Video",
-      "type": "Skill",
-      "license": "MIT",
-      "status": "INSTALL",
-      "pinned_commit": "03ceb42",
-      "description": "A video watch skill that lets an agent watch a video via yt-dlp frames plus transcript, using Gemini or a local engine, to answer questions about video content.",
-      "install": "npx skills add bradautomates/claude-video -g --skill watch",
-      "tags": [
-        "video",
-        "watch",
-        "agent"
-      ],
-      "provenance": {
-        "verified_at": "2026-11-03",
-        "source": "https://github.com/bradautomates/claude-video"
-      },
-      "stars": 19762
     },
     {
       "id": "defending-code-reference-harness",
