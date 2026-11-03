@@ -105,7 +105,7 @@
       "order": 8,
       "color": "#fb923c",
       "icon": "search",
-      "lead_skill": "seranking-seo-skills",
+      "lead_skill": "claude-seo",
       "description": "Audit, fix, and measure search and AI answer visibility, from technical checks to content and ranking."
     }
   ],

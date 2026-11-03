@@ -45,7 +45,7 @@ PINAX provides a transparent, schema-governed database to solve these issues. Ea
 | 💼 **Business** | 19 | `founder-skill` | Build a smarter workflow around the tools and vendors you actually use |
 | ✍️ **Writing** | 13 | `no-ai-slop` | Turn ideas into writing worth reading |
 | 🎬 **Video** | 11 | `ffmpeg-skill` | Create, process, and refine video with reliable workflows |
-| 🔍 **SEO** | 9 | `seranking-seo-skills` | Audit, fix, and measure search and AI answer visibility, from technical checks to content and ranking |
+| 🔍 **SEO** | 9 | `claude-seo` | Audit, fix, and measure search and AI answer visibility, from technical checks to content and ranking |
 | 🛡️ **Security** | 8 | `trailofbits/skills` | Find vulnerabilities before they become problems |
 | 🧭 **Discovery** | 3 | `awesome-agent-skills` | Explore new capabilities beyond the atlas |
 | **Total** | **145** | | |

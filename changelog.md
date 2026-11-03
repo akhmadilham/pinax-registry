@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.7.0] - 2026-11-03
+
+### Changed
+- **SEO Lead Skill Reassignment to Open-Source Reference**:
+  - Replaced commercial SaaS dependency `seranking-seo-skills` with `claude-seo` (26,042 stars, 100% open-source multi-agent audit) as the canonical `lead_skill` for the SEO domain in `data/categories.json`.
+  - Eliminates the paywall barrier for developers exploring the SEO category via the Pinax Atlas.
+  - Recompiled and synchronized `data/catalog.json` and updated repository stats in `README.md`.
+
 ## [1.6.0] - 2026-11-03
 
 ### Added
