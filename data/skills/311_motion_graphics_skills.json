@@ -1,0 +1,24 @@
+{
+  "id": "motion-graphics-skills",
+  "index": "311",
+  "name": "charlie947/motion-graphics-skills",
+  "repo": "charlie947/motion-graphics-skills",
+  "category": "Video",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "229022e",
+  "description": "Launch-grade motion video pack covering loop covers, reel exports, launch videos, brand intake, vox explainers, motion effects, animated charts, model showdowns, milestone reveals, newsletter promos, and related launch assets. Note: Requires user-supplied API credentials for external data access.",
+  "install": "npx skills add charlie947/motion-graphics-skills (git clone route also documented)",
+  "tags": [
+    "video",
+    "motion",
+    "graphics",
+    "api-key"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/charlie947/motion-graphics-skills"
+  },
+  "stars": 532
+}

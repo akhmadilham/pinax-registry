@@ -1,0 +1,25 @@
+{
+  "id": "dsh-genui",
+  "index": "297",
+  "name": "omdsh-dev/dsh-genui",
+  "repo": "omdsh-dev/dsh-genui",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "c2624ce",
+  "description": "A GenUI skill for DeepSeek Harness that renders interactive UI components inline via the dsh-ui fence, letting agents present structured interactive output inside the harness. Note: Requires user-supplied API credentials for external data access.",
+  "install": "npx skills add omdsh-dev/dsh-genui",
+  "tags": [
+    "engineering",
+    "dsh",
+    "genui",
+    "api-key",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/omdsh-dev/dsh-genui"
+  },
+  "stars": 850
+}

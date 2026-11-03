@@ -1,0 +1,26 @@
+{
+  "id": "first-customer-finder",
+  "index": "280",
+  "name": "kappaemme-git/first-customer-finder",
+  "repo": "kappaemme-git/codex-first-customer-finder-skill",
+  "category": "Business",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "d3f6964",
+  "description": "A first-customer research skill for Codex that finds evidence-backed first customers from public signals. It explicitly does not send outreach automatically, and numerical scores cannot override contradictory or missing evidence. It needs no third-party Python dependencies, data-broker subscription, or skill-specific API key per README. Note: Requires user-supplied API credentials for external data access.",
+  "install": "npx --yes codex-first-customer-finder-skill@latest into the Codex skills directory, plus git clone plus node scripts/install.js for a source checkout.",
+  "tags": [
+    "business",
+    "first",
+    "customer",
+    "finder",
+    "api-key",
+    "python"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/kappaemme-git/codex-first-customer-finder-skill"
+  },
+  "stars": 1148
+}

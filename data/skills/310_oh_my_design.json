@@ -1,0 +1,22 @@
+{
+  "id": "oh-my-design",
+  "index": "310",
+  "name": "kwakseongjae/oh-my-design",
+  "repo": "kwakseongjae/oh-my-design",
+  "category": "Design",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "62e6551",
+  "description": "Design-system skill collection with a DESIGN.md reference archive, covering CJK-screen design and related UI work, installed through an interactive CLI installer with a doctor check command. Note: Requires user-supplied API credentials for external data access.",
+  "install": "npx oh-my-design-cli@latest (interactive installer with per-agent flags and a doctor check command), plus npx oh-my-design-cli@latest install-skills --agent <name> --all",
+  "tags": [
+    "design",
+    "api-key"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/kwakseongjae/oh-my-design"
+  },
+  "stars": 561
+}

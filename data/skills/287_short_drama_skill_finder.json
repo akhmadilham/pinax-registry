@@ -1,0 +1,25 @@
+{
+  "id": "short-drama-skill-finder",
+  "index": "287",
+  "name": "underleveledbuilder/short-drama-skill-finder",
+  "repo": "underleveledbuilder/awesome-short-drama-skills",
+  "category": "Video",
+  "type": "Skill",
+  "license": "CC0-1.0",
+  "status": "INSTALL",
+  "pinned_commit": "611aa75",
+  "description": "A router skill for a large curated list of short drama skills, tools, and platforms. It finds a short drama skill by language, featured status, checked status, stars, and publication fields, then installs it with the npx skills add owner/repo pattern. Tailored for Chinese language workflows.",
+  "install": "npx skills add UnderleveledBuilder/awesome-short-drama-skills to install the short-drama-skill-finder router, then ask the agent for a short drama skill",
+  "tags": [
+    "video",
+    "short",
+    "drama",
+    "finder",
+    "zh-cn"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/underleveledbuilder/awesome-short-drama-skills"
+  },
+  "stars": 1701
+}

@@ -1,39 +1,39 @@
 {
   "$schema": "../schema/skill.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-11-03T11:37:03.360288+00:00",
+  "generated_at": "2026-11-03T11:43:05.401889+00:00",
   "integrity": {
-    "skills_sha256": "91c2679022554d9b68b10aa26f9046f67d02dc0e66cd668162f63f5b310cb5ee",
+    "skills_sha256": "2d62097bce3766d1478f16371a007fe9efa4b4f56870b91663fb8180fea5a5c7",
     "algorithm": "SHA-256"
   },
   "stats": {
-    "total_skills": 274,
-    "pinned_skills": 237,
+    "total_skills": 312,
+    "pinned_skills": 275,
     "categories": {
-      "Engineering": 51,
+      "Engineering": 57,
       "Security": 12,
-      "Design": 84,
-      "Discovery": 5,
-      "Video": 44,
-      "Business": 39,
-      "Writing": 25,
-      "SEO": 14
+      "Design": 92,
+      "Discovery": 6,
+      "Video": 56,
+      "Business": 46,
+      "Writing": 27,
+      "SEO": 16
     },
     "types": {
-      "Collection": 111,
+      "Collection": 126,
       "Tool": 12,
-      "Skill": 126,
-      "Index": 3,
+      "Skill": 147,
+      "Index": 4,
       "Vendor": 3,
-      "Plugin": 19
+      "Plugin": 20
     },
     "licenses": {
-      "MIT": 239,
-      "Apache-2.0": 29,
+      "MIT": 273,
+      "Apache-2.0": 32,
       "No root licence file": 2,
       "CC-BY-SA-4.0": 1,
       "Mixed (MIT / CC BY 4.0 / Apache 2.0)": 1,
-      "CC0-1.0": 1,
+      "CC0-1.0": 2,
       "CC": 1
     }
   },
@@ -6821,6 +6821,924 @@
         "source": "https://github.com/archlizheng/frontend-slides-editable"
       },
       "stars": 547
+    },
+    {
+      "id": "ai-marketing-skills",
+      "index": "275",
+      "name": "ericosiu/ai-marketing-skills",
+      "repo": "ericosiu/ai-marketing-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "d2237ec",
+      "description": "A collection of marketing skill categories including SEO operations, growth, content operations, and sales pipeline work. The verified sample detects trends from multiple sources such as Google Trends RSS, Hacker News, Reddit, X/Twitter via a Brave API key, and YouTube outlier detection, and can use Google Search Console OAuth. Setup uses user-supplied API keys in a local env file. Note: Requires user-supplied API credentials for external data access.",
+      "install": "git clone https://github.com/ericosiu/ai-marketing-skills.git, copy the chosen category directory, pip install -r requirements.txt, set API keys in .env. No plugin or npx route was documented in the README lines read.",
+      "tags": [
+        "business",
+        "marketing",
+        "api-key",
+        "seo"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/ericosiu/ai-marketing-skills"
+      },
+      "stars": 3772
+    },
+    {
+      "id": "finance-skills",
+      "index": "276",
+      "name": "himself65/finance-skills",
+      "repo": "himself65/finance-skills",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "a085078",
+      "description": "A plugin collection of finance skills grouped by provider and analysis type, including market analysis, data providers, and social readers. The verified sample is a read-only Fintel data skill that queries the Fintel API and MCP endpoint with a user-supplied key. Other groups include sentiment, trading-view readers, and hyperliquid data. Note: Requires user-supplied API credentials for external data access.",
+      "install": "npx plugins add himself65/finance-skills and per-skill form npx skills add himself65/finance-skills --skill yfinance-data. A codex plugin marketplace route is also documented.",
+      "tags": [
+        "business",
+        "finance",
+        "api-key"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/himself65/finance-skills"
+      },
+      "stars": 3498
+    },
+    {
+      "id": "ai-marketing-claude",
+      "index": "277",
+      "name": "zubair-trabzada/ai-marketing-claude",
+      "repo": "zubair-trabzada/ai-marketing-claude",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "e5aa0ea",
+      "description": "A collection of 14 marketing skills with market- prefixed names covering ads, audit, brand, competitors, copy, emails, funnel, landing pages, launch, proposal, reporting, SEO, and social. The verified sample is a marketing audit skill. Install copies skill, agent, script, and template files from a local clone into the user's Claude directories. Restricted to secure local clone / package install route.",
+      "install": "git clone https://github.com/zubair-trabzada/ai-marketing-claude.git (run ./install.sh locally)",
+      "tags": [
+        "business",
+        "marketing",
+        "claude",
+        "seo",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/zubair-trabzada/ai-marketing-claude"
+      },
+      "stars": 2852
+    },
+    {
+      "id": "last30days-cn",
+      "index": "278",
+      "name": "jesseovo/last30days-cn",
+      "repo": "jesseovo/last30days-skill-cn",
+      "category": "Business",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "e0e4141",
+      "description": "A research skill for the last 30 days of activity on Chinese platforms. It runs research through scripts with optional API keys, and browser login is done by the user via QR code with sessions stored locally. It is a Chinese localization fork of an original research skill. Note: Requires user-supplied API credentials for external data access.",
+      "install": "npx skills add Jesseovo/last30days-skill-cn -g, plus git clone plus python scripts/last30days.py --diagnose.",
+      "tags": [
+        "business",
+        "last30days",
+        "api-key"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/jesseovo/last30days-skill-cn"
+      },
+      "stars": 2037
+    },
+    {
+      "id": "ai-sales-team-claude",
+      "index": "279",
+      "name": "zubair-trabzada/ai-sales-team-claude",
+      "repo": "zubair-trabzada/ai-sales-team-claude",
+      "category": "Business",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "efef8b8",
+      "description": "A collection of 13 sales skills covering competitors, contacts, follow-up, ideal customer profile, objections, outreach, prep, proposal, prospecting, qualification, reporting, and research. The verified sample is a sales outreach skill. Install copies files from a local clone into the user's Claude directories. Restricted to secure local clone / package install route.",
+      "install": "git clone https://github.com/zubair-trabzada/ai-sales-team-claude.git (run ./install.sh locally)",
+      "tags": [
+        "business",
+        "sales",
+        "team",
+        "claude"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/zubair-trabzada/ai-sales-team-claude"
+      },
+      "stars": 1502
+    },
+    {
+      "id": "first-customer-finder",
+      "index": "280",
+      "name": "kappaemme-git/first-customer-finder",
+      "repo": "kappaemme-git/codex-first-customer-finder-skill",
+      "category": "Business",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "d3f6964",
+      "description": "A first-customer research skill for Codex that finds evidence-backed first customers from public signals. It explicitly does not send outreach automatically, and numerical scores cannot override contradictory or missing evidence. It needs no third-party Python dependencies, data-broker subscription, or skill-specific API key per README. Note: Requires user-supplied API credentials for external data access.",
+      "install": "npx --yes codex-first-customer-finder-skill@latest into the Codex skills directory, plus git clone plus node scripts/install.js for a source checkout.",
+      "tags": [
+        "business",
+        "first",
+        "customer",
+        "finder",
+        "api-key",
+        "python"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/kappaemme-git/codex-first-customer-finder-skill"
+      },
+      "stars": 1148
+    },
+    {
+      "id": "mattpocock-skills-zh-cn",
+      "index": "281",
+      "name": "vinvcn/mattpocock-skills-zh-cn",
+      "repo": "vinvcn/mattpocock-skills-zh-cn",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "5b57718",
+      "description": "Chinese translation of a test-driven development and engineering workflow skill collection. Docs are translated while skill names, commands, and paths stay unchanged. The sample skill read covers test-driven development in Chinese. Tailored for Chinese language workflows.",
+      "install": "npx skills@latest add vinvcn/mattpocock-skills-zh-CN and plugin route (/plugin install mattpocock-skills@mattpocock via its own marketplace), plus DeepSeek Harness plugin route.",
+      "tags": [
+        "engineering",
+        "mattpocock",
+        "zh-cn"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/vinvcn/mattpocock-skills-zh-cn"
+      },
+      "stars": 5512
+    },
+    {
+      "id": "claude-code-skills-zh",
+      "index": "282",
+      "name": "laolaoshiren/claude-code-skills-zh",
+      "repo": "laolaoshiren/claude-code-skills-zh",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "51a399f",
+      "description": "A Chinese collection of 20 original development productivity skills, including code review, testing, documentation, dependency audit, and workflow helpers. The sample skill read covers a Chinese code reviewer. Draft scope is the 20 original skills in skills/ only. Tailored for Chinese language workflows.",
+      "install": "Copy the skill directory into ~/.claude/skills/ (global) or project .claude/skills/ (README quick-install section). This is a copy route, not a pipe.",
+      "tags": [
+        "engineering",
+        "claude",
+        "code",
+        "zh-cn"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/laolaoshiren/claude-code-skills-zh"
+      },
+      "stars": 902
+    },
+    {
+      "id": "devops-skills",
+      "index": "283",
+      "name": "anmolnagpal/devops-skills",
+      "repo": "anmolnagpal/devops-skills",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "45bde44",
+      "description": "A DevOps review workflow collection with 19 skill folders covering Kubernetes and Helm review, Terraform review, CI, deployment, Docker, GitOps, incident review, observability, and related audits. The sample skill read covers Kubernetes review with a safety read-only stance. Note: Provisions live billable cloud infrastructure; configure billing limits.",
+      "install": "/plugin install clouddrove@devops-skills, plus npx skills, SSH clone, submodule pin, and fork routes listed in _docs/INSTALL.md. Only these non-pipe routes are drafted. A pipe route documented in the README is deliberately excluded and not reproduced here.",
+      "tags": [
+        "engineering",
+        "devops",
+        "aws"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/anmolnagpal/devops-skills"
+      },
+      "stars": 8
+    },
+    {
+      "id": "office-academic-skill",
+      "index": "284",
+      "name": "zlanqing/office-academic-skill",
+      "repo": "zlanqing/codex-claude-academic-skills",
+      "category": "Writing",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "7ed6377",
+      "description": "A collection of academic skills (24 SKILL.md files confirmed, including research-writing-skill and scientific-toolkit-skill) for academic Word and PowerPoint workflows, research writing, and presentation writing. Tailored for Chinese language workflows.",
+      "install": "copy skill folders to ~/.claude/skills (for example cp -r claude-academic-skills/research-writing-skill ~/.claude/skills/), plus a plugin install line. Note: the README install examples use a placeholder username, so use the real repo path, not the placeholder verbatim.",
+      "tags": [
+        "writing",
+        "office",
+        "academic",
+        "zh-cn"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/zlanqing/codex-claude-academic-skills"
+      },
+      "stars": 5611
+    },
+    {
+      "id": "story-to-handdrawn-video",
+      "index": "285",
+      "name": "gnipbao/story-to-handdrawn-video",
+      "repo": "gnipbao/story-to-handdrawn-video",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "198aefa",
+      "description": "A hand-drawn story video skill with a behaviour contract and portable entry that loads on demand and builds Remotion scenes with erase and page-flip motion from a story. Tailored for Chinese language workflows.",
+      "install": "git clone, npm ci for the renderer, copy skill-package/story-to-handdrawn-video to the agent skills directory, set STORY_VIDEO_PROJECT or use upward project discovery",
+      "tags": [
+        "video",
+        "story",
+        "handdrawn",
+        "zh-cn",
+        "motion"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/gnipbao/story-to-handdrawn-video"
+      },
+      "stars": 2357
+    },
+    {
+      "id": "short-drama-director",
+      "index": "286",
+      "name": "lixiaoxiao9888-create/short-drama-director",
+      "repo": "lixiaoxiao9888-create/manju-laoli-skill",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "6f16955",
+      "description": "A large short-drama director suite skill with a quality-gate P0 to P2 system and an A to D lock system for model version, aspect, delivery form, and segment seams, supporting seven-segment and H3 six-segment input formats for short drama video generation. Tailored for Chinese language workflows.",
+      "install": "npx skills add lixiaoxiao9888-create/manju-laoli-skill",
+      "tags": [
+        "video",
+        "short",
+        "drama",
+        "director",
+        "zh-cn"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill"
+      },
+      "stars": 1867
+    },
+    {
+      "id": "short-drama-skill-finder",
+      "index": "287",
+      "name": "underleveledbuilder/short-drama-skill-finder",
+      "repo": "underleveledbuilder/awesome-short-drama-skills",
+      "category": "Video",
+      "type": "Skill",
+      "license": "CC0-1.0",
+      "status": "INSTALL",
+      "pinned_commit": "611aa75",
+      "description": "A router skill for a large curated list of short drama skills, tools, and platforms. It finds a short drama skill by language, featured status, checked status, stars, and publication fields, then installs it with the npx skills add owner/repo pattern. Tailored for Chinese language workflows.",
+      "install": "npx skills add UnderleveledBuilder/awesome-short-drama-skills to install the short-drama-skill-finder router, then ask the agent for a short drama skill",
+      "tags": [
+        "video",
+        "short",
+        "drama",
+        "finder",
+        "zh-cn"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/underleveledbuilder/awesome-short-drama-skills"
+      },
+      "stars": 1701
+    },
+    {
+      "id": "violin",
+      "index": "288",
+      "name": "shang-zhu/violin",
+      "repo": "shang-zhu/violin",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "7a86852",
+      "description": "A video translation, dubbing, and subtitle translation skill (skill file .claude/skills/video-translator/SKILL.md) backed by a violin CLI. It translates video speech and subtitles between languages. Note: Requires user-supplied API credentials for external data access.",
+      "install": "install the violin CLI, then violin --install-skill copies the skill into ~/.claude/skills/; a git clone plus uv sync plus cp .env.example .env route is also documented. Do not reproduce the README uv pipe suggestion; point to the official uv install docs or a package manager instead.",
+      "tags": [
+        "video",
+        "violin",
+        "api-key"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/shang-zhu/violin"
+      },
+      "stars": 1086
+    },
+    {
+      "id": "handdraw-story-video",
+      "index": "289",
+      "name": "xiejunjie524/handdraw-story-video",
+      "repo": "xiejunjie524/handdraw-story-video",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "13bd9dc",
+      "description": "A Codex hand-drawn story video skill that turns 7 to 9 hand-drawn story master images into a 35 to 45 second vertical video, with black-and-white line art revealed left to right then gradually filled with low-saturation colour, using HyperFrames page generation. Tailored for Chinese language workflows.",
+      "install": "copy or link the repo root into $CODEX_HOME/skills/handdraw-good-deed-story (repo root itself follows the Codex skill structure)",
+      "tags": [
+        "video",
+        "handdraw",
+        "story",
+        "zh-cn"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/xiejunjie524/handdraw-story-video"
+      },
+      "stars": 801
+    },
+    {
+      "id": "chatgpt-video-editing-skills",
+      "index": "290",
+      "name": "jaycheng1103/chatgpt-video-editing-skills",
+      "repo": "jaycheng1103/chatgpt-video-editing-skills",
+      "category": "Video",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "dc2f10a",
+      "description": "A short video editing skill collection. The sample skill, chatgpt-short-video-editor, covers transcription, editing strategy, rough cut, subtitles, preview, QA, and formal output, with a rule against silent tool installs and against formal output before preview approval. Tailored for Chinese language workflows.",
+      "install": "npx skills add Jaycheng1103/chatgpt-video-editing-skills --full-depth (installer lets the user choose skills and detected agents), or git clone then local install",
+      "tags": [
+        "video",
+        "chatgpt",
+        "editing",
+        "zh-cn"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/jaycheng1103/chatgpt-video-editing-skills"
+      },
+      "stars": 614
+    },
+    {
+      "id": "social-media-skills",
+      "index": "291",
+      "name": "charlie947/social-media-skills",
+      "repo": "charlie947/social-media-skills",
+      "category": "Video",
+      "type": "Plugin",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "10ca79c",
+      "description": "A social media video skill collection. Draft scope is the youtube-thumbnail skill folder only: it builds a branded YouTube thumbnail from a video title, a reference photo of the creator, high-CTR thumbnail principles, and brand colours, producing a ready-to-generate image prompt for Gemini. Note: Requires user-supplied API credentials for external data access.",
+      "install": "Claude Code plugin route (/plugin marketplace add charlie947/social-media-skills, /plugin install social-media-skills), or git clone plus copy of a skill folder to the agent skills directory (Codex copy script documented in README)",
+      "tags": [
+        "video",
+        "social",
+        "media",
+        "api-key"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/charlie947/social-media-skills"
+      },
+      "stars": 4541
+    },
+    {
+      "id": "khazix-skills",
+      "index": "292",
+      "name": "kkkkhazix/khazix-skills",
+      "repo": "kkkkhazix/khazix-skills",
+      "category": "Engineering",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "322346d",
+      "description": "A multi-domain collection covering agent workflow and productivity, including a leader skill and an AI hot-news skill that fetches current AI news from a public API, plus writing, analysis, and storage skills. Tailored for Chinese language workflows.",
+      "install": "Ask the agent to install the skill from https://github.com/KKKKhazix/khazix-skills/tree/main/<skill-name> (agent clones it to the skill directory)",
+      "tags": [
+        "engineering",
+        "khazix",
+        "zh-cn",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/kkkkhazix/khazix-skills"
+      },
+      "stars": 21866
+    },
+    {
+      "id": "codex-ppt-skill",
+      "index": "293",
+      "name": "ningzimu/codex-ppt-skill",
+      "repo": "ningzimu/codex-ppt-skill",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "941dcaf",
+      "description": "A skill that generates image-based PPT and PPTX decks using GPT-Image-2, turning a topic or outline into slide images assembled into an editable presentation. Note: Requires user-supplied API credentials for external data access.",
+      "install": "npx -y skills@latest add ningzimu/codex-ppt-skill",
+      "tags": [
+        "design",
+        "codex",
+        "ppt",
+        "api-key"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/ningzimu/codex-ppt-skill"
+      },
+      "stars": 7598
+    },
+    {
+      "id": "image-to-editable-ppt-skill",
+      "index": "294",
+      "name": "ningzimu/image-to-editable-ppt-skill",
+      "repo": "ningzimu/image-to-editable-ppt-skill",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "b7be494",
+      "description": "A skill that converts slide images, PDFs, and image-based PPTX files into editable decks, using OCR and image generation to rebuild slides as editable content rather than flat pictures. Tailored for Chinese language workflows.",
+      "install": "npx skills add ningzimu/image-to-editable-ppt-skill",
+      "tags": [
+        "design",
+        "image",
+        "editable",
+        "ppt",
+        "zh-cn"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/ningzimu/image-to-editable-ppt-skill"
+      },
+      "stars": 3236
+    },
+    {
+      "id": "gpt-image2-ppt-skills",
+      "index": "295",
+      "name": "juneyaooo/gpt-image2-ppt-skills",
+      "repo": "juneyaooo/gpt-image2-ppt-skills",
+      "category": "Design",
+      "type": "Skill",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": "2d57ef8",
+      "description": "A skill that clones any .pptx deck into a user deck using gpt-image-2, reproducing the source style while swapping in new content. Note: Requires user-supplied API credentials for external data access.",
+      "install": "git clone git@github.com:JuneYaooo/gpt-image2-ppt-skills.git (SSH clone; an HTTPS clone equivalent is the same non-pipe route)",
+      "tags": [
+        "design",
+        "gpt",
+        "image2",
+        "ppt",
+        "api-key"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/juneyaooo/gpt-image2-ppt-skills"
+      },
+      "stars": 1423
+    },
+    {
+      "id": "claude-for-financial-services-cn",
+      "index": "296",
+      "name": "jwangkun/claude-for-financial-services-cn",
+      "repo": "jwangkun/claude-for-financial-services-cn",
+      "category": "Business",
+      "type": "Collection",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": "d7585ca",
+      "description": "A large collection of skills and plugins for Chinese financial services, covering A-share markets, investment banking, private equity, wealth management, and fund administration, including Wind MCP data skills. Note: Requires user-supplied API credentials for external data access.",
+      "install": "claude plugin marketplace add jwangkun/claude-for-financial-services-cn, then per plugin claude plugin install china-finance@claude-for-financial-services-cn (and investment-banking, private-equity, wealth-management, fund-admin variants)",
+      "tags": [
+        "business",
+        "claude",
+        "for",
+        "financial",
+        "services",
+        "api-key"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/jwangkun/claude-for-financial-services-cn"
+      },
+      "stars": 881
+    },
+    {
+      "id": "dsh-genui",
+      "index": "297",
+      "name": "omdsh-dev/dsh-genui",
+      "repo": "omdsh-dev/dsh-genui",
+      "category": "Engineering",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "c2624ce",
+      "description": "A GenUI skill for DeepSeek Harness that renders interactive UI components inline via the dsh-ui fence, letting agents present structured interactive output inside the harness. Note: Requires user-supplied API credentials for external data access.",
+      "install": "npx skills add omdsh-dev/dsh-genui",
+      "tags": [
+        "engineering",
+        "dsh",
+        "genui",
+        "api-key",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/omdsh-dev/dsh-genui"
+      },
+      "stars": 850
+    },
+    {
+      "id": "union-search-skill",
+      "index": "298",
+      "name": "runningz1/union-search-skill",
+      "repo": "runningz1/union-search-skill",
+      "category": "Engineering",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "7495b52",
+      "description": "A skill that runs one search across 51 channels and deduplicates results by page URL, aggregating multi-channel search into a single result set. Note: Requires user-supplied API credentials for external data access.",
+      "install": "npx skills add runningz1/union-search-skill",
+      "tags": [
+        "engineering",
+        "union",
+        "search",
+        "api-key"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/runningz1/union-search-skill"
+      },
+      "stars": 766
+    },
+    {
+      "id": "wechat-article-skills",
+      "index": "299",
+      "name": "aiworkskills/wechat-article-skills",
+      "repo": "aiworkskills/wechat-article-skills",
+      "category": "Writing",
+      "type": "Collection",
+      "license": "Apache-2.0",
+      "status": "INSTALL",
+      "pinned_commit": "ca036f7",
+      "description": "A collection of WeChat article operations skills, including sticker handling, article drafting, and topic skills, for running a WeChat official-account content workflow from the agent side. Note: Requires user-supplied API credentials for external data access.",
+      "install": "Git clone the repo, after which OpenClaw reads the repo skills/ directory directly with no clawhub install step",
+      "tags": [
+        "writing",
+        "wechat",
+        "article",
+        "api-key",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/aiworkskills/wechat-article-skills"
+      },
+      "stars": 724
+    },
+    {
+      "id": "claude-skill-registry",
+      "index": "300",
+      "name": "majiayu000/claude-skill-registry",
+      "repo": "majiayu000/claude-skill-registry",
+      "category": "Discovery",
+      "type": "Index",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "9653169",
+      "description": "A searchable registry/catalog tool for Claude skills, with generated registry artifacts and a sparse-clone setup, letting users search a large skill index rather than browsing repos one by one. Restricted to secure local clone / package install route.",
+      "install": "git clone --filter=blob:none --sparse https://github.com/majiayu000/claude-skill-registry.git",
+      "tags": [
+        "discovery",
+        "claude",
+        "registry"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/majiayu000/claude-skill-registry"
+      },
+      "stars": 708
+    },
+    {
+      "id": "document-illustrator-skill",
+      "index": "301",
+      "name": "op7418/document-illustrator-skill",
+      "repo": "op7418/document-illustrator-skill",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "8344815",
+      "description": "A skill that generates multiple illustrations from a document, in 16:9 and 3:4 formats, suited to Xiaohongshu and X/Twitter posting. Note: Requires user-supplied API credentials for external data access.",
+      "install": "npx skills add https://github.com/op7418/Document-illustrator-skill, plus git clone and pip install of google-genai, pillow, python-dotenv",
+      "tags": [
+        "design",
+        "document",
+        "illustrator",
+        "api-key"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/op7418/document-illustrator-skill"
+      },
+      "stars": 608
+    },
+    {
+      "id": "huashu-art-motion",
+      "index": "302",
+      "name": "alchaincyf/huashu-art-motion",
+      "repo": "alchaincyf/huashu-art-motion",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "8a0d7d7",
+      "description": "Turns artwork in the Huashu calligraphy-art style into animated motion pieces, using the skill's animation workflow over reference code and example assets. Tailored for Chinese language workflows.",
+      "install": "npx skills add alchaincyf/huashu-art-motion",
+      "tags": [
+        "video",
+        "huashu",
+        "art",
+        "motion",
+        "zh-cn"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/alchaincyf/huashu-art-motion"
+      },
+      "stars": 6078
+    },
+    {
+      "id": "oil-motion",
+      "index": "303",
+      "name": "oil-oil/oil-motion",
+      "repo": "oil-oil/oil-motion",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "07e31f2",
+      "description": "Interaction animation pipeline for the web, wiring scroll, mouse, drag, touch, and orientation input into animated interfaces, with an explicit boundary against plain CSS/JS/SVG/Lottie work. Tailored for Chinese language workflows.",
+      "install": "npx skills add oil-oil/oil-motion",
+      "tags": [
+        "design",
+        "oil",
+        "motion",
+        "zh-cn"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/oil-oil/oil-motion"
+      },
+      "stars": 2769
+    },
+    {
+      "id": "holo-card-studio",
+      "index": "304",
+      "name": "everettfish/holo-card-studio",
+      "repo": "everettfish/holo-card-studio",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "cce9718",
+      "description": "Turns one sentence into a 3D holographic trading card built from four image layers, viewable with browser rotation and flip, with a Blender project as a bonus output. Tailored for Chinese language workflows.",
+      "install": "copy the repo directory into the Codex skills directory (~/.codex/skills/holo-card-studio/), per the README usage section",
+      "tags": [
+        "design",
+        "holo",
+        "card",
+        "studio",
+        "zh-cn"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/everettfish/holo-card-studio"
+      },
+      "stars": 2046
+    },
+    {
+      "id": "geo-optimizer-skill",
+      "index": "305",
+      "name": "auriti-labs/geo-optimizer-skill",
+      "repo": "auriti-labs/geo-optimizer-skill",
+      "category": "SEO",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "3040681",
+      "description": "AI-visibility audit skill that scores a site from 0 to 100 across ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews, then applies fixes, backed by a CLI package and a zero-install web audit option. Note: Requires user-supplied API credentials for external data access.",
+      "install": "pip install -U geo-optimizer-skill (plus [mcp] variant; zero-install web audit option also documented)",
+      "tags": [
+        "seo",
+        "geo",
+        "optimizer",
+        "api-key"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/auriti-labs/geo-optimizer-skill"
+      },
+      "stars": 1266
+    },
+    {
+      "id": "papermorph",
+      "index": "306",
+      "name": "dozentwelve/papermorph",
+      "repo": "dozentwelve/papermorph",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "810e9bc",
+      "description": "Turns textbooks into narrated interactive web lessons, paper-puppet films, and documentaries, using a render pipeline over lesson content. Note: Requires user-supplied API credentials for external data access.",
+      "install": "npx skills add DozenTwelve/Papermorph --skill papermorph --agent claude-code (opencode variant also documented; OpenCode command copy route also documented)",
+      "tags": [
+        "video",
+        "papermorph",
+        "api-key"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/dozentwelve/papermorph"
+      },
+      "stars": 1120
+    },
+    {
+      "id": "humanize-ppt",
+      "index": "307",
+      "name": "learnprompt/humanize-ppt",
+      "repo": "learnprompt/humanize-ppt",
+      "category": "Design",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "2c36a8e",
+      "description": "Narrative deck skill built on an audience-state-transfer story line, using real images, SVG charts, Remotion video where a page needs it, and either HTML presentation mode or native PPTX with speaker notes. Tailored for Chinese language workflows.",
+      "install": "npx skills add LearnPrompt/humanize-ppt -g (Claude Code plugin marketplace route also documented)",
+      "tags": [
+        "design",
+        "humanize",
+        "ppt",
+        "zh-cn",
+        "video",
+        "motion"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/learnprompt/humanize-ppt"
+      },
+      "stars": 990
+    },
+    {
+      "id": "backlink_skills",
+      "index": "308",
+      "name": "flaqai/backlink_skills",
+      "repo": "flaqai/backlink_skills",
+      "category": "SEO",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "409d42b",
+      "description": "Codex-driven link-building workflow collection covering writer skills, product-directory submission skills, scalable SEO blog workflows, and backlink matrix skills, where the agent works through channels one by one rather than bulk-submitting. Tailored for Chinese language workflows.",
+      "install": "clone the repo and let Codex read the relevant skill directory, or copy only the needed skill directory into the Codex skills directory, per the README usage section",
+      "tags": [
+        "seo",
+        "backlink",
+        "zh-cn",
+        "agent"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/flaqai/backlink_skills"
+      },
+      "stars": 865
+    },
+    {
+      "id": "ai-animation-skill",
+      "index": "309",
+      "name": "unclecheng-li/ai-animation-skill",
+      "repo": "unclecheng-li/ai-animation-skill",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "4b107dd",
+      "description": "Turns science explainer text into HTML demo animations, by default rebuilding text to base HTML to Level2 PPT template, with an optional HTML-to-animation-flowchart rebuild path. Tailored for Chinese language workflows.",
+      "install": "download the project and copy the AI-Animation-Skill folder into the agent skills directory (example given: ~/.workbuddy/skills/), then restart the agent, per the README quick-start section",
+      "tags": [
+        "video",
+        "animation",
+        "zh-cn"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/unclecheng-li/ai-animation-skill"
+      },
+      "stars": 606
+    },
+    {
+      "id": "oh-my-design",
+      "index": "310",
+      "name": "kwakseongjae/oh-my-design",
+      "repo": "kwakseongjae/oh-my-design",
+      "category": "Design",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "62e6551",
+      "description": "Design-system skill collection with a DESIGN.md reference archive, covering CJK-screen design and related UI work, installed through an interactive CLI installer with a doctor check command. Note: Requires user-supplied API credentials for external data access.",
+      "install": "npx oh-my-design-cli@latest (interactive installer with per-agent flags and a doctor check command), plus npx oh-my-design-cli@latest install-skills --agent <name> --all",
+      "tags": [
+        "design",
+        "api-key"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/kwakseongjae/oh-my-design"
+      },
+      "stars": 561
+    },
+    {
+      "id": "motion-graphics-skills",
+      "index": "311",
+      "name": "charlie947/motion-graphics-skills",
+      "repo": "charlie947/motion-graphics-skills",
+      "category": "Video",
+      "type": "Collection",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "229022e",
+      "description": "Launch-grade motion video pack covering loop covers, reel exports, launch videos, brand intake, vox explainers, motion effects, animated charts, model showdowns, milestone reveals, newsletter promos, and related launch assets. Note: Requires user-supplied API credentials for external data access.",
+      "install": "npx skills add charlie947/motion-graphics-skills (git clone route also documented)",
+      "tags": [
+        "video",
+        "motion",
+        "graphics",
+        "api-key"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/charlie947/motion-graphics-skills"
+      },
+      "stars": 532
+    },
+    {
+      "id": "chaojifeng-video-design",
+      "index": "312",
+      "name": "mileson/chaojifeng-video-design",
+      "repo": "mileson/chaojifeng-video-design",
+      "category": "Video",
+      "type": "Skill",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "0d8f80c",
+      "description": "Video design methodology skill that arranges music, theme, and material into finished videos plus editable projects, demonstrated with four 15-second music visual works and rap knowledge explainers. Tailored for Chinese language workflows.",
+      "install": "git clone https://github.com/mileson/chaojifeng-video-design.git ~/.codex/skills/chaojifeng-video-design",
+      "tags": [
+        "video",
+        "chaojifeng",
+        "design",
+        "zh-cn"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-03",
+        "source": "https://github.com/mileson/chaojifeng-video-design"
+      },
+      "stars": 501
     }
   ]
 }

@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.9.0] - 2026-11-03
+
+### Added
+- **Batch Community Skills Integration (38 Caution Skills with Enforced Guardrails, Index 275 to 312)**:
+  - Registered 38 community skills with validated git tree licenses, expanding registry total to 312 canonical skills (88% commit-pinned).
+  - Applied explicit credential notices for private API dependencies (OpenAI, Fintel, Polymarket).
+  - Enforced cloud infrastructure disclaimers for billable provisioning (`devops-skills`).
+  - Restricted installation paths away from raw curl-pipe routes to local git clones and package invocations.
+  - Tagged language-specific workflows (`zh-cn` / `zh-tw`).
+
 ## [1.8.0] - 2026-11-03
 
 ### Added

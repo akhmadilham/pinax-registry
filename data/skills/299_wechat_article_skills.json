@@ -1,0 +1,25 @@
+{
+  "id": "wechat-article-skills",
+  "index": "299",
+  "name": "aiworkskills/wechat-article-skills",
+  "repo": "aiworkskills/wechat-article-skills",
+  "category": "Writing",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "ca036f7",
+  "description": "A collection of WeChat article operations skills, including sticker handling, article drafting, and topic skills, for running a WeChat official-account content workflow from the agent side. Note: Requires user-supplied API credentials for external data access.",
+  "install": "Git clone the repo, after which OpenClaw reads the repo skills/ directory directly with no clawhub install step",
+  "tags": [
+    "writing",
+    "wechat",
+    "article",
+    "api-key",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/aiworkskills/wechat-article-skills"
+  },
+  "stars": 724
+}

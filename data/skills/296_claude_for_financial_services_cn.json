@@ -1,0 +1,26 @@
+{
+  "id": "claude-for-financial-services-cn",
+  "index": "296",
+  "name": "jwangkun/claude-for-financial-services-cn",
+  "repo": "jwangkun/claude-for-financial-services-cn",
+  "category": "Business",
+  "type": "Collection",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "d7585ca",
+  "description": "A large collection of skills and plugins for Chinese financial services, covering A-share markets, investment banking, private equity, wealth management, and fund administration, including Wind MCP data skills. Note: Requires user-supplied API credentials for external data access.",
+  "install": "claude plugin marketplace add jwangkun/claude-for-financial-services-cn, then per plugin claude plugin install china-finance@claude-for-financial-services-cn (and investment-banking, private-equity, wealth-management, fund-admin variants)",
+  "tags": [
+    "business",
+    "claude",
+    "for",
+    "financial",
+    "services",
+    "api-key"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/jwangkun/claude-for-financial-services-cn"
+  },
+  "stars": 881
+}

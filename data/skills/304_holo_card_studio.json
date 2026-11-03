@@ -1,0 +1,25 @@
+{
+  "id": "holo-card-studio",
+  "index": "304",
+  "name": "everettfish/holo-card-studio",
+  "repo": "everettfish/holo-card-studio",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "cce9718",
+  "description": "Turns one sentence into a 3D holographic trading card built from four image layers, viewable with browser rotation and flip, with a Blender project as a bonus output. Tailored for Chinese language workflows.",
+  "install": "copy the repo directory into the Codex skills directory (~/.codex/skills/holo-card-studio/), per the README usage section",
+  "tags": [
+    "design",
+    "holo",
+    "card",
+    "studio",
+    "zh-cn"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/everettfish/holo-card-studio"
+  },
+  "stars": 2046
+}

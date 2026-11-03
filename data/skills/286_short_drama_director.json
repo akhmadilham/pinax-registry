@@ -1,0 +1,25 @@
+{
+  "id": "short-drama-director",
+  "index": "286",
+  "name": "lixiaoxiao9888-create/short-drama-director",
+  "repo": "lixiaoxiao9888-create/manju-laoli-skill",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "6f16955",
+  "description": "A large short-drama director suite skill with a quality-gate P0 to P2 system and an A to D lock system for model version, aspect, delivery form, and segment seams, supporting seven-segment and H3 six-segment input formats for short drama video generation. Tailored for Chinese language workflows.",
+  "install": "npx skills add lixiaoxiao9888-create/manju-laoli-skill",
+  "tags": [
+    "video",
+    "short",
+    "drama",
+    "director",
+    "zh-cn"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill"
+  },
+  "stars": 1867
+}

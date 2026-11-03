@@ -1,0 +1,23 @@
+{
+  "id": "mattpocock-skills-zh-cn",
+  "index": "281",
+  "name": "vinvcn/mattpocock-skills-zh-cn",
+  "repo": "vinvcn/mattpocock-skills-zh-cn",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "5b57718",
+  "description": "Chinese translation of a test-driven development and engineering workflow skill collection. Docs are translated while skill names, commands, and paths stay unchanged. The sample skill read covers test-driven development in Chinese. Tailored for Chinese language workflows.",
+  "install": "npx skills@latest add vinvcn/mattpocock-skills-zh-CN and plugin route (/plugin install mattpocock-skills@mattpocock via its own marketplace), plus DeepSeek Harness plugin route.",
+  "tags": [
+    "engineering",
+    "mattpocock",
+    "zh-cn"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/vinvcn/mattpocock-skills-zh-cn"
+  },
+  "stars": 5512
+}

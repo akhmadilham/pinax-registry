@@ -1,0 +1,24 @@
+{
+  "id": "ai-marketing-skills",
+  "index": "275",
+  "name": "ericosiu/ai-marketing-skills",
+  "repo": "ericosiu/ai-marketing-skills",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "d2237ec",
+  "description": "A collection of marketing skill categories including SEO operations, growth, content operations, and sales pipeline work. The verified sample detects trends from multiple sources such as Google Trends RSS, Hacker News, Reddit, X/Twitter via a Brave API key, and YouTube outlier detection, and can use Google Search Console OAuth. Setup uses user-supplied API keys in a local env file. Note: Requires user-supplied API credentials for external data access.",
+  "install": "git clone https://github.com/ericosiu/ai-marketing-skills.git, copy the chosen category directory, pip install -r requirements.txt, set API keys in .env. No plugin or npx route was documented in the README lines read.",
+  "tags": [
+    "business",
+    "marketing",
+    "api-key",
+    "seo"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/ericosiu/ai-marketing-skills"
+  },
+  "stars": 3772
+}

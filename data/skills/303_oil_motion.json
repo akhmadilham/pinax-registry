@@ -1,0 +1,24 @@
+{
+  "id": "oil-motion",
+  "index": "303",
+  "name": "oil-oil/oil-motion",
+  "repo": "oil-oil/oil-motion",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "07e31f2",
+  "description": "Interaction animation pipeline for the web, wiring scroll, mouse, drag, touch, and orientation input into animated interfaces, with an explicit boundary against plain CSS/JS/SVG/Lottie work. Tailored for Chinese language workflows.",
+  "install": "npx skills add oil-oil/oil-motion",
+  "tags": [
+    "design",
+    "oil",
+    "motion",
+    "zh-cn"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/oil-oil/oil-motion"
+  },
+  "stars": 2769
+}

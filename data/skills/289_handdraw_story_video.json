@@ -1,0 +1,24 @@
+{
+  "id": "handdraw-story-video",
+  "index": "289",
+  "name": "xiejunjie524/handdraw-story-video",
+  "repo": "xiejunjie524/handdraw-story-video",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "13bd9dc",
+  "description": "A Codex hand-drawn story video skill that turns 7 to 9 hand-drawn story master images into a 35 to 45 second vertical video, with black-and-white line art revealed left to right then gradually filled with low-saturation colour, using HyperFrames page generation. Tailored for Chinese language workflows.",
+  "install": "copy or link the repo root into $CODEX_HOME/skills/handdraw-good-deed-story (repo root itself follows the Codex skill structure)",
+  "tags": [
+    "video",
+    "handdraw",
+    "story",
+    "zh-cn"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/xiejunjie524/handdraw-story-video"
+  },
+  "stars": 801
+}

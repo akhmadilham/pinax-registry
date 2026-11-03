@@ -1,0 +1,25 @@
+{
+  "id": "huashu-art-motion",
+  "index": "302",
+  "name": "alchaincyf/huashu-art-motion",
+  "repo": "alchaincyf/huashu-art-motion",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "8a0d7d7",
+  "description": "Turns artwork in the Huashu calligraphy-art style into animated motion pieces, using the skill's animation workflow over reference code and example assets. Tailored for Chinese language workflows.",
+  "install": "npx skills add alchaincyf/huashu-art-motion",
+  "tags": [
+    "video",
+    "huashu",
+    "art",
+    "motion",
+    "zh-cn"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/alchaincyf/huashu-art-motion"
+  },
+  "stars": 6078
+}

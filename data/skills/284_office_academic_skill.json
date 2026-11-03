@@ -1,0 +1,24 @@
+{
+  "id": "office-academic-skill",
+  "index": "284",
+  "name": "zlanqing/office-academic-skill",
+  "repo": "zlanqing/codex-claude-academic-skills",
+  "category": "Writing",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "7ed6377",
+  "description": "A collection of academic skills (24 SKILL.md files confirmed, including research-writing-skill and scientific-toolkit-skill) for academic Word and PowerPoint workflows, research writing, and presentation writing. Tailored for Chinese language workflows.",
+  "install": "copy skill folders to ~/.claude/skills (for example cp -r claude-academic-skills/research-writing-skill ~/.claude/skills/), plus a plugin install line. Note: the README install examples use a placeholder username, so use the real repo path, not the placeholder verbatim.",
+  "tags": [
+    "writing",
+    "office",
+    "academic",
+    "zh-cn"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/zlanqing/codex-claude-academic-skills"
+  },
+  "stars": 5611
+}

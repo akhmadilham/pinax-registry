@@ -1,0 +1,24 @@
+{
+  "id": "social-media-skills",
+  "index": "291",
+  "name": "charlie947/social-media-skills",
+  "repo": "charlie947/social-media-skills",
+  "category": "Video",
+  "type": "Plugin",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "10ca79c",
+  "description": "A social media video skill collection. Draft scope is the youtube-thumbnail skill folder only: it builds a branded YouTube thumbnail from a video title, a reference photo of the creator, high-CTR thumbnail principles, and brand colours, producing a ready-to-generate image prompt for Gemini. Note: Requires user-supplied API credentials for external data access.",
+  "install": "Claude Code plugin route (/plugin marketplace add charlie947/social-media-skills, /plugin install social-media-skills), or git clone plus copy of a skill folder to the agent skills directory (Codex copy script documented in README)",
+  "tags": [
+    "video",
+    "social",
+    "media",
+    "api-key"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/charlie947/social-media-skills"
+  },
+  "stars": 4541
+}

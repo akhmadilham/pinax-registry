@@ -1,0 +1,24 @@
+{
+  "id": "khazix-skills",
+  "index": "292",
+  "name": "kkkkhazix/khazix-skills",
+  "repo": "kkkkhazix/khazix-skills",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "322346d",
+  "description": "A multi-domain collection covering agent workflow and productivity, including a leader skill and an AI hot-news skill that fetches current AI news from a public API, plus writing, analysis, and storage skills. Tailored for Chinese language workflows.",
+  "install": "Ask the agent to install the skill from https://github.com/KKKKhazix/khazix-skills/tree/main/<skill-name> (agent clones it to the skill directory)",
+  "tags": [
+    "engineering",
+    "khazix",
+    "zh-cn",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/kkkkhazix/khazix-skills"
+  },
+  "stars": 21866
+}

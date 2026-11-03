@@ -1,0 +1,23 @@
+{
+  "id": "papermorph",
+  "index": "306",
+  "name": "dozentwelve/papermorph",
+  "repo": "dozentwelve/papermorph",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "810e9bc",
+  "description": "Turns textbooks into narrated interactive web lessons, paper-puppet films, and documentaries, using a render pipeline over lesson content. Note: Requires user-supplied API credentials for external data access.",
+  "install": "npx skills add DozenTwelve/Papermorph --skill papermorph --agent claude-code (opencode variant also documented; OpenCode command copy route also documented)",
+  "tags": [
+    "video",
+    "papermorph",
+    "api-key"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/dozentwelve/papermorph"
+  },
+  "stars": 1120
+}

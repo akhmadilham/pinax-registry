@@ -1,0 +1,24 @@
+{
+  "id": "ai-sales-team-claude",
+  "index": "279",
+  "name": "zubair-trabzada/ai-sales-team-claude",
+  "repo": "zubair-trabzada/ai-sales-team-claude",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "efef8b8",
+  "description": "A collection of 13 sales skills covering competitors, contacts, follow-up, ideal customer profile, objections, outreach, prep, proposal, prospecting, qualification, reporting, and research. The verified sample is a sales outreach skill. Install copies files from a local clone into the user's Claude directories. Restricted to secure local clone / package install route.",
+  "install": "git clone https://github.com/zubair-trabzada/ai-sales-team-claude.git (run ./install.sh locally)",
+  "tags": [
+    "business",
+    "sales",
+    "team",
+    "claude"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/zubair-trabzada/ai-sales-team-claude"
+  },
+  "stars": 1502
+}

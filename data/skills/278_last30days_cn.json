@@ -1,0 +1,23 @@
+{
+  "id": "last30days-cn",
+  "index": "278",
+  "name": "jesseovo/last30days-cn",
+  "repo": "jesseovo/last30days-skill-cn",
+  "category": "Business",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "e0e4141",
+  "description": "A research skill for the last 30 days of activity on Chinese platforms. It runs research through scripts with optional API keys, and browser login is done by the user via QR code with sessions stored locally. It is a Chinese localization fork of an original research skill. Note: Requires user-supplied API credentials for external data access.",
+  "install": "npx skills add Jesseovo/last30days-skill-cn -g, plus git clone plus python scripts/last30days.py --diagnose.",
+  "tags": [
+    "business",
+    "last30days",
+    "api-key"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/jesseovo/last30days-skill-cn"
+  },
+  "stars": 2037
+}

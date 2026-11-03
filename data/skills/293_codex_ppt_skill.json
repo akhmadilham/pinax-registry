@@ -1,0 +1,24 @@
+{
+  "id": "codex-ppt-skill",
+  "index": "293",
+  "name": "ningzimu/codex-ppt-skill",
+  "repo": "ningzimu/codex-ppt-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "941dcaf",
+  "description": "A skill that generates image-based PPT and PPTX decks using GPT-Image-2, turning a topic or outline into slide images assembled into an editable presentation. Note: Requires user-supplied API credentials for external data access.",
+  "install": "npx -y skills@latest add ningzimu/codex-ppt-skill",
+  "tags": [
+    "design",
+    "codex",
+    "ppt",
+    "api-key"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/ningzimu/codex-ppt-skill"
+  },
+  "stars": 7598
+}

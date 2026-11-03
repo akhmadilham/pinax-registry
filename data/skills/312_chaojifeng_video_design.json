@@ -1,0 +1,24 @@
+{
+  "id": "chaojifeng-video-design",
+  "index": "312",
+  "name": "mileson/chaojifeng-video-design",
+  "repo": "mileson/chaojifeng-video-design",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "0d8f80c",
+  "description": "Video design methodology skill that arranges music, theme, and material into finished videos plus editable projects, demonstrated with four 15-second music visual works and rap knowledge explainers. Tailored for Chinese language workflows.",
+  "install": "git clone https://github.com/mileson/chaojifeng-video-design.git ~/.codex/skills/chaojifeng-video-design",
+  "tags": [
+    "video",
+    "chaojifeng",
+    "design",
+    "zh-cn"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/mileson/chaojifeng-video-design"
+  },
+  "stars": 501
+}

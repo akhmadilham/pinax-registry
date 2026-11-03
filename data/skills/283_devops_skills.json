@@ -1,0 +1,23 @@
+{
+  "id": "devops-skills",
+  "index": "283",
+  "name": "anmolnagpal/devops-skills",
+  "repo": "anmolnagpal/devops-skills",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "45bde44",
+  "description": "A DevOps review workflow collection with 19 skill folders covering Kubernetes and Helm review, Terraform review, CI, deployment, Docker, GitOps, incident review, observability, and related audits. The sample skill read covers Kubernetes review with a safety read-only stance. Note: Provisions live billable cloud infrastructure; configure billing limits.",
+  "install": "/plugin install clouddrove@devops-skills, plus npx skills, SSH clone, submodule pin, and fork routes listed in _docs/INSTALL.md. Only these non-pipe routes are drafted. A pipe route documented in the README is deliberately excluded and not reproduced here.",
+  "tags": [
+    "engineering",
+    "devops",
+    "aws"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/anmolnagpal/devops-skills"
+  },
+  "stars": 8
+}

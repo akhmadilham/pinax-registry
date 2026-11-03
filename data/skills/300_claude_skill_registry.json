@@ -1,0 +1,23 @@
+{
+  "id": "claude-skill-registry",
+  "index": "300",
+  "name": "majiayu000/claude-skill-registry",
+  "repo": "majiayu000/claude-skill-registry",
+  "category": "Discovery",
+  "type": "Index",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "9653169",
+  "description": "A searchable registry/catalog tool for Claude skills, with generated registry artifacts and a sparse-clone setup, letting users search a large skill index rather than browsing repos one by one. Restricted to secure local clone / package install route.",
+  "install": "git clone --filter=blob:none --sparse https://github.com/majiayu000/claude-skill-registry.git",
+  "tags": [
+    "discovery",
+    "claude",
+    "registry"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/majiayu000/claude-skill-registry"
+  },
+  "stars": 708
+}

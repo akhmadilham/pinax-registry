@@ -1,0 +1,25 @@
+{
+  "id": "ai-marketing-claude",
+  "index": "277",
+  "name": "zubair-trabzada/ai-marketing-claude",
+  "repo": "zubair-trabzada/ai-marketing-claude",
+  "category": "Business",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "e5aa0ea",
+  "description": "A collection of 14 marketing skills with market- prefixed names covering ads, audit, brand, competitors, copy, emails, funnel, landing pages, launch, proposal, reporting, SEO, and social. The verified sample is a marketing audit skill. Install copies skill, agent, script, and template files from a local clone into the user's Claude directories. Restricted to secure local clone / package install route.",
+  "install": "git clone https://github.com/zubair-trabzada/ai-marketing-claude.git (run ./install.sh locally)",
+  "tags": [
+    "business",
+    "marketing",
+    "claude",
+    "seo",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/zubair-trabzada/ai-marketing-claude"
+  },
+  "stars": 2852
+}

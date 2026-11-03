@@ -1,0 +1,24 @@
+{
+  "id": "geo-optimizer-skill",
+  "index": "305",
+  "name": "auriti-labs/geo-optimizer-skill",
+  "repo": "auriti-labs/geo-optimizer-skill",
+  "category": "SEO",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "3040681",
+  "description": "AI-visibility audit skill that scores a site from 0 to 100 across ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews, then applies fixes, backed by a CLI package and a zero-install web audit option. Note: Requires user-supplied API credentials for external data access.",
+  "install": "pip install -U geo-optimizer-skill (plus [mcp] variant; zero-install web audit option also documented)",
+  "tags": [
+    "seo",
+    "geo",
+    "optimizer",
+    "api-key"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/auriti-labs/geo-optimizer-skill"
+  },
+  "stars": 1266
+}

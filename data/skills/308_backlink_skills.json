@@ -1,0 +1,24 @@
+{
+  "id": "backlink_skills",
+  "index": "308",
+  "name": "flaqai/backlink_skills",
+  "repo": "flaqai/backlink_skills",
+  "category": "SEO",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "409d42b",
+  "description": "Codex-driven link-building workflow collection covering writer skills, product-directory submission skills, scalable SEO blog workflows, and backlink matrix skills, where the agent works through channels one by one rather than bulk-submitting. Tailored for Chinese language workflows.",
+  "install": "clone the repo and let Codex read the relevant skill directory, or copy only the needed skill directory into the Codex skills directory, per the README usage section",
+  "tags": [
+    "seo",
+    "backlink",
+    "zh-cn",
+    "agent"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/flaqai/backlink_skills"
+  },
+  "stars": 865
+}

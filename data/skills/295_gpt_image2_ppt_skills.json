@@ -1,0 +1,25 @@
+{
+  "id": "gpt-image2-ppt-skills",
+  "index": "295",
+  "name": "juneyaooo/gpt-image2-ppt-skills",
+  "repo": "juneyaooo/gpt-image2-ppt-skills",
+  "category": "Design",
+  "type": "Skill",
+  "license": "Apache-2.0",
+  "status": "INSTALL",
+  "pinned_commit": "2d57ef8",
+  "description": "A skill that clones any .pptx deck into a user deck using gpt-image-2, reproducing the source style while swapping in new content. Note: Requires user-supplied API credentials for external data access.",
+  "install": "git clone git@github.com:JuneYaooo/gpt-image2-ppt-skills.git (SSH clone; an HTTPS clone equivalent is the same non-pipe route)",
+  "tags": [
+    "design",
+    "gpt",
+    "image2",
+    "ppt",
+    "api-key"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/juneyaooo/gpt-image2-ppt-skills"
+  },
+  "stars": 1423
+}

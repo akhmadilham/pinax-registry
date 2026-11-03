@@ -1,0 +1,24 @@
+{
+  "id": "claude-code-skills-zh",
+  "index": "282",
+  "name": "laolaoshiren/claude-code-skills-zh",
+  "repo": "laolaoshiren/claude-code-skills-zh",
+  "category": "Engineering",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "51a399f",
+  "description": "A Chinese collection of 20 original development productivity skills, including code review, testing, documentation, dependency audit, and workflow helpers. The sample skill read covers a Chinese code reviewer. Draft scope is the 20 original skills in skills/ only. Tailored for Chinese language workflows.",
+  "install": "Copy the skill directory into ~/.claude/skills/ (global) or project .claude/skills/ (README quick-install section). This is a copy route, not a pipe.",
+  "tags": [
+    "engineering",
+    "claude",
+    "code",
+    "zh-cn"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/laolaoshiren/claude-code-skills-zh"
+  },
+  "stars": 902
+}

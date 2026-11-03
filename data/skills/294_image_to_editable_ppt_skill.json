@@ -1,0 +1,25 @@
+{
+  "id": "image-to-editable-ppt-skill",
+  "index": "294",
+  "name": "ningzimu/image-to-editable-ppt-skill",
+  "repo": "ningzimu/image-to-editable-ppt-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "b7be494",
+  "description": "A skill that converts slide images, PDFs, and image-based PPTX files into editable decks, using OCR and image generation to rebuild slides as editable content rather than flat pictures. Tailored for Chinese language workflows.",
+  "install": "npx skills add ningzimu/image-to-editable-ppt-skill",
+  "tags": [
+    "design",
+    "image",
+    "editable",
+    "ppt",
+    "zh-cn"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/ningzimu/image-to-editable-ppt-skill"
+  },
+  "stars": 3236
+}

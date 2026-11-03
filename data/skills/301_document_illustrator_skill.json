@@ -1,0 +1,24 @@
+{
+  "id": "document-illustrator-skill",
+  "index": "301",
+  "name": "op7418/document-illustrator-skill",
+  "repo": "op7418/document-illustrator-skill",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "8344815",
+  "description": "A skill that generates multiple illustrations from a document, in 16:9 and 3:4 formats, suited to Xiaohongshu and X/Twitter posting. Note: Requires user-supplied API credentials for external data access.",
+  "install": "npx skills add https://github.com/op7418/Document-illustrator-skill, plus git clone and pip install of google-genai, pillow, python-dotenv",
+  "tags": [
+    "design",
+    "document",
+    "illustrator",
+    "api-key"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/op7418/document-illustrator-skill"
+  },
+  "stars": 608
+}

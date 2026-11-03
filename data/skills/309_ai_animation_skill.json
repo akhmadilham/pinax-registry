@@ -1,0 +1,23 @@
+{
+  "id": "ai-animation-skill",
+  "index": "309",
+  "name": "unclecheng-li/ai-animation-skill",
+  "repo": "unclecheng-li/ai-animation-skill",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "4b107dd",
+  "description": "Turns science explainer text into HTML demo animations, by default rebuilding text to base HTML to Level2 PPT template, with an optional HTML-to-animation-flowchart rebuild path. Tailored for Chinese language workflows.",
+  "install": "download the project and copy the AI-Animation-Skill folder into the agent skills directory (example given: ~/.workbuddy/skills/), then restart the agent, per the README quick-start section",
+  "tags": [
+    "video",
+    "animation",
+    "zh-cn"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/unclecheng-li/ai-animation-skill"
+  },
+  "stars": 606
+}

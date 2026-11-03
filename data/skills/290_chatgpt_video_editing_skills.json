@@ -1,0 +1,24 @@
+{
+  "id": "chatgpt-video-editing-skills",
+  "index": "290",
+  "name": "jaycheng1103/chatgpt-video-editing-skills",
+  "repo": "jaycheng1103/chatgpt-video-editing-skills",
+  "category": "Video",
+  "type": "Collection",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "dc2f10a",
+  "description": "A short video editing skill collection. The sample skill, chatgpt-short-video-editor, covers transcription, editing strategy, rough cut, subtitles, preview, QA, and formal output, with a rule against silent tool installs and against formal output before preview approval. Tailored for Chinese language workflows.",
+  "install": "npx skills add Jaycheng1103/chatgpt-video-editing-skills --full-depth (installer lets the user choose skills and detected agents), or git clone then local install",
+  "tags": [
+    "video",
+    "chatgpt",
+    "editing",
+    "zh-cn"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/jaycheng1103/chatgpt-video-editing-skills"
+  },
+  "stars": 614
+}

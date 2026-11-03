@@ -1,0 +1,24 @@
+{
+  "id": "union-search-skill",
+  "index": "298",
+  "name": "runningz1/union-search-skill",
+  "repo": "runningz1/union-search-skill",
+  "category": "Engineering",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "7495b52",
+  "description": "A skill that runs one search across 51 channels and deduplicates results by page URL, aggregating multi-channel search into a single result set. Note: Requires user-supplied API credentials for external data access.",
+  "install": "npx skills add runningz1/union-search-skill",
+  "tags": [
+    "engineering",
+    "union",
+    "search",
+    "api-key"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/runningz1/union-search-skill"
+  },
+  "stars": 766
+}

@@ -1,0 +1,26 @@
+{
+  "id": "humanize-ppt",
+  "index": "307",
+  "name": "learnprompt/humanize-ppt",
+  "repo": "learnprompt/humanize-ppt",
+  "category": "Design",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "2c36a8e",
+  "description": "Narrative deck skill built on an audience-state-transfer story line, using real images, SVG charts, Remotion video where a page needs it, and either HTML presentation mode or native PPTX with speaker notes. Tailored for Chinese language workflows.",
+  "install": "npx skills add LearnPrompt/humanize-ppt -g (Claude Code plugin marketplace route also documented)",
+  "tags": [
+    "design",
+    "humanize",
+    "ppt",
+    "zh-cn",
+    "video",
+    "motion"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/learnprompt/humanize-ppt"
+  },
+  "stars": 990
+}

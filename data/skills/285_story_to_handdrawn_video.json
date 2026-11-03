@@ -1,0 +1,25 @@
+{
+  "id": "story-to-handdrawn-video",
+  "index": "285",
+  "name": "gnipbao/story-to-handdrawn-video",
+  "repo": "gnipbao/story-to-handdrawn-video",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "198aefa",
+  "description": "A hand-drawn story video skill with a behaviour contract and portable entry that loads on demand and builds Remotion scenes with erase and page-flip motion from a story. Tailored for Chinese language workflows.",
+  "install": "git clone, npm ci for the renderer, copy skill-package/story-to-handdrawn-video to the agent skills directory, set STORY_VIDEO_PROJECT or use upward project discovery",
+  "tags": [
+    "video",
+    "story",
+    "handdrawn",
+    "zh-cn",
+    "motion"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/gnipbao/story-to-handdrawn-video"
+  },
+  "stars": 2357
+}

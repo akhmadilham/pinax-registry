@@ -1,0 +1,23 @@
+{
+  "id": "violin",
+  "index": "288",
+  "name": "shang-zhu/violin",
+  "repo": "shang-zhu/violin",
+  "category": "Video",
+  "type": "Skill",
+  "license": "MIT",
+  "status": "INSTALL",
+  "pinned_commit": "7a86852",
+  "description": "A video translation, dubbing, and subtitle translation skill (skill file .claude/skills/video-translator/SKILL.md) backed by a violin CLI. It translates video speech and subtitles between languages. Note: Requires user-supplied API credentials for external data access.",
+  "install": "install the violin CLI, then violin --install-skill copies the skill into ~/.claude/skills/; a git clone plus uv sync plus cp .env.example .env route is also documented. Do not reproduce the README uv pipe suggestion; point to the official uv install docs or a package manager instead.",
+  "tags": [
+    "video",
+    "violin",
+    "api-key"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-03",
+    "source": "https://github.com/shang-zhu/violin"
+  },
+  "stars": 1086
+}
