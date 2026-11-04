@@ -1,18 +1,18 @@
 {
   "$schema": "../schema/skill.schema.json",
   "version": "1.0.0",
-  "generated_at": "2026-11-03T11:58:48.539969+00:00",
+  "generated_at": "2026-11-04T05:22:07.935498+00:00",
   "integrity": {
-    "skills_sha256": "64e3218aa276935a306df9ce2fa33e6657da8263c944709041b47d398880788d",
+    "skills_sha256": "d387a239be7c1dee8cf28234abf1278e0bace70411e0e65e8e369016e79938b1",
     "algorithm": "SHA-256"
   },
   "stats": {
-    "total_skills": 310,
-    "pinned_skills": 273,
+    "total_skills": 312,
+    "pinned_skills": 275,
     "categories": {
       "Engineering": 56,
       "Security": 12,
-      "Design": 92,
+      "Design": 94,
       "Discovery": 6,
       "Video": 55,
       "Business": 46,
@@ -21,20 +21,21 @@
     },
     "types": {
       "Collection": 125,
-      "Tool": 12,
-      "Skill": 146,
+      "Tool": 13,
+      "Skill": 147,
       "Index": 4,
       "Vendor": 3,
       "Plugin": 20
     },
     "licenses": {
-      "MIT": 271,
+      "MIT": 272,
       "Apache-2.0": 32,
       "No root licence file": 2,
       "CC-BY-SA-4.0": 1,
       "Mixed (MIT / CC BY 4.0 / Apache 2.0)": 1,
       "CC0-1.0": 2,
-      "CC": 1
+      "CC": 1,
+      "CC-BY-4.0": 1
     }
   },
   "categories": [
@@ -7692,6 +7693,56 @@
         "source": "https://github.com/mileson/chaojifeng-video-design"
       },
       "stars": 501
+    },
+    {
+      "id": "unslop",
+      "index": "313",
+      "name": "heydamir/unslop",
+      "repo": "heydamir/unslop",
+      "category": "Design",
+      "type": "Skill",
+      "license": "CC-BY-4.0",
+      "status": "INSTALL",
+      "pinned_commit": "a6f121e",
+      "description": "Transforms AI-looking, vibecoded interfaces into intentional UI designs through structured redline passes across spacing, palette, typography, visual details, and motion.",
+      "install": "npx skills add heydamir/unslop, or clone repo and copy skills/unslop into ~/.claude/skills/",
+      "tags": [
+        "design",
+        "ui-ux",
+        "frontend",
+        "redesign",
+        "antislop"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-04",
+        "source": "https://github.com/heydamir/unslop"
+      },
+      "stars": 7687
+    },
+    {
+      "id": "dialkit",
+      "index": "314",
+      "name": "joshpuckett/dialkit",
+      "repo": "joshpuckett/dialkit",
+      "category": "Design",
+      "type": "Tool",
+      "license": "MIT",
+      "status": "INSTALL",
+      "pinned_commit": "1ef9fe8",
+      "description": "Live interface parameter tuning panel and animation timing workbench with a dedicated agent integration guide for React, Solid, Svelte, Vue, and vanilla JavaScript.",
+      "install": "npm install dialkit motion (see https://dialkit.dev/agent for agent integration guide)",
+      "tags": [
+        "design",
+        "ui-tuning",
+        "parameters",
+        "animation",
+        "react"
+      ],
+      "provenance": {
+        "verified_at": "2026-11-04",
+        "source": "https://github.com/joshpuckett/dialkit"
+      },
+      "stars": 1307
     }
   ]
 }

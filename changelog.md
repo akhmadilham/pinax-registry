@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.10.0] - 2026-11-04
+
+### Added
+- **Verified Skill Additions (Index 313 & 314)**:
+  - Added `313_unslop.json` (`heydamir/unslop`): Claude skill for systematic redesign and un-slopping of AI vibecoded interfaces across spacing, palettes, typography, and motion (7,687 stars, `CC-BY-4.0`, pinned commit `a6f121e`).
+  - Added `314_dialkit.json` (`joshpuckett/dialkit`): Live UI parameter tuning and animation workbench with official agent integration guide `dialkit.md` (1,307 stars, `MIT`, pinned commit `1ef9fe8`).
+- **Catalog Metrics**:
+  - Recompiled catalog to 312 certified skills across 8 core domains.
+  - Maintained 100% authentic GitHub stars and 4-stage PINAX quality gates.
+
 ## [1.9.1] - 2026-11-03
 
 ### Removed

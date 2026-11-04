@@ -1,0 +1,25 @@
+{
+  "id": "unslop",
+  "index": "313",
+  "name": "heydamir/unslop",
+  "repo": "heydamir/unslop",
+  "category": "Design",
+  "type": "Skill",
+  "license": "CC-BY-4.0",
+  "status": "INSTALL",
+  "pinned_commit": "a6f121e",
+  "description": "Transforms AI-looking, vibecoded interfaces into intentional UI designs through structured redline passes across spacing, palette, typography, visual details, and motion.",
+  "install": "npx skills add heydamir/unslop, or clone repo and copy skills/unslop into ~/.claude/skills/",
+  "tags": [
+    "design",
+    "ui-ux",
+    "frontend",
+    "redesign",
+    "antislop"
+  ],
+  "provenance": {
+    "verified_at": "2026-11-04",
+    "source": "https://github.com/heydamir/unslop"
+  },
+  "stars": 7687
+}
